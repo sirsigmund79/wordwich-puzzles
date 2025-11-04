@@ -1,0 +1,27 @@
+{
+  "maxScore": 950,
+  "bonusTheme": {
+    "title": "Halloween",
+    "color": "#FFA500",
+    "words": [
+      { "word": "SPOOKY", "points": 20 },
+      { "word": "GHOST", "points": 15 }
+    ]
+  },
+  "puzzles": [
+    {
+      "id": 1,
+      "combo": "S-D",
+      "timeLimit": 90,
+      "minScore": 20,
+      "maxScore": 150
+    },
+    {
+      "id": 2,
+      "combo": "C-T",
+      "timeLimit": 60,
+      "minScore": 15,
+      "maxScore": 100
+    }
+  ]
+}

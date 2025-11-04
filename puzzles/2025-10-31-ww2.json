@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-31",
+  "maxScore": 169,
+  "bonusTheme": {
+    "name": "Spooky",
+    "color": "#FF6600",
+    "emoji": "🎃",
+    "words": [
+      { "word": "GHOST", "points": 5 },
+      { "word": "SCARY", "points": 5 },
+      { "word": "SPOOKY", "points": 5 },
+      { "word": "SEXY", "points": 5 },
+      { "word": "PUMPKIN", "points": 5 },
+      { "word": "POTION", "points": 5 },
+      { "word": "POISON", "points": 5 }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "y",
+      "passScore": 10,
+      "perfectScore": 45
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 45
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "n",
+      "passScore": 8,
+      "perfectScore": 79
+    }
+  ]
+}

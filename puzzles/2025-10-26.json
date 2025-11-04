@@ -1,0 +1,5 @@
+[
+  { "id": 1, "combo": "S-D", "goal": 2, "foundWords": [] },
+  { "id": 2, "combo": "C-T", "goal": 3, "foundWords": [] },
+  { "id": 3, "combo": "B-E", "goal": 3, "foundWords": [] }
+]

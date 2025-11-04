@@ -1,0 +1,7 @@
+{"maxScore": 155,
+"puzzles": [
+  { "id": 1, "combo": "P-R", "goal": 1, "foundWords": [] },
+  { "id": 2, "combo": "C-B", "goal": 2, "foundWords": [] },
+  { "id": 3, "combo": "J-S", "goal": 2, "foundWords": [] }
+]
+}

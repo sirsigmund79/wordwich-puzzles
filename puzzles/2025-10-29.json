@@ -1,0 +1,8 @@
+{"maxScore": 138,
+"puzzles": [
+  { "id": 1, "combo": "R-G", "goal": 1, "foundWords": [] },
+  { "id": 2, "combo": "C-D", "goal": 1, "foundWords": [] },
+  { "id": 3, "combo": "D-R", "goal": 1, "foundWords": [] },
+  { "id": 4, "combo": "V-E", "goal": 1, "foundWords": [] }
+]
+}

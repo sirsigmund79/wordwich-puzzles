@@ -1,0 +1,27 @@
+{
+  "maxScore": 129,
+  "puzzles": [
+    {
+      "id": 1,
+      "combo": "S-D",
+      "goal": 1,
+      "foundWords": [
+        
+      ]
+    },
+    {
+      "id": 2,
+      "combo": "C-T",
+      "goal": 1,
+      "foundWords": [
+        
+      ]
+    },
+    {
+      "id": 3,
+      "combo": "B-E",
+      "goal": 1,
+      "foundWords": []
+    }
+  ]
+}
