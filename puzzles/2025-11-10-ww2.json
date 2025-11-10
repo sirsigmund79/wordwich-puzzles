@@ -1,0 +1,40 @@
+{
+  "date": "2025-11-10",
+  "maxScore": 196,
+  "bonusTheme": {
+    "name": "Edmund Fitzgerald",
+    "color": "#0F52BA",
+    "emoji": "🚢",
+    "words": [
+      { "word": "FITZGERALD", "points": 5 },
+      { "word": "SUPERIOR", "points": 5 },
+      { "word": "SHIPWRECK", "points": 5 },
+      { "word": "SINK", "points": 5 },
+      { "word": "SUNK", "points": 5 }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "d",
+      "passScore": 25,
+      "perfectScore": 72
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "k",
+      "passScore": 18,
+      "perfectScore": 59
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "r",
+      "passScore": 19,
+      "perfectScore": 65
+    }
+  ]
+}
