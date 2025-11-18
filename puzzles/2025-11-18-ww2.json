@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-18",
+  "maxScore": 344,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "n",
+      "passScore": 16,
+      "perfectScore": 85
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "c",
+      "passScore": 19,
+      "perfectScore": 112
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "r",
+      "passScore": 22,
+      "perfectScore": 147
+    }
+  ]
+}
