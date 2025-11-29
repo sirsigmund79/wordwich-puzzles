@@ -1,0 +1,13 @@
+{
+  "date": "2025-11-29",
+  "maxScore": 67,
+  "rounds": [    
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "k",
+      "passScore": 15,
+      "perfectScore": 67
+    }
+  ]
+}
