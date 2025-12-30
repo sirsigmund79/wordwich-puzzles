@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-01",
+  "maxScore": 151,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "t",
+      "passScore": 11,
+      "perfectScore": 53
+    },
+    {
+      "round": 2,
+      "startLetter": "o",
+      "endLetter": "r",
+      "passScore": 10,
+      "perfectScore": 49
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "l",
+      "passScore": 10,
+      "perfectScore": 49
+    }
+  ]
+}
