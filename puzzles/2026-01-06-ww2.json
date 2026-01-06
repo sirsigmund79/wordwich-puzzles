@@ -7,14 +7,16 @@
       "startLetter": "b",
       "endLetter": "r",
       "passScore": 10,
-      "perfectScore": 44
+      "perfectScore": 44,
+      "hintWord": "biker"
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "n",
       "passScore": 11,
-      "perfectScore": 42
+      "perfectScore": 42,
+      "hintWord": "brown"
     },
     
     {
@@ -22,7 +24,8 @@
       "startLetter": "b",
       "endLetter": "k",
       "passScore": 4,
-      "perfectScore": 38
+      "perfectScore": 38,
+      "hintWord": "brick"
     }
   ]
 }
