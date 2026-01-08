@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-08",
+  "maxScore": 155,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "e",
+      "passScore": 12,
+      "perfectScore": 53,
+      "hintWord": "spare"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 47,
+      "hintWord": "pass"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "t",
+      "passScore": 13,
+      "perfectScore": 55,
+      "hintWord": "cadet"
+    }
+  ]
+}
