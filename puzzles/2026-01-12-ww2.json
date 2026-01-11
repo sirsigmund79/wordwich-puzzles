@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-12",
+  "maxScore": 137,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "t",
+      "passScore": 10,
+      "perfectScore": 60,
+      "hintWord": "beast"
+    },
+    {
+      "round": 2,
+      "startLetter": "q",
+      "endLetter": "y",
+      "passScore": 6,
+      "perfectScore": 29,
+      "hintWord": "query"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "e",
+      "passScore": 9,
+      "perfectScore": 48,
+      "hintWord": "leave"
+    }
+  ]
+}
