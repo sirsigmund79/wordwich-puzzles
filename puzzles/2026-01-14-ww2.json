@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-14",
+  "maxScore": 141,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "e",
+      "passScore": 10,
+      "perfectScore": 52,
+      "hintWord": "gable"
+    },
+    {
+      "round": 2,
+      "startLetter": "e",
+      "endLetter": "y",
+      "passScore": 9,
+      "perfectScore": 51,
+      "hintWord": "early"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "h",
+      "passScore": 9,
+      "perfectScore": 37,
+      "hintWord": "depth"
+    }
+  ]
+}
