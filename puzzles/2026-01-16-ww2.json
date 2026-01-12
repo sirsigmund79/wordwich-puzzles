@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-16",
+  "maxScore": 165,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "l",
+      "passScore": 11,
+      "perfectScore": 63,
+      "hintWord": "metal"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "h",
+      "passScore": 9,
+      "perfectScore": 54,
+      "hintWord": "ranch"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "e",
+      "passScore": 7,
+      "perfectScore": 48,
+      "hintWord": "valve"
+    }
+  ]
+}
