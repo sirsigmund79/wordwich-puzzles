@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-15",
+  "maxScore": 93,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "i",
+      "endLetter": "h",
+      "passScore": 6,
+      "perfectScore": 27,
+      "hintWord": "itch"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "m",
+      "passScore": 9,
+      "perfectScore": 31,
+      "hintWord": "nizam"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "c",
+      "passScore": 7,
+      "perfectScore": 35,
+      "hintWord": "domic"
+    }
+  ]
+}
