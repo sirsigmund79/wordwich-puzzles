@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-17",
+  "maxScore": 178,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "t",
+      "passScore": 11,
+      "perfectScore": 60,
+      "hintWord": "cadet"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "p",
+      "passScore": 5,
+      "perfectScore": 39,
+      "hintWord": "mixup"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "n",
+      "passScore": 7,
+      "perfectScore": 79,
+      "hintWord": "demon"
+    }
+  ]
+}
