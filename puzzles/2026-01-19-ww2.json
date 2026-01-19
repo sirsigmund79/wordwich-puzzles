@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-19",
+  "maxScore": 156,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "t",
+      "passScore": 11,
+      "perfectScore": 50,
+      "hintWord": "abbot"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 49,
+      "hintWord": "nerd"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "s",
+      "passScore": 10,
+      "perfectScore": 57,
+      "hintWord": "loss"
+    }
+  ]
+}
