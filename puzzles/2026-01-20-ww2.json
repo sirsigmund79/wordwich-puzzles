@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-20",
+  "maxScore": 156,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "e",
+      "passScore": 11,
+      "perfectScore": 53,
+      "hintWord": "badge"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "r",
+      "passScore": 8,
+      "perfectScore": 44,
+      "hintWord": "hair"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "k",
+      "passScore": 10,
+      "perfectScore": 19,
+      "hintWord": "neck"
+    }
+  ]
+}
