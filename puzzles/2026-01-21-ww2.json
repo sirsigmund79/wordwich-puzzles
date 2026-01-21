@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-21",
+  "maxScore": 162,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "r",
+      "passScore": 11,
+      "perfectScore": 57,
+      "hintWord": "actor"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "h",
+      "passScore": 8,
+      "perfectScore": 41,
+      "hintWord": "teeth"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "l",
+      "passScore": 10,
+      "perfectScore": 64,
+      "hintWord": "sail"
+    }
+  ]
+}
