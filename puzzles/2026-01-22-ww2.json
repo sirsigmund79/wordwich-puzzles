@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-22",
+  "maxScore": 134,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "s",
+      "passScore": 11,
+      "perfectScore": 39,
+      "hintWord": "trees"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 41,
+      "hintWord": "game"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "f",
+      "endLetter": "n",
+      "passScore": 10,
+      "perfectScore": 54,
+      "hintWord": "fawn"
+    }
+  ]
+}
