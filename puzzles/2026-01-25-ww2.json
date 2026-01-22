@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-25",
+  "maxScore": 133,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "g",
+      "passScore": 8,
+      "perfectScore": 41,
+      "hintWord": "debug"
+    },
+    {
+      "round": 2,
+      "startLetter": "e",
+      "endLetter": "l",
+      "passScore": 10,
+      "perfectScore": 55,
+      "hintWord": "earl"
+    },
+    {
+      "round": 3,
+      "startLetter": "w",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 37,
+      "hintWord": "weld"
+    }
+  ]
+}

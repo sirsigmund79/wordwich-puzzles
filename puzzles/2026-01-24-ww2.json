@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-24",
+  "maxScore": 155,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 53,
+      "hintWord": "moose"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "g",
+      "passScore": 8,
+      "perfectScore": 45,
+      "hintWord": "aging"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "r",
+      "passScore": 10,
+      "perfectScore": 57,
+      "hintWord": "ever"
+    }
+  ]
+}
