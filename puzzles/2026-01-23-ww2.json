@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-23",
+  "maxScore": 128,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "l",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 41,
+      "hintWord": "least"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 45,
+      "hintWord": "name"
+    },
+    
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "h",
+      "passScore": 10,
+      "perfectScore": 42,
+      "hintWord": "peach"
+    }
+  ]
+}
