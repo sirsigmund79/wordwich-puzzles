@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-27",
+  "maxScore": 161,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 48,
+      "hintWord": "needs"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "r",
+      "passScore": 10,
+      "perfectScore": 51,
+      "hintWord": "molar"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 62,
+      "hintWord": "elate"
+    }
+  ]
+}
