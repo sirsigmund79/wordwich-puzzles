@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-29",
+  "maxScore": 156,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "y",
+      "passScore": 8,
+      "perfectScore": 51,
+      "hintWord": "scary"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "e",
+      "passScore": 15,
+      "perfectScore": 83,
+      "hintWord": "face"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 22,
+      "hintWord": "octet"
+    }
+  ]
+}
