@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-31",
+  "maxScore": 168,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "e",
+      "passScore": 11,
+      "perfectScore": 69,
+      "hintWord": "table"
+    },
+    {
+      "round": 2,
+      "startLetter": "e",
+      "endLetter": "h",
+      "passScore": 15,
+      "perfectScore": 42,
+      "hintWord": "earth"
+    },
+    {
+      "round": 3,
+      "startLetter": "h",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 57,
+      "hintWord": "havoc"
+    }
+  ]
+}
