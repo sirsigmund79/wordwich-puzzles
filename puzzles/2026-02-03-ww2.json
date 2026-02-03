@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-03",
+  "maxScore": 116,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 51,
+      "hintWord": "ration"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 37,
+      "hintWord": "unfit"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "o",
+      "passScore": 3,
+      "perfectScore": 28,
+      "hintWord": "bamboo"
+    }
+  ]
+}
