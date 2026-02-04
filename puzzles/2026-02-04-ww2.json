@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-04",
+  "maxScore": 123,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "y",
+      "passScore": 9,
+      "perfectScore": 49,
+      "hintWord": "gamy"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 43,
+      "hintWord": "broom"
+    },
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "p",
+      "passScore": 3,
+      "perfectScore": 31,
+      "hintWord": "laptop"
+    }
+  ]
+}
