@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-06",
+  "maxScore": 150,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 69,
+      "hintWord": "acres"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "k",
+      "passScore": 8,
+      "perfectScore": 39,
+      "hintWord": "lark"
+    },
+    {
+      "round": 3,
+      "startLetter": "f",
+      "endLetter": "p",
+      "passScore": 3,
+      "perfectScore": 25,
+      "hintWord": "flap"
+    }
+  ]
+}
