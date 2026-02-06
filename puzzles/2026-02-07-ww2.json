@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-07",
+  "maxScore": 157,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "i",
+      "endLetter": "t",
+      "passScore": 9,
+      "perfectScore": 73,
+      "hintWord": "inept"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 43,
+      "hintWord": "halal"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "h",
+      "passScore": 3,
+      "perfectScore": 41,
+      "hintWord": "notch"
+    }
+  ]
+}
