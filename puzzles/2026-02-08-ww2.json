@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-08",
+  "maxScore": 132,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "acorn"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 46,
+      "hintWord": "halve"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "a",
+      "passScore": 3,
+      "perfectScore": 33,
+      "hintWord": "papa"
+    }
+  ]
+}
