@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-11",
+  "maxScore": 124,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "g",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "cling"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "h",
+      "passScore": 8,
+      "perfectScore": 36,
+      "hintWord": "unleash"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "p",
+      "passScore": 3,
+      "perfectScore": 35,
+      "hintWord": "asleep"
+    }
+  ]
+}
