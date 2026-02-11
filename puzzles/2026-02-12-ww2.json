@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-12",
+  "maxScore": 146,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "r",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "gamer"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "n",
+      "passScore": 8,
+      "perfectScore": 48,
+      "hintWord": "cabin"
+    },
+    {
+      "round": 3,
+      "startLetter": "j",
+      "endLetter": "t",
+      "passScore": 3,
+      "perfectScore": 45,
+      "hintWord": "joint"
+    }
+  ]
+}
