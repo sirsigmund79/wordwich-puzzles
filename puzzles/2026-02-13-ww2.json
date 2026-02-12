@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-13",
+  "maxScore": 160,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 68,
+      "hintWord": "salon"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 45,
+      "hintWord": "acid"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "e",
+      "passScore": 3,
+      "perfectScore": 47,
+      "hintWord": "obese"
+    }
+  ]
+}
