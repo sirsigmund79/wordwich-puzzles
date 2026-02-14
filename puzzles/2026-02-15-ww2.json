@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-15",
+  "maxScore": 129,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "l",
+      "passScore": 9,
+      "perfectScore": 52,
+      "hintWord": "flail"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "t",
+      "passScore": 3,
+      "perfectScore": 46,
+      "hintWord": "faint"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "a",
+      "passScore": 8,
+      "perfectScore": 31,
+      "hintWord": "beta"
+    }
+
+  ]
+}
