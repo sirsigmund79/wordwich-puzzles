@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-16",
+  "maxScore": 154,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "g",
+      "passScore": 9,
+      "perfectScore": 45,
+      "hintWord": "bling"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "e",
+      "passScore": 3,
+      "perfectScore": 46,
+      "hintWord": "alive"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 63,
+      "hintWord": "beta"
+    }
+
+  ]
+}
