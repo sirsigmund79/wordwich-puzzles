@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-17",
+  "maxScore": 131,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "l",
+      "passScore": 9,
+      "perfectScore": 46,
+      "hintWord": "panel"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "n",
+      "passScore": 3,
+      "perfectScore": 44,
+      "hintWord": "lean"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 41,
+      "hintWord": "valet"
+    }
+
+  ]
+}
