@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-18",
+  "maxScore": 134,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "d",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "druid"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "n",
+      "passScore": 3,
+      "perfectScore": 42,
+      "hintWord": "glean"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "a",
+      "passScore": 8,
+      "perfectScore": 39,
+      "hintWord": "aqua"
+    }
+
+  ]
+}
