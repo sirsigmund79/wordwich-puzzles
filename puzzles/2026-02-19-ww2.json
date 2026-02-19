@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-19",
+  "maxScore": 147,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 45,
+      "hintWord": "cats"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "e",
+      "passScore": 3,
+      "perfectScore": 60,
+      "hintWord": "pave"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 42,
+      "hintWord": "stem"
+    }
+
+  ]
+}
