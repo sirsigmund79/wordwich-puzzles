@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-20",
+  "maxScore": 152,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "g",
+      "passScore": 9,
+      "perfectScore": 54,
+      "hintWord": "making"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "m",
+      "passScore": 3,
+      "perfectScore": 55,
+      "hintWord": "thrum"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "c",
+      "passScore": 8,
+      "perfectScore": 43,
+      "hintWord": "panic"
+    }
+
+  ]
+}
