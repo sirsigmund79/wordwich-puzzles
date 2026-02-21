@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-21",
+  "maxScore": 141,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 51,
+      "hintWord": "eases"
+    },
+    {
+      "round": 2,
+      "startLetter": "w",
+      "endLetter": "h",
+      "passScore": 3,
+      "perfectScore": 41,
+      "hintWord": "weigh"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 49,
+      "hintWord": "bagel"
+    }
+
+  ]
+}
