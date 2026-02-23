@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-23",
+  "maxScore": 164,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "m",
+      "passScore": 9,
+      "perfectScore": 42,
+      "hintWord": "maxim"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "l",
+      "passScore": 3,
+      "perfectScore": 63,
+      "hintWord": "real"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "g",
+      "passScore": 8,
+      "perfectScore": 59,
+      "hintWord": "oval"
+    }
+
+  ]
+}
