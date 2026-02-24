@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-25",
+  "maxScore": 178,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "w",
+      "endLetter": "t",
+      "passScore": 9,
+      "perfectScore": 44,
+      "hintWord": "waist"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "y",
+      "passScore": 3,
+      "perfectScore": 63,
+      "hintWord": "paddy"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 71,
+      "hintWord": "eased"
+    }
+
+  ]
+}
