@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-27",
+  "maxScore": 169,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "faces"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "t",
+      "passScore": 3,
+      "perfectScore": 61,
+      "hintWord": "habit"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "c",
+      "passScore": 8,
+      "perfectScore": 55,
+      "hintWord": "attic"
+    }
+
+  ]
+}
