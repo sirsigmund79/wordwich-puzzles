@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-28",
+  "maxScore": 126,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "o",
+      "endLetter": "c",
+      "passScore": 6,
+      "perfectScore": 26,
+      "hintWord": "faces"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 53,
+      "hintWord": "garlic"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "a",
+      "passScore": 8,
+      "perfectScore": 47,
+      "hintWord": "mafia"
+    }
+
+  ]
+}
