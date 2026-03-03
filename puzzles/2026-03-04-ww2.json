@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-04",
+  "maxScore": 175,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "d",
+      "passScore": 6,
+      "perfectScore": 67,
+      "hintWord": "tried"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 55,
+      "hintWord": "afoul"
+    },
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 53,
+      "hintWord": "dream"
+    }
+
+  ]
+}
