@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-05",
+  "maxScore": 175,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "r",
+      "passScore": 7,
+      "perfectScore": 60,
+      "hintWord": "power"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "h",
+      "passScore": 5,
+      "perfectScore": 33,
+      "hintWord": "teeth"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "y",
+      "passScore": 8,
+      "perfectScore": 57,
+      "hintWord": "oddly"
+    }
+
+  ]
+}
