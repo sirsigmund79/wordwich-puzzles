@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-06",
+  "maxScore": 151,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "l",
+      "passScore": 7,
+      "perfectScore": 50,
+      "hintWord": "nasal"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "s",
+      "passScore": 5,
+      "perfectScore": 62,
+      "hintWord": "rocks"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "k",
+      "passScore": 8,
+      "perfectScore": 39,
+      "hintWord": "mask"
+    }
+
+  ]
+}
