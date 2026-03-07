@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-07",
+  "maxScore": 151,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "s",
+      "passScore": 7,
+      "perfectScore": 71,
+      "hintWord": "males"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "o",
+      "passScore": 5,
+      "perfectScore": 41,
+      "hintWord": "cameo"
+    },
+    {
+      "round": 3,
+      "startLetter": "u",
+      "endLetter": "n",
+      "passScore": 8,
+      "perfectScore": 39,
+      "hintWord": "unpin"
+    }
+
+  ]
+}
