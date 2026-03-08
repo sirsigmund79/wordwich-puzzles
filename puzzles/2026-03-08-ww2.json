@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-08",
+  "maxScore": 159,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "d",
+      "passScore": 7,
+      "perfectScore": 61,
+      "hintWord": "paged"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 59,
+      "hintWord": "cameo"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 39,
+      "hintWord": "balm"
+    }
+
+  ]
+}
