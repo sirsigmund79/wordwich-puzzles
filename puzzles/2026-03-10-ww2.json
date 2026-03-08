@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-10",
+  "maxScore": 123,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "y",
+      "endLetter": "r",
+      "passScore": 5,
+      "perfectScore": 38,
+      "hintWord": "year"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 52,
+      "hintWord": "fling"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "a",
+      "passScore": 8,
+      "perfectScore": 33,
+      "hintWord": "list"
+    }
+
+  ]
+}
