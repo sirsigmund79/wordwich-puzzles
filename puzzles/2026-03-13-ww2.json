@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-13",
+  "maxScore": 166,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "p",
+      "passScore": 5,
+      "perfectScore": 53,
+      "hintWord": "chrip"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 49,
+      "hintWord": "lucky"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "h",
+      "passScore": 8,
+      "perfectScore": 64,
+      "hintWord": "beach"
+    }
+
+  ]
+}
