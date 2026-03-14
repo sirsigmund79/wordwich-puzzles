@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-14",
+  "maxScore": 143,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 58,
+      "hintWord": "drive"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 35,
+      "hintWord": "function"
+    },
+    {
+      "round": 3,
+      "startLetter": "j",
+      "endLetter": "r",
+      "passScore": 8,
+      "perfectScore": 50,
+      "hintWord": "juror"
+    }
+
+  ]
+}
