@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-15",
+  "maxScore": 162,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 59,
+      "hintWord": "beast"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "h",
+      "passScore": 5,
+      "perfectScore": 32,
+      "hintWord": "laith"
+    },
+    {
+      "round": 3,
+      "startLetter": "h",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 71,
+      "hintWord": "hands"
+    }
+
+  ]
+}
