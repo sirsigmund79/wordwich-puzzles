@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-18",
+  "maxScore": 145,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "i",
+      "endLetter": "d",
+      "passScore": 5,
+      "perfectScore": 65,
+      "hintWord": "idled"
+    },
+    {
+      "round": 2,
+      "startLetter": "z",
+      "endLetter": "s",
+      "passScore": 5,
+      "perfectScore": 38,
+      "hintWord": "zebras"
+    },
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 45,
+      "hintWord": "lull"
+    }
+
+  ]
+}
