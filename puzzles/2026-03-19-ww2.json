@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-19",
+  "maxScore": 145,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 67,
+      "hintWord": "thing"
+    },
+    {
+      "round": 2,
+      "startLetter": "d",
+      "endLetter": "a",
+      "passScore": 5,
+      "perfectScore": 44,
+      "hintWord": "delta"
+    },
+    {
+      "round": 3,
+      "startLetter": "y",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 34,
+      "hintWord": "yodle"
+    }
+
+  ]
+}
