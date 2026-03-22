@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-23",
+  "maxScore": 146,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 56,
+      "hintWord": "candy"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 50,
+      "hintWord": "tonic"
+    },
+    {
+      "round": 3,
+      "startLetter": "f",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 40,
+      "hintWord": "flood"
+    }
+
+  ]
+}
