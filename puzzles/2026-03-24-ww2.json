@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-24",
+  "maxScore": 146,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "u",
+      "endLetter": "r",
+      "passScore": 6,
+      "perfectScore": 66,
+      "hintWord": "utter"
+    },
+    {
+      "round": 2,
+      "startLetter": "d",
+      "endLetter": "h",
+      "passScore": 5,
+      "perfectScore": 47,
+      "hintWord": "death"
+    },
+    {
+      "round": 3,
+      "startLetter": "j",
+      "endLetter": "y",
+      "passScore": 8,
+      "perfectScore": 42,
+      "hintWord": "janky"
+    }
+
+  ]
+}
