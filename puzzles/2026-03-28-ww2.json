@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-28",
+  "maxScore": 130,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "k",
+      "endLetter": "s",
+      "passScore": 6,
+      "perfectScore": 51,
+      "hintWord": "kiss"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 49,
+      "hintWord": "train"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 30,
+      "hintWord": "veil"
+    }
+
+  ]
+}
