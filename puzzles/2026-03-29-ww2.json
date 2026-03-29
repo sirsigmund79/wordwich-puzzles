@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-29",
+  "maxScore": 207,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 69,
+      "hintWord": "raft"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "d",
+      "passScore": 5,
+      "perfectScore": 69,
+      "hintWord": "routed"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 69,
+      "hintWord": "routes"
+    }
+
+  ]
+}
