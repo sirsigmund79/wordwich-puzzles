@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-02",
+  "maxScore": 185,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 61,
+      "hintWord": "drift"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 55,
+      "hintWord": "pupil"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 70,
+      "hintWord": "asses"
+    }
+
+  ]
+}
