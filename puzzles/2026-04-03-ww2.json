@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-03",
+  "maxScore": 160,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "l",
+      "passScore": 6,
+      "perfectScore": 67,
+      "hintWord": "swell"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 70,
+      "hintWord": "tribe"
+    },
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "k",
+      "passScore": 8,
+      "perfectScore": 23,
+      "hintWord": "lick"
+    }
+
+  ]
+}
