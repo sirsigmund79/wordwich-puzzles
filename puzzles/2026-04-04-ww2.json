@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-04",
+  "maxScore": 164,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "r",
+      "passScore": 6,
+      "perfectScore": 65,
+      "hintWord": "bear"
+    },
+    {
+      "round": 2,
+      "startLetter": "k",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 31,
+      "hintWord": "karat"
+    },
+    {
+      "round": 3,
+      "startLetter": "w",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 68,
+      "hintWord": "wicks"
+    }
+
+  ]
+}
