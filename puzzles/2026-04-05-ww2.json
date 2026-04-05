@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-05",
+  "maxScore": 125,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "k",
+      "passScore": 6,
+      "perfectScore": 44,
+      "hintWord": "crack"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 35,
+      "hintWord": "neat"
+    },
+    {
+      "round": 3,
+      "startLetter": "f",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 46,
+      "hintWord": "fail"
+    }
+
+  ]
+}
