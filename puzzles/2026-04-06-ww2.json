@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-06",
+  "maxScore": 152,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "d",
+      "passScore": 6,
+      "perfectScore": 78,
+      "hintWord": "creed"
+    },
+    {
+      "round": 2,
+      "startLetter": "k",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 27,
+      "hintWord": "kiln"
+    },
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "c",
+      "passScore": 8,
+      "perfectScore": 47,
+      "hintWord": "lilac"
+    }
+
+  ]
+}
