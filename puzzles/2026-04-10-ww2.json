@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-10",
+  "maxScore": 170,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "k",
+      "passScore": 9,
+      "perfectScore": 45,
+      "hintWord": "rink"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 68,
+      "hintWord": "stun"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 57,
+      "hintWord": "tram"
+    }
+
+  ]
+}
