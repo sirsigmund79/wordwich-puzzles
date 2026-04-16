@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-16",
+  "maxScore": 164,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "t",
+      "passScore": 9,
+      "perfectScore": 59,
+      "hintWord": "audit"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 61,
+      "hintWord": "tacky"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "h",
+      "passScore": 8,
+      "perfectScore": 43,
+      "hintWord": "patch"
+    }
+
+  ]
+}
