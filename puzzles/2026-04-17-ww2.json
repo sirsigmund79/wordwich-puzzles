@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-17",
+  "maxScore": 110,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "l",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 52,
+      "hintWord": "laden"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 41,
+      "hintWord": "until"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "b",
+      "passScore": 8,
+      "perfectScore": 17,
+      "hintWord": "boob"
+    }
+
+  ]
+}
