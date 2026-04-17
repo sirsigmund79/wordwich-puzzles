@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-18",
+  "maxScore": 145,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "k",
+      "passScore": 9,
+      "perfectScore": 49,
+      "hintWord": "flask"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "w",
+      "passScore": 5,
+      "perfectScore": 26,
+      "hintWord": "until"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 70,
+      "hintWord": "ball"
+    }
+
+  ]
+}
