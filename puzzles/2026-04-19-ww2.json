@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-19",
+  "maxScore": 126,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "a",
+      "passScore": 9,
+      "perfectScore": 40,
+      "hintWord": "enema"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "r",
+      "passScore": 5,
+      "perfectScore": 78,
+      "hintWord": "labor"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "z",
+      "passScore": 1,
+      "perfectScore": 8,
+      "hintWord": "spazz"
+    }
+
+  ]
+}
