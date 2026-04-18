@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-20",
+  "maxScore": 171,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "c",
+      "passScore": 9,
+      "perfectScore": 66,
+      "hintWord": "magic"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 35,
+      "hintWord": "harem"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "t",
+      "passScore": 1,
+      "perfectScore": 71,
+      "hintWord": "spazz"
+    }
+
+  ]
+}
