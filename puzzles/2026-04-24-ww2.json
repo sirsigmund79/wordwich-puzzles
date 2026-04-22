@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-24",
+  "maxScore": 127,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "e",
+      "passScore": 6,
+      "perfectScore": 64,
+      "hintWord": "peace"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "f",
+      "passScore": 5,
+      "perfectScore": 21,
+      "hintWord": "stuff"
+    },
+    {
+      "round": 3,
+      "startLetter": "w",
+      "endLetter": "h",
+      "passScore": 1,
+      "perfectScore": 42,
+      "hintWord": "watch"
+    }
+
+  ]
+}
