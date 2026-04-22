@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-27",
+  "maxScore": 149,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "s",
+      "passScore": 6,
+      "perfectScore": 66,
+      "hintWord": "truss"
+    },
+    {
+      "round": 2,
+      "startLetter": "e",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 65,
+      "hintWord": "edge"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "o",
+      "passScore": 1,
+      "perfectScore": 18,
+      "hintWord": "radio"
+    }
+
+  ]
+}
