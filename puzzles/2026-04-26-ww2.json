@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-26",
+  "maxScore": 168,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "e",
+      "passScore": 6,
+      "perfectScore": 68,
+      "hintWord": "guide"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 51,
+      "hintWord": "lacing"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "r",
+      "passScore": 1,
+      "perfectScore": 49,
+      "hintWord": "vapor"
+    }
+
+  ]
+}
