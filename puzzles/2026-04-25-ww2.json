@@ -1,30 +1,30 @@
 {
   "date": "2026-04-25",
-  "maxScore": 164,
+  "maxScore": 161,
   "rounds": [
     {
       "round": 1,
-      "startLetter": "g",
-      "endLetter": "d",
+      "startLetter": "c",
+      "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 79,
-      "hintWord": "grand"
+      "perfectScore": 65,
+      "hintWord": "camel"
     },
     {
       "round": 2,
-      "startLetter": "u",
-      "endLetter": "s",
+      "startLetter": "i",
+      "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "ushers"
+      "perfectScore": 44,
+      "hintWord": "idol"
     },
     {
       "round": 3,
-      "startLetter": "c",
-      "endLetter": "m",
+      "startLetter": "e",
+      "endLetter": "d",
       "passScore": 1,
-      "perfectScore": 35,
-      "hintWord": "calm"
+      "perfectScore": 52,
+      "hintWord": "ended"
     }
 
   ]
