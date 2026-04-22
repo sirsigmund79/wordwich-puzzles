@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-25",
+  "maxScore": 164,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "d",
+      "passScore": 6,
+      "perfectScore": 79,
+      "hintWord": "grand"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "s",
+      "passScore": 5,
+      "perfectScore": 50,
+      "hintWord": "ushers"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "m",
+      "passScore": 1,
+      "perfectScore": 35,
+      "hintWord": "calm"
+    }
+
+  ]
+}
