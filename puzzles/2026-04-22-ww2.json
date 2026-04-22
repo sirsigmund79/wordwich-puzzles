@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-22",
+  "maxScore": 193,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "g",
+      "passScore": 6,
+      "perfectScore": 70,
+      "hintWord": "hiding"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "r",
+      "passScore": 5,
+      "perfectScore": 68,
+      "hintWord": "murder"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "e",
+      "passScore": 1,
+      "perfectScore": 55,
+      "hintWord": "avenge"
+    }
+
+  ]
+}
