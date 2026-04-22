@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-23",
+  "maxScore": 169,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "n",
+      "passScore": 6,
+      "perfectScore": 43,
+      "hintWord": "glean"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 77,
+      "hintWord": "icing"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "k",
+      "passScore": 1,
+      "perfectScore": 49,
+      "hintWord": "brook"
+    }
+
+  ]
+}
