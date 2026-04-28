@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-28",
+  "maxScore": 166,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 68,
+      "hintWord": "exist"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 51,
+      "hintWord": "fall"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "m",
+      "passScore": 1,
+      "perfectScore": 47,
+      "hintWord": "maim"
+    }
+
+  ]
+}
