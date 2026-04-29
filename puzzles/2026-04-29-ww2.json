@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-29",
+  "maxScore": 159,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "u",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 70,
+      "hintWord": "uses"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 67,
+      "hintWord": "fade"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "k",
+      "passScore": 3,
+      "perfectScore": 22,
+      "hintWord": "oink"
+    }
+
+  ]
+}
