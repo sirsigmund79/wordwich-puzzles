@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-01",
+  "maxScore": 190,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "y",
+      "passScore": 9,
+      "perfectScore": 73,
+      "hintWord": "bully"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 52,
+      "hintWord": "idiom"
+    },
+    {
+      "round": 3,
+      "startLetter": "g",
+      "endLetter": "d",
+      "passScore": 3,
+      "perfectScore": 65,
+      "hintWord": "grand"
+    }
+
+  ]
+}
