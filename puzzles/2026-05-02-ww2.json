@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-02",
+  "maxScore": 151,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "h",
+      "passScore": 9,
+      "perfectScore": 68,
+      "hintWord": "stash"
+    },
+    {
+      "round": 2,
+      "startLetter": "j",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 49,
+      "hintWord": "jade"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "i",
+      "passScore": 3,
+      "perfectScore": 34,
+      "hintWord": "cacti"
+    }
+
+  ]
+}
