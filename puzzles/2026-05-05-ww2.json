@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-05",
+  "maxScore": 137,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "c",
+      "passScore": 9,
+      "perfectScore": 41,
+      "hintWord": "basic"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 35,
+      "hintWord": "locum"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "d",
+      "passScore": 3,
+      "perfectScore": 61,
+      "hintWord": "valid"
+    }
+
+  ]
+}
