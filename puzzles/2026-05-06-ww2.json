@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-06",
+  "maxScore": 135,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "l",
+      "passScore": 9,
+      "perfectScore": 58,
+      "hintWord": "troll"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 37,
+      "hintWord": "firm"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "p",
+      "passScore": 3,
+      "perfectScore": 40,
+      "hintWord": "stamp"
+    }
+
+  ]
+}
