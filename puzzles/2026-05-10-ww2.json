@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-10",
+  "maxScore": 170,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "r",
+      "passScore": 9,
+      "perfectScore": 79,
+      "hintWord": "never"
+    },
+    {
+      "round": 2,
+      "startLetter": "j",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 60,
+      "hintWord": "joining"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "c",
+      "passScore": 3,
+      "perfectScore": 31,
+      "hintWord": "valid"
+    }
+
+  ]
+}
