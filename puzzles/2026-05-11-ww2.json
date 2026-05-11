@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-11",
+  "maxScore": 127,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "l",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 74,
+      "hintWord": "laces"
+    },
+    {
+      "round": 2,
+      "startLetter": "q",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 31,
+      "hintWord": "quite"
+    },
+    {
+      "round": 3,
+      "startLetter": "i",
+      "endLetter": "o",
+      "passScore": 3,
+      "perfectScore": 22,
+      "hintWord": "igloo"
+    }
+
+  ]
+}
