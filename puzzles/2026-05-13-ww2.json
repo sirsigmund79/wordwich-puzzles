@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-13",
+  "maxScore": 167,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "u",
+      "endLetter": "r",
+      "passScore": 9,
+      "perfectScore": 66,
+      "hintWord": "under"
+    },
+    {
+      "round": 2,
+      "startLetter": "d",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 63,
+      "hintWord": "domestic"
+    },
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "a",
+      "passScore": 3,
+      "perfectScore": 38,
+      "hintWord": "lava"
+    }
+
+  ]
+}
