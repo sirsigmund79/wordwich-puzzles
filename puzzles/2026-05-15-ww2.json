@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-15",
+  "maxScore": 104,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "a",
+      "passScore": 9,
+      "perfectScore": 45,
+      "hintWord": "beta"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "f",
+      "passScore": 5,
+      "perfectScore": 12,
+      "hintWord": "reef"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "p",
+      "passScore": 3,
+      "perfectScore": 47,
+      "hintWord": "mixup"
+    }
+
+  ]
+}
