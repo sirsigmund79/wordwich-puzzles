@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-17",
+  "maxScore": 166,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "g",
+      "passScore": 9,
+      "perfectScore": 79,
+      "hintWord": "naming"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 46,
+      "hintWord": "gamma"
+    },
+    {
+      "round": 3,
+      "startLetter": "k",
+      "endLetter": "y",
+      "passScore": 3,
+      "perfectScore": 41,
+      "hintWord": "kelly"
+    }
+
+  ]
+}
