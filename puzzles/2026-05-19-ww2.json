@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-19",
+  "maxScore": 138,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "l",
+      "endLetter": "d",
+      "passScore": 9,
+      "perfectScore": 73,
+      "hintWord": "lead"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 49,
+      "hintWord": "scram"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "i",
+      "passScore": 3,
+      "perfectScore": 16,
+      "hintWord": "bikini"
+    }
+
+  ]
+}
