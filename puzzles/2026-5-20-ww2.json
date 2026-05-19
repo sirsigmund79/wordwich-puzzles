@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-20",
+  "maxScore": 185,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "o",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 75,
+      "hintWord": "oven"
+    },
+    {
+      "round": 2,
+      "startLetter": "w",
+      "endLetter": "d",
+      "passScore": 5,
+      "perfectScore": 51,
+      "hintWord": "weed"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "t",
+      "passScore": 3,
+      "perfectScore": 59,
+      "hintWord": "mitt"
+    }
+
+  ]
+}
