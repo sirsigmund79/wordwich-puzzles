@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-22",
+  "maxScore": 124,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "o",
+      "endLetter": "h",
+      "passScore": 9,
+      "perfectScore": 45,
+      "hintWord": "oath"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 61,
+      "hintWord": "paddy"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "k",
+      "passScore": 3,
+      "perfectScore": 18,
+      "hintWord": "neck"
+    }
+
+  ]
+}
