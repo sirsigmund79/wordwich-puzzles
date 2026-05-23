@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-23",
+  "maxScore": 170,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "m",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "sham"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 66,
+      "hintWord": "usage"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "g",
+      "passScore": 3,
+      "perfectScore": 51,
+      "hintWord": "negging"
+    }
+
+  ]
+}
