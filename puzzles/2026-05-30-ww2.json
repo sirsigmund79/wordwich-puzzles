@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-30",
+  "maxScore": 149,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "r",
+      "passScore": 9,
+      "perfectScore": 72,
+      "hintWord": "tear"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 59,
+      "hintWord": "stack"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "i",
+      "passScore": 3,
+      "perfectScore": 18,
+      "hintWord": "sari"
+    }
+
+  ]
+}
