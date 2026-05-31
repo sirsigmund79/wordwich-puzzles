@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-30",
+  "maxScore": 149,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "a",
+      "passScore": 9,
+      "perfectScore": 22,
+      "hintWord": "comma"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 58,
+      "hintWord": "real"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "s",
+      "passScore": 3,
+      "perfectScore": 55,
+      "hintWord": "ones"
+    }
+
+  ]
+}
