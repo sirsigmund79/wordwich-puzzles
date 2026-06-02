@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-01",
+  "maxScore": 160,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 63,
+      "hintWord": "mean"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "r",
+      "passScore": 5,
+      "perfectScore": 74,
+      "hintWord": "tour"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "o",
+      "passScore": 3,
+      "perfectScore": 23,
+      "hintWord": "techno"
+    }
+
+  ]
+}
