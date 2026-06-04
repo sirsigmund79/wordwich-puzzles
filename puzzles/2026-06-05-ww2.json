@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-05",
+  "maxScore": 139,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 70,
+      "hintWord": "been"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 44,
+      "hintWord": "iliac"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "k",
+      "passScore": 3,
+      "perfectScore": 25,
+      "hintWord": "aback"
+    }
+
+  ]
+}
