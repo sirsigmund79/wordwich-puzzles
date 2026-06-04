@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-04",
+  "maxScore": 148,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "k",
+      "passScore": 9,
+      "perfectScore": 39,
+      "hintWord": "tick"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 58,
+      "hintWord": "plain"
+    },
+    {
+      "round": 3,
+      "startLetter": "h",
+      "endLetter": "c",
+      "passScore": 3,
+      "perfectScore": 51,
+      "hintWord": "havoc"
+    }
+
+  ]
+}
