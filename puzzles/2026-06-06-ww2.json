@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-06",
+  "maxScore": 136,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "k",
+      "passScore": 9,
+      "perfectScore": 49,
+      "hintWord": "cask"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 50,
+      "hintWord": "many"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "a",
+      "passScore": 3,
+      "perfectScore": 37,
+      "hintWord": "abba"
+    }
+
+  ]
+}
