@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-07",
+  "maxScore": 168,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "d",
+      "passScore": 9,
+      "perfectScore": 67,
+      "hintWord": "toad"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "s",
+      "passScore": 7,
+      "perfectScore": 68,
+      "hintWord": "stress"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "c",
+      "passScore": 3,
+      "perfectScore": 33,
+      "hintWord": "relic"
+    }
+
+  ]
+}
