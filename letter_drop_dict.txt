@@ -12374,15 +12374,9 @@ vaws
 veal
 veals
 vealy
-vee
 veena
-veep
-veeps
 veer
 veers
-veery
-vees
-veg
 vegan
 veges
 vegie
@@ -12445,7 +12439,6 @@ vice
 viced
 vices
 vichy
-vid
 vide
 video
 vids
@@ -12470,9 +12463,7 @@ vill
 villa
 villi
 vills
-vim
 vimen
-vims
 vina
 vinal
 vinas
@@ -12498,7 +12489,6 @@ virl
 virls
 virtu
 virus
-vis
 visa
 visas
 vise
@@ -12569,10 +12559,7 @@ vughs
 vugs
 vulgo
 vulva
-vum
 vying
-wab
-wabs
 wack
 wacke
 wacko
@@ -12588,8 +12575,6 @@ wadi
 wadis
 wads
 wady
-wae
-waes
 wafer
 waff
 waffs
@@ -12635,7 +12620,6 @@ waly
 wame
 wames
 wamus
-wan
 wand
 wands
 wane
@@ -12678,8 +12662,6 @@ wasps
 waspy
 wast
 waste
-wasts
-wat
 watap
 watch
 water
@@ -12698,7 +12680,6 @@ waver
 waves
 wavey
 wavy
-waw
 wawl
 wawls
 waws
@@ -12766,7 +12747,6 @@ welly
 welsh
 welt
 welts
-wen
 wench
 wend
 wends
@@ -12781,7 +12761,6 @@ wests
 wet
 wetly
 wets
-wha
 whack
 whale
 wham
@@ -12927,7 +12906,6 @@ wirer
 wires
 wirra
 wiry
-wis
 wise
 wised
 wiser
