@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-08",
+  "maxScore": 197,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "t",
+      "passScore": 9,
+      "perfectScore": 68,
+      "hintWord": "cart"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "y",
+      "passScore": 7,
+      "perfectScore": 57,
+      "hintWord": "sexy"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "e",
+      "passScore": 3,
+      "perfectScore": 72,
+      "hintWord": "oboe"
+    }
+
+  ]
+}
