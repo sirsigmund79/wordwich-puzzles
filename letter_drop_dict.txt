@@ -7886,7 +7886,6 @@ older
 oldie
 olds
 oldy
-ole
 olea
 oleic
 olein
@@ -7910,7 +7909,6 @@ omer
 omers
 omit
 omits
-oms
 once
 oncet
 one
@@ -7920,9 +7918,6 @@ onion
 onium
 onlay
 only
-ono
-onos
-ons
 onset
 ontic
 onto
@@ -8015,7 +8010,6 @@ otter
 otto
 ottos
 ouch
-oud
 ouds
 ought
 ounce
@@ -8647,7 +8641,6 @@ poker
 pokes
 pokey
 poky
-pol
 polar
 pole
 poled
@@ -8664,7 +8657,6 @@ pols
 poly
 polyp
 polys
-pom
 pome
 pomes
 pommy
@@ -8856,9 +8848,6 @@ pryer
 psalm
 pseud
 pshaw
-psi
-psis
-psoae
 psoai
 psoas
 psst
@@ -8973,9 +8962,7 @@ putto
 putts
 putty
 putz
-pya
 pyas
-pye
 pyes
 pygmy
 pyic
@@ -8990,7 +8977,6 @@ pyrex
 pyric
 pyro
 pyros
-pyx
 pyxes
 pyxie
 pyxis
@@ -9001,10 +8987,8 @@ qaids
 qanat
 qat
 qats
-qis
 qoph
 qophs
-qua
 quack
 quad
 quads
@@ -9104,8 +9088,6 @@ raggy
 ragi
 ragis
 rags
-rah
-rai
 raia
 raias
 raid
@@ -9118,7 +9100,6 @@ rainy
 rais
 raise
 raita
-raj
 raja
 rajah
 rajas
