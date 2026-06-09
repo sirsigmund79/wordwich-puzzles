@@ -1,0 +1,1 @@
+Par scores are going to be computed and stored in this folder. Need to test it out to see if I really like it and how accurate par is.
