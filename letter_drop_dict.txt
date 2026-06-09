@@ -7939,16 +7939,12 @@ opah
 opahs
 opal
 opals
-ope
-oped
 open
 opens
 opera
-opes
 opine
 oping
 opium
-ops
 opsin
 opt
 opted
@@ -8371,7 +8367,6 @@ perse
 pert
 perv
 pervs
-pes
 pesky
 peso
 pesos
