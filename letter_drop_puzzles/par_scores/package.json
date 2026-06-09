@@ -1,0 +1,14 @@
+{
+  "name": "short-stack-par-generator",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Generates par scores for Short Stack daily puzzles",
+  "scripts": {
+    "generate": "node generate-par.mjs",
+    "generate:year": "node generate-par.mjs --start 2026-01-01 --end 2026-12-31",
+    "recast": "node generate-par.mjs --recast"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
