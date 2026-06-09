@@ -6839,11 +6839,6 @@ lysis
 lyssa
 lytic
 lytta
-maar
-maars
-mabe
-mabes
-mac
 macaw
 mace
 maced
@@ -9279,7 +9274,6 @@ ridgy
 rids
 riel
 riels
-rif
 rife
 rifer
 riff
@@ -11342,7 +11336,6 @@ thir
 third
 thirl
 this
-tho
 thole
 thong
 thorn
@@ -11772,8 +11765,6 @@ tufts
 tufty
 tug
 tugs
-tui
-tuis
 tule
 tules
 tulip
