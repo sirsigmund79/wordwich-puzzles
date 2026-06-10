@@ -341,10 +341,43 @@ function escapeCSV(value) {
 }
 
 function gridToJsonStr(grid) {
-  // Serializes a 5x5 grid to the compact JSON string your sheet expects.
-  // Matches the format output by renderGrid() in index.html:
-  // [["A", "B", ...], ...]
-  return JSON.stringify(grid);
+  // Serializes a 5x5 grid to a visually stacked JSON string matching the
+  // format your Google Sheet expects — one row per line, indented with spaces.
+  // Letters are double-quoted strings, booleans and nulls are unquoted.
+  //
+  // solutionGrid output:
+  //   [
+  //    ["F", "I", "N", "A", "L"],
+  //    ["E", null, "E", null, "O"],
+  //    ...
+  //   ]
+  //
+  // staticCells output:
+  //   [
+  //         [false, true, false, false, true],
+  //         [true, null, false, null, false],
+  //    ...
+  //   ]
+  //
+  // The staticCells format uses 6-space indent per row to match your Apps Script
+  // formattedString output exactly.
+
+  // Detect whether this is a solutionGrid (contains strings/null)
+  // or a staticCells grid (contains booleans/null)
+  const isStaticCells = grid.flat().some(v => typeof v === 'boolean');
+
+  const indent = isStaticCells ? '      ' : ' ';
+
+  const rows = grid.map(row => {
+    const cells = row.map(cell => {
+      if (cell === null)          return 'null';
+      if (typeof cell === 'boolean') return cell ? 'true' : 'false';
+      return `"${cell}"`;
+    });
+    return `${indent}[${cells.join(', ')}]`;
+  });
+
+  return `[\n${rows.join(',\n')}\n    ]`;
 }
 
 function buildCSVRow(dateStr, difficulty, solutionGrid, staticCells) {
