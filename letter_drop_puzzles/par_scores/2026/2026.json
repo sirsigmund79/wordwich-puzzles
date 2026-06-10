@@ -1,38 +1,704 @@
 {
   "2026-06-09": {
-    "par": 124,
-    "greedyScore": 201,
-    "beamScore": 152,
+    "par": 104,
+    "greedyScore": 154,
+    "beamScore": 138,
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
     "isCustomPuzzle": false,
-    "generatedAt": "2026-06-09T11:50:15.529Z"
+    "generatedAt": "2026-06-10T03:21:10.513Z"
   },
   "2026-06-10": {
-    "par": 156,
-    "greedyScore": 198,
-    "beamScore": 230,
+    "par": 148,
+    "greedyScore": 185,
+    "beamScore": 220,
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
     "isCustomPuzzle": false,
-    "generatedAt": "2026-06-09T11:50:16.200Z"
+    "generatedAt": "2026-06-10T03:21:11.164Z"
   },
   "2026-06-11": {
     "par": 100,
-    "greedyScore": 137,
+    "greedyScore": 132,
     "beamScore": 125,
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
     "isCustomPuzzle": false,
-    "generatedAt": "2026-06-09T11:50:16.780Z"
+    "generatedAt": "2026-06-10T03:21:11.659Z"
   },
   "2026-06-12": {
-    "par": 150,
-    "greedyScore": 200,
-    "beamScore": 213,
+    "par": 131,
+    "greedyScore": 186,
+    "beamScore": 180,
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
     "isCustomPuzzle": false,
-    "generatedAt": "2026-06-09T11:50:17.361Z"
+    "generatedAt": "2026-06-10T03:16:22.961Z"
+  },
+  "2026-06-13": {
+    "par": 109,
+    "greedyScore": 155,
+    "beamScore": 149,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:23.449Z"
+  },
+  "2026-06-14": {
+    "par": 129,
+    "greedyScore": 181,
+    "beamScore": 177,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:23.935Z"
+  },
+  "2026-06-15": {
+    "par": 109,
+    "greedyScore": 168,
+    "beamScore": 140,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:24.435Z"
+  },
+  "2026-06-16": {
+    "par": 103,
+    "greedyScore": 160,
+    "beamScore": 132,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:24.902Z"
+  },
+  "2026-06-17": {
+    "par": 115,
+    "greedyScore": 189,
+    "beamScore": 141,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:25.460Z"
+  },
+  "2026-06-18": {
+    "par": 112,
+    "greedyScore": 177,
+    "beamScore": 141,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:26.112Z"
+  },
+  "2026-06-19": {
+    "par": 108,
+    "greedyScore": 123,
+    "beamScore": 167,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:26.591Z"
+  },
+  "2026-06-20": {
+    "par": 134,
+    "greedyScore": 200,
+    "beamScore": 177,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:27.067Z"
+  },
+  "2026-06-21": {
+    "par": 122,
+    "greedyScore": 195,
+    "beamScore": 152,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:27.666Z"
+  },
+  "2026-06-22": {
+    "par": 136,
+    "greedyScore": 214,
+    "beamScore": 173,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:28.235Z"
+  },
+  "2026-06-23": {
+    "par": 115,
+    "greedyScore": 182,
+    "beamScore": 145,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:28.901Z"
+  },
+  "2026-06-24": {
+    "par": 124,
+    "greedyScore": 173,
+    "beamScore": 172,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:29.429Z"
+  },
+  "2026-06-25": {
+    "par": 119,
+    "greedyScore": 204,
+    "beamScore": 139,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:29.932Z"
+  },
+  "2026-06-26": {
+    "par": 100,
+    "greedyScore": 136,
+    "beamScore": 119,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:30.443Z"
+  },
+  "2026-06-27": {
+    "par": 116,
+    "greedyScore": 162,
+    "beamScore": 160,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:30.989Z"
+  },
+  "2026-06-28": {
+    "par": 132,
+    "greedyScore": 193,
+    "beamScore": 178,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:31.508Z"
+  },
+  "2026-06-29": {
+    "par": 134,
+    "greedyScore": 188,
+    "beamScore": 185,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:31.982Z"
+  },
+  "2026-06-30": {
+    "par": 156,
+    "greedyScore": 214,
+    "beamScore": 218,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:32.468Z"
+  },
+  "2026-07-01": {
+    "par": 134,
+    "greedyScore": 224,
+    "beamScore": 162,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:32.961Z"
+  },
+  "2026-07-02": {
+    "par": 105,
+    "greedyScore": 178,
+    "beamScore": 125,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:33.505Z"
+  },
+  "2026-07-03": {
+    "par": 114,
+    "greedyScore": 175,
+    "beamScore": 148,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:34.063Z"
+  },
+  "2026-07-04": {
+    "par": 134,
+    "greedyScore": 201,
+    "beamScore": 177,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:34.536Z"
+  },
+  "2026-07-05": {
+    "par": 109,
+    "greedyScore": 169,
+    "beamScore": 140,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:35.089Z"
+  },
+  "2026-07-06": {
+    "par": 144,
+    "greedyScore": 224,
+    "beamScore": 185,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:35.582Z"
+  },
+  "2026-07-07": {
+    "par": 129,
+    "greedyScore": 186,
+    "beamScore": 175,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:36.051Z"
+  },
+  "2026-07-08": {
+    "par": 125,
+    "greedyScore": 190,
+    "beamScore": 162,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:36.619Z"
+  },
+  "2026-07-09": {
+    "par": 122,
+    "greedyScore": 196,
+    "beamScore": 151,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:37.171Z"
+  },
+  "2026-07-10": {
+    "par": 140,
+    "greedyScore": 178,
+    "beamScore": 206,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:37.668Z"
+  },
+  "2026-07-11": {
+    "par": 137,
+    "greedyScore": 183,
+    "beamScore": 194,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:38.134Z"
+  },
+  "2026-07-12": {
+    "par": 140,
+    "greedyScore": 197,
+    "beamScore": 192,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:38.759Z"
+  },
+  "2026-07-13": {
+    "par": 141,
+    "greedyScore": 210,
+    "beamScore": 186,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:39.301Z"
+  },
+  "2026-07-14": {
+    "par": 140,
+    "greedyScore": 210,
+    "beamScore": 183,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:39.859Z"
+  },
+  "2026-07-15": {
+    "par": 135,
+    "greedyScore": 191,
+    "beamScore": 186,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:40.421Z"
+  },
+  "2026-07-16": {
+    "par": 133,
+    "greedyScore": 192,
+    "beamScore": 181,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:40.923Z"
+  },
+  "2026-07-17": {
+    "par": 123,
+    "greedyScore": 183,
+    "beamScore": 162,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:41.448Z"
+  },
+  "2026-07-18": {
+    "par": 112,
+    "greedyScore": 155,
+    "beamScore": 157,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:41.880Z"
+  },
+  "2026-07-19": {
+    "par": 111,
+    "greedyScore": 170,
+    "beamScore": 144,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:42.450Z"
+  },
+  "2026-07-20": {
+    "par": 122,
+    "greedyScore": 172,
+    "beamScore": 168,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:42.928Z"
+  },
+  "2026-07-21": {
+    "par": 138,
+    "greedyScore": 196,
+    "beamScore": 188,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:43.460Z"
+  },
+  "2026-07-22": {
+    "par": 143,
+    "greedyScore": 193,
+    "beamScore": 203,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:43.909Z"
+  },
+  "2026-07-23": {
+    "par": 100,
+    "greedyScore": 123,
+    "beamScore": 121,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:44.389Z"
+  },
+  "2026-07-24": {
+    "par": 136,
+    "greedyScore": 204,
+    "beamScore": 179,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:44.916Z"
+  },
+  "2026-07-25": {
+    "par": 163,
+    "greedyScore": 254,
+    "beamScore": 208,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:45.392Z"
+  },
+  "2026-07-26": {
+    "par": 109,
+    "greedyScore": 182,
+    "beamScore": 130,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:45.991Z"
+  },
+  "2026-07-27": {
+    "par": 138,
+    "greedyScore": 197,
+    "beamScore": 187,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:46.468Z"
+  },
+  "2026-07-28": {
+    "par": 134,
+    "greedyScore": 195,
+    "beamScore": 181,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:46.945Z"
+  },
+  "2026-07-29": {
+    "par": 135,
+    "greedyScore": 200,
+    "beamScore": 180,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:47.532Z"
+  },
+  "2026-07-30": {
+    "par": 128,
+    "greedyScore": 174,
+    "beamScore": 180,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:48.036Z"
+  },
+  "2026-07-31": {
+    "par": 170,
+    "greedyScore": 255,
+    "beamScore": 223,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:48.558Z"
+  },
+  "2026-08-01": {
+    "par": 180,
+    "greedyScore": 269,
+    "beamScore": 238,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:49.060Z"
+  },
+  "2026-08-02": {
+    "par": 126,
+    "greedyScore": 168,
+    "beamScore": 180,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:49.527Z"
+  },
+  "2026-08-03": {
+    "par": 137,
+    "greedyScore": 200,
+    "beamScore": 184,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:50.111Z"
+  },
+  "2026-08-04": {
+    "par": 121,
+    "greedyScore": 158,
+    "beamScore": 174,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:50.558Z"
+  },
+  "2026-08-05": {
+    "par": 129,
+    "greedyScore": 209,
+    "beamScore": 159,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:51.090Z"
+  },
+  "2026-08-06": {
+    "par": 134,
+    "greedyScore": 196,
+    "beamScore": 180,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:51.681Z"
+  },
+  "2026-08-07": {
+    "par": 123,
+    "greedyScore": 180,
+    "beamScore": 164,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:52.230Z"
+  },
+  "2026-08-08": {
+    "par": 126,
+    "greedyScore": 204,
+    "beamScore": 156,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:52.825Z"
+  },
+  "2026-08-09": {
+    "par": 100,
+    "greedyScore": 164,
+    "beamScore": 123,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:53.326Z"
+  },
+  "2026-08-10": {
+    "par": 119,
+    "greedyScore": 167,
+    "beamScore": 164,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:53.831Z"
+  },
+  "2026-08-11": {
+    "par": 124,
+    "greedyScore": 177,
+    "beamScore": 170,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:54.407Z"
+  },
+  "2026-08-12": {
+    "par": 133,
+    "greedyScore": 170,
+    "beamScore": 194,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:54.908Z"
+  },
+  "2026-08-13": {
+    "par": 142,
+    "greedyScore": 203,
+    "beamScore": 194,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:55.357Z"
+  },
+  "2026-08-14": {
+    "par": 109,
+    "greedyScore": 151,
+    "beamScore": 152,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:55.837Z"
+  },
+  "2026-08-15": {
+    "par": 127,
+    "greedyScore": 189,
+    "beamScore": 167,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:56.433Z"
+  },
+  "2026-08-16": {
+    "par": 101,
+    "greedyScore": 162,
+    "beamScore": 126,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:57.069Z"
+  },
+  "2026-08-17": {
+    "par": 133,
+    "greedyScore": 191,
+    "beamScore": 180,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:57.542Z"
+  },
+  "2026-08-18": {
+    "par": 115,
+    "greedyScore": 183,
+    "beamScore": 145,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:58.016Z"
+  },
+  "2026-08-19": {
+    "par": 150,
+    "greedyScore": 216,
+    "beamScore": 204,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:58.456Z"
+  },
+  "2026-08-20": {
+    "par": 116,
+    "greedyScore": 188,
+    "beamScore": 143,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:58.991Z"
+  },
+  "2026-08-21": {
+    "par": 118,
+    "greedyScore": 162,
+    "beamScore": 165,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:59.508Z"
+  },
+  "2026-08-22": {
+    "par": 147,
+    "greedyScore": 188,
+    "beamScore": 214,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:16:59.984Z"
+  },
+  "2026-08-23": {
+    "par": 116,
+    "greedyScore": 177,
+    "beamScore": 151,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:17:00.510Z"
+  },
+  "2026-08-24": {
+    "par": 116,
+    "greedyScore": 191,
+    "beamScore": 141,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:17:01.041Z"
+  },
+  "2026-08-25": {
+    "par": 121,
+    "greedyScore": 183,
+    "beamScore": 158,
+    "discount": 0.72,
+    "algorithmVersion": "v1-lookahead4-beam40",
+    "isCustomPuzzle": false,
+    "generatedAt": "2026-06-10T03:17:01.540Z"
   }
 }
