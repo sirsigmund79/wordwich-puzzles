@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-27",
+  "maxScore": 198,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "c",
+      "passScore": 6,
+      "perfectScore": 58,
+      "hintWord": "epic"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "a",
+      "passScore": 9,
+      "perfectScore": 65,
+      "hintWord": "salpa"
+    },
+    {
+      "round": 3,
+      "startLetter": "k",
+      "endLetter": "d",
+      "passScore": 13,
+      "perfectScore": 75,
+      "hintWord": "kind"
+    }
+  ],
+  "_auto": true
+}

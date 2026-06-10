@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-16",
+  "maxScore": 196,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "n",
+      "passScore": 13,
+      "perfectScore": 67,
+      "hintWord": "cabin"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 68,
+      "hintWord": "boost"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "p",
+      "passScore": 5,
+      "perfectScore": 61,
+      "hintWord": "crisp"
+    }
+  ],
+  "_auto": true
+}

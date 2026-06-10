@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-28",
+  "maxScore": 126,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 35,
+      "hintWord": "sing"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "g",
+      "passScore": 3,
+      "perfectScore": 49,
+      "hintWord": "plug"
+    },
+    {
+      "round": 3,
+      "startLetter": "u",
+      "endLetter": "y",
+      "passScore": 7,
+      "perfectScore": 42,
+      "hintWord": "unity"
+    }
+  ],
+  "_auto": true
+}

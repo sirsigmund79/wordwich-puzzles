@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-19",
+  "maxScore": 189,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "l",
+      "passScore": 11,
+      "perfectScore": 56,
+      "hintWord": "pupil"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "t",
+      "passScore": 7,
+      "perfectScore": 60,
+      "hintWord": "blast"
+    },
+    {
+      "round": 3,
+      "startLetter": "w",
+      "endLetter": "r",
+      "passScore": 10,
+      "perfectScore": 73,
+      "hintWord": "water"
+    }
+  ],
+  "_auto": true
+}

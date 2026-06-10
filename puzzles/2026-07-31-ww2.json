@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-31",
+  "maxScore": 165,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "u",
+      "endLetter": "d",
+      "passScore": 9,
+      "perfectScore": 48,
+      "hintWord": "used"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "e",
+      "passScore": 9,
+      "perfectScore": 61,
+      "hintWord": "mouse"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "t",
+      "passScore": 4,
+      "perfectScore": 56,
+      "hintWord": "about"
+    }
+  ],
+  "_auto": true
+}

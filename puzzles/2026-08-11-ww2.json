@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-11",
+  "maxScore": 175,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "r",
+      "passScore": 7,
+      "perfectScore": 53,
+      "hintWord": "minor"
+    },
+    {
+      "round": 2,
+      "startLetter": "e",
+      "endLetter": "n",
+      "passScore": 9,
+      "perfectScore": 68,
+      "hintWord": "even"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "a",
+      "passScore": 6,
+      "perfectScore": 54,
+      "hintWord": "arena"
+    }
+  ],
+  "_auto": true
+}

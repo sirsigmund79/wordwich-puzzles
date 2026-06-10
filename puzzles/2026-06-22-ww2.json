@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-22",
+  "maxScore": 152,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "u",
+      "endLetter": "y",
+      "passScore": 7,
+      "perfectScore": 51,
+      "hintWord": "unity"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 46,
+      "hintWord": "usual"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "g",
+      "passScore": 4,
+      "perfectScore": 55,
+      "hintWord": "vying"
+    }
+  ],
+  "_auto": true
+}

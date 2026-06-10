@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-02",
+  "maxScore": 184,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "o",
+      "passScore": 13,
+      "perfectScore": 67,
+      "hintWord": "scudo"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "o",
+      "passScore": 6,
+      "perfectScore": 64,
+      "hintWord": "photo"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "i",
+      "passScore": 4,
+      "perfectScore": 53,
+      "hintWord": "serai"
+    }
+  ],
+  "_auto": true
+}

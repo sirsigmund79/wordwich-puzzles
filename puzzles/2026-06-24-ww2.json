@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-24",
+  "maxScore": 188,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "a",
+      "passScore": 5,
+      "perfectScore": 63,
+      "hintWord": "sanga"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "n",
+      "passScore": 6,
+      "perfectScore": 64,
+      "hintWord": "given"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "m",
+      "passScore": 3,
+      "perfectScore": 61,
+      "hintWord": "bloom"
+    }
+  ],
+  "_auto": true
+}

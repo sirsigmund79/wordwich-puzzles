@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-23",
+  "maxScore": 183,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "l",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 63,
+      "hintWord": "loud"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "t",
+      "passScore": 7,
+      "perfectScore": 61,
+      "hintWord": "trust"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 59,
+      "hintWord": "team"
+    }
+  ],
+  "_auto": true
+}

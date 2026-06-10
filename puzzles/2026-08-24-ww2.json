@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-24",
+  "maxScore": 141,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "e",
+      "passScore": 3,
+      "perfectScore": 46,
+      "hintWord": "flute"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 53,
+      "hintWord": "naked"
+    },
+    {
+      "round": 3,
+      "startLetter": "g",
+      "endLetter": "n",
+      "passScore": 6,
+      "perfectScore": 42,
+      "hintWord": "groan"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-29",
+  "maxScore": 139,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 54,
+      "hintWord": "rouge"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "e",
+      "passScore": 7,
+      "perfectScore": 43,
+      "hintWord": "horse"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "a",
+      "passScore": 4,
+      "perfectScore": 42,
+      "hintWord": "extra"
+    }
+  ],
+  "_auto": true
+}

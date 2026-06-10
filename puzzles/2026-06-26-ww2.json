@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-26",
+  "maxScore": 156,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 54,
+      "hintWord": "taste"
+    },
+    {
+      "round": 2,
+      "startLetter": "v",
+      "endLetter": "y",
+      "passScore": 3,
+      "perfectScore": 46,
+      "hintWord": "very"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "a",
+      "passScore": 9,
+      "perfectScore": 56,
+      "hintWord": "mania"
+    }
+  ],
+  "_auto": true
+}

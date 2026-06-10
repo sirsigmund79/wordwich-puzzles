@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-13",
+  "maxScore": 163,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "n",
+      "passScore": 8,
+      "perfectScore": 54,
+      "hintWord": "seven"
+    },
+    {
+      "round": 2,
+      "startLetter": "d",
+      "endLetter": "n",
+      "passScore": 8,
+      "perfectScore": 61,
+      "hintWord": "drain"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 48,
+      "hintWord": "right"
+    }
+  ],
+  "_auto": true
+}

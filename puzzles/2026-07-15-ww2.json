@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-15",
+  "maxScore": 203,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 68,
+      "hintWord": "trail"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "c",
+      "passScore": 6,
+      "perfectScore": 61,
+      "hintWord": "naric"
+    },
+    {
+      "round": 3,
+      "startLetter": "f",
+      "endLetter": "l",
+      "passScore": 11,
+      "perfectScore": 74,
+      "hintWord": "final"
+    }
+  ],
+  "_auto": true
+}

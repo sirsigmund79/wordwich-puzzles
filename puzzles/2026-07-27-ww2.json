@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-27",
+  "maxScore": 157,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 60,
+      "hintWord": "again"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "g",
+      "passScore": 10,
+      "perfectScore": 50,
+      "hintWord": "nogg"
+    },
+    {
+      "round": 3,
+      "startLetter": "h",
+      "endLetter": "l",
+      "passScore": 4,
+      "perfectScore": 47,
+      "hintWord": "hotel"
+    }
+  ],
+  "_auto": true
+}

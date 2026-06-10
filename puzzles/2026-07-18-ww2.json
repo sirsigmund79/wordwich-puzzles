@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-18",
+  "maxScore": 181,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 68,
+      "hintWord": "brave"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "g",
+      "passScore": 6,
+      "perfectScore": 58,
+      "hintWord": "incog"
+    },
+    {
+      "round": 3,
+      "startLetter": "h",
+      "endLetter": "g",
+      "passScore": 3,
+      "perfectScore": 55,
+      "hintWord": "hang"
+    }
+  ],
+  "_auto": true
+}

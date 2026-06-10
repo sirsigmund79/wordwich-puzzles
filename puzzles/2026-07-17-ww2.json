@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-17",
+  "maxScore": 144,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 37,
+      "hintWord": "carry"
+    },
+    {
+      "round": 2,
+      "startLetter": "e",
+      "endLetter": "t",
+      "passScore": 9,
+      "perfectScore": 52,
+      "hintWord": "exact"
+    },
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 55,
+      "hintWord": "duroc"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-18",
+  "maxScore": 177,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 59,
+      "hintWord": "third"
+    },
+    {
+      "round": 2,
+      "startLetter": "v",
+      "endLetter": "l",
+      "passScore": 5,
+      "perfectScore": 62,
+      "hintWord": "vocal"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "k",
+      "passScore": 4,
+      "perfectScore": 56,
+      "hintWord": "pluck"
+    }
+  ],
+  "_auto": true
+}

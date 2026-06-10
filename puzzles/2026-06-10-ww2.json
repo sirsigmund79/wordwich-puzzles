@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-10",
+  "maxScore": 145,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "k",
+      "endLetter": "s",
+      "passScore": 8,
+      "perfectScore": 45,
+      "hintWord": "kiwis"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "c",
+      "passScore": 10,
+      "perfectScore": 64,
+      "hintWord": "attic"
+    },
+    {
+      "round": 3,
+      "startLetter": "w",
+      "endLetter": "n",
+      "passScore": 7,
+      "perfectScore": 36,
+      "hintWord": "wagon"
+    }
+  ],
+  "_auto": true
+}

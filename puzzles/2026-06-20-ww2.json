@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-20",
+  "maxScore": 168,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "g",
+      "passScore": 11,
+      "perfectScore": 55,
+      "hintWord": "fling"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "r",
+      "passScore": 9,
+      "perfectScore": 48,
+      "hintWord": "floor"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "c",
+      "passScore": 6,
+      "perfectScore": 65,
+      "hintWord": "civic"
+    }
+  ],
+  "_auto": true
+}

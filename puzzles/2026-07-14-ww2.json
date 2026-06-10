@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-14",
+  "maxScore": 162,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 50,
+      "hintWord": "being"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "g",
+      "passScore": 8,
+      "perfectScore": 58,
+      "hintWord": "gang"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 54,
+      "hintWord": "ought"
+    }
+  ],
+  "_auto": true
+}

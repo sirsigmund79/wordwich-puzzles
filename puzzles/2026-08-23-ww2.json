@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-23",
+  "maxScore": 192,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "o",
+      "passScore": 6,
+      "perfectScore": 71,
+      "hintWord": "cameo"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "l",
+      "passScore": 9,
+      "perfectScore": 61,
+      "hintWord": "local"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "h",
+      "passScore": 11,
+      "perfectScore": 60,
+      "hintWord": "rough"
+    }
+  ],
+  "_auto": true
+}

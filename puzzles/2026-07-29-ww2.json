@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-29",
+  "maxScore": 192,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "r",
+      "passScore": 4,
+      "perfectScore": 58,
+      "hintWord": "homer"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "k",
+      "passScore": 9,
+      "perfectScore": 68,
+      "hintWord": "stock"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "m",
+      "passScore": 9,
+      "perfectScore": 66,
+      "hintWord": "exam"
+    }
+  ],
+  "_auto": true
+}

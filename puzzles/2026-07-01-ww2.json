@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-01",
+  "maxScore": 197,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "o",
+      "endLetter": "y",
+      "passScore": 9,
+      "perfectScore": 67,
+      "hintWord": "only"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "n",
+      "passScore": 5,
+      "perfectScore": 55,
+      "hintWord": "fern"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "c",
+      "passScore": 7,
+      "perfectScore": 75,
+      "hintWord": "optic"
+    }
+  ],
+  "_auto": true
+}

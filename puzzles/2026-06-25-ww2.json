@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-25",
+  "maxScore": 210,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "c",
+      "passScore": 12,
+      "perfectScore": 70,
+      "hintWord": "stoic"
+    },
+    {
+      "round": 2,
+      "startLetter": "w",
+      "endLetter": "e",
+      "passScore": 3,
+      "perfectScore": 58,
+      "hintWord": "white"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "c",
+      "passScore": 12,
+      "perfectScore": 82,
+      "hintWord": "topic"
+    }
+  ],
+  "_auto": true
+}

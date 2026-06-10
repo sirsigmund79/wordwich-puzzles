@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-16",
+  "maxScore": 221,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "l",
+      "passScore": 6,
+      "perfectScore": 65,
+      "hintWord": "metal"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "h",
+      "passScore": 7,
+      "perfectScore": 74,
+      "hintWord": "sixth"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "h",
+      "passScore": 12,
+      "perfectScore": 82,
+      "hintWord": "batch"
+    }
+  ],
+  "_auto": true
+}

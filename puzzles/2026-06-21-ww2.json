@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-21",
+  "maxScore": 170,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "a",
+      "passScore": 5,
+      "perfectScore": 53,
+      "hintWord": "drama"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 50,
+      "hintWord": "label"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "h",
+      "passScore": 13,
+      "perfectScore": 67,
+      "hintWord": "rough"
+    }
+  ],
+  "_auto": true
+}

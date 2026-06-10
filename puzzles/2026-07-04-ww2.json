@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-04",
+  "maxScore": 160,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "g",
+      "passScore": 7,
+      "perfectScore": 63,
+      "hintWord": "doing"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "y",
+      "passScore": 6,
+      "perfectScore": 48,
+      "hintWord": "rugby"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "c",
+      "passScore": 5,
+      "perfectScore": 49,
+      "hintWord": "magic"
+    }
+  ],
+  "_auto": true
+}

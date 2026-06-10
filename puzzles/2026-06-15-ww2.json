@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-15",
+  "maxScore": 184,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "r",
+      "passScore": 7,
+      "perfectScore": 71,
+      "hintWord": "poker"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "n",
+      "passScore": 4,
+      "perfectScore": 64,
+      "hintWord": "token"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "l",
+      "passScore": 6,
+      "perfectScore": 49,
+      "hintWord": "email"
+    }
+  ],
+  "_auto": true
+}

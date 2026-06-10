@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-23",
+  "maxScore": 177,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "u",
+      "endLetter": "g",
+      "passScore": 5,
+      "perfectScore": 63,
+      "hintWord": "unpeg"
+    },
+    {
+      "round": 2,
+      "startLetter": "j",
+      "endLetter": "s",
+      "passScore": 3,
+      "perfectScore": 55,
+      "hintWord": "jowls"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "h",
+      "passScore": 10,
+      "perfectScore": 59,
+      "hintWord": "truth"
+    }
+  ],
+  "_auto": true
+}

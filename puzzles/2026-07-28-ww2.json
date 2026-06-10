@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-28",
+  "maxScore": 175,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "d",
+      "passScore": 9,
+      "perfectScore": 64,
+      "hintWord": "fraud"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "m",
+      "passScore": 10,
+      "perfectScore": 53,
+      "hintWord": "harm"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "k",
+      "passScore": 4,
+      "perfectScore": 58,
+      "hintWord": "brick"
+    }
+  ],
+  "_auto": true
+}

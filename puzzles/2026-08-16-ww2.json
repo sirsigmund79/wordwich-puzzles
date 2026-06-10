@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-16",
+  "maxScore": 187,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 78,
+      "hintWord": "realm"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "p",
+      "passScore": 11,
+      "perfectScore": 56,
+      "hintWord": "crisp"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "m",
+      "passScore": 6,
+      "perfectScore": 53,
+      "hintWord": "oleum"
+    }
+  ],
+  "_auto": true
+}

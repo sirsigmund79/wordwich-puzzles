@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-12",
+  "maxScore": 164,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 68,
+      "hintWord": "noise"
+    },
+    {
+      "round": 2,
+      "startLetter": "w",
+      "endLetter": "r",
+      "passScore": 3,
+      "perfectScore": 50,
+      "hintWord": "water"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 46,
+      "hintWord": "opium"
+    }
+  ],
+  "_auto": true
+}

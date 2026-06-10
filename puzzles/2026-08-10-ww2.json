@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-10",
+  "maxScore": 158,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "k",
+      "endLetter": "s",
+      "passScore": 5,
+      "perfectScore": 58,
+      "hintWord": "kooks"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 52,
+      "hintWord": "album"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "h",
+      "passScore": 4,
+      "perfectScore": 48,
+      "hintWord": "coach"
+    }
+  ],
+  "_auto": true
+}

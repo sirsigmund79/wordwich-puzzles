@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-03",
+  "maxScore": 165,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "l",
+      "passScore": 6,
+      "perfectScore": 54,
+      "hintWord": "rival"
+    },
+    {
+      "round": 2,
+      "startLetter": "v",
+      "endLetter": "r",
+      "passScore": 3,
+      "perfectScore": 53,
+      "hintWord": "vapor"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "a",
+      "passScore": 10,
+      "perfectScore": 58,
+      "hintWord": "boyla"
+    }
+  ],
+  "_auto": true
+}

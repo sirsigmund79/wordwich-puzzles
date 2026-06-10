@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-22",
+  "maxScore": 208,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "g",
+      "passScore": 6,
+      "perfectScore": 73,
+      "hintWord": "migg"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "n",
+      "passScore": 7,
+      "perfectScore": 71,
+      "hintWord": "haven"
+    },
+    {
+      "round": 3,
+      "startLetter": "y",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 64,
+      "hintWord": "yours"
+    }
+  ],
+  "_auto": true
+}

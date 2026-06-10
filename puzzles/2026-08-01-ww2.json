@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-01",
+  "maxScore": 154,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "y",
+      "passScore": 8,
+      "perfectScore": 53,
+      "hintWord": "badly"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 50,
+      "hintWord": "mount"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "a",
+      "passScore": 7,
+      "perfectScore": 51,
+      "hintWord": "comma"
+    }
+  ],
+  "_auto": true
+}

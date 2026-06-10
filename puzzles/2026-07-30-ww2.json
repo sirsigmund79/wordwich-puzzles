@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-30",
+  "maxScore": 207,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "n",
+      "passScore": 11,
+      "perfectScore": 59,
+      "hintWord": "noun"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "a",
+      "passScore": 5,
+      "perfectScore": 65,
+      "hintWord": "halva"
+    },
+    {
+      "round": 3,
+      "startLetter": "u",
+      "endLetter": "n",
+      "passScore": 16,
+      "perfectScore": 83,
+      "hintWord": "urban"
+    }
+  ],
+  "_auto": true
+}

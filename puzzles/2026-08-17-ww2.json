@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-17",
+  "maxScore": 147,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "t",
+      "passScore": 5,
+      "perfectScore": 50,
+      "hintWord": "right"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "n",
+      "passScore": 2,
+      "perfectScore": 41,
+      "hintWord": "token"
+    },
+    {
+      "round": 3,
+      "startLetter": "i",
+      "endLetter": "c",
+      "passScore": 7,
+      "perfectScore": 56,
+      "hintWord": "ionic"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-30",
+  "maxScore": 213,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "k",
+      "endLetter": "r",
+      "passScore": 15,
+      "perfectScore": 79,
+      "hintWord": "kebar"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "a",
+      "passScore": 4,
+      "perfectScore": 61,
+      "hintWord": "fauna"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "a",
+      "passScore": 4,
+      "perfectScore": 73,
+      "hintWord": "riata"
+    }
+  ],
+  "_auto": true
+}

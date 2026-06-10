@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-05",
+  "maxScore": 205,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "j",
+      "endLetter": "e",
+      "passScore": 5,
+      "perfectScore": 54,
+      "hintWord": "juice"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "m",
+      "passScore": 10,
+      "perfectScore": 78,
+      "hintWord": "item"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "i",
+      "passScore": 10,
+      "perfectScore": 73,
+      "hintWord": "celli"
+    }
+  ],
+  "_auto": true
+}

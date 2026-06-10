@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-21",
+  "maxScore": 165,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "d",
+      "passScore": 11,
+      "perfectScore": 55,
+      "hintWord": "guild"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "c",
+      "passScore": 9,
+      "perfectScore": 60,
+      "hintWord": "comic"
+    },
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "a",
+      "passScore": 4,
+      "perfectScore": 50,
+      "hintWord": "drama"
+    }
+  ],
+  "_auto": true
+}

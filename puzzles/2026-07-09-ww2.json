@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-09",
+  "maxScore": 210,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "t",
+      "passScore": 10,
+      "perfectScore": 68,
+      "hintWord": "night"
+    },
+    {
+      "round": 2,
+      "startLetter": "o",
+      "endLetter": "r",
+      "passScore": 6,
+      "perfectScore": 67,
+      "hintWord": "offer"
+    },
+    {
+      "round": 3,
+      "startLetter": "k",
+      "endLetter": "e",
+      "passScore": 12,
+      "perfectScore": 75,
+      "hintWord": "knife"
+    }
+  ],
+  "_auto": true
+}

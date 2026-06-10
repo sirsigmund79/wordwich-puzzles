@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-30",
+  "maxScore": 172,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "y",
+      "passScore": 6,
+      "perfectScore": 56,
+      "hintWord": "honey"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "t",
+      "passScore": 10,
+      "perfectScore": 67,
+      "hintWord": "upset"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "h",
+      "passScore": 7,
+      "perfectScore": 49,
+      "hintWord": "mouth"
+    }
+  ],
+  "_auto": true
+}

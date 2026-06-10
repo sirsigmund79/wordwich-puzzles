@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-09",
+  "maxScore": 172,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "g",
+      "passScore": 4,
+      "perfectScore": 58,
+      "hintWord": "cling"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 50,
+      "hintWord": "money"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "n",
+      "passScore": 11,
+      "perfectScore": 64,
+      "hintWord": "vein"
+    }
+  ],
+  "_auto": true
+}

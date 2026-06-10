@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-11",
+  "maxScore": 181,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "g",
+      "passScore": 4,
+      "perfectScore": 61,
+      "hintWord": "thing"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 64,
+      "hintWord": "input"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "r",
+      "passScore": 9,
+      "perfectScore": 56,
+      "hintWord": "enter"
+    }
+  ],
+  "_auto": true
+}

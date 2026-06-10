@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-25",
+  "maxScore": 180,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "s",
+      "endLetter": "c",
+      "passScore": 6,
+      "perfectScore": 59,
+      "hintWord": "serac"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "l",
+      "passScore": 10,
+      "perfectScore": 64,
+      "hintWord": "until"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "g",
+      "passScore": 7,
+      "perfectScore": 57,
+      "hintWord": "vying"
+    }
+  ],
+  "_auto": true
+}

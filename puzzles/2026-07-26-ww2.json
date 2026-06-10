@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-26",
+  "maxScore": 221,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "s",
+      "passScore": 4,
+      "perfectScore": 71,
+      "hintWord": "echos"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "e",
+      "passScore": 6,
+      "perfectScore": 79,
+      "hintWord": "crave"
+    },
+    {
+      "round": 3,
+      "startLetter": "u",
+      "endLetter": "e",
+      "passScore": 14,
+      "perfectScore": 71,
+      "hintWord": "usque"
+    }
+  ],
+  "_auto": true
+}

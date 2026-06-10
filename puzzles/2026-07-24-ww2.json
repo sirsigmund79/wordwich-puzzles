@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-24",
+  "maxScore": 142,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "e",
+      "passScore": 7,
+      "perfectScore": 44,
+      "hintWord": "abuse"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "d",
+      "passScore": 6,
+      "perfectScore": 55,
+      "hintWord": "moved"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "m",
+      "passScore": 5,
+      "perfectScore": 43,
+      "hintWord": "storm"
+    }
+  ],
+  "_auto": true
+}

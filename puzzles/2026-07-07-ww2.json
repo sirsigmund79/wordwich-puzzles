@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-07",
+  "maxScore": 167,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "i",
+      "endLetter": "d",
+      "passScore": 9,
+      "perfectScore": 53,
+      "hintWord": "iodid"
+    },
+    {
+      "round": 2,
+      "startLetter": "g",
+      "endLetter": "e",
+      "passScore": 10,
+      "perfectScore": 60,
+      "hintWord": "guide"
+    },
+    {
+      "round": 3,
+      "startLetter": "i",
+      "endLetter": "l",
+      "passScore": 7,
+      "perfectScore": 54,
+      "hintWord": "ideal"
+    }
+  ],
+  "_auto": true
+}

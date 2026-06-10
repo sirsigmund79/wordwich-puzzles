@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-18",
+  "maxScore": 215,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "e",
+      "endLetter": "c",
+      "passScore": 14,
+      "perfectScore": 73,
+      "hintWord": "epic"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 75,
+      "hintWord": "bowl"
+    },
+    {
+      "round": 3,
+      "startLetter": "g",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 67,
+      "hintWord": "girl"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-06",
+  "maxScore": 158,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "y",
+      "passScore": 11,
+      "perfectScore": 60,
+      "hintWord": "nasty"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "m",
+      "passScore": 9,
+      "perfectScore": 48,
+      "hintWord": "poem"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "a",
+      "passScore": 3,
+      "perfectScore": 50,
+      "hintWord": "tecta"
+    }
+  ],
+  "_auto": true
+}

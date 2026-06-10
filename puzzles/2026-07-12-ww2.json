@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-12",
+  "maxScore": 210,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "l",
+      "passScore": 8,
+      "perfectScore": 62,
+      "hintWord": "coral"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "n",
+      "passScore": 6,
+      "perfectScore": 72,
+      "hintWord": "resin"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "r",
+      "passScore": 6,
+      "perfectScore": 76,
+      "hintWord": "never"
+    }
+  ],
+  "_auto": true
+}

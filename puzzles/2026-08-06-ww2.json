@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-06",
+  "maxScore": 219,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "h",
+      "passScore": 17,
+      "perfectScore": 85,
+      "hintWord": "punch"
+    },
+    {
+      "round": 2,
+      "startLetter": "k",
+      "endLetter": "g",
+      "passScore": 13,
+      "perfectScore": 75,
+      "hintWord": "king"
+    },
+    {
+      "round": 3,
+      "startLetter": "t",
+      "endLetter": "k",
+      "passScore": 7,
+      "perfectScore": 59,
+      "hintWord": "thick"
+    }
+  ],
+  "_auto": true
+}
