@@ -6,7 +6,7 @@
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
     "isCustomPuzzle": false,
-    "generatedAt": "2026-06-10T03:23:39.438Z"
+    "generatedAt": "2026-06-10T03:24:52.618Z"
   },
   "2026-06-10": {
     "par": 148,
@@ -15,16 +15,16 @@
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
     "isCustomPuzzle": false,
-    "generatedAt": "2026-06-10T03:23:40.081Z"
+    "generatedAt": "2026-06-10T03:24:53.237Z"
   },
   "2026-06-11": {
-    "par": 100,
-    "greedyScore": 132,
-    "beamScore": 125,
+    "par": 117,
+    "greedyScore": 179,
+    "beamScore": 151,
     "discount": 0.72,
     "algorithmVersion": "v1-lookahead4-beam40",
-    "isCustomPuzzle": false,
-    "generatedAt": "2026-06-10T03:23:40.593Z"
+    "isCustomPuzzle": true,
+    "generatedAt": "2026-06-10T03:24:53.729Z"
   },
   "2026-06-12": {
     "par": 131,
