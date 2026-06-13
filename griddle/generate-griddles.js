@@ -59,8 +59,8 @@ const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), 'outp
 // Word file URLs — same files your HTML tool uses
 // These are fetched from your GitHub repo. If you add them to the repo
 // under a griddle/ folder, update these URLs accordingly.
-const COMMON_WORDS_URL = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/common_words.txt';
-const DICT_WORDS_URL   = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/wordle_words.txt';
+const COMMON_WORDS_URL = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/wordle_words.txt';
+const DICT_WORDS_URL   = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/common_words.txt';
 
 // How many generation attempts before giving up on a date/difficulty combo.
 // The HTML tool uses 5000; we use the same.
@@ -73,9 +73,9 @@ let CANDIDATES_PER_DIFFICULTY = 1;
 
 // Difficulty settings — mirrors your Apps Script GRID_CONFIG exactly
 const GRID_CONFIG = {
-  Easy:   { minLocked: 11, maxLocked: 13, helperWeight: 0.8 },
-  Medium: { minLocked:  9, maxLocked: 12, helperWeight: 0.4 },
-  Hard:   { minLocked:  8, maxLocked: 10, helperWeight: 0.1 },
+  Easy:   { minLocked: 11, maxLocked: 14, helperWeight: 0.8 },
+  Medium: { minLocked:  11, maxLocked: 12, helperWeight: 0.4 },
+  Hard:   { minLocked:  9, maxLocked: 10, helperWeight: 0.1 },
 };
 
 // The four "hole" positions — always the same in every Griddle puzzle.
@@ -450,8 +450,8 @@ async function main() {
   if (opts.dryRun) console.log('DRY RUN: no files will be written.\n');
 
   // Load word files. Being lazy for now and just swapping the URLs so we default to Wordle
-  const commonUrl = opts.dictFile ?? DICT_WORDS_URL;
-  const dictUrl   = opts.commonFile   ?? COMMON_WORDS_URL;
+  const commonUrl = opts.commonFile ?? COMMON_WORDS_URL;
+  const dictUrl   = opts.dictFile   ?? DICT_WORDS_URL;
 
   console.log('Loading word files...');
   let commonWords, dictWords;

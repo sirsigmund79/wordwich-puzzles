@@ -7,7 +7,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", ""A"", ""T"", ""E"", ""R""]
     ]","[
       [true, false, false, false, true],
-      [false, null, false, null, false],
+      [false, null, false, null, true],
       [true, true, true, true, false],
       [true, null, true, null, true],
       [true, false, true, true, true]
@@ -19,9 +19,9 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""S"", null, ""L"", null, ""S""],
  [""H"", ""A"", ""D"", ""S"", ""T""]
     ]","[
-      [true, true, false, false, false],
+      [true, true, false, false, true],
       [false, null, true, null, true],
-      [false, false, true, true, false],
+      [true, false, true, true, false],
       [false, null, false, null, false],
       [true, false, false, true, true]
     ]"
@@ -45,7 +45,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""N"", null, ""L"", null, ""E""],
  [""T"", ""I"", ""T"", ""A"", ""N""]
     ]","[
-      [true, true, false, false, true],
+      [true, true, false, true, true],
       [false, null, true, null, true],
       [false, false, true, false, false],
       [true, null, true, null, false],
@@ -59,10 +59,10 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""T"", ""A"", ""R"", ""O"", ""T""]
     ]","[
       [true, false, true, false, true],
-      [true, null, false, null, true],
+      [true, null, true, null, true],
       [false, false, true, false, false],
       [true, null, false, null, false],
-      [true, false, false, false, true]
+      [true, false, true, false, true]
     ]"
 6/14/2026,Hard,"[
  [""T"", ""O"", ""K"", ""E"", ""N""],
@@ -71,7 +71,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""N"", null, ""M"", null, ""C""],
  [""K"", ""N"", ""A"", ""V"", ""E""]
     ]","[
-      [true, true, true, false, false],
+      [true, true, true, true, false],
       [false, null, false, null, false],
       [true, true, true, false, false],
       [false, null, false, null, false],
@@ -100,7 +100,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, false, true, true, true],
       [false, null, true, null, true],
       [false, false, true, false, false],
-      [false, null, false, null, false],
+      [true, null, false, null, false],
       [true, false, true, true, true]
     ]"
 6/15/2026,Hard,"[
@@ -124,7 +124,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", ""X"", ""T"", ""O"", ""L""]
     ]","[
       [true, false, false, true, true],
-      [true, null, false, null, true],
+      [true, null, true, null, true],
       [false, true, true, false, true],
       [false, null, false, null, true],
       [true, true, true, false, true]
@@ -150,7 +150,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""R"", ""O"", ""C"", ""K"", ""Y""]
     ]","[
       [false, false, false, true, false],
-      [false, null, false, null, true],
+      [true, null, false, null, true],
       [false, true, true, false, true],
       [false, null, true, null, false],
       [true, true, true, false, false]
@@ -201,7 +201,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""I"", null, ""I"", null, ""V""],
  [""P"", ""L"", ""E"", ""N"", ""A""]
     ]","[
-      [true, false, false, false, true],
+      [true, false, false, true, true],
       [true, null, true, null, true],
       [false, false, true, true, false],
       [true, null, false, null, false],
@@ -214,7 +214,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""R"", null, ""I"", null, ""K""],
  [""N"", ""U"", ""T"", ""T"", ""Y""]
     ]","[
-      [true, false, false, false, true],
+      [true, false, false, true, true],
       [false, null, false, null, true],
       [true, true, true, true, true],
       [false, null, false, null, true],
@@ -227,7 +227,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""O"", null, ""P"", null, ""L""],
  [""P"", ""E"", ""T"", ""I"", ""T""]
     ]","[
-      [false, false, false, false, true],
+      [false, false, true, false, true],
       [false, null, true, null, true],
       [false, false, true, true, false],
       [false, null, false, null, true],
@@ -242,7 +242,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, false, false, true],
       [true, null, true, null, true],
-      [false, false, true, false, true],
+      [false, false, true, true, true],
       [false, null, true, null, false],
       [true, false, false, true, true]
     ]"
@@ -253,9 +253,9 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""A"", null, ""D"", null, ""R""],
  [""N"", ""E"", ""E"", ""D"", ""Y""]
     ]","[
-      [true, false, false, true, true],
+      [true, false, true, true, true],
       [true, null, true, null, false],
-      [false, false, false, false, true],
+      [false, false, true, false, true],
       [true, null, true, null, false],
       [false, false, false, false, true]
     ]"
@@ -266,7 +266,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""I"", null, ""I"", null, ""T""],
  [""L"", ""U"", ""C"", ""R"", ""E""]
     ]","[
-      [false, false, false, false, true],
+      [false, true, false, false, true],
       [false, null, false, null, true],
       [true, true, true, true, false],
       [true, null, false, null, false],
@@ -292,8 +292,8 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""C"", null, ""O"", null, ""E""],
  [""T"", ""E"", ""N"", ""O"", ""R""]
     ]","[
-      [true, false, false, false, true],
-      [false, null, true, null, true],
+      [true, false, false, true, true],
+      [true, null, true, null, true],
       [false, false, true, false, false],
       [false, null, false, null, true],
       [true, false, false, true, true]
@@ -309,7 +309,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, null, false, null, false],
       [false, false, true, false, false],
       [true, null, false, null, false],
-      [false, true, true, false, true]
+      [false, true, true, true, true]
     ]"
 6/21/2026,Easy,"[
  [""F"", ""L"", ""A"", ""C"", ""K""],
@@ -320,7 +320,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, true, false, false, true],
       [true, null, true, null, true],
-      [false, true, true, false, false],
+      [true, true, true, false, false],
       [true, null, true, null, false],
       [true, false, false, true, true]
     ]"
@@ -334,7 +334,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, false, true, true, true],
       [true, null, false, null, false],
       [true, false, true, true, false],
-      [false, null, false, null, false],
+      [true, null, false, null, false],
       [true, true, false, false, true]
     ]"
 6/21/2026,Hard,"[
@@ -346,7 +346,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, true, false, true],
       [false, null, true, null, false],
-      [true, false, false, false, false],
+      [true, true, false, false, false],
       [false, null, false, null, true],
       [true, false, false, false, true]
     ]"
@@ -360,7 +360,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, true, true, false, true],
       [true, null, false, null, false],
       [false, true, true, true, false],
-      [false, null, false, null, false],
+      [false, null, true, null, false],
       [true, false, true, true, true]
     ]"
 6/22/2026,Medium,"[
@@ -370,11 +370,11 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""A"", null, ""I"", null, ""H""],
  [""P"", ""E"", ""N"", ""C"", ""E""]
     ]","[
-      [false, true, true, true, false],
+      [true, true, true, true, false],
       [true, null, true, null, false],
       [false, false, true, false, false],
       [false, null, false, null, false],
-      [true, true, true, false, false]
+      [true, true, true, false, true]
     ]"
 6/22/2026,Hard,"[
  [""C"", ""A"", ""U"", ""L"", ""K""],
@@ -387,7 +387,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, null, false, null, false],
       [false, true, true, true, true],
       [false, null, false, null, false],
-      [false, false, true, false, true]
+      [true, false, true, false, true]
     ]"
 6/23/2026,Easy,"[
  [""T"", ""O"", ""P"", ""A"", ""Z""],
@@ -409,11 +409,11 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""T"", null, ""I"", null, ""R""],
  [""E"", ""X"", ""C"", ""O"", ""N""]
     ]","[
-      [true, true, false, false, true],
+      [true, true, true, false, true],
       [false, null, false, null, true],
       [true, false, true, false, false],
       [false, null, false, null, false],
-      [true, false, false, true, true]
+      [true, false, true, true, true]
     ]"
 6/23/2026,Hard,"[
  [""N"", ""O"", ""B"", ""L"", ""E""],
@@ -438,7 +438,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, false, false, false, true],
       [true, null, true, null, true],
       [false, false, true, false, false],
-      [true, null, false, null, true],
+      [true, null, true, null, true],
       [true, true, false, false, true]
     ]"
 6/24/2026,Medium,"[
@@ -488,9 +488,9 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""K"", ""N"", ""O"", ""U"", ""T""]
     ]","[
       [true, false, false, false, true],
-      [false, null, false, null, false],
-      [false, true, true, true, true],
       [true, null, false, null, false],
+      [false, true, true, true, true],
+      [true, null, true, null, false],
       [true, false, false, false, true]
     ]"
 6/25/2026,Hard,"[
@@ -501,7 +501,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""S"", ""T"", ""R"", ""U"", ""T""]
     ]","[
       [true, true, false, false, true],
-      [true, null, false, null, false],
+      [true, null, false, null, true],
       [true, false, true, true, true],
       [false, null, false, null, false],
       [false, false, false, true, false]
@@ -528,7 +528,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, true, false, false],
       [true, null, false, null, true],
-      [true, false, false, true, false],
+      [true, false, true, true, false],
       [false, null, false, null, true],
       [true, true, true, false, true]
     ]"
@@ -543,7 +543,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, null, true, null, true],
       [false, false, true, true, false],
       [false, null, false, null, true],
-      [false, false, true, true, false]
+      [false, true, true, true, false]
     ]"
 6/27/2026,Easy,"[
  [""P"", ""E"", ""R"", ""I"", ""L""],
@@ -567,7 +567,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, true, true, false, true],
       [false, null, true, null, false],
-      [false, false, true, false, false],
+      [false, false, true, true, false],
       [true, null, false, null, false],
       [true, true, true, false, true]
     ]"
@@ -604,10 +604,10 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", null, ""C"", null, ""V""],
  [""T"", ""A"", ""H"", ""O"", ""E""]
     ]","[
-      [true, false, false, false, true],
+      [true, false, false, true, true],
       [true, null, false, null, false],
       [true, true, true, false, false],
-      [false, null, false, null, false],
+      [false, null, true, null, false],
       [true, false, true, false, true]
     ]"
 6/28/2026,Hard,"[
@@ -618,7 +618,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""M"", ""O"", ""G"", ""U"", ""L""]
     ]","[
       [false, false, false, false, true],
-      [false, null, false, null, false],
+      [false, null, true, null, false],
       [true, true, true, false, false],
       [false, null, false, null, true],
       [true, true, true, false, true]
@@ -660,7 +660,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, null, false, null, false],
       [true, true, true, false, true],
       [false, null, false, null, false],
-      [true, false, true, false, false]
+      [true, false, true, false, true]
     ]"
 6/30/2026,Easy,"[
  [""A"", ""L"", ""O"", ""F"", ""T""],
@@ -669,7 +669,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""U"", null, ""E"", null, ""U""],
  [""T"", ""O"", ""T"", ""E"", ""M""]
     ]","[
-      [true, false, true, false, true],
+      [true, false, true, true, true],
       [true, null, false, null, false],
       [false, false, true, true, true],
       [true, null, true, null, true],
@@ -686,7 +686,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, null, false, null, true],
       [false, true, false, true, false],
       [true, null, false, null, true],
-      [false, false, false, true, false]
+      [false, true, false, true, false]
     ]"
 6/30/2026,Hard,"[
  [""W"", ""H"", ""A"", ""R"", ""F""],
@@ -697,7 +697,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, true, false, false, false],
       [false, null, false, null, true],
-      [false, true, false, false, true],
+      [false, true, true, false, true],
       [false, null, false, null, true],
       [true, true, false, false, false]
     ]"
@@ -709,7 +709,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", ""V"", ""E"", ""N"", ""T""]
     ]","[
       [true, true, true, true, true],
-      [false, null, false, null, true],
+      [true, null, false, null, true],
       [false, false, true, false, false],
       [false, null, false, null, true],
       [true, false, false, true, true]
@@ -721,7 +721,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""N"", null, ""N"", null, ""T""],
  [""G"", ""A"", ""Y"", ""L"", ""Y""]
     ]","[
-      [false, false, true, false, true],
+      [false, true, true, false, true],
       [true, null, false, null, false],
       [false, false, true, false, true],
       [true, null, false, null, true],
@@ -736,7 +736,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, true, false, false, false],
       [false, null, false, null, false],
-      [true, true, false, false, true],
+      [true, true, true, false, true],
       [true, null, false, null, false],
       [false, true, false, true, true]
     ]"
@@ -747,7 +747,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""O"", null, ""A"", null, ""I""],
  [""T"", ""E"", ""N"", ""O"", ""N""]
     ]","[
-      [true, false, false, true, true],
+      [true, false, true, true, true],
       [false, null, true, null, true],
       [false, true, true, true, false],
       [false, null, true, null, true],
@@ -761,7 +761,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""P"", ""A"", ""Y"", ""E"", ""D""]
     ]","[
       [true, true, false, false, true],
-      [false, null, false, null, false],
+      [false, null, false, null, true],
       [true, false, false, true, true],
       [true, null, false, null, false],
       [true, false, true, true, false]
@@ -777,7 +777,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, null, false, null, true],
       [false, false, true, true, true],
       [false, null, false, null, false],
-      [false, true, false, false, false]
+      [false, true, false, true, false]
     ]"
 7/3/2026,Easy,"[
  [""Z"", ""E"", ""S"", ""T"", ""Y""],
@@ -803,7 +803,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, null, true, null, false],
       [false, true, true, true, false],
       [false, null, true, null, true],
-      [true, false, true, false, true]
+      [true, true, true, false, true]
     ]"
 7/3/2026,Hard,"[
  [""C"", ""L"", ""O"", ""S"", ""E""],
@@ -829,7 +829,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, null, false, null, true],
       [true, true, true, false, false],
       [false, null, true, null, true],
-      [true, false, true, true, true]
+      [true, true, true, true, true]
     ]"
 7/4/2026,Medium,"[
  [""B"", ""A"", ""T"", ""O"", ""N""],
@@ -892,7 +892,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, false, true, false],
       [false, null, false, null, false],
-      [false, true, false, true, false],
+      [true, true, false, true, false],
       [true, null, true, null, true],
       [true, true, false, false, false]
     ]"
@@ -903,7 +903,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""P"", null, ""R"", null, ""L""],
  [""T"", ""R"", ""Y"", ""S"", ""T""]
     ]","[
-      [true, true, false, false, true],
+      [true, true, true, false, true],
       [false, null, false, null, false],
       [true, true, true, false, true],
       [true, null, true, null, false],
@@ -916,7 +916,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", null, ""O"", null, ""T""],
  [""R"", ""H"", ""Y"", ""M"", ""E""]
     ]","[
-      [false, false, false, true, false],
+      [true, false, false, true, true],
       [true, null, false, null, true],
       [false, false, true, false, true],
       [false, null, false, null, false],
@@ -943,7 +943,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""C"", ""O"", ""T"", ""T"", ""A""]
     ]","[
       [true, true, true, true, true],
-      [false, null, false, null, false],
+      [true, null, false, null, false],
       [false, true, true, true, true],
       [true, null, true, null, false],
       [true, false, false, false, true]
@@ -955,7 +955,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""I"", null, ""S"", null, ""E""],
  [""D"", ""R"", ""E"", ""A"", ""R""]
     ]","[
-      [true, false, true, false, false],
+      [true, false, true, false, true],
       [false, null, false, null, false],
       [true, false, true, true, true],
       [false, null, true, null, true],
@@ -995,8 +995,8 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""R"", ""E"", ""C"", ""U"", ""R""]
     ]","[
       [true, false, false, true, true],
-      [false, null, false, null, false],
-      [false, false, true, true, true],
+      [false, null, false, null, true],
+      [true, false, true, true, true],
       [false, null, true, null, false],
       [true, false, false, false, true]
     ]"
@@ -1010,7 +1010,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, false, true, false, true],
       [false, null, true, null, true],
       [true, false, false, true, false],
-      [false, null, false, null, true],
+      [true, null, false, null, true],
       [false, false, false, false, false]
     ]"
 7/9/2026,Easy,"[
@@ -1034,7 +1034,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", ""A"", ""T"", ""E"", ""N""]
     ]","[
       [true, true, false, false, true],
-      [false, null, false, null, false],
+      [false, null, true, null, false],
       [false, true, true, true, true],
       [true, null, false, null, true],
       [true, false, true, false, false]
@@ -1061,7 +1061,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, false, false, true],
       [true, null, false, null, true],
-      [false, true, true, true, false],
+      [false, true, true, true, true],
       [false, null, true, null, true],
       [true, false, true, true, true]
     ]"
@@ -1072,7 +1072,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""A"", null, ""M"", null, ""K""],
  [""T"", ""E"", ""A"", ""R"", ""Y""]
     ]","[
-      [true, false, false, false, true],
+      [true, false, false, true, true],
       [true, null, true, null, false],
       [true, false, true, false, false],
       [true, null, false, null, false],
@@ -1099,7 +1099,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""D"", ""I"", ""N"", ""G"", ""Y""]
     ]","[
       [true, false, true, false, true],
-      [true, null, false, null, true],
+      [true, null, true, null, true],
       [false, true, true, false, true],
       [true, null, true, null, true],
       [true, false, false, false, true]
@@ -1111,7 +1111,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""I"", null, ""G"", null, ""S""],
  [""D"", ""I"", ""O"", ""D"", ""E""]
     ]","[
-      [true, true, false, true, false],
+      [true, true, false, true, true],
       [false, null, false, null, false],
       [false, false, true, true, false],
       [true, null, true, null, true],
@@ -1189,7 +1189,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", null, ""R"", null, ""M""],
  [""R"", ""E"", ""P"", ""L"", ""Y""]
     ]","[
-      [true, false, true, true, true],
+      [true, true, true, true, true],
       [false, null, true, null, false],
       [true, false, true, false, true],
       [true, null, false, null, false],
@@ -1215,7 +1215,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""N"", null, ""E"", null, ""L""],
  [""K"", ""I"", ""T"", ""E"", ""D""]
     ]","[
-      [true, false, false, false, true],
+      [true, true, false, false, true],
       [false, null, true, null, true],
       [false, false, true, false, false],
       [true, null, true, null, true],
@@ -1228,7 +1228,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", null, ""R"", null, ""E""],
  [""L"", ""A"", ""Y"", ""E"", ""R""]
     ]","[
-      [true, false, false, false, true],
+      [true, true, false, true, true],
       [true, null, false, null, true],
       [false, false, true, false, true],
       [false, null, false, null, false],
@@ -1284,7 +1284,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, null, true, null, false],
       [true, true, true, false, false],
       [false, null, false, null, false],
-      [true, false, true, false, false]
+      [true, false, true, false, true]
     ]"
 7/16/2026,Easy,"[
  [""A"", ""W"", ""A"", ""R"", ""D""],
@@ -1307,7 +1307,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""N"", ""E"", ""E"", ""D"", ""Y""]
     ]","[
       [true, true, true, false, true],
-      [false, null, false, null, false],
+      [false, null, false, null, true],
       [true, true, true, false, false],
       [false, null, false, null, true],
       [true, false, false, false, true]
@@ -1321,7 +1321,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [false, false, true, false, false],
       [false, null, false, null, true],
-      [true, true, true, true, false],
+      [true, true, true, true, true],
       [false, null, false, null, true],
       [true, false, false, false, false]
     ]"
@@ -1334,7 +1334,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, false, true, true],
       [true, null, true, null, false],
-      [false, true, true, false, false],
+      [false, true, true, false, true],
       [true, null, true, null, false],
       [true, false, false, false, true]
     ]"
@@ -1345,7 +1345,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""O"", null, ""J"", null, ""C""],
  [""R"", ""E"", ""A"", ""C"", ""H""]
     ]","[
-      [true, true, false, true, true],
+      [true, true, true, true, true],
       [false, null, false, null, true],
       [false, true, false, false, false],
       [false, null, false, null, true],
@@ -1384,7 +1384,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""R"", null, ""R"", null, ""L""],
  [""N"", ""O"", ""T"", ""E"", ""D""]
     ]","[
-      [true, false, false, true, true],
+      [true, false, true, true, true],
       [false, null, true, null, true],
       [true, false, true, true, false],
       [true, null, false, null, false],
@@ -1412,7 +1412,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, true, true, true],
       [true, null, true, null, false],
-      [false, false, true, true, false],
+      [false, false, true, true, true],
       [true, null, true, null, false],
       [true, true, false, false, true]
     ]"
@@ -1424,7 +1424,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", ""L"", ""L"", ""E"", ""N""]
     ]","[
       [true, false, true, false, true],
-      [true, null, false, null, false],
+      [true, null, true, null, true],
       [false, false, true, true, false],
       [false, null, true, null, true],
       [true, false, false, false, false]
@@ -1466,7 +1466,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, null, true, null, true],
       [false, false, true, false, true],
       [false, null, false, null, true],
-      [false, false, true, false, true]
+      [true, false, true, false, true]
     ]"
 7/20/2026,Hard,"[
  [""V"", ""O"", ""I"", ""C"", ""E""],
@@ -1540,7 +1540,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""N"", null, ""Y"", null, ""L""],
  [""T"", ""A"", ""L"", ""L"", ""Y""]
     ]","[
-      [true, false, false, false, true],
+      [true, false, false, true, true],
       [false, null, false, null, false],
       [true, false, true, true, true],
       [false, null, false, null, false],
@@ -1555,7 +1555,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [false, false, false, true, true],
       [true, null, false, null, true],
-      [true, false, true, false, false],
+      [true, true, true, false, false],
       [false, null, false, null, false],
       [false, false, true, false, true]
     ]"
@@ -1620,7 +1620,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, true, true, false, true],
       [false, null, false, null, true],
-      [false, false, true, true, false],
+      [false, true, true, true, false],
       [false, null, true, null, false],
       [true, false, false, false, true]
     ]"
@@ -1647,7 +1647,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [true, false, true, true, true],
       [false, null, true, null, true],
       [false, true, true, true, false],
-      [false, null, true, null, false],
+      [false, null, true, null, true],
       [true, false, true, false, true]
     ]"
 7/25/2026,Medium,"[
@@ -1658,7 +1658,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""E"", ""A"", ""R"", ""T"", ""H""]
     ]","[
       [true, true, false, true, true],
-      [false, null, false, null, false],
+      [false, null, true, null, false],
       [true, false, true, false, false],
       [true, null, false, null, false],
       [true, false, false, true, true]
@@ -1673,7 +1673,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, true, false, true, true],
       [true, null, false, null, false],
       [false, false, true, false, true],
-      [false, null, false, null, false],
+      [false, null, false, null, true],
       [true, false, false, false, true]
     ]"
 7/26/2026,Easy,"[
@@ -1697,8 +1697,8 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""R"", ""E"", ""E"", ""D"", ""Y""]
     ]","[
       [true, false, true, false, true],
-      [false, null, false, null, false],
-      [false, false, true, false, true],
+      [false, null, true, null, false],
+      [false, true, true, false, true],
       [false, null, false, null, false],
       [true, true, false, true, true]
     ]"
@@ -1709,7 +1709,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""A"", null, ""C"", null, ""L""],
  [""L"", ""U"", ""T"", ""E"", ""D""]
     ]","[
-      [false, true, false, false, true],
+      [false, true, true, false, true],
       [false, null, true, null, false],
       [true, false, true, false, true],
       [false, null, true, null, true],
@@ -1750,7 +1750,7 @@ puzzleDate,difficulty,solutionGrid,staticCells
     ]","[
       [true, false, true, true, false],
       [true, null, false, null, false],
-      [false, true, true, false, false],
+      [false, true, true, false, true],
       [false, null, true, null, true],
       [true, false, false, false, false]
     ]"
@@ -1775,9 +1775,9 @@ puzzleDate,difficulty,solutionGrid,staticCells
  [""R"", ""I"", ""L"", ""L"", ""E""]
     ]","[
       [true, false, false, false, true],
-      [true, null, false, null, false],
+      [true, null, true, null, false],
       [false, false, true, true, true],
-      [false, null, false, null, true],
+      [true, null, false, null, true],
       [true, false, false, false, true]
     ]"
 7/28/2026,Hard,"[
@@ -1790,6 +1790,6 @@ puzzleDate,difficulty,solutionGrid,staticCells
       [false, true, false, true, true],
       [false, null, false, null, false],
       [true, true, false, true, false],
-      [false, null, false, null, true],
+      [false, null, true, null, true],
       [false, false, false, true, false]
     ]"
