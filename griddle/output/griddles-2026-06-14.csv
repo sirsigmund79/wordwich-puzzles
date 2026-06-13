@@ -1,0 +1,40 @@
+puzzleDate,difficulty,solutionGrid,staticCells
+6/14/2026,Easy,"[
+ [""C"", ""H"", ""E"", ""E"", ""R""],
+ [""O"", null, ""X"", null, ""I""],
+ [""U"", ""S"", ""U"", ""R"", ""P""],
+ [""N"", null, ""L"", null, ""E""],
+ [""T"", ""I"", ""T"", ""A"", ""N""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, true, null, true],
+      [false, false, true, false, false],
+      [true, null, true, null, false],
+      [true, false, true, true, true]
+    ]"
+6/14/2026,Medium,"[
+ [""S"", ""P"", ""A"", ""N"", ""K""],
+ [""I"", null, ""R"", null, ""N""],
+ [""G"", ""A"", ""B"", ""L"", ""E""],
+ [""H"", null, ""O"", null, ""L""],
+ [""T"", ""A"", ""R"", ""O"", ""T""]
+    ]","[
+      [true, false, true, false, true],
+      [true, null, false, null, true],
+      [false, false, true, false, false],
+      [true, null, false, null, false],
+      [true, false, false, false, true]
+    ]"
+6/14/2026,Hard,"[
+ [""T"", ""O"", ""K"", ""E"", ""N""],
+ [""H"", null, ""A"", null, ""I""],
+ [""A"", ""G"", ""R"", ""E"", ""E""],
+ [""N"", null, ""M"", null, ""C""],
+ [""K"", ""N"", ""A"", ""V"", ""E""]
+    ]","[
+      [true, true, true, false, false],
+      [false, null, false, null, false],
+      [true, true, true, false, false],
+      [false, null, false, null, false],
+      [false, false, true, false, true]
+    ]"

@@ -407,13 +407,16 @@ function parseArgs() {
     dictFile:   null,
   };
 
+  let startDate = null;
+  let endDate   = null;
+
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--date' && args[i+1]) {
       opts.dates = [args[++i]];
     } else if (args[i] === '--start' && args[i+1]) {
-      const start = args[++i];
-      const end   = (args[i+1] && !args[i+1].startsWith('--')) ? args[++i] : todayStr();
-      opts.dates  = dateRange(start, end);
+      startDate = args[++i];
+    } else if (args[i] === '--end' && args[i+1]) {
+      endDate = args[++i];
     } else if (args[i] === '--dry-run') {
       opts.dryRun = true;
     } else if (args[i] === '--count' && args[i+1]) {
@@ -423,6 +426,10 @@ function parseArgs() {
     } else if (args[i] === '--dict' && args[i+1]) {
       opts.dictFile = args[++i];
     }
+  }
+
+  if (startDate && !opts.dates) {
+    opts.dates = dateRange(startDate, endDate ?? todayStr());
   }
 
   return opts;
