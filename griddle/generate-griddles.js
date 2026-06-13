@@ -442,9 +442,9 @@ async function main() {
   console.log(`Dates: ${datesToProcess.length}  |  Candidates per difficulty: ${CANDIDATES_PER_DIFFICULTY}`);
   if (opts.dryRun) console.log('DRY RUN: no files will be written.\n');
 
-  // Load word files
-  const commonUrl = opts.commonFile ?? COMMON_WORDS_URL;
-  const dictUrl   = opts.dictFile   ?? DICT_WORDS_URL;
+  // Load word files. Being lazy for now and just swapping the URLs so we default to Wordle
+  const commonUrl = opts.dictFile ?? DICT_WORDS_URL;
+  const dictUrl   = opts.commonFile   ?? COMMON_WORDS_URL;
 
   console.log('Loading word files...');
   let commonWords, dictWords;
