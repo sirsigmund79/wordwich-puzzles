@@ -184,7 +184,7 @@ function dateRange(s, e) {
 // ── Args ──────────────────────────────────────────────────────────────────────
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const args = process.argv.slice(2);
-let startDate, endDate, extraTiles = 15, dryRun = false, maxAttempts = 250;
+let startDate, endDate, extraTiles = 5, dryRun = false, maxAttempts = 250;
 const pos = [];
 for (let i = 0; i < args.length; i++) {
   if      (args[i] === '--dry-run')  dryRun = true;
@@ -261,7 +261,7 @@ for (const date of dates) {
 
   const tiles    = validDrawn.map((l, i) => ({ id: i, letter: l, points: POINTS[l] || 0 }));
   const maxScore = computeMaxScore(puzzleCells, tiles, cellCount);
-  const parScore = Math.floor(maxScore * 0.4);
+  const parScore = Math.floor(maxScore * 0.45);
 
   config.custom_puzzles[date] = {
     layout: { name: template.name, dimensions: template.dimensions, cells: puzzleCells },
