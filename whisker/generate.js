@@ -184,7 +184,7 @@ function dateRange(s, e) {
 // ── Args ──────────────────────────────────────────────────────────────────────
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const args = process.argv.slice(2);
-let startDate, endDate, extraTiles = 0, dryRun = false, maxAttempts = 250;
+let startDate, endDate, extraTiles = 15, dryRun = false, maxAttempts = 250;
 const pos = [];
 for (let i = 0; i < args.length; i++) {
   if      (args[i] === '--dry-run')  dryRun = true;

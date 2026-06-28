@@ -1002,10 +1002,85 @@
           "id": 15,
           "letter": "V",
           "points": 33
+        },
+        {
+          "id": 16,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 17,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 18,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 19,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 20,
+          "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 21,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 22,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 27,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 28,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 29,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 30,
+          "letter": "J",
+          "points": 40
         }
       ],
-      "maxScore": 429,
-      "parScore": 171
+      "maxScore": 654,
+      "parScore": 261
     },
     "2026-06-26": {
       "layout": {
@@ -1197,10 +1272,85 @@
           "id": 17,
           "letter": "N",
           "points": 10
+        },
+        {
+          "id": 18,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 19,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 20,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 21,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 23,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 24,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 30,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 31,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 32,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 295,
-      "parScore": 118
+      "maxScore": 388,
+      "parScore": 155
     },
     "2026-06-27": {
       "layout": {
@@ -1285,43 +1435,43 @@
       "tiles": [
         {
           "id": 0,
-          "letter": "I",
-          "points": 5
+          "letter": "E",
+          "points": 6
         },
         {
           "id": 1,
-          "letter": "L",
-          "points": 17
+          "letter": "O",
+          "points": 8
         },
         {
           "id": 2,
-          "letter": "N",
-          "points": 10
+          "letter": "Z",
+          "points": 65
         },
         {
           "id": 3,
-          "letter": "E",
-          "points": 6
+          "letter": "V",
+          "points": 33
         },
         {
           "id": 4,
-          "letter": "P",
-          "points": 22
+          "letter": "S",
+          "points": 9
         },
         {
           "id": 5,
-          "letter": "A",
-          "points": 5
+          "letter": "Y",
+          "points": 18
         },
         {
           "id": 6,
-          "letter": "U",
-          "points": 10
+          "letter": "C",
+          "points": 11
         },
         {
           "id": 7,
-          "letter": "E",
-          "points": 6
+          "letter": "R",
+          "points": 8
         },
         {
           "id": 8,
@@ -1330,8 +1480,8 @@
         },
         {
           "id": 9,
-          "letter": "L",
-          "points": 17
+          "letter": "Q",
+          "points": 32
         },
         {
           "id": 10,
@@ -1340,22 +1490,97 @@
         },
         {
           "id": 11,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 12,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 13,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 14,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 15,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 16,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 17,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 18,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 19,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 20,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 22,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 23,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 25,
           "letter": "S",
           "points": 9
         },
         {
-          "id": 12,
-          "letter": "J",
-          "points": 40
+          "id": 26,
+          "letter": "R",
+          "points": 8
         },
         {
-          "id": 13,
-          "letter": "L",
-          "points": 17
+          "id": 27,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "G",
+          "points": 2
         }
       ],
-      "maxScore": 279,
-      "parScore": 111
+      "maxScore": 433,
+      "parScore": 173
     },
     "2026-06-28": {
       "layout": {
@@ -1517,10 +1742,85 @@
           "id": 14,
           "letter": "E",
           "points": 6
+        },
+        {
+          "id": 15,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 16,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 17,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 18,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 19,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 20,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 21,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 22,
+          "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 23,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 28,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 328,
-      "parScore": 131
+      "maxScore": 653,
+      "parScore": 261
     },
     "2026-06-29": {
       "layout": {
@@ -1712,10 +2012,85 @@
           "id": 17,
           "letter": "E",
           "points": 6
+        },
+        {
+          "id": 18,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 19,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 21,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 22,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 26,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 27,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 28,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 31,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 32,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 251,
-      "parScore": 100
+      "maxScore": 357,
+      "parScore": 142
     },
     "2026-06-30": {
       "layout": {
@@ -1877,10 +2252,85 @@
           "id": 14,
           "letter": "T",
           "points": 11
+        },
+        {
+          "id": 15,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 16,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 17,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 18,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 19,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 21,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 25,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 27,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "J",
+          "points": 40
         }
       ],
-      "maxScore": 266,
-      "parScore": 106
+      "maxScore": 463,
+      "parScore": 185
     },
     "2026-07-01": {
       "layout": {
@@ -1985,8 +2435,8 @@
       "tiles": [
         {
           "id": 0,
-          "letter": "D",
-          "points": 9
+          "letter": "R",
+          "points": 8
         },
         {
           "id": 1,
@@ -2005,38 +2455,38 @@
         },
         {
           "id": 4,
-          "letter": "N",
-          "points": 10
-        },
-        {
-          "id": 5,
-          "letter": "R",
-          "points": 8
-        },
-        {
-          "id": 6,
-          "letter": "E",
-          "points": 6
-        },
-        {
-          "id": 7,
-          "letter": "G",
-          "points": 2
-        },
-        {
-          "id": 8,
-          "letter": "M",
-          "points": 20
-        },
-        {
-          "id": 9,
-          "letter": "I",
+          "letter": "A",
           "points": 5
         },
         {
-          "id": 10,
+          "id": 5,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 6,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 7,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 8,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 9,
           "letter": "E",
           "points": 6
+        },
+        {
+          "id": 10,
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 11,
@@ -2045,37 +2495,112 @@
         },
         {
           "id": 12,
-          "letter": "T",
-          "points": 11
+          "letter": "Y",
+          "points": 18
         },
         {
           "id": 13,
-          "letter": "C",
-          "points": 11
+          "letter": "S",
+          "points": 9
         },
         {
           "id": 14,
-          "letter": "E",
-          "points": 6
-        },
-        {
-          "id": 15,
           "letter": "I",
           "points": 5
         },
         {
+          "id": 15,
+          "letter": "S",
+          "points": 9
+        },
+        {
           "id": 16,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 17,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 18,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 19,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 20,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 21,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 22,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 25,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 26,
           "letter": "D",
           "points": 9
         },
         {
-          "id": 17,
+          "id": 27,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 28,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 31,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 32,
           "letter": "O",
           "points": 8
         }
       ],
-      "maxScore": 190,
-      "parScore": 76
+      "maxScore": 365,
+      "parScore": 146
     },
     "2026-07-02": {
       "layout": {
@@ -2227,10 +2752,85 @@
           "id": 13,
           "letter": "E",
           "points": 6
+        },
+        {
+          "id": 14,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 15,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 16,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 17,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 18,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 19,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 20,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 21,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 24,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 25,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 27,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 339,
-      "parScore": 135
+      "maxScore": 492,
+      "parScore": 196
     },
     "2026-07-03": {
       "layout": {
@@ -2392,10 +2992,85 @@
           "id": 14,
           "letter": "O",
           "points": 8
+        },
+        {
+          "id": 15,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 16,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 17,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 18,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 19,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 20,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 21,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 28,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 292,
-      "parScore": 116
+      "maxScore": 375,
+      "parScore": 150
     },
     "2026-07-04": {
       "layout": {
@@ -2480,77 +3155,152 @@
       "tiles": [
         {
           "id": 0,
-          "letter": "E",
-          "points": 6
+          "letter": "Z",
+          "points": 65
         },
         {
           "id": 1,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 2,
           "letter": "O",
           "points": 8
         },
         {
-          "id": 2,
-          "letter": "W",
-          "points": 4
-        },
-        {
           "id": 3,
-          "letter": "U",
-          "points": 10
-        },
-        {
-          "id": 4,
-          "letter": "H",
-          "points": 19
-        },
-        {
-          "id": 5,
-          "letter": "E",
-          "points": 6
-        },
-        {
-          "id": 6,
-          "letter": "R",
-          "points": 8
-        },
-        {
-          "id": 7,
-          "letter": "S",
-          "points": 9
-        },
-        {
-          "id": 8,
-          "letter": "E",
-          "points": 6
-        },
-        {
-          "id": 9,
-          "letter": "G",
-          "points": 2
-        },
-        {
-          "id": 10,
           "letter": "V",
           "points": 33
         },
         {
+          "id": 4,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 5,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 6,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 7,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 8,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 9,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 10,
+          "letter": "I",
+          "points": 5
+        },
+        {
           "id": 11,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 12,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 13,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 14,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 15,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 16,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 17,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 18,
           "letter": "L",
           "points": 17
         },
         {
-          "id": 12,
-          "letter": "M",
-          "points": 20
+          "id": 19,
+          "letter": "U",
+          "points": 10
         },
         {
-          "id": 13,
+          "id": 20,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 23,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 25,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 26,
           "letter": "A",
           "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 242,
-      "parScore": 96
+      "maxScore": 448,
+      "parScore": 179
     },
     "2026-07-05": {
       "layout": {
@@ -2732,10 +3482,85 @@
           "id": 16,
           "letter": "E",
           "points": 6
+        },
+        {
+          "id": 17,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 18,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 19,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 21,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 23,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 25,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "K",
+          "points": 35
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 30,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 31,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 199,
-      "parScore": 79
+      "maxScore": 318,
+      "parScore": 127
     },
     "2026-07-06": {
       "layout": {
@@ -2927,10 +3752,85 @@
           "id": 17,
           "letter": "T",
           "points": 11
+        },
+        {
+          "id": 18,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 19,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 20,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 21,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 24,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 25,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 28,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 31,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 32,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 429,
-      "parScore": 171
+      "maxScore": 489,
+      "parScore": 195
     },
     "2026-07-07": {
       "layout": {
@@ -3025,33 +3925,33 @@
       "tiles": [
         {
           "id": 0,
-          "letter": "N",
-          "points": 10
+          "letter": "E",
+          "points": 6
         },
         {
           "id": 1,
-          "letter": "G",
-          "points": 2
+          "letter": "X",
+          "points": 60
         },
         {
           "id": 2,
-          "letter": "A",
-          "points": 5
+          "letter": "O",
+          "points": 8
         },
         {
           "id": 3,
-          "letter": "A",
-          "points": 5
+          "letter": "E",
+          "points": 6
         },
         {
           "id": 4,
-          "letter": "I",
+          "letter": "A",
           "points": 5
         },
         {
           "id": 5,
-          "letter": "R",
-          "points": 8
+          "letter": "E",
+          "points": 6
         },
         {
           "id": 6,
@@ -3060,23 +3960,23 @@
         },
         {
           "id": 7,
-          "letter": "H",
-          "points": 19
+          "letter": "A",
+          "points": 5
         },
         {
           "id": 8,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 9,
           "letter": "I",
           "points": 5
         },
         {
-          "id": 9,
-          "letter": "E",
-          "points": 6
-        },
-        {
           "id": 10,
-          "letter": "D",
-          "points": 9
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 11,
@@ -3085,27 +3985,102 @@
         },
         {
           "id": 12,
-          "letter": "Y",
-          "points": 18
+          "letter": "E",
+          "points": 6
         },
         {
           "id": 13,
-          "letter": "X",
-          "points": 60
+          "letter": "U",
+          "points": 10
         },
         {
           "id": 14,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 15,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 16,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 17,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 18,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 19,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 20,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 21,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 22,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 25,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
           "letter": "I",
           "points": 5
         },
         {
-          "id": 15,
-          "letter": "W",
-          "points": 4
+          "id": 28,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 296,
-      "parScore": 118
+      "maxScore": 385,
+      "parScore": 154
     },
     "2026-07-08": {
       "layout": {
@@ -3237,10 +4212,85 @@
           "id": 11,
           "letter": "E",
           "points": 6
+        },
+        {
+          "id": 12,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 13,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 14,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 15,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 16,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 17,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 18,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 19,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 20,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 21,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 24,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 25,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 26,
+          "letter": "G",
+          "points": 2
         }
       ],
-      "maxScore": 233,
-      "parScore": 93
+      "maxScore": 383,
+      "parScore": 153
     },
     "2026-07-09": {
       "layout": {
@@ -3330,82 +4380,157 @@
       "tiles": [
         {
           "id": 0,
-          "letter": "N",
-          "points": 10
-        },
-        {
-          "id": 1,
-          "letter": "B",
-          "points": 10
-        },
-        {
-          "id": 2,
           "letter": "L",
           "points": 17
         },
         {
-          "id": 3,
-          "letter": "N",
-          "points": 10
-        },
-        {
-          "id": 4,
-          "letter": "O",
-          "points": 8
-        },
-        {
-          "id": 5,
-          "letter": "A",
-          "points": 5
-        },
-        {
-          "id": 6,
-          "letter": "Y",
-          "points": 18
-        },
-        {
-          "id": 7,
-          "letter": "I",
-          "points": 5
-        },
-        {
-          "id": 8,
-          "letter": "T",
-          "points": 11
-        },
-        {
-          "id": 9,
+          "id": 1,
           "letter": "E",
           "points": 6
         },
         {
-          "id": 10,
-          "letter": "G",
-          "points": 2
+          "id": 2,
+          "letter": "O",
+          "points": 8
         },
         {
-          "id": 11,
-          "letter": "A",
+          "id": 3,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 4,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 5,
+          "letter": "I",
           "points": 5
         },
         {
-          "id": 12,
-          "letter": "W",
-          "points": 4
+          "id": 6,
+          "letter": "O",
+          "points": 8
         },
         {
-          "id": 13,
+          "id": 7,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 8,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 9,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 10,
           "letter": "M",
           "points": 20
         },
         {
+          "id": 11,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 12,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 13,
+          "letter": "S",
+          "points": 9
+        },
+        {
           "id": 14,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 15,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 16,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 17,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 19,
           "letter": "A",
           "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 22,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 28,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "F",
+          "points": 12
         }
       ],
-      "maxScore": 194,
-      "parScore": 77
+      "maxScore": 336,
+      "parScore": 134
     },
     "2026-07-10": {
       "layout": {
@@ -3537,10 +4662,85 @@
           "id": 11,
           "letter": "N",
           "points": 10
+        },
+        {
+          "id": 12,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 13,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 14,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 15,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 16,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 17,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 18,
+          "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 19,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 20,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 21,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 196,
-      "parScore": 78
+      "maxScore": 365,
+      "parScore": 146
     }
   }
 }
