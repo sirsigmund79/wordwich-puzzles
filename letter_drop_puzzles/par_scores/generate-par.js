@@ -71,7 +71,7 @@ const BEAM_WIDTH = 40;
 // a human-achievable par. 1.0 = no discount (algorithm score is published).
 // 0.72 is a reasonable starting estimate; calibrate against real player data.
 // You can override this at runtime with --discount 0.68
-let DISCOUNT_FACTOR = 0.5;
+let DISCOUNT_FACTOR = 0.35;
 
 // Weight given to each algorithm when blending into the final par.
 // Must sum to 1.0.
@@ -80,8 +80,8 @@ const BEAM_WEIGHT   = 0.60;
 
 // Minimum and maximum par values. Prevents extreme outlier days from
 // publishing a par that feels impossibly hard or trivially easy.
-const PAR_MIN = 72;
-const PAR_MAX = 200;
+const PAR_MIN = 45;
+const PAR_MAX = 125;
 
 // ---------------------------------------------------------------------------
 // Default game config (mirrors DEFAULT_CONFIG in your Vue component exactly)
