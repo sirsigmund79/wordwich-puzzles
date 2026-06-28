@@ -970,122 +970,122 @@
         {
           "id": 0,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 4,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 5,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 6,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 11,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 18,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 19,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 20,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 21,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 22,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 23,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 24,
@@ -1095,26 +1095,56 @@
         {
           "id": 25,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 26,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 27,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 28,
           "letter": "O",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 31,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 32,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 33,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 34,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 53,
-      "parScore": 21
+      "maxScore": 341,
+      "parScore": 136
     },
     "2026-06-02": {
       "layout": {
@@ -1220,92 +1250,92 @@
         {
           "id": 0,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 2,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 3,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 4,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 5,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 6,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 9,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 10,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 11,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 12,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
@@ -1315,26 +1345,76 @@
         {
           "id": 19,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 20,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 21,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 22,
           "letter": "E",
-          "points": 1
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 26,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 27,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 28,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 30,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 32,
+          "letter": "U",
+          "points": 10
         }
       ],
-      "maxScore": 67,
-      "parScore": 26
+      "maxScore": 498,
+      "parScore": 199
     },
     "2026-06-03": {
       "layout": {
@@ -1420,32 +1500,32 @@
         {
           "id": 0,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 1,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 6,
@@ -1455,66 +1535,116 @@
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 9,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 10,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 11,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 16,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 17,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 18,
           "letter": "A",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 19,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 20,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 21,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 25,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 28,
+          "letter": "G",
+          "points": 2
         }
       ],
-      "maxScore": 24,
-      "parScore": 9
+      "maxScore": 256,
+      "parScore": 102
     },
     "2026-06-04": {
       "layout": {
@@ -1600,32 +1730,32 @@
         {
           "id": 0,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 2,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 6,
@@ -1635,17 +1765,17 @@
         {
           "id": 7,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 8,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
@@ -1655,46 +1785,96 @@
         {
           "id": 11,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 14,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 15,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 16,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 17,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
           "letter": "D",
-          "points": 2
+          "points": 9
+        },
+        {
+          "id": 19,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 20,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 21,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 22,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 25,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 26,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "S",
+          "points": 9
         }
       ],
-      "maxScore": 54,
-      "parScore": 21
+      "maxScore": 419,
+      "parScore": 167
     },
     "2026-06-05": {
       "layout": {
@@ -1800,57 +1980,57 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 2,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 3,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 4,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 7,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 8,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 9,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 10,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 11,
@@ -1860,61 +2040,111 @@
         {
           "id": 12,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 13,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 15,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 16,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 19,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 20,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 21,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 22,
           "letter": "Z",
-          "points": 10
+          "points": 65
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 26,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 29,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 30,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 31,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 32,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 79,
-      "parScore": 31
+      "maxScore": 517,
+      "parScore": 206
     },
     "2026-06-06": {
       "layout": {
@@ -2020,37 +2250,37 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 3,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 4,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 5,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 6,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 7,
@@ -2060,57 +2290,57 @@
         {
           "id": 8,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 9,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 10,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 11,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 15,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 17,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 18,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 19,
@@ -2125,16 +2355,66 @@
         {
           "id": 21,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 22,
           "letter": "V",
-          "points": 4
+          "points": 33
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 32,
+          "letter": "U",
+          "points": 10
         }
       ],
-      "maxScore": 63,
-      "parScore": 25
+      "maxScore": 343,
+      "parScore": 137
     },
     "2026-06-07": {
       "layout": {
@@ -2235,47 +2515,47 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 4,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 5,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 9,
@@ -2290,61 +2570,111 @@
         {
           "id": 11,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 13,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 18,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 19,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 20,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 21,
           "letter": "V",
-          "points": 4
+          "points": 33
+        },
+        {
+          "id": 22,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 27,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 30,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 31,
+          "letter": "I",
+          "points": 5
         }
       ],
-      "maxScore": 62,
-      "parScore": 24
+      "maxScore": 394,
+      "parScore": 157
     },
     "2026-06-08": {
       "layout": {
@@ -2435,52 +2765,52 @@
         {
           "id": 0,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 1,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
@@ -2490,51 +2820,101 @@
         {
           "id": 11,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 16,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 19,
           "letter": "M",
-          "points": 3
+          "points": 20
+        },
+        {
+          "id": 20,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 21,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 22,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 24,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 25,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 49,
-      "parScore": 19
+      "maxScore": 253,
+      "parScore": 101
     },
     "2026-06-09": {
       "layout": {
@@ -2625,57 +3005,57 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 5,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 6,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 11,
@@ -2685,46 +3065,96 @@
         {
           "id": 12,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 15,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 17,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 18,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 19,
           "letter": "L",
-          "points": 1
+          "points": 17
+        },
+        {
+          "id": 20,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 21,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 23,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 25,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 28,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 29,
+          "letter": "R",
+          "points": 8
         }
       ],
-      "maxScore": 56,
-      "parScore": 22
+      "maxScore": 326,
+      "parScore": 130
     },
     "2026-06-10": {
       "layout": {
@@ -2810,101 +3240,151 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 2,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 5,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 10,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 11,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 14,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 16,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 17,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 18,
           "letter": "G",
           "points": 2
+        },
+        {
+          "id": 19,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 20,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 22,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 26,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 27,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 28,
+          "letter": "J",
+          "points": 40
         }
       ],
-      "maxScore": 45,
-      "parScore": 18
+      "maxScore": 367,
+      "parScore": 146
     },
     "2026-06-11": {
       "layout": {
@@ -2990,77 +3470,77 @@
         {
           "id": 0,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 5,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 6,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 14,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 15,
@@ -3070,7 +3550,7 @@
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
@@ -3080,11 +3560,61 @@
         {
           "id": 18,
           "letter": "R",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 19,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 21,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 22,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 24,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 25,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 28,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 35,
-      "parScore": 14
+      "maxScore": 292,
+      "parScore": 116
     },
     "2026-06-12": {
       "layout": {
@@ -3190,32 +3720,32 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 5,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 6,
@@ -3230,81 +3760,131 @@
         {
           "id": 8,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 9,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 10,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 11,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 12,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 13,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 14,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 18,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 19,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 20,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 21,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 22,
           "letter": "N",
-          "points": 1
+          "points": 10
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 28,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 30,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 32,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 77,
-      "parScore": 30
+      "maxScore": 557,
+      "parScore": 222
     },
     "2026-06-13": {
       "layout": {
@@ -3400,111 +3980,161 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 2,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 3,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 4,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 6,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 9,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 10,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 19,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 20,
           "letter": "A",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 22,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 25,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 74,
-      "parScore": 29
+      "maxScore": 549,
+      "parScore": 219
     },
     "2026-06-14": {
       "layout": {
@@ -3605,116 +4235,166 @@
         {
           "id": 0,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 6,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 7,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 9,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 10,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 11,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 12,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 17,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 18,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 19,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 20,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 21,
           "letter": "N",
-          "points": 1
+          "points": 10
+        },
+        {
+          "id": 22,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 23,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 26,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 27,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 28,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 30,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "I",
+          "points": 5
         }
       ],
-      "maxScore": 64,
-      "parScore": 25
+      "maxScore": 383,
+      "parScore": 153
     },
     "2026-06-15": {
       "layout": {
@@ -3800,101 +4480,151 @@
         {
           "id": 0,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 1,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 10,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 13,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 14,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 15,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 17,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
           "letter": "O",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 19,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 20,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 21,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 24,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 25,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 41,
-      "parScore": 16
+      "maxScore": 327,
+      "parScore": 130
     },
     "2026-06-16": {
       "layout": {
@@ -3985,106 +4715,156 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 2,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 3,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 4,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 5,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 6,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 8,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 9,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 10,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 11,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 17,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 18,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 19,
           "letter": "I",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 22,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 23,
+          "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 24,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 25,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 26,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 27,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 29,
+          "letter": "U",
+          "points": 10
         }
       ],
-      "maxScore": 61,
-      "parScore": 24
+      "maxScore": 533,
+      "parScore": 213
     },
     "2026-06-17": {
       "layout": {
@@ -4200,47 +4980,47 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 2,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
@@ -4250,101 +5030,131 @@
         {
           "id": 10,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 11,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 13,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 14,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 18,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 19,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 20,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 21,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 22,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 23,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 24,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 25,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 26,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 27,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 28,
           "letter": "I",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 30,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 31,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 32,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 33,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 34,
+          "letter": "S",
+          "points": 9
         }
       ],
-      "maxScore": 57,
-      "parScore": 22
+      "maxScore": 496,
+      "parScore": 198
     },
     "2026-06-18": {
       "layout": {
@@ -4445,47 +5255,47 @@
         {
           "id": 0,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 1,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 2,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 4,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 9,
@@ -4495,66 +5305,116 @@
         {
           "id": 10,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 11,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 12,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 13,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 19,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 20,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 21,
           "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 22,
+          "letter": "W",
           "points": 4
+        },
+        {
+          "id": 23,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 24,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 25,
+          "letter": "K",
+          "points": 35
+        },
+        {
+          "id": 26,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 27,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 28,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 29,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 30,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 31,
+          "letter": "I",
+          "points": 5
         }
       ],
-      "maxScore": 44,
-      "parScore": 17
+      "maxScore": 388,
+      "parScore": 155
     },
     "2026-06-19": {
       "layout": {
@@ -4645,82 +5505,82 @@
         {
           "id": 0,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 1,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 2,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 3,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 4,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 9,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 10,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 11,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 12,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 13,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 15,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
@@ -4735,16 +5595,66 @@
         {
           "id": 18,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 19,
           "letter": "O",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 20,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 21,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 22,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 26,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 42,
-      "parScore": 16
+      "maxScore": 409,
+      "parScore": 163
     },
     "2026-06-20": {
       "layout": {
@@ -4845,82 +5755,82 @@
         {
           "id": 0,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 1,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 10,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 11,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 12,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
@@ -4930,31 +5840,81 @@
         {
           "id": 17,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 18,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 19,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 20,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 21,
           "letter": "V",
-          "points": 4
+          "points": 33
+        },
+        {
+          "id": 22,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 23,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 25,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 29,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 30,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 31,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 70,
-      "parScore": 28
+      "maxScore": 505,
+      "parScore": 202
     },
     "2026-06-21": {
       "layout": {
@@ -5070,12 +6030,12 @@
         {
           "id": 0,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 1,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
@@ -5085,27 +6045,27 @@
         {
           "id": 3,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 4,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 5,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 6,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
@@ -5115,67 +6075,67 @@
         {
           "id": 9,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 10,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 11,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 18,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 19,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 20,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 21,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 22,
@@ -5185,36 +6145,66 @@
         {
           "id": 23,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 24,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 25,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 26,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 27,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 28,
           "letter": "T",
-          "points": 1
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 31,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 32,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 33,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 34,
+          "letter": "H",
+          "points": 19
         }
       ],
-      "maxScore": 78,
-      "parScore": 31
+      "maxScore": 408,
+      "parScore": 163
     },
     "2026-06-22": {
       "layout": {
@@ -5325,17 +6315,17 @@
         {
           "id": 1,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
@@ -5345,42 +6335,42 @@
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 9,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 10,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 11,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
@@ -5390,51 +6380,101 @@
         {
           "id": 14,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 18,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 19,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 20,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 21,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 22,
           "letter": "A",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 28,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 29,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 30,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 31,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 32,
+          "letter": "T",
+          "points": 11
         }
       ],
-      "maxScore": 47,
-      "parScore": 18
+      "maxScore": 445,
+      "parScore": 178
     },
     "2026-06-23": {
       "layout": {
@@ -5550,82 +6590,82 @@
         {
           "id": 0,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 1,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 2,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 4,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 5,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 6,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 9,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 10,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 11,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 12,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 16,
@@ -5635,32 +6675,32 @@
         {
           "id": 17,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 18,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 19,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 20,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 21,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 22,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 23,
@@ -5670,31 +6710,61 @@
         {
           "id": 24,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 25,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 26,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 27,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 28,
           "letter": "O",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 30,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 31,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 32,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 33,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 34,
+          "letter": "G",
+          "points": 2
         }
       ],
-      "maxScore": 68,
-      "parScore": 27
+      "maxScore": 324,
+      "parScore": 129
     },
     "2026-06-24": {
       "layout": {
@@ -5780,101 +6850,151 @@
         {
           "id": 0,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 1,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 6,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 8,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 9,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 10,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 11,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 17,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 18,
           "letter": "N",
-          "points": 1
+          "points": 10
+        },
+        {
+          "id": 19,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 20,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 22,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 25,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 26,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 27,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 28,
+          "letter": "R",
+          "points": 8
         }
       ],
-      "maxScore": 48,
-      "parScore": 19
+      "maxScore": 443,
+      "parScore": 177
     },
     "2026-06-25": {
       "layout": {
@@ -5970,82 +7090,82 @@
         {
           "id": 0,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 1,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 2,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 3,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 4,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 10,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 11,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 12,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 16,
@@ -6055,26 +7175,76 @@
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 19,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 20,
           "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 21,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 22,
+          "letter": "R",
           "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 27,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 28,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 29,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 30,
+          "letter": "J",
+          "points": 40
         }
       ],
-      "maxScore": 83,
-      "parScore": 33
+      "maxScore": 654,
+      "parScore": 261
     },
     "2026-06-26": {
       "layout": {
@@ -6180,121 +7350,171 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 9,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 10,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 11,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 12,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 16,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 17,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 18,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 19,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 20,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 21,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 22,
           "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 23,
+          "letter": "G",
           "points": 2
+        },
+        {
+          "id": 24,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 25,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 30,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 31,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 32,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 53,
-      "parScore": 21
+      "maxScore": 388,
+      "parScore": 155
     },
     "2026-06-27": {
       "layout": {
@@ -6380,101 +7600,151 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 3,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 4,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 5,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 6,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 7,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 10,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 11,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 12,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 15,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 18,
           "letter": "T",
-          "points": 1
+          "points": 11
+        },
+        {
+          "id": 19,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 20,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 22,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 23,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 25,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "G",
+          "points": 2
         }
       ],
-      "maxScore": 72,
-      "parScore": 28
+      "maxScore": 433,
+      "parScore": 173
     },
     "2026-06-28": {
       "layout": {
@@ -6575,62 +7845,62 @@
         {
           "id": 0,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 1,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 2,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 5,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 6,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 7,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 8,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 9,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 10,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 11,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
@@ -6640,51 +7910,101 @@
         {
           "id": 13,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 18,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 19,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 20,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 21,
           "letter": "E",
-          "points": 1
+          "points": 6
+        },
+        {
+          "id": 22,
+          "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 23,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 28,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 84,
-      "parScore": 33
+      "maxScore": 612,
+      "parScore": 244
     },
     "2026-06-29": {
       "layout": {
@@ -6790,77 +8110,77 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 2,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 4,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 9,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 10,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 15,
@@ -6870,41 +8190,91 @@
         {
           "id": 16,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 19,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 20,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 21,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 22,
           "letter": "V",
-          "points": 4
+          "points": 33
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 26,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 27,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 28,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 31,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 32,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 57,
-      "parScore": 22
+      "maxScore": 357,
+      "parScore": 142
     },
     "2026-06-30": {
       "layout": {
@@ -7005,116 +8375,166 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 9,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 10,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 11,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 12,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 18,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 19,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 20,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 21,
           "letter": "I",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 25,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 27,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 30,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 31,
+          "letter": "Y",
+          "points": 18
         }
       ],
-      "maxScore": 46,
-      "parScore": 18
+      "maxScore": 459,
+      "parScore": 183
     },
     "2026-07-01": {
       "layout": {
@@ -7219,122 +8639,172 @@
       "tiles": [
         {
           "id": 0,
-          "letter": "I",
-          "points": 1
+          "letter": "R",
+          "points": 8
         },
         {
           "id": 1,
-          "letter": "R",
-          "points": 1
+          "letter": "U",
+          "points": 10
         },
         {
           "id": 2,
-          "letter": "E",
-          "points": 1
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
-          "letter": "F",
-          "points": 4
+          "letter": "A",
+          "points": 5
         },
         {
           "id": 5,
-          "letter": "A",
-          "points": 1
+          "letter": "U",
+          "points": 10
         },
         {
           "id": 6,
-          "letter": "O",
-          "points": 1
-        },
-        {
-          "id": 7,
-          "letter": "E",
-          "points": 1
-        },
-        {
-          "id": 8,
-          "letter": "Y",
+          "letter": "W",
           "points": 4
         },
         {
+          "id": 7,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 8,
+          "letter": "U",
+          "points": 10
+        },
+        {
           "id": 9,
-          "letter": "B",
-          "points": 3
+          "letter": "E",
+          "points": 6
         },
         {
           "id": 10,
-          "letter": "T",
-          "points": 1
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 11,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 12,
-          "letter": "A",
-          "points": 1
+          "letter": "Y",
+          "points": 18
         },
         {
           "id": 13,
-          "letter": "I",
-          "points": 1
+          "letter": "S",
+          "points": 9
         },
         {
           "id": 14,
-          "letter": "V",
-          "points": 4
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 15,
-          "letter": "E",
-          "points": 1
+          "letter": "S",
+          "points": 9
         },
         {
           "id": 16,
-          "letter": "A",
-          "points": 1
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 17,
-          "letter": "U",
-          "points": 1
+          "letter": "I",
+          "points": 5
         },
         {
           "id": 18,
-          "letter": "N",
-          "points": 1
+          "letter": "A",
+          "points": 5
         },
         {
           "id": 19,
-          "letter": "R",
-          "points": 1
+          "letter": "M",
+          "points": 20
         },
         {
           "id": 20,
-          "letter": "O",
-          "points": 1
+          "letter": "P",
+          "points": 22
         },
         {
           "id": 21,
-          "letter": "I",
-          "points": 1
+          "letter": "Z",
+          "points": 65
         },
         {
           "id": 22,
-          "letter": "I",
-          "points": 1
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "F",
+          "points": 12
+        },
+        {
+          "id": 25,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 26,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 27,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 28,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 29,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 31,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 32,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 41,
-      "parScore": 16
+      "maxScore": 365,
+      "parScore": 146
     },
     "2026-07-02": {
       "layout": {
@@ -7420,101 +8890,151 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 2,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 6,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 9,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 10,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 11,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 12,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 15,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 16,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 17,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 18,
           "letter": "R",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 19,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 20,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 21,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 24,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 25,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 27,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 69,
-      "parScore": 27
+      "maxScore": 492,
+      "parScore": 196
     },
     "2026-07-03": {
       "layout": {
@@ -7605,47 +9125,47 @@
         {
           "id": 0,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 1,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 2,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 3,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 5,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 6,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
@@ -7655,56 +9175,106 @@
         {
           "id": 10,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 11,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 12,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 13,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 14,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 16,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 19,
           "letter": "D",
-          "points": 2
+          "points": 9
+        },
+        {
+          "id": 20,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 21,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 28,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 54,
-      "parScore": 21
+      "maxScore": 375,
+      "parScore": 150
     },
     "2026-07-04": {
       "layout": {
@@ -7790,101 +9360,151 @@
         {
           "id": 0,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 1,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 4,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 5,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 8,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 9,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 10,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 11,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 17,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 18,
           "letter": "L",
-          "points": 1
+          "points": 17
+        },
+        {
+          "id": 19,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 20,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 23,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 25,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 67,
-      "parScore": 26
+      "maxScore": 448,
+      "parScore": 179
     },
     "2026-07-05": {
       "layout": {
@@ -7985,57 +9605,57 @@
         {
           "id": 0,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 1,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 3,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 4,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 5,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 6,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 11,
@@ -8045,76 +9665,106 @@
         {
           "id": 12,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 18,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 19,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 20,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 21,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 22,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 23,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 24,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 25,
           "letter": "S",
-          "points": 1
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "K",
+          "points": 35
+        },
+        {
+          "id": 28,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 30,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 31,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 34,
-      "parScore": 13
+      "maxScore": 318,
+      "parScore": 127
     },
     "2026-07-06": {
       "layout": {
@@ -8220,121 +9870,171 @@
         {
           "id": 0,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 1,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 3,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 4,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 5,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 6,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 11,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 13,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 14,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 15,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 18,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 19,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 20,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 21,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 22,
           "letter": "I",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 24,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 25,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 28,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 31,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 32,
+          "letter": "N",
+          "points": 10
         }
       ],
-      "maxScore": 66,
-      "parScore": 26
+      "maxScore": 489,
+      "parScore": 195
     },
     "2026-07-07": {
       "layout": {
@@ -8435,116 +10135,166 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 9,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 10,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 11,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 15,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 19,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 20,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 21,
           "letter": "E",
-          "points": 1
+          "points": 6
+        },
+        {
+          "id": 22,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 23,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 24,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 25,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 26,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 28,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 31,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 60,
-      "parScore": 24
+      "maxScore": 453,
+      "parScore": 181
     },
     "2026-07-08": {
       "layout": {
@@ -8635,82 +10385,82 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 3,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 6,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 10,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 11,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 12,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 15,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
@@ -8720,21 +10470,71 @@
         {
           "id": 17,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 18,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 19,
           "letter": "E",
-          "points": 1
+          "points": 6
+        },
+        {
+          "id": 20,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 21,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 22,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 24,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 25,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 26,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 29,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 61,
-      "parScore": 24
+      "maxScore": 468,
+      "parScore": 187
     },
     "2026-07-09": {
       "layout": {
@@ -8825,87 +10625,87 @@
         {
           "id": 0,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 1,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 8,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 9,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 10,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 11,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 12,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 13,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 14,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 15,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
@@ -8915,16 +10715,66 @@
         {
           "id": 18,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 19,
           "letter": "A",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 20,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 21,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 22,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 23,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 28,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "F",
+          "points": 12
         }
       ],
-      "maxScore": 61,
-      "parScore": 24
+      "maxScore": 336,
+      "parScore": 134
     },
     "2026-07-10": {
       "layout": {
@@ -9015,27 +10865,27 @@
         {
           "id": 0,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 1,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
@@ -9045,32 +10895,32 @@
         {
           "id": 6,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 7,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 10,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 11,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 12,
@@ -9085,36 +10935,86 @@
         {
           "id": 14,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 16,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 19,
           "letter": "E",
-          "points": 1
+          "points": 6
+        },
+        {
+          "id": 20,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 21,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 24,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 28,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 29,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 59,
-      "parScore": 23
+      "maxScore": 402,
+      "parScore": 160
     },
     "2026-07-11": {
       "layout": {
@@ -9215,77 +11115,77 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 2,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 3,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 4,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 9,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 10,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
@@ -9295,7 +11195,7 @@
         {
           "id": 16,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 17,
@@ -9305,46 +11205,76 @@
         {
           "id": 18,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 19,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 20,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 21,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 22,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 23,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 24,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 25,
           "letter": "L",
-          "points": 1
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 27,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 28,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 30,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 31,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 58,
-      "parScore": 23
+      "maxScore": 345,
+      "parScore": 138
     },
     "2026-07-12": {
       "layout": {
@@ -9440,27 +11370,27 @@
         {
           "id": 0,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 3,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 5,
@@ -9470,81 +11400,131 @@
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 8,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 10,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 11,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 13,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 14,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 15,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 16,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 17,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 18,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 19,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 20,
           "letter": "H",
-          "points": 4
+          "points": 19
+        },
+        {
+          "id": 21,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 22,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 23,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "Q",
+          "points": 32
+        },
+        {
+          "id": 28,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 29,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 57,
-      "parScore": 22
+      "maxScore": 436,
+      "parScore": 174
     },
     "2026-07-13": {
       "layout": {
@@ -9640,111 +11620,161 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 4,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 5,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 6,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 7,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 9,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 10,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 11,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 17,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 18,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 19,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 20,
           "letter": "Z",
-          "points": 10
+          "points": 65
+        },
+        {
+          "id": 21,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 22,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 23,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 24,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 25,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 26,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 27,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 28,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 29,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 30,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 76,
-      "parScore": 30
+      "maxScore": 542,
+      "parScore": 216
     },
     "2026-07-14": {
       "layout": {
@@ -9830,27 +11860,27 @@
         {
           "id": 0,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 1,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 2,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 3,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 4,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 5,
@@ -9860,71 +11890,121 @@
         {
           "id": 6,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 7,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 9,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 10,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 11,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 12,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 15,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 17,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 18,
           "letter": "O",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 19,
+          "letter": "H",
+          "points": 19
+        },
+        {
+          "id": 20,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 21,
+          "letter": "S",
+          "points": 9
+        },
+        {
+          "id": 22,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 23,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 24,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 25,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 26,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 28,
+          "letter": "F",
+          "points": 12
         }
       ],
-      "maxScore": 37,
-      "parScore": 14
+      "maxScore": 269,
+      "parScore": 107
     },
     "2026-07-15": {
       "layout": {
@@ -10025,92 +12105,92 @@
         {
           "id": 0,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 1,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 2,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 3,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 4,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 6,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 7,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 8,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 9,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 10,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 14,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 16,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
@@ -10125,36 +12205,66 @@
         {
           "id": 20,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 21,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 22,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 23,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 24,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 25,
           "letter": "T",
-          "points": 1
+          "points": 11
+        },
+        {
+          "id": 26,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 27,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 28,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 29,
+          "letter": "B",
+          "points": 10
+        },
+        {
+          "id": 30,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 40,
-      "parScore": 16
+      "maxScore": 318,
+      "parScore": 127
     },
     "2026-07-16": {
       "layout": {
@@ -10260,17 +12370,17 @@
         {
           "id": 0,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 1,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 2,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
@@ -10280,101 +12390,151 @@
         {
           "id": 4,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 5,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 6,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 7,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 8,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 9,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 10,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 11,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 12,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 13,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 14,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 15,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 18,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 19,
           "letter": "K",
-          "points": 5
+          "points": 35
         },
         {
           "id": 20,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 21,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 22,
           "letter": "I",
-          "points": 1
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 24,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 25,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 26,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 27,
+          "letter": "G",
+          "points": 2
+        },
+        {
+          "id": 28,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 29,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 30,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 31,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 32,
+          "letter": "I",
+          "points": 5
         }
       ],
-      "maxScore": 83,
-      "parScore": 33
+      "maxScore": 562,
+      "parScore": 224
     },
     "2026-07-17": {
       "layout": {
@@ -10490,92 +12650,92 @@
         {
           "id": 0,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 1,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 2,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 3,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 4,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 5,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 7,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 8,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 9,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 10,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 11,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 12,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 15,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 16,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 17,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 18,
@@ -10585,56 +12745,86 @@
         {
           "id": 19,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 20,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 21,
           "letter": "J",
-          "points": 8
+          "points": 40
         },
         {
           "id": 22,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 23,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 24,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 25,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 26,
           "letter": "F",
-          "points": 4
+          "points": 12
         },
         {
           "id": 27,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 28,
           "letter": "E",
-          "points": 1
+          "points": 6
+        },
+        {
+          "id": 29,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 30,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 31,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 32,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 33,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 34,
+          "letter": "A",
+          "points": 5
         }
       ],
-      "maxScore": 65,
-      "parScore": 26
+      "maxScore": 419,
+      "parScore": 167
     },
     "2026-07-18": {
       "layout": {
@@ -10735,97 +12925,97 @@
         {
           "id": 0,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 1,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 2,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 3,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 4,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 6,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 7,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 8,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 9,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 10,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 11,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 12,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 13,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 14,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 16,
           "letter": "C",
-          "points": 3
+          "points": 11
         },
         {
           "id": 17,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 18,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 19,
@@ -10835,16 +13025,66 @@
         {
           "id": 20,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 21,
           "letter": "B",
-          "points": 3
+          "points": 10
+        },
+        {
+          "id": 22,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 25,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 26,
+          "letter": "Y",
+          "points": 18
+        },
+        {
+          "id": 27,
+          "letter": "W",
+          "points": 4
+        },
+        {
+          "id": 28,
+          "letter": "K",
+          "points": 35
+        },
+        {
+          "id": 29,
+          "letter": "L",
+          "points": 17
+        },
+        {
+          "id": 30,
+          "letter": "R",
+          "points": 8
+        },
+        {
+          "id": 31,
+          "letter": "L",
+          "points": 17
         }
       ],
-      "maxScore": 45,
-      "parScore": 18
+      "maxScore": 374,
+      "parScore": 149
     },
     "2026-07-19": {
       "layout": {
@@ -10940,87 +13180,87 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 5,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 6,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 9,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 10,
           "letter": "P",
-          "points": 3
+          "points": 22
         },
         {
           "id": 11,
           "letter": "L",
-          "points": 1
+          "points": 17
         },
         {
           "id": 12,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 13,
           "letter": "H",
-          "points": 4
+          "points": 19
         },
         {
           "id": 14,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 15,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
@@ -11030,21 +13270,71 @@
         {
           "id": 18,
           "letter": "Q",
-          "points": 10
+          "points": 32
         },
         {
           "id": 19,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 20,
           "letter": "R",
-          "points": 1
+          "points": 8
+        },
+        {
+          "id": 21,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 22,
+          "letter": "J",
+          "points": 40
+        },
+        {
+          "id": 23,
+          "letter": "U",
+          "points": 10
+        },
+        {
+          "id": 24,
+          "letter": "E",
+          "points": 6
+        },
+        {
+          "id": 25,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 26,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 27,
+          "letter": "O",
+          "points": 8
+        },
+        {
+          "id": 28,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 29,
+          "letter": "V",
+          "points": 33
+        },
+        {
+          "id": 30,
+          "letter": "E",
+          "points": 6
         }
       ],
-      "maxScore": 58,
-      "parScore": 23
+      "maxScore": 445,
+      "parScore": 178
     },
     "2026-07-20": {
       "layout": {
@@ -11160,52 +13450,52 @@
         {
           "id": 0,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 1,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 2,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 3,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 4,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 5,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 6,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
           "letter": "D",
-          "points": 2
+          "points": 9
         },
         {
           "id": 9,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 10,
@@ -11215,42 +13505,42 @@
         {
           "id": 11,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 12,
           "letter": "Y",
-          "points": 4
+          "points": 18
         },
         {
           "id": 13,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 14,
           "letter": "X",
-          "points": 8
+          "points": 60
         },
         {
           "id": 15,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 16,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 17,
           "letter": "A",
-          "points": 1
+          "points": 5
         },
         {
           "id": 18,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 19,
@@ -11260,22 +13550,22 @@
         {
           "id": 20,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 21,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 22,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 23,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 24,
@@ -11285,26 +13575,56 @@
         {
           "id": 25,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 26,
           "letter": "B",
-          "points": 3
+          "points": 10
         },
         {
           "id": 27,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 28,
           "letter": "L",
-          "points": 1
+          "points": 17
+        },
+        {
+          "id": 29,
+          "letter": "P",
+          "points": 22
+        },
+        {
+          "id": 30,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 31,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 32,
+          "letter": "A",
+          "points": 5
+        },
+        {
+          "id": 33,
+          "letter": "Z",
+          "points": 65
+        },
+        {
+          "id": 34,
+          "letter": "B",
+          "points": 10
         }
       ],
-      "maxScore": 66,
-      "parScore": 26
+      "maxScore": 590,
+      "parScore": 236
     },
     "2026-07-21": {
       "layout": {
@@ -11390,42 +13710,42 @@
         {
           "id": 0,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 1,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 2,
           "letter": "U",
-          "points": 1
+          "points": 10
         },
         {
           "id": 3,
           "letter": "Z",
-          "points": 10
+          "points": 65
         },
         {
           "id": 4,
           "letter": "R",
-          "points": 1
+          "points": 8
         },
         {
           "id": 5,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 6,
           "letter": "S",
-          "points": 1
+          "points": 9
         },
         {
           "id": 7,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 8,
@@ -11435,37 +13755,37 @@
         {
           "id": 9,
           "letter": "M",
-          "points": 3
+          "points": 20
         },
         {
           "id": 10,
           "letter": "V",
-          "points": 4
+          "points": 33
         },
         {
           "id": 11,
           "letter": "O",
-          "points": 1
+          "points": 8
         },
         {
           "id": 12,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 13,
           "letter": "I",
-          "points": 1
+          "points": 5
         },
         {
           "id": 14,
           "letter": "T",
-          "points": 1
+          "points": 11
         },
         {
           "id": 15,
           "letter": "E",
-          "points": 1
+          "points": 6
         },
         {
           "id": 16,
@@ -11475,16 +13795,66 @@
         {
           "id": 17,
           "letter": "N",
-          "points": 1
+          "points": 10
         },
         {
           "id": 18,
           "letter": "H",
-          "points": 4
+          "points": 19
+        },
+        {
+          "id": 19,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 20,
+          "letter": "C",
+          "points": 11
+        },
+        {
+          "id": 21,
+          "letter": "T",
+          "points": 11
+        },
+        {
+          "id": 22,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 23,
+          "letter": "X",
+          "points": 60
+        },
+        {
+          "id": 24,
+          "letter": "M",
+          "points": 20
+        },
+        {
+          "id": 25,
+          "letter": "N",
+          "points": 10
+        },
+        {
+          "id": 26,
+          "letter": "D",
+          "points": 9
+        },
+        {
+          "id": 27,
+          "letter": "I",
+          "points": 5
+        },
+        {
+          "id": 28,
+          "letter": "O",
+          "points": 8
         }
       ],
-      "maxScore": 75,
-      "parScore": 30
+      "maxScore": 657,
+      "parScore": 262
     }
   }
 }

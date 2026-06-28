@@ -30,8 +30,8 @@ function makeRng(seed) {
 
 // ── Tile points ───────────────────────────────────────────────────────────────
 const POINTS = {
-  A:1,B:3,C:3,D:2,E:1,F:4,G:2,H:4,I:1,J:8,K:5,L:1,M:3,
-  N:1,O:1,P:3,Q:10,R:1,S:1,T:1,U:1,V:4,W:4,X:8,Y:4,Z:10
+  A:5,B:10,C:11,D:9,E:6,F:12,G:2,H:19,I:5,J:40,K:35,L:17,M:20,
+  N:10,O:8,P:22,Q:32,R:8,S:9,T:11,U:10,V:33,W:4,X:60,Y:18,Z:65
 };
 
 // ── Dictionary ─────────────────────────────────────────────────────────────────
@@ -184,7 +184,7 @@ function dateRange(s, e) {
 // ── Args ──────────────────────────────────────────────────────────────────────
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const args = process.argv.slice(2);
-let startDate, endDate, extraTiles = 9, dryRun = false, maxAttempts = 250;
+let startDate, endDate, extraTiles = 15, dryRun = false, maxAttempts = 250;
 const pos = [];
 for (let i = 0; i < args.length; i++) {
   if      (args[i] === '--dry-run')  dryRun = true;
