@@ -340,12 +340,6 @@ async function lookupWord(word) {
     try {
       const res = await fetch(`${FREE_DICT_API}/${key}`);
 
-      if (res.status === 404) {
-        // Definitive: word not found in dictionary (likely proper noun or gibberish)
-        result = { valid: false };
-        break;
-      }
-
       if (!res.ok) {
         // Transient server error — wait and retry
         if (attempt < 2) { await sleep(500 * (attempt + 1)); continue; }
@@ -355,6 +349,15 @@ async function lookupWord(word) {
       }
 
       const data = await res.json();
+
+      // The API returns an array of entry objects for known words, or a plain
+      // object like {"title":"No Definitions Found",...} for unknown words.
+      // Both cases come back as HTTP 200, so we must inspect the body.
+      if (!Array.isArray(data) || data.length === 0) {
+        result = { valid: false };
+        break;
+      }
+
       const firstMeaning = data[0]?.meanings?.[0];
       const pos = firstMeaning?.partOfSpeech ?? '';
       const def = firstMeaning?.definitions?.[0]?.definition ?? '';
