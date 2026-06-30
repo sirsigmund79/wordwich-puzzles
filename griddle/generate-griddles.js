@@ -71,13 +71,15 @@ import { fileURLToPath } from 'url';
 // Configuration
 // ---------------------------------------------------------------------------
 
-const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), 'output');
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUTPUT_DIR = path.join(SCRIPT_DIR, 'output');
 
-// Word file URLs — same files your HTML tool uses
-// These are fetched from your GitHub repo. If you add them to the repo
-// under a griddle/ folder, update these URLs accordingly.
-const COMMON_WORDS_URL = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/wordle_words.txt';
-const DICT_WORDS_URL   = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/common_words.txt';
+// Default word files — resolved relative to this script so no network call is needed.
+// Primary pool: Wordle answer words — common, recognizable, preferred for grid slots.
+const COMMON_WORDS_DEFAULT = path.join(SCRIPT_DIR, 'wordle_words.txt');
+// Fallback pool: all 5-letter words from the Letterloaf dictionary (~8,939 words).
+// Obscure entries are filtered out naturally by the dictionary API validation step.
+const DICT_WORDS_DEFAULT   = path.join(SCRIPT_DIR, 'griddle_dict.txt');
 
 // Free Dictionary API base URL used to validate words and fetch definitions.
 const FREE_DICT_API = 'https://api.dictionaryapi.dev/api/v2/entries/en';
@@ -699,9 +701,8 @@ async function main() {
   else               console.log(`Word deduplication:   ON (${RECENT_WORD_WINDOW_DAYS}-day window)`);
   if (opts.dryRun) console.log('DRY RUN: no files will be written.\n');
 
-  // Load word files. Being lazy for now and just swapping the URLs so we default to Wordle
-  const commonUrl = opts.commonFile ?? COMMON_WORDS_URL;
-  const dictUrl   = opts.dictFile   ?? DICT_WORDS_URL;
+  const commonUrl = opts.commonFile ?? COMMON_WORDS_DEFAULT;
+  const dictUrl   = opts.dictFile   ?? DICT_WORDS_DEFAULT;
 
   console.log('\nLoading word files...');
   let commonWords, dictWords;
