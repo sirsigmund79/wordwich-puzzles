@@ -9,9 +9,12 @@
  *   1. Loads your two word files (common words + full dictionary) from the repo
  *   2. Generates three valid 5x5 grids (Easy, Medium, Hard) using the same
  *      word-intersection algorithm as your waffle-generator HTML tool
- *   3. Applies difficulty-appropriate staticCells patterns using the same
+ *   3. Validates all 6 words in each grid against the Free Dictionary API —
+ *      grids with any invalid/proper-noun words are retried automatically
+ *   4. Applies difficulty-appropriate staticCells patterns using the same
  *      logic as your Apps Script
- *   4. Writes one CSV row per puzzle (3 rows per date)
+ *   5. Writes one CSV row per puzzle (3 rows per date), including the words
+ *      and their definitions for post-game display
  *
  * THE GRID STRUCTURE (always the same):
  *   Rows 0, 2, 4 are horizontal words (H1, H2, H3)
@@ -20,12 +23,15 @@
  *   All other cells are letter-bearing grid cells
  *
  * OUTPUT CSV COLUMNS:
- *   puzzleDate  | difficulty | solutionGrid | staticCells
+ *   puzzleDate  | difficulty | solutionGrid | staticCells | words | definitions
  *
- *   puzzleDate  — M/D/YYYY format (matches what your game reads from the sheet)
- *   difficulty  — Easy / Medium / Hard
+ *   puzzleDate   — M/D/YYYY format (matches what your game reads from the sheet)
+ *   difficulty   — Easy / Medium / Hard
  *   solutionGrid — JSON string, 5x5 array, nulls at hole positions
  *   staticCells  — JSON string, 5x5 array of true/false/null
+ *   words        — JSON array of the 6 words: [h1, h2, h3, v1, v2, v3]
+ *   definitions  — JSON array of {word, pos, def} objects, one per word,
+ *                  same order as `words`. Use for post-game definition display.
  *
  * HOW TO RUN:
  *   node generate-griddles.mjs                              # today, 3 puzzles
@@ -35,6 +41,8 @@
  *   node generate-griddles.mjs --count 5                    # generate 5 candidates
  *                                                            # per difficulty per date
  *                                                            # so you can pick the best
+ *   node generate-griddles.mjs --skip-validation            # skip dictionary API checks
+ *                                                            # (faster, no definitions)
  *
  * SETUP:
  *   Make sure your word files are accessible. The script reads them from your
@@ -62,9 +70,16 @@ const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), 'outp
 const COMMON_WORDS_URL = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/wordle_words.txt';
 const DICT_WORDS_URL   = 'https://raw.githubusercontent.com/sirsigmund79/wordwich-puzzles/main/griddle/common_words.txt';
 
+// Free Dictionary API base URL used to validate words and fetch definitions.
+const FREE_DICT_API = 'https://api.dictionaryapi.dev/api/v2/entries/en';
+
 // How many generation attempts before giving up on a date/difficulty combo.
 // The HTML tool uses 5000; we use the same.
 const MAX_ATTEMPTS = 5000;
+
+// How many times to try a new generated grid when words fail dictionary
+// validation. Each retry uses a different seed so it produces different words.
+const MAX_VALIDATION_RETRIES = 50;
 
 // How many candidate grids to generate per difficulty level per date.
 // Default 1 gives you one grid per difficulty. Use --count 3 to get
@@ -131,6 +146,10 @@ function dateSeed(dateStr, difficulty, candidateIndex) {
   return base + diffOffset + candidateIndex * 99991;
 }
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // ---------------------------------------------------------------------------
 // Word file loading
 // ---------------------------------------------------------------------------
@@ -153,6 +172,74 @@ async function loadWordFile(urlOrPath) {
     .split('\n')
     .map(w => w.trim().toUpperCase())
     .filter(w => w.length === 5 && /^[A-Z]+$/.test(w));
+}
+
+// ---------------------------------------------------------------------------
+// Free Dictionary API — word validation and definition lookup
+// ---------------------------------------------------------------------------
+
+// Cache results so the same word is never looked up twice in one run.
+const defCache = new Map(); // lowercase word -> { valid, pos, def }
+
+async function lookupWord(word) {
+  const key = word.toLowerCase();
+  if (defCache.has(key)) return defCache.get(key);
+
+  let result;
+  // Retry up to 2 times for transient network/server errors.
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const res = await fetch(`${FREE_DICT_API}/${key}`);
+
+      if (res.status === 404) {
+        // Definitive: word not found in dictionary (likely proper noun or gibberish)
+        result = { valid: false };
+        break;
+      }
+
+      if (!res.ok) {
+        // Transient server error — wait and retry
+        if (attempt < 2) { await sleep(500 * (attempt + 1)); continue; }
+        console.warn(`    Warning: API returned ${res.status} for "${word}", treating as invalid`);
+        result = { valid: false };
+        break;
+      }
+
+      const data = await res.json();
+      const firstMeaning = data[0]?.meanings?.[0];
+      const pos = firstMeaning?.partOfSpeech ?? '';
+      const def = firstMeaning?.definitions?.[0]?.definition ?? '';
+      result = { valid: true, pos, def };
+      break;
+
+    } catch (err) {
+      if (attempt < 2) { await sleep(500 * (attempt + 1)); continue; }
+      console.warn(`    Warning: network error looking up "${word}" after 3 attempts: ${err.message}`);
+      result = { valid: false };
+    }
+  }
+
+  defCache.set(key, result);
+  return result;
+}
+
+// Validates all 6 words against the dictionary API.
+// Returns { valid: boolean, invalidWords: string[], definitions: [{word,pos,def}] }
+async function validateAndFetchDefinitions(words) {
+  const lookups = await Promise.all(words.map(w => lookupWord(w)));
+  const invalidWords = words.filter((_, i) => !lookups[i].valid);
+
+  if (invalidWords.length > 0) {
+    return { valid: false, invalidWords, definitions: [] };
+  }
+
+  const definitions = words.map((w, i) => ({
+    word: w,
+    pos:  lookups[i].pos,
+    def:  lookups[i].def,
+  }));
+
+  return { valid: true, invalidWords: [], definitions };
 }
 
 // ---------------------------------------------------------------------------
@@ -380,16 +467,22 @@ function gridToJsonStr(grid) {
   return `[\n${rows.join(',\n')}\n    ]`;
 }
 
-function buildCSVRow(dateStr, difficulty, solutionGrid, staticCells) {
+function buildCSVRow(dateStr, difficulty, solutionGrid, staticCells, words, definitions) {
   const sheetDate = toSheetDate(dateStr);
   const solJson   = gridToJsonStr(solutionGrid);
   const statJson  = gridToJsonStr(staticCells);
+  // words: simple JSON array ["H1","H2","H3","V1","V2","V3"]
+  const wordsJson = JSON.stringify(words);
+  // definitions: JSON array of {word, pos, def} objects for post-game display
+  const defsJson  = JSON.stringify(definitions);
 
   return [
     escapeCSV(sheetDate),
     escapeCSV(difficulty),
     escapeCSV(solJson),
     escapeCSV(statJson),
+    escapeCSV(wordsJson),
+    escapeCSV(defsJson),
   ].join(',');
 }
 
@@ -400,11 +493,12 @@ function buildCSVRow(dateStr, difficulty, solutionGrid, staticCells) {
 function parseArgs() {
   const args = process.argv.slice(2);
   const opts = {
-    dates:    null,
-    dryRun:   false,
-    count:    1,
-    commonFile: null,
-    dictFile:   null,
+    dates:          null,
+    dryRun:         false,
+    count:          1,
+    commonFile:     null,
+    dictFile:       null,
+    skipValidation: false,
   };
 
   let startDate = null;
@@ -425,6 +519,8 @@ function parseArgs() {
       opts.commonFile = args[++i];
     } else if (args[i] === '--dict' && args[i+1]) {
       opts.dictFile = args[++i];
+    } else if (args[i] === '--skip-validation') {
+      opts.skipValidation = true;
     }
   }
 
@@ -447,13 +543,15 @@ async function main() {
 
   const datesToProcess = opts.dates ?? [todayStr()];
   console.log(`Dates: ${datesToProcess.length}  |  Candidates per difficulty: ${CANDIDATES_PER_DIFFICULTY}`);
+  if (opts.skipValidation) console.log('Dictionary validation: SKIPPED (--skip-validation)');
+  else                     console.log(`Dictionary validation: ON (up to ${MAX_VALIDATION_RETRIES} retries per candidate)`);
   if (opts.dryRun) console.log('DRY RUN: no files will be written.\n');
 
   // Load word files. Being lazy for now and just swapping the URLs so we default to Wordle
   const commonUrl = opts.commonFile ?? COMMON_WORDS_URL;
   const dictUrl   = opts.dictFile   ?? DICT_WORDS_URL;
 
-  console.log('Loading word files...');
+  console.log('\nLoading word files...');
   let commonWords, dictWords;
   try {
     commonWords = await loadWordFile(commonUrl);
@@ -472,56 +570,78 @@ async function main() {
   }
 
   const difficulties = ['Easy', 'Medium', 'Hard'];
-  const csvRows = ['puzzleDate,difficulty,solutionGrid,staticCells']; // header
+  // Header includes new words and definitions columns
+  const csvRows = ['puzzleDate,difficulty,solutionGrid,staticCells,words,definitions'];
   let generated = 0, failed = 0;
 
   for (const dateStr of datesToProcess) {
-    process.stdout.write(`  ${dateStr}: `);
+    process.stdout.write(`\n  ${dateStr}:\n`);
     const dateResults = [];
 
     for (const difficulty of difficulties) {
       const diffResults = [];
 
       for (let ci = 0; ci < CANDIDATES_PER_DIFFICULTY; ci++) {
-        const seed = dateSeed(dateStr, difficulty, ci);
-        const rand = seededRand(seed);
+        let found = null;
+        let validationRetries = 0;
 
-        // Generate solution grid
-        const words = generateWaffle(commonWords, dictWords, rand);
+        for (let retry = 0; retry < MAX_VALIDATION_RETRIES && !found; retry++) {
+          // Each retry gets its own unique seed so it produces different words.
+          // Multiplying by MAX_VALIDATION_RETRIES keeps candidate seeds well-separated.
+          const seed = dateSeed(dateStr, difficulty, ci * MAX_VALIDATION_RETRIES + retry);
+          const rand = seededRand(seed);
 
-        if (!words) {
-          diffResults.push({ difficulty, success: false });
-          failed++;
-          continue;
+          const words = generateWaffle(commonWords, dictWords, rand);
+          if (!words) continue; // grid generation failed, try next seed
+
+          if (opts.skipValidation) {
+            // No API validation — accept the grid as-is with empty definitions
+            const solutionGrid = buildGrid(words);
+            const staticCells  = generateStaticCells(difficulty, rand);
+            found = { difficulty, success: true, words, solutionGrid, staticCells, definitions: [] };
+            break;
+          }
+
+          // Validate all 6 words against the Free Dictionary API
+          process.stdout.write(`    ${difficulty} (try ${retry + 1}): checking [${words.join(', ')}]... `);
+          const validation = await validateAndFetchDefinitions(words);
+
+          if (!validation.valid) {
+            console.log(`REJECTED — invalid: ${validation.invalidWords.join(', ')}`);
+            validationRetries++;
+            continue;
+          }
+
+          console.log('OK');
+          const solutionGrid = buildGrid(words);
+          const staticCells  = generateStaticCells(difficulty, rand);
+          found = {
+            difficulty,
+            success:     true,
+            words,
+            solutionGrid,
+            staticCells,
+            definitions: validation.definitions,
+          };
         }
 
-        const solutionGrid = buildGrid(words);
-        const staticCells  = generateStaticCells(difficulty, rand);
-
-        diffResults.push({
-          difficulty,
-          success:      true,
-          solutionGrid,
-          staticCells,
-          words,         // kept for console display
-        });
-        generated++;
+        if (found) {
+          if (validationRetries > 0) {
+            console.log(`    ${difficulty}: accepted after ${validationRetries} rejected grid(s)`);
+          }
+          diffResults.push(found);
+          generated++;
+        } else {
+          console.log(`    ${difficulty}: FAILED — could not find valid grid after ${MAX_VALIDATION_RETRIES} attempts`);
+          diffResults.push({ difficulty, success: false });
+          failed++;
+        }
       }
 
       dateResults.push({ difficulty, results: diffResults });
     }
 
-    // Log result summary for this date
-    const summary = dateResults.map(dr => {
-      const successes = dr.results.filter(r => r.success);
-      if (successes.length === 0) return `${dr.difficulty}:FAILED`;
-      // Show first candidate's words as a preview
-      const words = successes[0].words;
-      return `${dr.difficulty}:[${words.slice(0,3).join(',')}...]`;
-    }).join('  ');
-    console.log(summary);
-
-    // Add CSV rows
+    // Add CSV rows for this date
     for (const { difficulty, results } of dateResults) {
       for (const result of results) {
         if (!result.success) continue;
@@ -531,7 +651,14 @@ async function main() {
           ? `${difficulty}-${results.indexOf(result) + 1}`
           : difficulty;
 
-        csvRows.push(buildCSVRow(dateStr, diffLabel, result.solutionGrid, result.staticCells));
+        csvRows.push(buildCSVRow(
+          dateStr,
+          diffLabel,
+          result.solutionGrid,
+          result.staticCells,
+          result.words,
+          result.definitions,
+        ));
       }
     }
   }
@@ -569,10 +696,15 @@ async function main() {
   console.log('  1. Open the CSV file');
   console.log('  2. Review the generated grids (you can visualise solutionGrid using');
   console.log('     your existing Google Sheet helper columns)');
-  console.log('  3. Copy the rows you want into your Griddle puzzle sheet');
-  console.log('  4. Run your Apps Script to verify/adjust staticCells as needed');
+  console.log('  3. The `words` column lists all 6 words: [h1, h2, h3, v1, v2, v3]');
+  console.log('  4. The `definitions` column contains [{word, pos, def}] for each word');
+  console.log('     — use this to display definitions after the game ends');
+  console.log('  5. Copy the rows you want into your Griddle puzzle sheet');
+  console.log('  6. Run your Apps Script to verify/adjust staticCells as needed');
   console.log('\nNote: the staticCells are algorithmically generated but you can always');
   console.log('override them in the sheet using your visual helper columns.');
+  console.log('\nNote: definitions are fetched from dictionaryapi.dev. If a word has a');
+  console.log("missing or incomplete entry there, you may want to fill it in manually.");
 }
 
 main().catch(err => {
