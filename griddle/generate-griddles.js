@@ -43,6 +43,15 @@
  *                                                            # so you can pick the best
  *   node generate-griddles.mjs --skip-validation            # skip dictionary API checks
  *                                                            # (faster, no definitions)
+ *   node generate-griddles.mjs --no-dedupe                  # skip recent-word exclusion
+ *
+ * WORD DEDUPLICATION:
+ *   By default the script reads all existing CSV files in ./output/ and excludes
+ *   any word that appeared in a puzzle within the last 40 days of the target date.
+ *   This prevents players from seeing the same word twice within a 40-day window.
+ *   Words generated during the current run are also tracked, so a word used on an
+ *   earlier date in the same batch won't appear on a later date within 40 days.
+ *   Use --no-dedupe to disable this (e.g. if your word list is very small).
  *
  * SETUP:
  *   Make sure your word files are accessible. The script reads them from your
@@ -80,6 +89,10 @@ const MAX_ATTEMPTS = 5000;
 // How many times to try a new generated grid when words fail dictionary
 // validation. Each retry uses a different seed so it produces different words.
 const MAX_VALIDATION_RETRIES = 50;
+
+// Words used in puzzles within this many days of the target date are excluded
+// from generation to avoid players seeing the same word twice in a short window.
+const RECENT_WORD_WINDOW_DAYS = 40;
 
 // How many candidate grids to generate per difficulty level per date.
 // Default 1 gives you one grid per difficulty. Use --count 3 to get
@@ -148,6 +161,140 @@ function dateSeed(dateStr, difficulty, candidateIndex) {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// ---------------------------------------------------------------------------
+// Recently-used word deduplication
+// ---------------------------------------------------------------------------
+
+// dateWordMap: Map<YYYY-MM-DD, Set<UPPERCASE_WORD>>
+// Built at startup from historical CSV files and updated as each new puzzle
+// is generated, so within-run date ordering is also respected.
+const dateWordMap = new Map();
+
+function sheetDateToIso(sheetDate) {
+  // "M/D/YYYY" → "YYYY-MM-DD"
+  const [m, d, y] = sheetDate.split('/').map(Number);
+  if (!y || !m || !d) throw new Error(`Unparseable date: ${sheetDate}`);
+  return `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+}
+
+function extractWordsFromGrid(grid) {
+  // Reconstructs [h1, h2, h3, v1, v2, v3] from a parsed solutionGrid.
+  if (!Array.isArray(grid) || grid.length < 5) return [];
+  const get = (r, c) => grid[r]?.[c] ?? '';
+  const words = [
+    [0,1,2,3,4].map(c => get(0, c)).join(''), // h1
+    [0,1,2,3,4].map(c => get(2, c)).join(''), // h2
+    [0,1,2,3,4].map(c => get(4, c)).join(''), // h3
+    [0,1,2,3,4].map(r => get(r, 0)).join(''), // v1
+    [0,1,2,3,4].map(r => get(r, 2)).join(''), // v2
+    [0,1,2,3,4].map(r => get(r, 4)).join(''), // v3
+  ];
+  return words.filter(w => w.length === 5 && /^[A-Z]+$/.test(w));
+}
+
+function parseCSV(text) {
+  // RFC 4180-compliant parser that handles quoted fields containing commas,
+  // newlines, and doubled-quote escaping ("") — the exact format this script
+  // produces for solutionGrid/staticCells.
+  const rows = [];
+  let row = [], field = '', inQ = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (inQ) {
+      if (ch === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; } // "" → "
+        else                      { inQ = false; }        // closing quote
+      } else {
+        field += ch;
+      }
+    } else {
+      if      (ch === '"')  { inQ = true; }
+      else if (ch === ',')  { row.push(field); field = ''; }
+      else if (ch === '\r') { /* skip CR */ }
+      else if (ch === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+      else                  { field += ch; }
+    }
+  }
+  if (field || row.length > 0) { row.push(field); rows.push(row); }
+  return rows;
+}
+
+function loadHistoricalWords(outputDir) {
+  // Reads all CSV files in outputDir and populates dateWordMap.
+  // Supports both old (4-column) and new (6-column) file formats.
+  if (!fs.existsSync(outputDir)) return 0;
+
+  const csvFiles = fs.readdirSync(outputDir)
+    .filter(f => f.endsWith('.csv'))
+    .map(f => path.join(outputDir, f));
+
+  let totalDates = 0;
+
+  for (const csvFile of csvFiles) {
+    try {
+      const text  = fs.readFileSync(csvFile, 'utf8');
+      const rows  = parseCSV(text);
+      if (rows.length < 2) continue;
+
+      const header   = rows[0];
+      const dateCol  = header.indexOf('puzzleDate');
+      const wordsCol = header.indexOf('words');       // present in new format
+      const gridCol  = header.indexOf('solutionGrid');
+
+      if (dateCol === -1 || gridCol === -1) continue;
+
+      for (const row of rows.slice(1)) {
+        const rawDate = row[dateCol]?.trim();
+        if (!rawDate) continue;
+
+        let dateStr;
+        try { dateStr = sheetDateToIso(rawDate); } catch { continue; }
+
+        // Prefer the `words` column; fall back to parsing solutionGrid
+        let words = null;
+        if (wordsCol !== -1 && row[wordsCol]) {
+          try { words = JSON.parse(row[wordsCol]); } catch { /* fall through */ }
+        }
+        if (!words && row[gridCol]) {
+          try { words = extractWordsFromGrid(JSON.parse(row[gridCol])); } catch { continue; }
+        }
+        if (!Array.isArray(words) || words.length === 0) continue;
+
+        if (!dateWordMap.has(dateStr)) { dateWordMap.set(dateStr, new Set()); totalDates++; }
+        const set = dateWordMap.get(dateStr);
+        for (const w of words) if (w && typeof w === 'string') set.add(w.toUpperCase());
+      }
+    } catch (err) {
+      console.warn(`  Warning: could not read ${path.basename(csvFile)}: ${err.message}`);
+    }
+  }
+
+  return totalDates;
+}
+
+function getRecentlyUsedWords(targetDateStr, windowDays) {
+  // Returns a Set of all words used in the [targetDate - windowDays, targetDate - 1] range.
+  const used   = new Set();
+  const target = new Date(targetDateStr + 'T00:00:00');
+  for (let i = 1; i <= windowDays; i++) {
+    const d = new Date(target);
+    d.setDate(d.getDate() - i);
+    const dStr  = d.toISOString().split('T')[0];
+    const words = dateWordMap.get(dStr);
+    if (words) for (const w of words) used.add(w);
+  }
+  return used;
+}
+
+function registerGeneratedWords(dateStr, words) {
+  // Records a newly generated puzzle's words in dateWordMap so later dates in
+  // the same run can exclude them.
+  if (!dateWordMap.has(dateStr)) dateWordMap.set(dateStr, new Set());
+  const set = dateWordMap.get(dateStr);
+  for (const w of words) set.add(w.toUpperCase());
 }
 
 // ---------------------------------------------------------------------------
@@ -499,6 +646,7 @@ function parseArgs() {
     commonFile:     null,
     dictFile:       null,
     skipValidation: false,
+    noDedupe:       false,
   };
 
   let startDate = null;
@@ -521,6 +669,8 @@ function parseArgs() {
       opts.dictFile = args[++i];
     } else if (args[i] === '--skip-validation') {
       opts.skipValidation = true;
+    } else if (args[i] === '--no-dedupe') {
+      opts.noDedupe = true;
     }
   }
 
@@ -545,6 +695,8 @@ async function main() {
   console.log(`Dates: ${datesToProcess.length}  |  Candidates per difficulty: ${CANDIDATES_PER_DIFFICULTY}`);
   if (opts.skipValidation) console.log('Dictionary validation: SKIPPED (--skip-validation)');
   else                     console.log(`Dictionary validation: ON (up to ${MAX_VALIDATION_RETRIES} retries per candidate)`);
+  if (opts.noDedupe) console.log('Word deduplication:   SKIPPED (--no-dedupe)');
+  else               console.log(`Word deduplication:   ON (${RECENT_WORD_WINDOW_DAYS}-day window)`);
   if (opts.dryRun) console.log('DRY RUN: no files will be written.\n');
 
   // Load word files. Being lazy for now and just swapping the URLs so we default to Wordle
@@ -569,6 +721,12 @@ async function main() {
     process.exit(1);
   }
 
+  // Load word history from existing output CSVs so we can exclude recently used words.
+  if (!opts.noDedupe) {
+    const historicalDates = loadHistoricalWords(OUTPUT_DIR);
+    console.log(`\nWord history: ${historicalDates} date(s) loaded from ${OUTPUT_DIR}`);
+  }
+
   const difficulties = ['Easy', 'Medium', 'Hard'];
   // Header includes new words and definitions columns
   const csvRows = ['puzzleDate,difficulty,solutionGrid,staticCells,words,definitions'];
@@ -576,6 +734,19 @@ async function main() {
 
   for (const dateStr of datesToProcess) {
     process.stdout.write(`\n  ${dateStr}:\n`);
+
+    // Build word pools for this date, excluding words used in the recent window.
+    let activeCommon = commonWords;
+    let activeDict   = dictWords;
+    if (!opts.noDedupe) {
+      const recentlyUsed = getRecentlyUsedWords(dateStr, RECENT_WORD_WINDOW_DAYS);
+      if (recentlyUsed.size > 0) {
+        activeCommon = commonWords.filter(w => !recentlyUsed.has(w));
+        activeDict   = dictWords.filter(w => !recentlyUsed.has(w));
+        console.log(`    Excluding ${recentlyUsed.size} words used in the last ${RECENT_WORD_WINDOW_DAYS} days (${activeCommon.length}/${commonWords.length} common words remain)`);
+      }
+    }
+
     const dateResults = [];
 
     for (const difficulty of difficulties) {
@@ -591,7 +762,7 @@ async function main() {
           const seed = dateSeed(dateStr, difficulty, ci * MAX_VALIDATION_RETRIES + retry);
           const rand = seededRand(seed);
 
-          const words = generateWaffle(commonWords, dictWords, rand);
+          const words = generateWaffle(activeCommon, activeDict, rand);
           if (!words) continue; // grid generation failed, try next seed
 
           if (opts.skipValidation) {
@@ -629,6 +800,7 @@ async function main() {
           if (validationRetries > 0) {
             console.log(`    ${difficulty}: accepted after ${validationRetries} rejected grid(s)`);
           }
+          if (!opts.noDedupe) registerGeneratedWords(dateStr, found.words);
           diffResults.push(found);
           generated++;
         } else {
