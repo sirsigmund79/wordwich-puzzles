@@ -330,19 +330,68 @@ async function loadWordFile(urlOrPath) {
 // Cache results so the same word is never looked up twice in one run.
 const defCache = new Map(); // lowercase word -> { valid, pos, def }
 
+// The Free Dictionary API rate-limits aggressively when many requests land at
+// once (validateAndFetchDefinitions fires 6 lookups in parallel per grid
+// candidate). This queue serializes all outgoing requests with a minimum gap
+// between them so we stay under the limit instead of tripping it.
+const API_MIN_INTERVAL_MS = 300;
+let apiQueue = Promise.resolve();
+
+function throttledFetch(url) {
+  const run = apiQueue.then(() => fetch(url));
+  // Always advance the queue, even if this request rejects, so one failure
+  // doesn't stall every request queued behind it.
+  apiQueue = run.then(() => sleep(API_MIN_INTERVAL_MS), () => sleep(API_MIN_INTERVAL_MS));
+  return run;
+}
+
+const MAX_LOOKUP_ATTEMPTS = 6;
+
 async function lookupWord(word) {
   const key = word.toLowerCase();
   if (defCache.has(key)) return defCache.get(key);
 
   let result;
-  // Retry up to 2 times for transient network/server errors.
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < MAX_LOOKUP_ATTEMPTS; attempt++) {
+    const lastAttempt = attempt === MAX_LOOKUP_ATTEMPTS - 1;
     try {
-      const res = await fetch(`${FREE_DICT_API}/${key}`);
+      const res = await throttledFetch(`${FREE_DICT_API}/${key}`);
+
+      if (res.status === 429) {
+        // Rate limited — this is not "word doesn't exist", so back off and
+        // retry rather than marking it invalid. Honor Retry-After if given.
+        const retryAfterSec = parseFloat(res.headers.get('retry-after'));
+        const waitMs = Number.isFinite(retryAfterSec)
+          ? retryAfterSec * 1000
+          : 1000 * Math.pow(2, attempt); // 1s, 2s, 4s, 8s, 16s...
+        if (!lastAttempt) {
+          console.warn(`    Rate limited (429) on "${word}", waiting ${Math.round(waitMs)}ms (attempt ${attempt + 1}/${MAX_LOOKUP_ATTEMPTS})`);
+          await sleep(waitMs);
+          continue;
+        }
+        console.warn(`    Warning: still rate-limited after ${MAX_LOOKUP_ATTEMPTS} attempts for "${word}" — not caching, will retry if looked up again`);
+        return { valid: false }; // don't cache — this isn't a real "invalid word" verdict
+      }
+
+      if (res.status >= 500) {
+        // 5xx means the upstream server failed or is shedding load. This API
+        // rate-limits without always saying so — under load it returns a mix of
+        // 429, 500 and 502 for words it serves fine when idle. Treat it exactly
+        // like 429: back off hard and never cache the failure, or real words get
+        // permanently marked invalid for the rest of the run.
+        const waitMs = 1000 * Math.pow(2, attempt); // 1s, 2s, 4s, 8s, 16s...
+        if (!lastAttempt) {
+          console.warn(`    Server error (${res.status}) on "${word}", waiting ${Math.round(waitMs)}ms (attempt ${attempt + 1}/${MAX_LOOKUP_ATTEMPTS})`);
+          await sleep(waitMs);
+          continue;
+        }
+        console.warn(`    Warning: still failing (${res.status}) after ${MAX_LOOKUP_ATTEMPTS} attempts for "${word}" — not caching, will retry if looked up again`);
+        return { valid: false }; // don't cache — this isn't a real "invalid word" verdict
+      }
 
       if (!res.ok) {
-        // Transient server error — wait and retry
-        if (attempt < 2) { await sleep(500 * (attempt + 1)); continue; }
+        // Genuine client error (4xx other than 429) — wait and retry, then give up.
+        if (!lastAttempt) { await sleep(500 * (attempt + 1)); continue; }
         console.warn(`    Warning: API returned ${res.status} for "${word}", treating as invalid`);
         result = { valid: false };
         break;
@@ -365,9 +414,9 @@ async function lookupWord(word) {
       break;
 
     } catch (err) {
-      if (attempt < 2) { await sleep(500 * (attempt + 1)); continue; }
-      console.warn(`    Warning: network error looking up "${word}" after 3 attempts: ${err.message}`);
-      result = { valid: false };
+      if (!lastAttempt) { await sleep(500 * (attempt + 1)); continue; }
+      console.warn(`    Warning: network error looking up "${word}" after ${MAX_LOOKUP_ATTEMPTS} attempts: ${err.message}`);
+      return { valid: false }; // transient like 5xx — don't cache the failure
     }
   }
 

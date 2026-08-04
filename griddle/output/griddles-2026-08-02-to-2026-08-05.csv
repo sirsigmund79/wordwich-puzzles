@@ -1,0 +1,157 @@
+puzzleDate,difficulty,solutionGrid,staticCells,words,definitions
+8/2/2026,Easy,"[
+ [""B"", ""U"", ""S"", ""E"", ""D""],
+ [""I"", null, ""N"", null, ""R""],
+ [""G"", ""R"", ""I"", ""M"", ""E""],
+ [""O"", null, ""D"", null, ""A""],
+ [""T"", ""H"", ""E"", ""R"", ""M""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, true],
+      [true, true, true, true, false],
+      [false, null, true, null, false],
+      [true, true, true, false, true]
+    ]","[""BUSED"",""GRIME"",""THERM"",""BIGOT"",""SNIDE"",""DREAM""]","[{""word"":""BUSED"",""pos"":""verb"",""def"":""To transport via a motor bus.""},{""word"":""GRIME"",""pos"":""noun"",""def"":""Dirt, grease, soot, etc. that is ingrained and difficult to remove.""},{""word"":""THERM"",""pos"":""noun"",""def"":""A former unit of heat equal to 100,000 British thermal units. Symbol: thm.""},{""word"":""BIGOT"",""pos"":""noun"",""def"":""One who is narrow-mindedly devoted to one's own ideas and groups, and intolerant of (people of) differing ideas, races, genders, religions, politics, etc.""},{""word"":""SNIDE"",""pos"":""noun"",""def"":""An underhanded, tricky person given to sharp practise; a sharper; a cheat.""},{""word"":""DREAM"",""pos"":""noun"",""def"":""Imaginary events seen in the mind while sleeping.""}]"
+8/2/2026,Medium,"[
+ [""G"", ""R"", ""O"", ""O"", ""M""],
+ [""R"", null, ""X"", null, ""A""],
+ [""O"", ""P"", ""I"", ""U"", ""M""],
+ [""P"", null, ""D"", null, ""M""],
+ [""E"", ""D"", ""E"", ""M"", ""A""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, true, null, false],
+      [false, false, true, false, false],
+      [true, null, true, null, true],
+      [true, false, true, true, true]
+    ]","[""GROOM"",""OPIUM"",""EDEMA"",""GROPE"",""OXIDE"",""MAMMA""]","[{""word"":""GROOM"",""pos"":""noun"",""def"":""A man who is about to marry.""},{""word"":""OPIUM"",""pos"":""noun"",""def"":""A yellow-brown, addictive narcotic drug obtained from the dried juice of unripe pods of the opium poppy, Papaver somniferum, and containing alkaloids such as morphine, codeine, and papaverine.""},{""word"":""EDEMA"",""pos"":""noun"",""def"":""An excessive accumulation of serum in tissue spaces or a body cavity.""},{""word"":""GROPE"",""pos"":""noun"",""def"":""An act of groping, especially sexually.""},{""word"":""OXIDE"",""pos"":""noun"",""def"":""A binary chemical compound of oxygen with another chemical element.""},{""word"":""MAMMA"",""pos"":""noun"",""def"":""The milk-secreting organ of female humans and other mammals which includes the mammary gland and the nipple or teat; a breast; an udder. (plural: mammae)""}]"
+8/2/2026,Hard,"[
+ [""G"", ""O"", ""N"", ""E"", ""R""],
+ [""A"", null, ""I"", null, ""I""],
+ [""U"", ""R"", ""G"", ""E"", ""D""],
+ [""Z"", null, ""H"", null, ""E""],
+ [""E"", ""S"", ""T"", ""E"", ""R""]
+    ]","[
+      [false, true, false, false, true],
+      [false, null, false, null, true],
+      [false, true, true, false, true],
+      [false, null, false, null, true],
+      [true, false, true, false, true]
+    ]","[""GONER"",""URGED"",""ESTER"",""GAUZE"",""NIGHT"",""RIDER""]","[{""word"":""GONER"",""pos"":""noun"",""def"":""Someone (or something) doomed; a hopeless case.""},{""word"":""URGED"",""pos"":""verb"",""def"":""To press; to push; to drive; to impel; to force onward.""},{""word"":""ESTER"",""pos"":""noun"",""def"":""A compound most often formed by the condensation of an alcohol and an acid, with elimination of water, which contains the functional group carbon-oxygen double bond joined via carbon to another oxygen atom.""},{""word"":""GAUZE"",""pos"":""noun"",""def"":""A thin fabric with a loose, open weave.""},{""word"":""NIGHT"",""pos"":""noun"",""def"":""The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark.""},{""word"":""RIDER"",""pos"":""noun"",""def"":""One who rides, often on a horse or a motorcycle.""}]"
+8/3/2026,Easy,"[
+ [""W"", ""O"", ""V"", ""E"", ""N""],
+ [""I"", null, ""I"", null, ""U""],
+ [""D"", ""I"", ""G"", ""I"", ""T""],
+ [""E"", null, ""O"", null, ""T""],
+ [""N"", ""A"", ""R"", ""K"", ""Y""]
+    ]","[
+      [true, false, true, false, true],
+      [false, null, true, null, true],
+      [false, true, true, false, true],
+      [false, null, false, null, false],
+      [true, true, false, false, true]
+    ]","[""WOVEN"",""DIGIT"",""NARKY"",""WIDEN"",""VIGOR"",""NUTTY""]","[{""word"":""WOVEN"",""pos"":""verb"",""def"":""To form something by passing lengths or strands of material over and under one another.""},{""word"":""DIGIT"",""pos"":""noun"",""def"":""A stage of proficiency or qualification in a course of study, now especially an award bestowed by a university or, in some countries, a college, as a certification of academic achievement. (In the United States, can include secondary schools.)""},{""word"":""NARKY"",""pos"":""adjective"",""def"":""Irritated, in a bad mood; disparaging.""},{""word"":""WIDEN"",""pos"":""verb"",""def"":""To become wide or wider.""},{""word"":""VIGOR"",""pos"":""noun"",""def"":""Active strength or force of body or mind; capacity for exertion, physically, intellectually, or morally; energy.""},{""word"":""NUTTY"",""pos"":""adjective"",""def"":""Containing nuts.""}]"
+8/3/2026,Medium,"[
+ [""S"", ""N"", ""U"", ""C"", ""K""],
+ [""P"", null, ""N"", null, ""I""],
+ [""U"", ""N"", ""M"", ""A"", ""N""],
+ [""R"", null, ""E"", null, ""K""],
+ [""N"", ""U"", ""T"", ""T"", ""Y""]
+    ]","[
+      [true, true, false, false, true],
+      [true, null, true, null, false],
+      [true, false, true, false, true],
+      [false, null, false, null, false],
+      [true, false, false, true, true]
+    ]","[""SNUCK"",""UNMAN"",""NUTTY"",""SPURN"",""UNMET"",""KINKY""]","[{""word"":""SNUCK"",""pos"":""verb"",""def"":""To creep or go stealthily; to come or go while trying to avoid detection, as a person who does not wish to be seen.""},{""word"":""UNMAN"",""pos"":""verb"",""def"":""To castrate; to remove the manhood of.""},{""word"":""NUTTY"",""pos"":""adjective"",""def"":""Containing nuts.""},{""word"":""SPURN"",""pos"":""noun"",""def"":""An act of spurning; a scornful rejection.""},{""word"":""UNMET"",""pos"":""adjective"",""def"":""Not met; unfulfilled; not achieved""},{""word"":""KINKY"",""pos"":""adjective"",""def"":""Full of kinks; liable to kink or curl.""}]"
+8/3/2026,Hard,"[
+ [""D"", ""E"", ""B"", ""U"", ""T""],
+ [""R"", null, ""A"", null, ""R""],
+ [""A"", ""M"", ""N"", ""I"", ""O""],
+ [""F"", null, ""J"", null, ""P""],
+ [""T"", ""R"", ""O"", ""V"", ""E""]
+    ]","[
+      [true, true, true, true, false],
+      [false, null, false, null, false],
+      [true, false, false, false, false],
+      [false, null, true, null, false],
+      [false, true, false, true, true]
+    ]","[""DEBUT"",""AMNIO"",""TROVE"",""DRAFT"",""BANJO"",""TROPE""]","[{""word"":""DEBUT"",""pos"":""noun"",""def"":""A performer's first performance to the public, in sport, the arts or some other area.""},{""word"":""AMNIO"",""pos"":""noun"",""def"":""Amniocentesis""},{""word"":""TROVE"",""pos"":""noun"",""def"":""A treasure trove; a collection of treasure.""},{""word"":""DRAFT"",""pos"":""noun"",""def"":""A current of air, usually coming into a room or vehicle.""},{""word"":""BANJO"",""pos"":""noun"",""def"":""A stringed musical instrument (chordophone), usually with a round body, a membrane-like soundboard and a fretted neck, played by plucking or strumming the strings.""},{""word"":""TROPE"",""pos"":""noun"",""def"":""Something recurring across a genre or type of art or literature, such as the ‘mad scientist’ of horror movies or the use of the phrase ‘once upon a time’ as an introduction to fairy tales; a motif.""}]"
+8/4/2026,Easy,"[
+ [""C"", ""L"", ""I"", ""N"", ""K""],
+ [""R"", null, ""N"", null, ""A""],
+ [""I"", ""L"", ""L"", ""E"", ""R""],
+ [""E"", null, ""E"", null, ""M""],
+ [""R"", ""E"", ""T"", ""I"", ""A""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, false, null, true],
+      [true, true, true, false, false],
+      [true, null, true, null, false],
+      [true, false, false, false, true]
+    ]","[""CLINK"",""ILLER"",""RETIA"",""CRIER"",""INLET"",""KARMA""]","[{""word"":""CLINK"",""pos"":""noun"",""def"":""The sound of metal on metal, or glass on glass.""},{""word"":""ILLER"",""pos"":""adjective"",""def"":""Evil; wicked (of people).""},{""word"":""RETIA"",""pos"":""noun"",""def"":""A network of blood vessels or nerves.""},{""word"":""CRIER"",""pos"":""noun"",""def"":""One who cries.""},{""word"":""INLET"",""pos"":""verb"",""def"":""To let in; admit.""},{""word"":""KARMA"",""pos"":""noun"",""def"":""The sum total of a person's actions, which determine the person's next incarnation in samsara, the cycle of death and rebirth.""}]"
+8/4/2026,Medium,"[
+ [""C"", ""O"", ""A"", ""S"", ""T""],
+ [""H"", null, ""V"", null, ""I""],
+ [""E"", ""V"", ""I"", ""C"", ""T""],
+ [""S"", null, ""A"", null, ""L""],
+ [""S"", ""I"", ""N"", ""C"", ""E""]
+    ]","[
+      [true, false, true, true, true],
+      [true, null, false, null, false],
+      [false, true, true, true, false],
+      [false, null, true, null, true],
+      [true, false, false, false, true]
+    ]","[""COAST"",""EVICT"",""SINCE"",""CHESS"",""AVIAN"",""TITLE""]","[{""word"":""COAST"",""pos"":""noun"",""def"":""The edge of the land where it meets an ocean, sea, gulf, bay, or large lake.""},{""word"":""EVICT"",""pos"":""verb"",""def"":""To expel (one or more people) from their property; to force (one or more people) to move out.""},{""word"":""SINCE"",""pos"":""adverb"",""def"":""From a specified time in the past.""},{""word"":""CHESS"",""pos"":""noun"",""def"":""A board game for two players with each beginning with sixteen chess pieces moving according to fixed rules across a chessboard with the objective to checkmate the opposing king.""},{""word"":""AVIAN"",""pos"":""noun"",""def"":""A bird.""},{""word"":""TITLE"",""pos"":""noun"",""def"":""A prefix (honorific) or suffix (post-nominal) added to a person's name to signify either veneration, official position or a professional or academic qualification. See also""}]"
+8/4/2026,Hard,"[
+ [""S"", ""W"", ""A"", ""T"", ""H""],
+ [""M"", null, ""N"", null, ""U""],
+ [""E"", ""I"", ""G"", ""H"", ""T""],
+ [""A"", null, ""S"", null, ""C""],
+ [""R"", ""E"", ""T"", ""C"", ""H""]
+    ]","[
+      [false, true, false, true, true],
+      [true, null, false, null, true],
+      [true, false, true, false, false],
+      [true, null, false, null, false],
+      [true, true, false, false, false]
+    ]","[""SWATH"",""EIGHT"",""RETCH"",""SMEAR"",""ANGST"",""HUTCH""]","[{""word"":""SWATH"",""pos"":""noun"",""def"":""The track cut out by a scythe in mowing.""},{""word"":""EIGHT"",""pos"":""noun"",""def"":""The digit/figure 8.""},{""word"":""RETCH"",""pos"":""noun"",""def"":""An unsuccessful effort to vomit.""},{""word"":""SMEAR"",""pos"":""noun"",""def"":""A mark made by smearing.""},{""word"":""ANGST"",""pos"":""noun"",""def"":""Emotional turmoil; painful sadness.""},{""word"":""HUTCH"",""pos"":""noun"",""def"":""A cage for keeping rabbits, guinea pigs, etc.""}]"
+8/5/2026,Easy,"[
+ [""A"", ""N"", ""K"", ""L"", ""E""],
+ [""F"", null, ""N"", null, ""L""],
+ [""O"", ""V"", ""O"", ""L"", ""O""],
+ [""U"", null, ""W"", null, ""P""],
+ [""L"", ""A"", ""N"", ""C"", ""E""]
+    ]","[
+      [true, true, false, false, true],
+      [true, null, false, null, false],
+      [false, false, true, true, true],
+      [true, null, false, null, false],
+      [true, false, true, true, true]
+    ]","[""ANKLE"",""OVOLO"",""LANCE"",""AFOUL"",""KNOWN"",""ELOPE""]","[{""word"":""ANKLE"",""pos"":""noun"",""def"":""The skeletal joint which connects the foot with the leg; the uppermost portion of the foot and lowermost portion of the leg, which contain this skeletal joint.""},{""word"":""OVOLO"",""pos"":""noun"",""def"":""A classical convex moulding carved with an egg-and-dart ornament.""},{""word"":""LANCE"",""pos"":""noun"",""def"":""A weapon of war, consisting of a long shaft or handle and a steel blade or head; a spear carried by horsemen.""},{""word"":""AFOUL"",""pos"":""adverb"",""def"":""(principally nautical) In a state of collision or entanglement.""},{""word"":""KNOWN"",""pos"":""verb"",""def"":""To perceive the truth or factuality of; to be certain of or that.""},{""word"":""ELOPE"",""pos"":""verb"",""def"":""(of a married person) To run away from home with a paramour.""}]"
+8/5/2026,Medium,"[
+ [""B"", ""U"", ""I"", ""L"", ""D""],
+ [""O"", null, ""N"", null, ""R""],
+ [""S"", ""T"", ""E"", ""L"", ""A""],
+ [""O"", null, ""R"", null, ""W""],
+ [""M"", ""A"", ""T"", ""I"", ""N""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, false, null, true],
+      [true, true, true, false, true],
+      [false, null, true, null, false],
+      [true, true, false, true, true]
+    ]","[""BUILD"",""STELA"",""MATIN"",""BOSOM"",""INERT"",""DRAWN""]","[{""word"":""BUILD"",""pos"":""noun"",""def"":""The physique of a human body; constitution or structure of a human body.""},{""word"":""STELA"",""pos"":""noun"",""def"":""An obelisk or upright stone pillar, usually as a primitive commemoration or gravestone""},{""word"":""MATIN"",""pos"":""noun"",""def"":""Morning""},{""word"":""BOSOM"",""pos"":""noun"",""def"":""(somewhat obsolete) The breast or chest of a human (or sometimes of another animal).""},{""word"":""INERT"",""pos"":""noun"",""def"":""A substance that does not react chemically.""},{""word"":""DRAWN"",""pos"":""verb"",""def"":""To move or develop something.""}]"
+8/5/2026,Hard,"[
+ [""T"", ""A"", ""U"", ""N"", ""T""],
+ [""R"", null, ""N"", null, ""I""],
+ [""A"", ""L"", ""D"", ""O"", ""L""],
+ [""W"", null, ""I"", null, ""D""],
+ [""L"", ""O"", ""D"", ""G"", ""E""]
+    ]","[
+      [false, false, true, false, true],
+      [true, null, false, null, false],
+      [true, true, false, false, true],
+      [false, null, false, null, false],
+      [true, true, true, false, false]
+    ]","[""TAUNT"",""ALDOL"",""LODGE"",""TRAWL"",""UNDID"",""TILDE""]","[{""word"":""TAUNT"",""pos"":""noun"",""def"":""A scornful or mocking remark; a jeer or mockery""},{""word"":""ALDOL"",""pos"":""noun"",""def"":""Any aldehyde or ketone having a hydroxy group in the beta- position""},{""word"":""LODGE"",""pos"":""noun"",""def"":""A building for recreational use such as a hunting lodge or a summer cabin.""},{""word"":""TRAWL"",""pos"":""noun"",""def"":""A net or dragnet used for trawling.""},{""word"":""UNDID"",""pos"":""verb"",""def"":""To reverse the effects of an action.""},{""word"":""TILDE"",""pos"":""noun"",""def"":""The grapheme of character ~.""}]"
