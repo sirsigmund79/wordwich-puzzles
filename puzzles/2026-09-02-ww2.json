@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-02",
+  "maxScore": 145,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "k",
+      "endLetter": "y",
+      "passScore": 8,
+      "perfectScore": 42,
+      "hintWord": "kitty"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 49,
+      "hintWord": "life"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 55,
+      "hintWord": "elves"
+    }
+  ],
+  "_auto": true
+}
