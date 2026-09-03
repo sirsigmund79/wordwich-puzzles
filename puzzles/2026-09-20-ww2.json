@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "maxScore": 209,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "a",
+      "passScore": 7,
+      "perfectScore": 55,
+      "hintWord": "media"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "h",
+      "passScore": 10,
+      "perfectScore": 56,
+      "hintWord": "leash"
+    },
+    {
+      "round": 3,
+      "startLetter": "i",
+      "endLetter": "r",
+      "passScore": 14,
+      "perfectScore": 98,
+      "hintWord": "inner"
+    }
+  ],
+  "_auto": true
+}

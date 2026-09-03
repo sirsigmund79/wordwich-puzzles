@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-25",
+  "maxScore": 262,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "l",
+      "passScore": 14,
+      "perfectScore": 74,
+      "hintWord": "dwell"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "c",
+      "passScore": 9,
+      "perfectScore": 94,
+      "hintWord": "panic"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "y",
+      "passScore": 13,
+      "perfectScore": 94,
+      "hintWord": "petty"
+    }
+  ],
+  "_auto": true
+}

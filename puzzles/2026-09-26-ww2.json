@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-26",
+  "maxScore": 148,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "t",
+      "endLetter": "h",
+      "passScore": 6,
+      "perfectScore": 42,
+      "hintWord": "teach"
+    },
+    {
+      "round": 2,
+      "startLetter": "f",
+      "endLetter": "s",
+      "passScore": 4,
+      "perfectScore": 45,
+      "hintWord": "focus"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "e",
+      "passScore": 8,
+      "perfectScore": 61,
+      "hintWord": "verge"
+    }
+  ],
+  "_auto": true
+}

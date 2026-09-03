@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-27",
+  "maxScore": 258,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "l",
+      "passScore": 6,
+      "perfectScore": 67,
+      "hintWord": "fatal"
+    },
+    {
+      "round": 2,
+      "startLetter": "k",
+      "endLetter": "e",
+      "passScore": 10,
+      "perfectScore": 93,
+      "hintWord": "knife"
+    },
+    {
+      "round": 3,
+      "startLetter": "i",
+      "endLetter": "s",
+      "passScore": 17,
+      "perfectScore": 98,
+      "hintWord": "iris"
+    }
+  ],
+  "_auto": true
+}

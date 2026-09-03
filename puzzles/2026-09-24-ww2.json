@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-24",
+  "maxScore": 198,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "h",
+      "passScore": 5,
+      "perfectScore": 34,
+      "hintWord": "bench"
+    },
+    {
+      "round": 2,
+      "startLetter": "p",
+      "endLetter": "d",
+      "passScore": 14,
+      "perfectScore": 74,
+      "hintWord": "pound"
+    },
+    {
+      "round": 3,
+      "startLetter": "g",
+      "endLetter": "g",
+      "passScore": 8,
+      "perfectScore": 90,
+      "hintWord": "going"
+    }
+  ],
+  "_auto": true
+}

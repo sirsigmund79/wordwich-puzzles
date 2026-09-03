@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-21",
+  "maxScore": 147,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "g",
+      "endLetter": "h",
+      "passScore": 7,
+      "perfectScore": 41,
+      "hintWord": "gosh"
+    },
+    {
+      "round": 2,
+      "startLetter": "q",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 44,
+      "hintWord": "queue"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "y",
+      "passScore": 5,
+      "perfectScore": 62,
+      "hintWord": "very"
+    }
+  ],
+  "_auto": true
+}
