@@ -82,7 +82,9 @@ const COMMON_WORDS_DEFAULT = path.join(SCRIPT_DIR, 'wordle_words.txt');
 const DICT_WORDS_DEFAULT   = path.join(SCRIPT_DIR, 'griddle_dict.txt');
 
 // Free Dictionary API base URL used to validate words and fetch definitions.
-const FREE_DICT_API = 'https://api.dictionaryapi.dev/api/v2/entries/en';
+// Was api.dictionaryapi.dev — switched 2026-09-27 after that host started
+// hanging/timing out (Cloudflare 522) on every lookup, word or not.
+const FREE_DICT_API = 'https://freedictionaryapi.com/api/v1/entries/en';
 
 // How many generation attempts before giving up on a date/difficulty combo.
 // The HTML tool uses 5000; we use the same.
@@ -399,17 +401,17 @@ async function lookupWord(word) {
 
       const data = await res.json();
 
-      // The API returns an array of entry objects for known words, or a plain
-      // object like {"title":"No Definitions Found",...} for unknown words.
-      // Both cases come back as HTTP 200, so we must inspect the body.
-      if (!Array.isArray(data) || data.length === 0) {
+      // The API returns {word, entries:[...]} for known words, or
+      // {word, entries:[]} for unknown words — both as HTTP 200, so we must
+      // inspect the body rather than trust the status code.
+      if (!data || !Array.isArray(data.entries) || data.entries.length === 0) {
         result = { valid: false };
         break;
       }
 
-      const firstMeaning = data[0]?.meanings?.[0];
-      const pos = firstMeaning?.partOfSpeech ?? '';
-      const def = firstMeaning?.definitions?.[0]?.definition ?? '';
+      const firstEntry = data.entries[0];
+      const pos = firstEntry?.partOfSpeech ?? '';
+      const def = firstEntry?.senses?.[0]?.definition ?? '';
       result = { valid: true, pos, def };
       break;
 
@@ -928,7 +930,7 @@ async function main() {
   console.log('  6. Run your Apps Script to verify/adjust staticCells as needed');
   console.log('\nNote: the staticCells are algorithmically generated but you can always');
   console.log('override them in the sheet using your visual helper columns.');
-  console.log('\nNote: definitions are fetched from dictionaryapi.dev. If a word has a');
+  console.log('\nNote: definitions are fetched from freedictionaryapi.com. If a word has a');
   console.log("missing or incomplete entry there, you may want to fill it in manually.");
 }
 
