@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-04",
+  "maxScore": 170,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "d",
+      "endLetter": "k",
+      "passScore": 3,
+      "perfectScore": 40,
+      "hintWord": "drink"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "e",
+      "passScore": 6,
+      "perfectScore": 50,
+      "hintWord": "raise"
+    },
+    {
+      "round": 3,
+      "startLetter": "r",
+      "endLetter": "s",
+      "passScore": 9,
+      "perfectScore": 80,
+      "hintWord": "runs"
+    }
+  ],
+  "_auto": true
+}

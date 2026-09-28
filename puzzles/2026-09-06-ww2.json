@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-06",
+  "maxScore": 255,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "e",
+      "passScore": 11,
+      "perfectScore": 65,
+      "hintWord": "house"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "t",
+      "passScore": 9,
+      "perfectScore": 92,
+      "hintWord": "upset"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "m",
+      "passScore": 9,
+      "perfectScore": 98,
+      "hintWord": "poem"
+    }
+  ],
+  "_auto": true
+}

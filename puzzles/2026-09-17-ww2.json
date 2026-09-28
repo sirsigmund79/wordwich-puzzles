@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-17",
+  "maxScore": 246,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "l",
+      "passScore": 11,
+      "perfectScore": 66,
+      "hintWord": "civil"
+    },
+    {
+      "round": 2,
+      "startLetter": "i",
+      "endLetter": "g",
+      "passScore": 12,
+      "perfectScore": 90,
+      "hintWord": "inning"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "d",
+      "passScore": 16,
+      "perfectScore": 90,
+      "hintWord": "owed"
+    }
+  ],
+  "_auto": true
+}

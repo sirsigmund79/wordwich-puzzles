@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-15",
+  "maxScore": 191,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "k",
+      "passScore": 4,
+      "perfectScore": 50,
+      "hintWord": "rock"
+    },
+    {
+      "round": 2,
+      "startLetter": "o",
+      "endLetter": "t",
+      "passScore": 11,
+      "perfectScore": 69,
+      "hintWord": "ought"
+    },
+    {
+      "round": 3,
+      "startLetter": "i",
+      "endLetter": "t",
+      "passScore": 8,
+      "perfectScore": 72,
+      "hintWord": "idiot"
+    }
+  ],
+  "_auto": true
+}

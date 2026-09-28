@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-18",
+  "maxScore": 194,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "k",
+      "passScore": 5,
+      "perfectScore": 37,
+      "hintWord": "chuck"
+    },
+    {
+      "round": 2,
+      "startLetter": "j",
+      "endLetter": "d",
+      "passScore": 10,
+      "perfectScore": 77,
+      "hintWord": "joined"
+    },
+    {
+      "round": 3,
+      "startLetter": "l",
+      "endLetter": "g",
+      "passScore": 15,
+      "perfectScore": 80,
+      "hintWord": "lying"
+    }
+  ],
+  "_auto": true
+}

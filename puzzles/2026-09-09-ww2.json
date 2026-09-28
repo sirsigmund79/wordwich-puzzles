@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-09",
+  "maxScore": 218,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "c",
+      "passScore": 13,
+      "perfectScore": 69,
+      "hintWord": "manic"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "d",
+      "passScore": 6,
+      "perfectScore": 69,
+      "hintWord": "round"
+    },
+    {
+      "round": 3,
+      "startLetter": "f",
+      "endLetter": "n",
+      "passScore": 15,
+      "perfectScore": 80,
+      "hintWord": "felon"
+    }
+  ],
+  "_auto": true
+}

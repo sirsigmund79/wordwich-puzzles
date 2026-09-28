@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-16",
+  "maxScore": 159,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "k",
+      "passScore": 4,
+      "perfectScore": 39,
+      "hintWord": "flank"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "d",
+      "passScore": 6,
+      "perfectScore": 52,
+      "hintWord": "board"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "t",
+      "passScore": 10,
+      "perfectScore": 68,
+      "hintWord": "eight"
+    }
+  ],
+  "_auto": true
+}
