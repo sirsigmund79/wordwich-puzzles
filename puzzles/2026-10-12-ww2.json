@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-12",
+  "maxScore": 171,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "a",
+      "passScore": 5,
+      "perfectScore": 47,
+      "hintWord": "baba"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "d",
+      "passScore": 7,
+      "perfectScore": 62,
+      "hintWord": "used"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "g",
+      "passScore": 10,
+      "perfectScore": 62,
+      "hintWord": "eating"
+    }
+  ],
+  "_auto": true
+}

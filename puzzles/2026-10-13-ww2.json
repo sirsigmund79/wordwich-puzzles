@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-13",
+  "maxScore": 137,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "e",
+      "passScore": 6,
+      "perfectScore": 40,
+      "hintWord": "chose"
+    },
+    {
+      "round": 2,
+      "startLetter": "j",
+      "endLetter": "e",
+      "passScore": 6,
+      "perfectScore": 41,
+      "hintWord": "judge"
+    },
+    {
+      "round": 3,
+      "startLetter": "g",
+      "endLetter": "y",
+      "passScore": 9,
+      "perfectScore": 56,
+      "hintWord": "goody"
+    }
+  ],
+  "_auto": true
+}

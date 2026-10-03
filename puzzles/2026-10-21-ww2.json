@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "maxScore": 166,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "k",
+      "passScore": 5,
+      "perfectScore": 35,
+      "hintWord": "prank"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 51,
+      "hintWord": "blunt"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "d",
+      "passScore": 14,
+      "perfectScore": 80,
+      "hintWord": "eyed"
+    }
+  ],
+  "_auto": true
+}

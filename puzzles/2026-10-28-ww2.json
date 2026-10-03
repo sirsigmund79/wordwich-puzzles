@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-28",
+  "maxScore": 192,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "l",
+      "passScore": 4,
+      "perfectScore": 46,
+      "hintWord": "hazel"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "n",
+      "passScore": 10,
+      "perfectScore": 66,
+      "hintWord": "thorn"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "g",
+      "passScore": 10,
+      "perfectScore": 80,
+      "hintWord": "plug"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "maxScore": 157,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 41,
+      "hintWord": "habit"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "r",
+      "passScore": 10,
+      "perfectScore": 52,
+      "hintWord": "armor"
+    },
+    {
+      "round": 3,
+      "startLetter": "m",
+      "endLetter": "n",
+      "passScore": 10,
+      "perfectScore": 64,
+      "hintWord": "moron"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-30",
+  "maxScore": 231,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 43,
+      "hintWord": "force"
+    },
+    {
+      "round": 2,
+      "startLetter": "u",
+      "endLetter": "l",
+      "passScore": 10,
+      "perfectScore": 94,
+      "hintWord": "until"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "g",
+      "passScore": 11,
+      "perfectScore": 94,
+      "hintWord": "naming"
+    }
+  ],
+  "_auto": true
+}

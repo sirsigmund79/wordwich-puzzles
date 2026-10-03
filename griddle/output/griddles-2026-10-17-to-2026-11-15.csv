@@ -1,0 +1,1171 @@
+puzzleDate,difficulty,solutionGrid,staticCells,words,definitions
+10/17/2026,Easy,"[
+ [""I"", ""N"", ""D"", ""E"", ""X""],
+ [""N"", null, ""R"", null, ""Y""],
+ [""P"", ""O"", ""O"", ""N"", ""S""],
+ [""U"", null, ""L"", null, ""T""],
+ [""T"", ""E"", ""L"", ""O"", ""I""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, true, null, false],
+      [true, false, true, true, false],
+      [true, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""INDEX"",""POONS"",""TELOI"",""INPUT"",""DROLL"",""XYSTI""]","[{""word"":""INDEX"",""pos"":""noun"",""def"":""An alphabetical listing of items and their location.""},{""word"":""POONS"",""pos"":""noun"",""def"":""plural of poon""},{""word"":""TELOI"",""pos"":""noun"",""def"":""plural of telos""},{""word"":""INPUT"",""pos"":""noun"",""def"":""The act or process of putting in; infusion.""},{""word"":""DROLL"",""pos"":""adjective"",""def"":""Oddly humorous; whimsical, amusing in a quaint way; waggish.""},{""word"":""XYSTI"",""pos"":""noun"",""def"":""plural of xystus""}]"
+10/17/2026,Medium,"[
+ [""A"", ""P"", ""I"", ""N"", ""G""],
+ [""R"", null, ""N"", null, ""A""],
+ [""M"", ""O"", ""P"", ""E"", ""Y""],
+ [""O"", null, ""U"", null, ""E""],
+ [""R"", ""O"", ""T"", ""O"", ""R""]
+    ]","[
+      [true, true, true, false, true],
+      [true, null, false, null, false],
+      [false, false, true, false, false],
+      [true, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""APING"",""MOPEY"",""ROTOR"",""ARMOR"",""INPUT"",""GAYER""]","[{""word"":""APING"",""pos"":""verb"",""def"":""present participle and gerund of ape""},{""word"":""MOPEY"",""pos"":""adjective"",""def"":""Given to moping; in a depressed condition, low in spirits; lackadaisical.""},{""word"":""ROTOR"",""pos"":""noun"",""def"":""A rotating part of a mechanical device; for example, in an electric motor, generator, alternator, or pump.""},{""word"":""ARMOR"",""pos"":""noun"",""def"":""(uncountable) A protective layer over a body, vehicle, or other object intended to deflect or diffuse damaging forces.""},{""word"":""INPUT"",""pos"":""noun"",""def"":""The act or process of putting in; infusion.""},{""word"":""GAYER"",""pos"":""adjective"",""def"":""comparative form of gay: more gay""}]"
+10/17/2026,Hard,"[
+ [""F"", ""E"", ""C"", ""A"", ""L""],
+ [""L"", null, ""A"", null, ""U""],
+ [""O"", ""A"", ""T"", ""E"", ""N""],
+ [""A"", null, ""E"", null, ""C""],
+ [""T"", ""O"", ""R"", ""C"", ""H""]
+    ]","[
+      [false, true, false, true, true],
+      [true, null, false, null, false],
+      [false, false, true, true, true],
+      [true, null, false, null, false],
+      [false, true, false, true, false]
+    ]","[""FECAL"",""OATEN"",""TORCH"",""FLOAT"",""CATER"",""LUNCH""]","[{""word"":""FECAL"",""pos"":""adjective"",""def"":""Of or relating to feces.""},{""word"":""OATEN"",""pos"":""adjective"",""def"":""Made of oats.""},{""word"":""TORCH"",""pos"":""noun"",""def"":""A stick of wood or plant fibres twisted together, with one end soaked in a flammable substance such as resin or tallow and set on fire, which is held in the hand, put into a wall bracket, or stuck into the ground, and used chiefly as a light source.""},{""word"":""FLOAT"",""pos"":""verb"",""def"":""(intransitive, of an object or substance) To be supported by a fluid of greater density (than the object).""},{""word"":""CATER"",""pos"":""verb"",""def"":""To provide, particularly:""},{""word"":""LUNCH"",""pos"":""noun"",""def"":""A light meal usually eaten around midday, notably when not as main meal of the day.""}]"
+10/18/2026,Easy,"[
+ [""S"", ""H"", ""I"", ""F"", ""T""],
+ [""T"", null, ""T"", null, ""H""],
+ [""R"", ""U"", ""C"", ""H"", ""E""],
+ [""I"", null, ""H"", null, ""I""],
+ [""P"", ""A"", ""Y"", ""E"", ""R""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, true],
+      [false, false, true, true, true],
+      [true, null, false, null, true],
+      [true, false, false, true, true]
+    ]","[""SHIFT"",""RUCHE"",""PAYER"",""STRIP"",""ITCHY"",""THEIR""]","[{""word"":""SHIFT"",""pos"":""noun"",""def"":""A movement to do something, a beginning.""},{""word"":""RUCHE"",""pos"":""noun"",""def"":""A strip of fabric which has been fluted or pleated.""},{""word"":""PAYER"",""pos"":""noun"",""def"":""One who pays; specifically, the person by whom a bill or note has been, or should be, paid.""},{""word"":""STRIP"",""pos"":""noun"",""def"":""(countable) A long, thin piece of land; any long, thin area.""},{""word"":""ITCHY"",""pos"":""adjective"",""def"":""Characterized by itching. (of a condition)""},{""word"":""THEIR"",""pos"":""determiner"",""def"":""Belonging to, from, of, or relating to, them (plural).""}]"
+10/18/2026,Medium,"[
+ [""T"", ""A"", ""M"", ""E"", ""R""],
+ [""E"", null, ""O"", null, ""E""],
+ [""R"", ""A"", ""T"", ""A"", ""L""],
+ [""S"", null, ""T"", null, ""A""],
+ [""E"", ""P"", ""O"", ""X"", ""Y""]
+    ]","[
+      [true, false, false, true, false],
+      [false, null, false, null, true],
+      [false, true, true, false, false],
+      [true, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""TAMER"",""RATAL"",""EPOXY"",""TERSE"",""MOTTO"",""RELAY""]","[{""word"":""TAMER"",""pos"":""noun"",""def"":""One who tames or subdues.""},{""word"":""RATAL"",""pos"":""noun"",""def"":""A traditional Maltese unit of weight, officially 1.75 imperial pounds (0.794 kg), now widely metrified informally to mean 800 grammes.""},{""word"":""EPOXY"",""pos"":""adjective"",""def"":""(chemistry) Derived from an epoxide.""},{""word"":""TERSE"",""pos"":""adjective"",""def"":""(by extension) Of speech or style: brief, concise, to the point.""},{""word"":""MOTTO"",""pos"":""noun"",""def"":""A personal slogan.""},{""word"":""RELAY"",""pos"":""noun"",""def"":""(hunting, rare) A new set of hounds.""}]"
+10/18/2026,Hard,"[
+ [""C"", ""H"", ""I"", ""L"", ""L""],
+ [""O"", null, ""N"", null, ""E""],
+ [""L"", ""I"", ""E"", ""G"", ""E""],
+ [""O"", null, ""P"", null, ""R""],
+ [""R"", ""A"", ""T"", ""T"", ""Y""]
+    ]","[
+      [false, false, true, false, false],
+      [true, null, true, null, true],
+      [false, true, true, true, false],
+      [false, null, false, null, true],
+      [false, false, false, false, true]
+    ]","[""CHILL"",""LIEGE"",""RATTY"",""COLOR"",""INEPT"",""LEERY""]","[{""word"":""CHILL"",""pos"":""noun"",""def"":""A moderate, but uncomfortable and penetrating coldness.""},{""word"":""LIEGE"",""pos"":""noun"",""def"":""A free and independent person; specifically, a lord paramount; a sovereign.""},{""word"":""RATTY"",""pos"":""adjective"",""def"":""Resembling or characteristic of a rat; ratlike.""},{""word"":""COLOR"",""pos"":""noun"",""def"":""(uncountable) The spectral composition of visible light.""},{""word"":""INEPT"",""pos"":""adjective"",""def"":""Not able to do something; not proficient; displaying incompetence.""},{""word"":""LEERY"",""pos"":""adjective"",""def"":""Cautious, suspicious, wary, hesitant, or nervous about something; having reservations or concerns.""}]"
+10/19/2026,Easy,"[
+ [""F"", ""L"", ""I"", ""R"", ""T""],
+ [""R"", null, ""N"", null, ""E""],
+ [""A"", ""B"", ""L"", ""E"", ""D""],
+ [""U"", null, ""E"", null, ""D""],
+ [""D"", ""O"", ""T"", ""T"", ""Y""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, true, null, false],
+      [false, false, true, false, false],
+      [true, null, true, null, true],
+      [true, false, true, true, true]
+    ]","[""FLIRT"",""ABLED"",""DOTTY"",""FRAUD"",""INLET"",""TEDDY""]","[{""word"":""FLIRT"",""pos"":""noun"",""def"":""A sudden jerk; a quick throw or cast; a darting motion""},{""word"":""ABLED"",""pos"":""adjective"",""def"":""(in combination) Having a range of physical powers as specified.""},{""word"":""DOTTY"",""pos"":""adjective"",""def"":""(British, Australia, colloquial) Mildly insane or eccentric; often, senile.""},{""word"":""FRAUD"",""pos"":""noun"",""def"":""(law) The crime of stealing or otherwise illegally obtaining money by use of deception tactics.""},{""word"":""INLET"",""pos"":""noun"",""def"":""A body of water let into a coast, such as a bay, cove, fjord or estuary.""},{""word"":""TEDDY"",""pos"":""noun"",""def"":""Abbreviation of teddy bear.""}]"
+10/19/2026,Medium,"[
+ [""G"", ""A"", ""F"", ""F"", ""E""],
+ [""R"", null, ""I"", null, ""X""],
+ [""A"", ""L"", ""E"", ""R"", ""T""],
+ [""N"", null, ""N"", null, ""O""],
+ [""D"", ""E"", ""D"", ""A"", ""L""]
+    ]","[
+      [true, true, true, true, true],
+      [true, null, false, null, false],
+      [false, true, true, false, false],
+      [false, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""GAFFE"",""ALERT"",""DEDAL"",""GRAND"",""FIEND"",""EXTOL""]","[{""word"":""GAFFE"",""pos"":""noun"",""def"":""A foolish and embarrassing error, especially one made in public; a social blunder; a breach of etiquette.""},{""word"":""ALERT"",""pos"":""adjective"",""def"":""Attentive; awake; on guard.""},{""word"":""DEDAL"",""pos"":""noun"",""def"":""Archaic spelling of daedal.""},{""word"":""GRAND"",""pos"":""adjective"",""def"":""(augmentative) Large, senior (high-ranking), intense, extreme, or exceptional""},{""word"":""FIEND"",""pos"":""noun"",""def"":""A devil or demon; a malignant or diabolical being; an evil spirit.""},{""word"":""EXTOL"",""pos"":""verb"",""def"":""(transitive) To praise; to make high.""}]"
+10/19/2026,Hard,"[
+ [""L"", ""I"", ""P"", ""I"", ""D""],
+ [""U"", null, ""L"", null, ""U""],
+ [""P"", ""L"", ""A"", ""I"", ""N""],
+ [""U"", null, ""C"", null, ""C""],
+ [""S"", ""I"", ""E"", ""V"", ""E""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, false, null, false],
+      [true, false, true, true, false],
+      [false, null, false, null, false],
+      [true, true, false, false, true]
+    ]","[""LIPID"",""PLAIN"",""SIEVE"",""LUPUS"",""PLACE"",""DUNCE""]","[{""word"":""LIPID"",""pos"":""noun"",""def"":""(organic chemistry) Any of a group of organic compounds including the fats, oils, waxes, sterols, and triglycerides. Lipids are characterized by being insoluble in water, and account for most of the fat present in the human body.""},{""word"":""PLAIN"",""pos"":""adjective"",""def"":""(now rare, regional) Flat, level.""},{""word"":""SIEVE"",""pos"":""noun"",""def"":""A device with a mesh, grate, or otherwise perforated bottom to separate, in a granular material, larger particles from smaller ones, or to separate solid objects from a liquid.""},{""word"":""LUPUS"",""pos"":""noun"",""def"":""(pathology) Any of a number of autoimmune diseases, the most common of which is systemic lupus erythematosus.""},{""word"":""PLACE"",""pos"":""noun"",""def"":""(physical) An area; somewhere within an area.""},{""word"":""DUNCE"",""pos"":""noun"",""def"":""An unintelligent person.""}]"
+10/20/2026,Easy,"[
+ [""O"", ""M"", ""B"", ""R"", ""E""],
+ [""P"", null, ""E"", null, ""C""],
+ [""E"", ""R"", ""V"", ""I"", ""L""],
+ [""R"", null, ""E"", null, ""A""],
+ [""A"", ""L"", ""L"", ""O"", ""T""]
+    ]","[
+      [true, false, true, true, true],
+      [false, null, false, null, false],
+      [true, false, true, true, false],
+      [false, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""OMBRE"",""ERVIL"",""ALLOT"",""OPERA"",""BEVEL"",""ECLAT""]","[{""word"":""OMBRE"",""pos"":""noun"",""def"":""A Spanish card game, usually played by three people. It involves forty cards, omitting the ranks of 8, 9 and 10.""},{""word"":""ERVIL"",""pos"":""noun"",""def"":""bitter vetch, blister vetch (Vicia ervilia).""},{""word"":""ALLOT"",""pos"":""verb"",""def"":""(transitive) To distribute or apportion by (or as if by) lot.""},{""word"":""OPERA"",""pos"":""noun"",""def"":""(music) A theatrical work, combining drama, music, song and sometimes dance.""},{""word"":""BEVEL"",""pos"":""noun"",""def"":""An edge that is canted, one that is not a 90-degree angle; a chamfer.""},{""word"":""ECLAT"",""pos"":""noun"",""def"":""Alternative spelling of éclat.""}]"
+10/20/2026,Medium,"[
+ [""B"", ""L"", ""E"", ""E"", ""D""],
+ [""O"", null, ""A"", null, ""I""],
+ [""O"", ""R"", ""G"", ""A"", ""N""],
+ [""B"", null, ""E"", null, ""E""],
+ [""Y"", ""A"", ""R"", ""E"", ""R""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, true],
+      [false, false, true, true, false],
+      [false, null, false, null, true],
+      [true, true, true, true, true]
+    ]","[""BLEED"",""ORGAN"",""YARER"",""BOOBY"",""EAGER"",""DINER""]","[{""word"":""BLEED"",""pos"":""verb"",""def"":""(intransitive, of a person, animal or body part) To shed blood through an injured blood vessel.""},{""word"":""ORGAN"",""pos"":""noun"",""def"":""The larger part of an organism, composed of tissues that perform similar functions.""},{""word"":""YARER"",""pos"":""adjective"",""def"":""comparative form of yare: more yare""},{""word"":""BOOBY"",""pos"":""noun"",""def"":""A stupid person.""},{""word"":""EAGER"",""pos"":""adjective"",""def"":""Desirous; keen to do or obtain something.""},{""word"":""DINER"",""pos"":""noun"",""def"":""Someone who dines.""}]"
+10/20/2026,Hard,"[
+ [""R"", ""A"", ""B"", ""B"", ""I""],
+ [""A"", null, ""L"", null, ""N""],
+ [""B"", ""O"", ""O"", ""S"", ""T""],
+ [""I"", null, ""C"", null, ""R""],
+ [""D"", ""E"", ""K"", ""K"", ""O""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, true, null, true],
+      [false, false, false, false, true],
+      [false, null, false, null, true],
+      [false, true, false, false, false]
+    ]","[""RABBI"",""BOOST"",""DEKKO"",""RABID"",""BLOCK"",""INTRO""]","[{""word"":""RABBI"",""pos"":""noun"",""def"":""A Jewish scholar or teacher of halacha (Jewish law), capable of making halachic decisions.""},{""word"":""BOOST"",""pos"":""noun"",""def"":""A push from behind or below, as to one who is endeavoring to climb.""},{""word"":""DEKKO"",""pos"":""noun"",""def"":""(UK, Ireland, slang) A look; a glance.""},{""word"":""RABID"",""pos"":""adjective"",""def"":""Affected with rabies.""},{""word"":""BLOCK"",""pos"":""noun"",""def"":""A substantial, often approximately cuboid, piece of any substance.""},{""word"":""INTRO"",""pos"":""noun"",""def"":""(informal) An introduction.""}]"
+10/21/2026,Easy,"[
+ [""S"", ""H"", ""A"", ""L"", ""T""],
+ [""P"", null, ""N"", null, ""I""],
+ [""I"", ""L"", ""I"", ""A"", ""L""],
+ [""L"", null, ""M"", null, ""D""],
+ [""T"", ""H"", ""E"", ""R"", ""E""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, true, null, true],
+      [true, false, true, true, true],
+      [false, null, false, null, false],
+      [true, false, true, false, true]
+    ]","[""SHALT"",""ILIAL"",""THERE"",""SPILT"",""ANIME"",""TILDE""]","[{""word"":""SHALT"",""pos"":""verb"",""def"":""(archaic) second-person singular simple present indicative of shall""},{""word"":""ILIAL"",""pos"":""adjective"",""def"":""Archaic form of iliac (“Pertaining to the ilium”).""},{""word"":""THERE"",""pos"":""adverb"",""def"":""(location) In or at a place or location (stated, implied or otherwise indicated) that is perceived to be away from, or at a relative distance from, the speaker (compare here).""},{""word"":""SPILT"",""pos"":""adjective"",""def"":""That has been spilled.""},{""word"":""ANIME"",""pos"":""noun"",""def"":""(countable) An animated work that originated in Japan, regardless of the artistic style.""},{""word"":""TILDE"",""pos"":""noun"",""def"":""A diacritical mark ⟨˜⟩ placed above a letter to modify its pronunciation.""}]"
+10/21/2026,Medium,"[
+ [""W"", ""H"", ""I"", ""N"", ""E""],
+ [""R"", null, ""C"", null, ""L""],
+ [""I"", ""M"", ""I"", ""N"", ""O""],
+ [""S"", null, ""L"", null, ""P""],
+ [""T"", ""H"", ""Y"", ""M"", ""E""]
+    ]","[
+      [false, false, true, true, true],
+      [false, null, true, null, true],
+      [false, true, true, false, false],
+      [false, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""WHINE"",""IMINO"",""THYME"",""WRIST"",""ICILY"",""ELOPE""]","[{""word"":""WHINE"",""pos"":""noun"",""def"":""A long-drawn, high-pitched complaining cry or sound.""},{""word"":""IMINO"",""pos"":""noun"",""def"":""(chemistry) The divalent radical =NH or =N-R.""},{""word"":""THYME"",""pos"":""noun"",""def"":""Any plant of the labiate genus Thymus, such as garden thyme (Thymus vulgaris), a warm, pungent aromatic, that is much used to give a relish to seasoning and soups.""},{""word"":""WRIST"",""pos"":""noun"",""def"":""(anatomy) The complex joint between forearm bones, carpus, and metacarpals where the hand is attached to the arm; the carpus in a narrow sense.""},{""word"":""ICILY"",""pos"":""adverb"",""def"":""In the manner of ice; with a cold or chilling effect.""},{""word"":""ELOPE"",""pos"":""verb"",""def"":""(intransitive) Of a married or engaged person, to run away from home with a paramour.""}]"
+10/21/2026,Hard,"[
+ [""U"", ""N"", ""F"", ""E"", ""D""],
+ [""N"", null, ""O"", null, ""R""],
+ [""L"", ""O"", ""G"", ""I"", ""A""],
+ [""I"", null, ""G"", null, ""M""],
+ [""T"", ""R"", ""Y"", ""M"", ""A""]
+    ]","[
+      [false, false, false, true, false],
+      [false, null, true, null, false],
+      [false, false, true, true, true],
+      [true, null, true, null, true],
+      [false, false, false, true, true]
+    ]","[""UNFED"",""LOGIA"",""TRYMA"",""UNLIT"",""FOGGY"",""DRAMA""]","[{""word"":""UNFED"",""pos"":""adjective"",""def"":""Not fed.""},{""word"":""LOGIA"",""pos"":""noun"",""def"":""plural of logion""},{""word"":""TRYMA"",""pos"":""noun"",""def"":""(botany) A drupe with fleshy exocarp, dehiscent, such as the walnut.""},{""word"":""UNLIT"",""pos"":""adjective"",""def"":""Not lit""},{""word"":""FOGGY"",""pos"":""adjective"",""def"":""Obscured by mist or fog; unclear; hazy.""},{""word"":""DRAMA"",""pos"":""noun"",""def"":""(countable) A composition, normally in prose, telling a story and intended to be represented by actors impersonating the characters and speaking the dialogue""}]"
+10/22/2026,Easy,"[
+ [""A"", ""G"", ""L"", ""O"", ""W""],
+ [""R"", null, ""A"", null, ""E""],
+ [""E"", ""X"", ""T"", ""R"", ""A""],
+ [""N"", null, ""E"", null, ""R""],
+ [""A"", ""R"", ""R"", ""A"", ""Y""]
+    ]","[
+      [true, false, true, true, true],
+      [true, null, false, null, false],
+      [false, true, true, true, true],
+      [true, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""AGLOW"",""EXTRA"",""ARRAY"",""ARENA"",""LATER"",""WEARY""]","[{""word"":""AGLOW"",""pos"":""adjective"",""def"":""(sometimes figurative) glowing; radiant""},{""word"":""EXTRA"",""pos"":""adjective"",""def"":""(not comparable) Beyond what is due, usual, expected, or necessary; extraneous; additional; supernumerary.""},{""word"":""ARRAY"",""pos"":""noun"",""def"":""Clothing and ornamentation; raiment.""},{""word"":""ARENA"",""pos"":""noun"",""def"":""An enclosed area, often outdoor, for the presentation of sporting events (sports arena) or other spectacular events; earthen area, often oval, specifically for rodeos (North America) or circular area for bullfights (especially Hispanic America).""},{""word"":""LATER"",""pos"":""adverb"",""def"":""comparative form of late: more late""},{""word"":""WEARY"",""pos"":""adjective"",""def"":""Having the strength exhausted by toil or exertion; tired; fatigued.""}]"
+10/22/2026,Medium,"[
+ [""P"", ""O"", ""I"", ""S"", ""E""],
+ [""O"", null, ""D"", null, ""T""],
+ [""K"", ""N"", ""I"", ""S"", ""H""],
+ [""E"", null, ""O"", null, ""O""],
+ [""R"", ""A"", ""M"", ""U"", ""S""]
+    ]","[
+      [true, false, false, true, true],
+      [true, null, false, null, true],
+      [true, false, true, false, false],
+      [false, null, true, null, false],
+      [false, false, true, true, true]
+    ]","[""POISE"",""KNISH"",""RAMUS"",""POKER"",""IDIOM"",""ETHOS""]","[{""word"":""POISE"",""pos"":""noun"",""def"":""A state of balance, equilibrium or stability.""},{""word"":""KNISH"",""pos"":""noun"",""def"":""An Eastern European Jewish, or Yiddish, snack food consisting of a dumpling covered with a shell of baked or fried dough""},{""word"":""RAMUS"",""pos"":""noun"",""def"":""A small spray or twig.""},{""word"":""POKER"",""pos"":""noun"",""def"":""A metal rod, generally of wrought iron, for adjusting the burning logs or coals in a fire; a firestick.""},{""word"":""IDIOM"",""pos"":""noun"",""def"":""A manner of speaking, a mode of expression peculiar to a language, language family, or group of people.""},{""word"":""ETHOS"",""pos"":""noun"",""def"":""The character or fundamental values of a person, people, culture, or movement.""}]"
+10/22/2026,Hard,"[
+ [""B"", ""E"", ""R"", ""T"", ""H""],
+ [""R"", null, ""I"", null, ""U""],
+ [""O"", ""A"", ""V"", ""E"", ""S""],
+ [""W"", null, ""E"", null, ""S""],
+ [""N"", ""E"", ""R"", ""D"", ""Y""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, false],
+      [false, false, true, true, false],
+      [false, null, false, null, true],
+      [true, true, true, false, false]
+    ]","[""BERTH"",""OAVES"",""NERDY"",""BROWN"",""RIVER"",""HUSSY""]","[{""word"":""BERTH"",""pos"":""noun"",""def"":""(nautical) Chiefly in wide berth: a sufficient space in the water for a ship or other vessel to lie at anchor or manoeuvre without getting in the way of other vessels, or colliding into rocks or the shore.""},{""word"":""OAVES"",""pos"":""noun"",""def"":""plural of oaf""},{""word"":""NERDY"",""pos"":""adjective"",""def"":""(colloquial, derogatory, of a person) Being or like a nerd.""},{""word"":""BROWN"",""pos"":""noun"",""def"":""(countable and uncountable) A colour like that of chocolate or coffee.""},{""word"":""RIVER"",""pos"":""noun"",""def"":""A large and often winding stream which drains a land mass, carrying water down from higher areas to a lower point, oftentimes ending in another body of water, such as an ocean or in an inland sea.""},{""word"":""HUSSY"",""pos"":""noun"",""def"":""(obsolete) A housewife or housekeeper.""}]"
+10/23/2026,Easy,"[
+ [""P"", ""R"", ""I"", ""M"", ""O""],
+ [""O"", null, ""D"", null, ""P""],
+ [""I"", ""N"", ""E"", ""R"", ""T""],
+ [""N"", null, ""A"", null, ""I""],
+ [""T"", ""E"", ""L"", ""I"", ""C""]
+    ]","[
+      [true, false, false, true, true],
+      [true, null, false, null, false],
+      [true, false, true, true, false],
+      [true, null, true, null, true],
+      [true, true, false, true, true]
+    ]","[""PRIMO"",""INERT"",""TELIC"",""POINT"",""IDEAL"",""OPTIC""]","[{""word"":""PRIMO"",""pos"":""noun"",""def"":""(music) The principal part of a duet.""},{""word"":""INERT"",""pos"":""adjective"",""def"":""Unable to move or act; inanimate.""},{""word"":""TELIC"",""pos"":""adjective"",""def"":""Tending or directed towards a goal or specific end.""},{""word"":""POINT"",""pos"":""noun"",""def"":""A small dot or mark.""},{""word"":""IDEAL"",""pos"":""adjective"",""def"":""Pertaining to ideas, or to a given idea.""},{""word"":""OPTIC"",""pos"":""adjective"",""def"":""(relational) Of, or relating to the eye or to vision.""}]"
+10/23/2026,Medium,"[
+ [""T"", ""U"", ""L"", ""L"", ""E""],
+ [""A"", null, ""E"", null, ""N""],
+ [""C"", ""O"", ""A"", ""L"", ""A""],
+ [""I"", null, ""K"", null, ""C""],
+ [""T"", ""R"", ""Y"", ""S"", ""T""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, false, null, true],
+      [false, false, true, true, true],
+      [true, null, true, null, true],
+      [true, false, false, true, false]
+    ]","[""TULLE"",""COALA"",""TRYST"",""TACIT"",""LEAKY"",""ENACT""]","[{""word"":""TULLE"",""pos"":""noun"",""def"":""A kind of silk lace or light netting, used for clothing, veils, etc.""},{""word"":""COALA"",""pos"":""noun"",""def"":""Obsolete form of koala.""},{""word"":""TRYST"",""pos"":""noun"",""def"":""A prearranged meeting or assignation, now especially between lovers to meet at a specific place and time.""},{""word"":""TACIT"",""pos"":""adjective"",""def"":""Implied, but not made explicit, especially through silence.""},{""word"":""LEAKY"",""pos"":""adjective"",""def"":""Having leaks; not fully sealed.""},{""word"":""ENACT"",""pos"":""verb"",""def"":""(transitive, law) To make (a bill) into law.""}]"
+10/23/2026,Hard,"[
+ [""F"", ""E"", ""L"", ""L"", ""A""],
+ [""A"", null, ""E"", null, ""B""],
+ [""T"", ""E"", ""A"", ""R"", ""Y""],
+ [""A"", null, ""P"", null, ""S""],
+ [""L"", ""A"", ""T"", ""H"", ""S""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, false, null, false],
+      [false, true, false, true, true],
+      [false, null, false, null, true],
+      [true, false, true, false, false]
+    ]","[""FELLA"",""TEARY"",""LATHS"",""FATAL"",""LEAPT"",""ABYSS""]","[{""word"":""FELLA"",""pos"":""noun"",""def"":""Pronunciation spelling of fellow.""},{""word"":""TEARY"",""pos"":""adjective"",""def"":""Of a person, having eyes filled with tears; inclined to cry.""},{""word"":""LATHS"",""pos"":""noun"",""def"":""plural of lath""},{""word"":""FATAL"",""pos"":""adjective"",""def"":""(rare, archaic) Proceeding from, or appointed by, fate or destiny.""},{""word"":""LEAPT"",""pos"":""verb"",""def"":""simple past and past participle of leap""},{""word"":""ABYSS"",""pos"":""noun"",""def"":""Hell; the bottomless pit; primeval chaos; a confined subterranean ocean.""}]"
+10/24/2026,Easy,"[
+ [""L"", ""O"", ""G"", ""I"", ""N""],
+ [""Y"", null, ""L"", null, ""O""],
+ [""R"", ""H"", ""O"", ""M"", ""B""],
+ [""I"", null, ""S"", null, ""L""],
+ [""C"", ""O"", ""S"", ""E"", ""Y""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, true],
+      [true, false, true, true, false],
+      [true, null, false, null, true],
+      [true, false, true, true, true]
+    ]","[""LOGIN"",""RHOMB"",""COSEY"",""LYRIC"",""GLOSS"",""NOBLY""]","[{""word"":""LOGIN"",""pos"":""noun"",""def"":""(computing) Credentials: the combination of a user's identification and password used to enter a computer, program, network, etc.""},{""word"":""RHOMB"",""pos"":""noun"",""def"":""A rhombus.""},{""word"":""COSEY"",""pos"":""adjective"",""def"":""Archaic spelling of cosy.""},{""word"":""LYRIC"",""pos"":""adjective"",""def"":""(poetry) Of, or relating to a type of poetry (such as a sonnet or ode) that expresses subjective thoughts and feelings, often in a songlike style.""},{""word"":""GLOSS"",""pos"":""noun"",""def"":""A surface shine or luster.""},{""word"":""NOBLY"",""pos"":""adverb"",""def"":""In a noble manner.""}]"
+10/24/2026,Medium,"[
+ [""T"", ""A"", ""S"", ""T"", ""E""],
+ [""R"", null, ""U"", null, ""R""],
+ [""I"", ""M"", ""I"", ""D"", ""O""],
+ [""P"", null, ""N"", null, ""D""],
+ [""E"", ""A"", ""G"", ""L"", ""E""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, true, null, true],
+      [false, true, true, true, false],
+      [false, null, true, null, false],
+      [true, false, true, false, true]
+    ]","[""TASTE"",""IMIDO"",""EAGLE"",""TRIPE"",""SUING"",""ERODE""]","[{""word"":""TASTE"",""pos"":""noun"",""def"":""One of the sensations produced by the tongue in response to certain chemicals; the quality of giving this sensation.""},{""word"":""IMIDO"",""pos"":""adjective"",""def"":""(organic chemistry) Of or pertaining to an imide""},{""word"":""EAGLE"",""pos"":""noun"",""def"":""Any of several large carnivorous and carrion-eating birds in the family Accipitridae, having a powerful hooked bill and keen vision.""},{""word"":""TRIPE"",""pos"":""noun"",""def"":""The lining of the large stomach of ruminating animals, when prepared for food.""},{""word"":""SUING"",""pos"":""verb"",""def"":""present participle and gerund of sue""},{""word"":""ERODE"",""pos"":""verb"",""def"":""To wear away by abrasion, corrosion, or chemical reaction.""}]"
+10/24/2026,Hard,"[
+ [""F"", ""L"", ""U"", ""F"", ""F""],
+ [""R"", null, ""N"", null, ""O""],
+ [""O"", ""R"", ""I"", ""B"", ""I""],
+ [""N"", null, ""O"", null, ""S""],
+ [""D"", ""O"", ""N"", ""U"", ""T""]
+    ]","[
+      [false, true, false, true, true],
+      [true, null, false, null, false],
+      [true, true, true, false, false],
+      [false, null, false, null, false],
+      [false, true, false, true, true]
+    ]","[""FLUFF"",""ORIBI"",""DONUT"",""FROND"",""UNION"",""FOIST""]","[{""word"":""FLUFF"",""pos"":""noun"",""def"":""Anything light, soft or fuzzy, especially fur, hair, feathers.""},{""word"":""ORIBI"",""pos"":""noun"",""def"":""(South Africa) Ourebia ourebi, a species of antelope.""},{""word"":""DONUT"",""pos"":""noun"",""def"":""(chiefly Canada, US, Australia) Alternative spelling of doughnut.""},{""word"":""FROND"",""pos"":""noun"",""def"":""(botany) The leaf of a fern, especially a compound leaf.""},{""word"":""UNION"",""pos"":""noun"",""def"":""(countable) The act of uniting or joining two or more things into one.""},{""word"":""FOIST"",""pos"":""verb"",""def"":""(transitive) To introduce or insert surreptitiously or without warrant.""}]"
+10/25/2026,Easy,"[
+ [""T"", ""O"", ""K"", ""E"", ""N""],
+ [""E"", null, ""N"", null, ""O""],
+ [""S"", ""W"", ""A"", ""R"", ""M""],
+ [""T"", null, ""C"", null, ""A""],
+ [""Y"", ""O"", ""K"", ""E"", ""D""]
+    ]","[
+      [true, false, false, true, true],
+      [true, null, false, null, false],
+      [false, true, true, false, false],
+      [true, null, true, null, true],
+      [true, false, true, true, true]
+    ]","[""TOKEN"",""SWARM"",""YOKED"",""TESTY"",""KNACK"",""NOMAD""]","[{""word"":""TOKEN"",""pos"":""noun"",""def"":""Something serving as an expression of something else.""},{""word"":""SWARM"",""pos"":""noun"",""def"":""A large number of insects, especially when in motion or (for bees) migrating to a new colony.""},{""word"":""YOKED"",""pos"":""adjective"",""def"":""(literal) Wearing a yoke.""},{""word"":""TESTY"",""pos"":""adjective"",""def"":""Easily annoyed, irritable.""},{""word"":""KNACK"",""pos"":""noun"",""def"":""A readiness in performance; aptness at doing something.""},{""word"":""NOMAD"",""pos"":""noun"",""def"":""(anthropology) A member of a society or class who herd animals from pasture to pasture with no fixed home.""}]"
+10/25/2026,Medium,"[
+ [""A"", ""L"", ""A"", ""R"", ""M""],
+ [""L"", null, ""C"", null, ""E""],
+ [""P"", ""A"", ""R"", ""E"", ""R""],
+ [""H"", null, ""I"", null, ""G""],
+ [""A"", ""D"", ""D"", ""L"", ""E""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, true],
+      [false, true, true, true, true],
+      [true, null, false, null, false],
+      [true, true, false, false, true]
+    ]","[""ALARM"",""PARER"",""ADDLE"",""ALPHA"",""ACRID"",""MERGE""]","[{""word"":""ALARM"",""pos"":""noun"",""def"":""A summons to arms, as on the approach of an enemy.""},{""word"":""PARER"",""pos"":""noun"",""def"":""A tool used to pare things.""},{""word"":""ADDLE"",""pos"":""adjective"",""def"":""Having lost the power of development, and become rotten; putrid.""},{""word"":""ALPHA"",""pos"":""noun"",""def"":""The name of the first letter of the Greek alphabet (Α, α), followed by beta. In the Latin alphabet it is the predecessor to A.""},{""word"":""ACRID"",""pos"":""adjective"",""def"":""Sharp and harsh, or bitter and not to the taste.""},{""word"":""MERGE"",""pos"":""verb"",""def"":""(transitive, intransitive) To combine into a whole.""}]"
+10/25/2026,Hard,"[
+ [""C"", ""R"", ""E"", ""P"", ""T""],
+ [""L"", null, ""V"", null, ""R""],
+ [""A"", ""Z"", ""I"", ""D"", ""O""],
+ [""M"", null, ""C"", null, ""L""],
+ [""P"", ""E"", ""T"", ""A"", ""L""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, false, null, false],
+      [true, true, true, true, false],
+      [true, null, false, null, false],
+      [true, false, false, false, false]
+    ]","[""CREPT"",""AZIDO"",""PETAL"",""CLAMP"",""EVICT"",""TROLL""]","[{""word"":""CREPT"",""pos"":""verb"",""def"":""simple past and past participle of creep""},{""word"":""AZIDO"",""pos"":""noun"",""def"":""(chemistry, in combination) The univalent radical N₃- related to azide""},{""word"":""PETAL"",""pos"":""noun"",""def"":""(botany) One of the component parts of the corolla of a flower. It applies particularly, but not necessarily only, when the corolla consists of separate parts, that is when the petals are not connately fused. Petals are often brightly colored.""},{""word"":""CLAMP"",""pos"":""noun"",""def"":""A brace, band, or clasp for strengthening or holding things that are apart together.""},{""word"":""EVICT"",""pos"":""verb"",""def"":""(transitive) To expel (one or more people) from their property; to force (one or more people) to move out.""},{""word"":""TROLL"",""pos"":""noun"",""def"":""(originally Scandinavian mythology, now also European folklore and fantasy) a giant supernatural being, especially a grotesque humanoid creature living in caves or hills or under bridges.""}]"
+10/26/2026,Easy,"[
+ [""S"", ""M"", ""I"", ""R"", ""K""],
+ [""T"", null, ""R"", null, ""N""],
+ [""O"", ""B"", ""O"", ""L"", ""E""],
+ [""M"", null, ""N"", null, ""E""],
+ [""P"", ""A"", ""Y"", ""E"", ""D""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, false, null, true],
+      [true, false, true, true, true],
+      [true, null, false, null, true],
+      [true, true, false, true, true]
+    ]","[""SMIRK"",""OBOLE"",""PAYED"",""STOMP"",""IRONY"",""KNEED""]","[{""word"":""SMIRK"",""pos"":""noun"",""def"":""An uneven, often crooked smile that is insolent, self-satisfied, conceited or scornful.""},{""word"":""OBOLE"",""pos"":""noun"",""def"":""(historical) An obsolete French coin.""},{""word"":""PAYED"",""pos"":""verb"",""def"":""Obsolete spelling of paid.""},{""word"":""STOMP"",""pos"":""verb"",""def"":""(ambitransitive) To trample heavily.""},{""word"":""IRONY"",""pos"":""noun"",""def"":""(rhetoric) The quality of a statement that, when taken in context, may actually mean something different from, or the opposite of, what is written literally; the use of words expressing something other than their literal intention, often in a humorous context.""},{""word"":""KNEED"",""pos"":""adjective"",""def"":""Having a knee or knees, or, in combination, the stated type of knee or knees.""}]"
+10/26/2026,Medium,"[
+ [""C"", ""R"", ""I"", ""S"", ""P""],
+ [""L"", null, ""M"", null, ""L""],
+ [""A"", ""B"", ""A"", ""S"", ""E""],
+ [""C"", null, ""G"", null, ""A""],
+ [""K"", ""N"", ""E"", ""L"", ""T""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, false, null, true],
+      [false, false, true, false, true],
+      [false, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""CRISP"",""ABASE"",""KNELT"",""CLACK"",""IMAGE"",""PLEAT""]","[{""word"":""CRISP"",""pos"":""adjective"",""def"":""Senses relating to curliness.""},{""word"":""ABASE"",""pos"":""verb"",""def"":""(transitive) To lower, as in condition in life, office, rank, etc., so as to cause pain or hurt feelings; to degrade, to depress, to humble, to humiliate.""},{""word"":""KNELT"",""pos"":""verb"",""def"":""simple past and past participle of kneel.""},{""word"":""CLACK"",""pos"":""noun"",""def"":""An abrupt, sharp sound, especially one made by two hard objects colliding repetitively; a sound midway between a click and a clunk.""},{""word"":""IMAGE"",""pos"":""noun"",""def"":""A visual or other representation of the external form of something in art.""},{""word"":""PLEAT"",""pos"":""noun"",""def"":""(sewing) A fold in the fabric of a garment, usually a skirt, as a part of the design of the garment, with the purpose of adding controlled fullness and freedom of movement, or taking up excess fabric. There are many types of pleats, differing in their construction and appearance.""}]"
+10/26/2026,Hard,"[
+ [""F"", ""E"", ""L"", ""O"", ""N""],
+ [""A"", null, ""E"", null, ""A""],
+ [""B"", ""U"", ""M"", ""P"", ""S""],
+ [""L"", null, ""U"", null, ""A""],
+ [""E"", ""N"", ""R"", ""O"", ""L""]
+    ]","[
+      [false, true, true, true, true],
+      [false, null, false, null, false],
+      [true, false, false, false, false],
+      [false, null, true, null, false],
+      [false, true, true, false, true]
+    ]","[""FELON"",""BUMPS"",""ENROL"",""FABLE"",""LEMUR"",""NASAL""]","[{""word"":""FELON"",""pos"":""adjective"",""def"":""(chiefly poetic) Of a person or animal, their actions, thoughts, etc.: brutal, cruel, harsh, heartless; also, evil, wicked.""},{""word"":""BUMPS"",""pos"":""noun"",""def"":""plural of bump""},{""word"":""ENROL"",""pos"":""verb"",""def"":""(British, New Zealand, Australia, Ireland, Canada) Standard spelling of enroll.""},{""word"":""FABLE"",""pos"":""noun"",""def"":""A fictitious narrative intended to enforce some useful truth or precept, usually with animals, etc. as characters; an apologue. Prototypically, Aesop's Fables.""},{""word"":""LEMUR"",""pos"":""noun"",""def"":""Any strepsirrhine primate of the superfamily Lemuroidea, native only to Madagascar and some surrounding islands.""},{""word"":""NASAL"",""pos"":""adjective"",""def"":""(anatomy, relational) Of or pertaining to the nose or to the nasion.""}]"
+10/27/2026,Easy,"[
+ [""C"", ""U"", ""M"", ""I"", ""N""],
+ [""O"", null, ""A"", null, ""I""],
+ [""V"", ""A"", ""T"", ""I"", ""C""],
+ [""E"", null, ""E"", null, ""H""],
+ [""R"", ""H"", ""Y"", ""M"", ""E""]
+    ]","[
+      [true, false, true, false, true],
+      [true, null, false, null, false],
+      [true, true, true, false, true],
+      [true, null, true, null, false],
+      [true, false, false, false, true]
+    ]","[""CUMIN"",""VATIC"",""RHYME"",""COVER"",""MATEY"",""NICHE""]","[{""word"":""CUMIN"",""pos"":""noun"",""def"":""The flowering plant Cuminum cyminum, in the family Apiaceae.""},{""word"":""VATIC"",""pos"":""adjective"",""def"":""Pertaining to a prophet; prophetic, oracular.""},{""word"":""RHYME"",""pos"":""noun"",""def"":""(countable, uncountable) Rhyming verse (poetic form)""},{""word"":""COVER"",""pos"":""noun"",""def"":""A lid.""},{""word"":""MATEY"",""pos"":""adjective"",""def"":""(UK) Sociable or friendly.""},{""word"":""NICHE"",""pos"":""noun"",""def"":""(architecture) A cavity, hollow, or recess, generally within the thickness of a wall, for a statue, bust, or other erect ornament.""}]"
+10/27/2026,Medium,"[
+ [""S"", ""H"", ""A"", ""P"", ""E""],
+ [""E"", null, ""D"", null, ""V""],
+ [""I"", ""R"", ""A"", ""T"", ""E""],
+ [""Z"", null, ""G"", null, ""N""],
+ [""E"", ""R"", ""E"", ""C"", ""T""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, false],
+      [true, false, true, false, false],
+      [true, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""SHAPE"",""IRATE"",""ERECT"",""SEIZE"",""ADAGE"",""EVENT""]","[{""word"":""SHAPE"",""pos"":""noun"",""def"":""The status or condition of something""},{""word"":""IRATE"",""pos"":""adjective"",""def"":""Extremely angry; wrathful; enraged.""},{""word"":""ERECT"",""pos"":""adjective"",""def"":""Upright; vertical or reaching broadly upwards.""},{""word"":""SEIZE"",""pos"":""verb"",""def"":""(transitive) To deliberately take hold of; to grab or capture.""},{""word"":""ADAGE"",""pos"":""noun"",""def"":""An old saying which has obtained credit by long use.""},{""word"":""EVENT"",""pos"":""noun"",""def"":""An occurrence; something that happens.""}]"
+10/27/2026,Hard,"[
+ [""S"", ""A"", ""T"", ""Y"", ""R""],
+ [""T"", null, ""A"", null, ""I""],
+ [""E"", ""P"", ""I"", ""C"", ""S""],
+ [""A"", null, ""N"", null, ""K""],
+ [""M"", ""A"", ""T"", ""E"", ""Y""]
+    ]","[
+      [true, true, true, true, true],
+      [false, null, true, null, false],
+      [false, false, true, false, false],
+      [false, null, false, null, false],
+      [true, false, false, false, true]
+    ]","[""SATYR"",""EPICS"",""MATEY"",""STEAM"",""TAINT"",""RISKY""]","[{""word"":""SATYR"",""pos"":""noun"",""def"":""(Greek mythology) A sylvan deity or demigod, male companion of Pan or Dionysus, represented as part man and part goat, and characterized by riotous merriment and lasciviousness, sometimes pictured with a perpetual erection.""},{""word"":""EPICS"",""pos"":""noun"",""def"":""plural of epic""},{""word"":""MATEY"",""pos"":""adjective"",""def"":""(UK) Sociable or friendly.""},{""word"":""STEAM"",""pos"":""noun"",""def"":""The hot gaseous form of water, formed when water changes from the liquid phase to the gas phase (at or above its boiling point temperature).""},{""word"":""TAINT"",""pos"":""noun"",""def"":""A contamination, decay or putrefaction, especially in food.""},{""word"":""RISKY"",""pos"":""adjective"",""def"":""Dangerous; involving risks.""}]"
+10/28/2026,Easy,"[
+ [""G"", ""E"", ""E"", ""S"", ""E""],
+ [""U"", null, ""Y"", null, ""L""],
+ [""M"", ""A"", ""I"", ""Z"", ""E""],
+ [""B"", null, ""N"", null, ""C""],
+ [""O"", ""U"", ""G"", ""H"", ""T""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, false, null, false],
+      [true, true, true, true, false],
+      [false, null, true, null, true],
+      [true, false, false, true, true]
+    ]","[""GEESE"",""MAIZE"",""OUGHT"",""GUMBO"",""EYING"",""ELECT""]","[{""word"":""GEESE"",""pos"":""noun"",""def"":""plural of goose""},{""word"":""MAIZE"",""pos"":""noun"",""def"":""Corn; a type of grain of the species Zea mays.""},{""word"":""OUGHT"",""pos"":""verb"",""def"":""(obsolete) simple past of owe""},{""word"":""GUMBO"",""pos"":""noun"",""def"":""(countable) Synonym of okra: the plant or its edible capsules.""},{""word"":""EYING"",""pos"":""verb"",""def"":""present participle and gerund of eye""},{""word"":""ELECT"",""pos"":""noun"",""def"":""One chosen or set apart.""}]"
+10/28/2026,Medium,"[
+ [""O"", ""P"", ""I"", ""N"", ""E""],
+ [""N"", null, ""M"", null, ""M""],
+ [""S"", ""E"", ""P"", ""I"", ""A""],
+ [""E"", null, ""E"", null, ""I""],
+ [""T"", ""O"", ""L"", ""Y"", ""L""]
+    ]","[
+      [true, true, true, false, true],
+      [false, null, true, null, false],
+      [false, false, true, true, false],
+      [false, null, true, null, true],
+      [true, false, false, false, true]
+    ]","[""OPINE"",""SEPIA"",""TOLYL"",""ONSET"",""IMPEL"",""EMAIL""]","[{""word"":""OPINE"",""pos"":""verb"",""def"":""(intransitive, transitive) To express an opinion; to state as an opinion; to suppose, consider (that).""},{""word"":""SEPIA"",""pos"":""noun"",""def"":""(uncountable) A dark brown pigment made from the secretions of the cuttlefish.""},{""word"":""TOLYL"",""pos"":""noun"",""def"":""(organic chemistry) Any of the three isomeric univalent aromatic radicals derived from toluene""},{""word"":""ONSET"",""pos"":""noun"",""def"":""(medicine) The initial phase of a disease or condition, in which symptoms first become apparent.""},{""word"":""IMPEL"",""pos"":""verb"",""def"":""(transitive) To urge a person; to press on; to incite to action or motion via intrinsic motivation.""},{""word"":""EMAIL"",""pos"":""noun"",""def"":""(uncountable) A system for sending messages and datas by means of a computer network, primarily the Internet, using the Simple Mail Transfer Protocol and the Internet Message Format.""}]"
+10/28/2026,Hard,"[
+ [""S"", ""P"", ""I"", ""E"", ""D""],
+ [""L"", null, ""N"", null, ""E""],
+ [""O"", ""F"", ""F"", ""A"", ""L""],
+ [""S"", null, ""E"", null, ""V""],
+ [""H"", ""O"", ""R"", ""S"", ""E""]
+    ]","[
+      [true, false, true, true, false],
+      [false, null, false, null, true],
+      [true, true, false, true, false],
+      [true, null, false, null, false],
+      [false, false, true, true, false]
+    ]","[""SPIED"",""OFFAL"",""HORSE"",""SLOSH"",""INFER"",""DELVE""]","[{""word"":""SPIED"",""pos"":""verb"",""def"":""simple past and past participle of spy""},{""word"":""OFFAL"",""pos"":""noun"",""def"":""The internal organs of an animal (entrails or innards), used as food.""},{""word"":""HORSE"",""pos"":""noun"",""def"":""A hoofed mammal, Equus ferus caballus, often used throughout history for riding and draft work.""},{""word"":""SLOSH"",""pos"":""verb"",""def"":""(intransitive, of a liquid) To shift chaotically; to splash noisily.""},{""word"":""INFER"",""pos"":""verb"",""def"":""(transitive) To introduce (something) as a reasoned conclusion; to conclude by reasoning or deduction, as from premises or evidence.""},{""word"":""DELVE"",""pos"":""verb"",""def"":""(intransitive) To dig into the ground, especially with a shovel.""}]"
+10/29/2026,Easy,"[
+ [""J"", ""O"", ""K"", ""E"", ""R""],
+ [""U"", null, ""R"", null, ""E""],
+ [""N"", ""O"", ""I"", ""S"", ""E""],
+ [""T"", null, ""L"", null, ""D""],
+ [""O"", ""N"", ""L"", ""A"", ""Y""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, false],
+      [false, false, true, true, false],
+      [false, null, true, null, true],
+      [true, false, true, true, true]
+    ]","[""JOKER"",""NOISE"",""ONLAY"",""JUNTO"",""KRILL"",""REEDY""]","[{""word"":""JOKER"",""pos"":""noun"",""def"":""A person who makes jokes.""},{""word"":""NOISE"",""pos"":""noun"",""def"":""(uncountable) Various sounds, usually unwanted or unpleasant.""},{""word"":""ONLAY"",""pos"":""verb"",""def"":""(transitive, literary) To lay or place something on a surface.""},{""word"":""JUNTO"",""pos"":""noun"",""def"":""(archaic) A group of men assembled for some common purpose; a club, or cabal.""},{""word"":""KRILL"",""pos"":""noun"",""def"":""Any of several small marine crustacean species of plankton in the order Euphausiacea in the class Malacostraca.""},{""word"":""REEDY"",""pos"":""adjective"",""def"":""Full of, or edged with, reeds.""}]"
+10/29/2026,Medium,"[
+ [""E"", ""N"", ""D"", ""O"", ""W""],
+ [""S"", null, ""E"", null, ""O""],
+ [""S"", ""E"", ""B"", ""U"", ""M""],
+ [""A"", null, ""U"", null, ""A""],
+ [""Y"", ""O"", ""G"", ""I"", ""N""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, true, null, false],
+      [false, true, true, false, true],
+      [false, null, false, null, true],
+      [true, false, false, true, true]
+    ]","[""ENDOW"",""SEBUM"",""YOGIN"",""ESSAY"",""DEBUG"",""WOMAN""]","[{""word"":""ENDOW"",""pos"":""verb"",""def"":""(transitive) To give property to (someone) as a gift; specifically, to provide (a person or institution) with support in the form of a permanent fund of money or other benefits.""},{""word"":""SEBUM"",""pos"":""noun"",""def"":""(physiology) A thick oily substance, secreted by the sebaceous glands of the skin, that consists of fat, keratin and cellular debris.""},{""word"":""YOGIN"",""pos"":""noun"",""def"":""Alternative spelling of yogi.""},{""word"":""ESSAY"",""pos"":""noun"",""def"":""(publishing) A written composition of moderate length, exploring a particular issue or subject.""},{""word"":""DEBUG"",""pos"":""verb"",""def"":""(computer science) To search for and eliminate malfunctioning elements or errors in something, especially a computer program or machinery.""},{""word"":""WOMAN"",""pos"":""noun"",""def"":""An adult female human.""}]"
+10/29/2026,Hard,"[
+ [""S"", ""C"", ""A"", ""L"", ""P""],
+ [""Q"", null, ""I"", null, ""U""],
+ [""U"", ""D"", ""D"", ""E"", ""R""],
+ [""A"", null, ""E"", null, ""S""],
+ [""D"", ""I"", ""R"", ""G"", ""E""]
+    ]","[
+      [false, false, false, false, true],
+      [false, null, false, null, true],
+      [true, false, true, false, true],
+      [true, null, false, null, false],
+      [true, true, true, false, false]
+    ]","[""SCALP"",""UDDER"",""DIRGE"",""SQUAD"",""AIDER"",""PURSE""]","[{""word"":""SCALP"",""pos"":""noun"",""def"":""(now dialectal) The top of the head; the skull.""},{""word"":""UDDER"",""pos"":""noun"",""def"":""An organ formed of the mammary glands of female quadruped mammals, particularly ruminants such as cattle, goats, sheep and deer.""},{""word"":""DIRGE"",""pos"":""noun"",""def"":""A mournful poem or piece of music composed or performed as a memorial to a deceased person.""},{""word"":""SQUAD"",""pos"":""noun"",""def"":""A group of people organized for some common purpose, usually of about ten members.""},{""word"":""AIDER"",""pos"":""noun"",""def"":""A person who aids or assists.""},{""word"":""PURSE"",""pos"":""noun"",""def"":""A small bag for carrying money.""}]"
+10/30/2026,Easy,"[
+ [""W"", ""E"", ""E"", ""D"", ""Y""],
+ [""A"", null, ""N"", null, ""O""],
+ [""F"", ""O"", ""N"", ""D"", ""U""],
+ [""E"", null, ""U"", null, ""N""],
+ [""R"", ""U"", ""I"", ""N"", ""G""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, true, null, false],
+      [false, true, true, true, false],
+      [false, null, true, null, true],
+      [true, true, false, true, true]
+    ]","[""WEEDY"",""FONDU"",""RUING"",""WAFER"",""ENNUI"",""YOUNG""]","[{""word"":""WEEDY"",""pos"":""adjective"",""def"":""Abounding with weeds.""},{""word"":""FONDU"",""pos"":""noun"",""def"":""(printing) The graded shift from one color into another.""},{""word"":""RUING"",""pos"":""verb"",""def"":""present participle and gerund of rue""},{""word"":""WAFER"",""pos"":""noun"",""def"":""A light, thin, flat biscuit/cookie.""},{""word"":""ENNUI"",""pos"":""noun"",""def"":""A gripping listlessness or melancholia caused by boredom; depression.""},{""word"":""YOUNG"",""pos"":""adjective"",""def"":""In the early part of growth or life; born not long ago.""}]"
+10/30/2026,Medium,"[
+ [""S"", ""T"", ""I"", ""F"", ""F""],
+ [""A"", null, ""M"", null, ""U""],
+ [""L"", ""A"", ""P"", ""I"", ""N""],
+ [""A"", null, ""L"", null, ""N""],
+ [""D"", ""R"", ""Y"", ""L"", ""Y""]
+    ]","[
+      [false, true, true, true, true],
+      [false, null, false, null, true],
+      [true, true, true, false, false],
+      [false, null, false, null, true],
+      [true, true, false, false, false]
+    ]","[""STIFF"",""LAPIN"",""DRYLY"",""SALAD"",""IMPLY"",""FUNNY""]","[{""word"":""STIFF"",""pos"":""adjective"",""def"":""(of an object) Rigid; hard to bend; inflexible.""},{""word"":""LAPIN"",""pos"":""noun"",""def"":""Rabbit fur.""},{""word"":""DRYLY"",""pos"":""adverb"",""def"":""In a dry manner.""},{""word"":""SALAD"",""pos"":""noun"",""def"":""A food made primarily of a mixture of raw or cold ingredients, typically vegetables, usually served with a dressing such as vinegar or mayonnaise.""},{""word"":""IMPLY"",""pos"":""verb"",""def"":""(transitive, of a proposition) To have as a necessary consequence; to lead to (something) as a consequence.""},{""word"":""FUNNY"",""pos"":""adjective"",""def"":""Amusing; humorous; comical.""}]"
+10/30/2026,Hard,"[
+ [""S"", ""C"", ""O"", ""W"", ""L""],
+ [""T"", null, ""V"", null, ""E""],
+ [""U"", ""N"", ""A"", ""R"", ""M""],
+ [""N"", null, ""T"", null, ""O""],
+ [""T"", ""H"", ""E"", ""I"", ""N""]
+    ]","[
+      [true, true, false, true, false],
+      [false, null, false, null, true],
+      [false, false, false, false, false],
+      [true, null, true, null, false],
+      [true, false, true, false, true]
+    ]","[""SCOWL"",""UNARM"",""THEIN"",""STUNT"",""OVATE"",""LEMON""]","[{""word"":""SCOWL"",""pos"":""noun"",""def"":""The wrinkling of the brows or face in frowning; the expression of displeasure, sullenness, or discontent in the countenance; an angry frown.""},{""word"":""UNARM"",""pos"":""verb"",""def"":""(transitive) To disarm, to remove the armour and weapons from.""},{""word"":""THEIN"",""pos"":""noun"",""def"":""Alternative spelling of theine.""},{""word"":""STUNT"",""pos"":""noun"",""def"":""A daring or dangerous feat, often involving the display of gymnastic skills.""},{""word"":""OVATE"",""pos"":""adjective"",""def"":""Shaped like an egg.""},{""word"":""LEMON"",""pos"":""noun"",""def"":""A yellowish citrus fruit.""}]"
+10/31/2026,Easy,"[
+ [""R"", ""E"", ""L"", ""A"", ""X""],
+ [""E"", null, ""O"", null, ""Y""],
+ [""T"", ""I"", ""C"", ""A"", ""L""],
+ [""R"", null, ""U"", null, ""O""],
+ [""O"", ""U"", ""S"", ""E"", ""L""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, false],
+      [false, true, true, true, true],
+      [true, null, false, null, true],
+      [true, true, false, false, true]
+    ]","[""RELAX"",""TICAL"",""OUSEL"",""RETRO"",""LOCUS"",""XYLOL""]","[{""word"":""RELAX"",""pos"":""verb"",""def"":""(transitive) To make something loose.""},{""word"":""TICAL"",""pos"":""noun"",""def"":""An old Thai measurement of weight, the baht, of about 15 grams.""},{""word"":""OUSEL"",""pos"":""noun"",""def"":""Alternative form of ouzel.""},{""word"":""RETRO"",""pos"":""adjective"",""def"":""Of, or relating to, the past, past times, or the way things were.""},{""word"":""LOCUS"",""pos"":""noun"",""def"":""A place or locality, especially a centre of activity or the scene of a crime.""},{""word"":""XYLOL"",""pos"":""noun"",""def"":""Xylene.""}]"
+10/31/2026,Medium,"[
+ [""G"", ""U"", ""I"", ""L"", ""D""],
+ [""R"", null, ""L"", null, ""R""],
+ [""A"", ""G"", ""I"", ""T"", ""A""],
+ [""P"", null, ""A"", null, ""P""],
+ [""E"", ""M"", ""C"", ""E"", ""E""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, false, null, false],
+      [true, true, true, false, true],
+      [false, null, false, null, true],
+      [true, false, true, true, true]
+    ]","[""GUILD"",""AGITA"",""EMCEE"",""GRAPE"",""ILIAC"",""DRAPE""]","[{""word"":""GUILD"",""pos"":""noun"",""def"":""A group or association mainly of tradespeople made up of merchants, craftspeople, or artisans, particularly in the Middle Ages, established to oversee and protect their specific commercial interests and to provide mutual aid.""},{""word"":""AGITA"",""pos"":""noun"",""def"":""(US) dyspepsia""},{""word"":""EMCEE"",""pos"":""noun"",""def"":""Alternative form of MC in its senses as""},{""word"":""GRAPE"",""pos"":""noun"",""def"":""(countable) A small, round, smooth-skinned edible fruit, usually purple, red, or green, that grows in bunches on female vines of most species of genus Vitis and the self-fertile plants of species Vitis vinifera.""},{""word"":""ILIAC"",""pos"":""adjective"",""def"":""Relating to the ilium.""},{""word"":""DRAPE"",""pos"":""noun"",""def"":""A curtain; a drapery.""}]"
+10/31/2026,Hard,"[
+ [""C"", ""A"", ""N"", ""O"", ""N""],
+ [""R"", null, ""O"", null, ""U""],
+ [""O"", ""R"", ""B"", ""E"", ""D""],
+ [""O"", null, ""L"", null, ""G""],
+ [""K"", ""R"", ""E"", ""W"", ""E""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, true],
+      [false, false, false, false, true],
+      [true, null, true, null, true],
+      [false, false, false, true, true]
+    ]","[""CANON"",""ORBED"",""KREWE"",""CROOK"",""NOBLE"",""NUDGE""]","[{""word"":""CANON"",""pos"":""noun"",""def"":""A generally accepted principle; a rule.""},{""word"":""ORBED"",""pos"":""adjective"",""def"":""Having the form of an orb; round; spherical.""},{""word"":""KREWE"",""pos"":""noun"",""def"":""A private organization in New Orleans or elsewhere that exists to stage a Mardi Gras Ball, Mardi Gras Parade, or both.""},{""word"":""CROOK"",""pos"":""noun"",""def"":""A bend; turn; curve; curvature; a flexure.""},{""word"":""NOBLE"",""pos"":""noun"",""def"":""An aristocrat; one of aristocratic blood.""},{""word"":""NUDGE"",""pos"":""noun"",""def"":""A gentle push.""}]"
+11/1/2026,Easy,"[
+ [""A"", ""P"", ""P"", ""L"", ""E""],
+ [""N"", null, ""I"", null, ""V""],
+ [""V"", ""I"", ""L"", ""L"", ""A""],
+ [""I"", null, ""O"", null, ""D""],
+ [""L"", ""I"", ""T"", ""H"", ""E""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, true, null, false],
+      [false, true, true, true, false],
+      [true, null, true, null, false],
+      [true, true, false, false, true]
+    ]","[""APPLE"",""VILLA"",""LITHE"",""ANVIL"",""PILOT"",""EVADE""]","[{""word"":""APPLE"",""pos"":""noun"",""def"":""A common, firm, round fruit produced by a tree of the genus Malus.""},{""word"":""VILLA"",""pos"":""noun"",""def"":""A house, often larger and more expensive than average, in the countryside or on the coast, often used as a retreat.""},{""word"":""LITHE"",""pos"":""adjective"",""def"":""(obsolete) Mild; calm.""},{""word"":""ANVIL"",""pos"":""noun"",""def"":""A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.""},{""word"":""PILOT"",""pos"":""noun"",""def"":""A person who steers a ship, a helmsman.""},{""word"":""EVADE"",""pos"":""verb"",""def"":""(transitive) To get away from by cunning; to avoid by using dexterity, subterfuge, address, or ingenuity; to cleverly escape from.""}]"
+11/1/2026,Medium,"[
+ [""C"", ""A"", ""U"", ""L"", ""K""],
+ [""L"", null, ""R"", null, ""H""],
+ [""E"", ""R"", ""I"", ""C"", ""A""],
+ [""A"", null, ""N"", null, ""K""],
+ [""N"", ""A"", ""E"", ""V"", ""I""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, false, null, false],
+      [true, false, true, false, false],
+      [true, null, true, null, false],
+      [true, false, false, false, true]
+    ]","[""CAULK"",""ERICA"",""NAEVI"",""CLEAN"",""URINE"",""KHAKI""]","[{""word"":""CAULK"",""pos"":""noun"",""def"":""Caulking.""},{""word"":""ERICA"",""pos"":""noun"",""def"":""Any of many heathers, of the genus Erica, used as garden plants""},{""word"":""NAEVI"",""pos"":""noun"",""def"":""plural of naevus""},{""word"":""CLEAN"",""pos"":""adjective"",""def"":""Free of dirt, filth, or impurities (extraneous matter); not dirty, filthy, or soiled.""},{""word"":""URINE"",""pos"":""noun"",""def"":""(physiology) Liquid waste consisting of water, salts, and urea, which is made in the kidneys, stored in the bladder, then released through the urethra.""},{""word"":""KHAKI"",""pos"":""noun"",""def"":""A dull, yellowish-brown colour, the colour of dust.""}]"
+11/1/2026,Hard,"[
+ [""P"", ""E"", ""A"", ""R"", ""L""],
+ [""A"", null, ""M"", null, ""O""],
+ [""P"", ""H"", ""O"", ""T"", ""O""],
+ [""E"", null, ""N"", null, ""P""],
+ [""R"", ""U"", ""G"", ""B"", ""Y""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, false, null, false],
+      [false, false, false, true, false],
+      [true, null, true, null, false],
+      [true, false, false, false, true]
+    ]","[""PEARL"",""PHOTO"",""RUGBY"",""PAPER"",""AMONG"",""LOOPY""]","[{""word"":""PEARL"",""pos"":""noun"",""def"":""(literally) A shelly concretion, usually rounded, and having a brilliant luster, with varying tints, found in the mantle, or between the mantle and shell, of certain bivalve mollusks, especially in the pearl oysters and river mussels, and sometimes in certain univalves. It is usually due to a secretion of shelly substance around some irritating foreign particle. Its substance is the same as nacre, or mother-of-pearl. Round lustrous pearls are used in jewellery.""},{""word"":""PHOTO"",""pos"":""noun"",""def"":""A photograph.""},{""word"":""RUGBY"",""pos"":""noun"",""def"":""A form of football in which players can hold or kick an ovoid ball; rugby football. The ball cannot be handled forwards and points are scored by touching the ball to the ground in the area past the opponent's territory or by kicking the ball between goalposts and over a crossbar.""},{""word"":""PAPER"",""pos"":""noun"",""def"":""A sheet material typically used for writing on or printing on (or as a non-waterproof container), usually made by draining cellulose fibres from a suspension in water.""},{""word"":""AMONG"",""pos"":""preposition"",""def"":""Of a person or thing: in the midst of and surrounded by (other people or things).""},{""word"":""LOOPY"",""pos"":""adjective"",""def"":""Having loops.""}]"
+11/2/2026,Easy,"[
+ [""P"", ""E"", ""D"", ""A"", ""L""],
+ [""O"", null, ""R"", null, ""A""],
+ [""W"", ""A"", ""I"", ""S"", ""T""],
+ [""E"", null, ""F"", null, ""T""],
+ [""R"", ""E"", ""T"", ""I"", ""E""]
+    ]","[
+      [true, true, true, false, true],
+      [true, null, true, null, false],
+      [true, false, true, false, false],
+      [true, null, false, null, false],
+      [true, false, false, false, true]
+    ]","[""PEDAL"",""WAIST"",""RETIE"",""POWER"",""DRIFT"",""LATTE""]","[{""word"":""PEDAL"",""pos"":""noun"",""def"":""A lever operated by one's foot that is used to control or power a machine or mechanism, such as a bicycle or piano.""},{""word"":""WAIST"",""pos"":""noun"",""def"":""(anatomy) The part of the body between the pelvis and the stomach.""},{""word"":""RETIE"",""pos"":""verb"",""def"":""To tie again; to tie something that has already been tied or was tied before.""},{""word"":""POWER"",""pos"":""noun"",""def"":""The ability to do or undergo something.""},{""word"":""DRIFT"",""pos"":""noun"",""def"":""(physical) Movement; that which moves or is moved.""},{""word"":""LATTE"",""pos"":""noun"",""def"":""A drink of coffee made from espresso and steamed milk, generally topped with foam.""}]"
+11/2/2026,Medium,"[
+ [""F"", ""O"", ""C"", ""A"", ""L""],
+ [""E"", null, ""H"", null, ""U""],
+ [""I"", ""V"", ""I"", ""E"", ""S""],
+ [""G"", null, ""R"", null, ""T""],
+ [""N"", ""A"", ""P"", ""P"", ""Y""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, true],
+      [true, true, true, false, false],
+      [true, null, false, null, false],
+      [true, true, true, false, true]
+    ]","[""FOCAL"",""IVIES"",""NAPPY"",""FEIGN"",""CHIRP"",""LUSTY""]","[{""word"":""FOCAL"",""pos"":""adjective"",""def"":""Belonging to, concerning, or located at a focus (definite location).""},{""word"":""IVIES"",""pos"":""noun"",""def"":""plural of ivy""},{""word"":""NAPPY"",""pos"":""noun"",""def"":""(British, Ireland, Australia, South Africa, New Zealand) An absorbent garment worn by a baby or toddler who does not yet have voluntary control of their bladder and bowels or by someone who is incontinent; a diaper.""},{""word"":""FEIGN"",""pos"":""verb"",""def"":""To make a false show or pretence of; to counterfeit or simulate.""},{""word"":""CHIRP"",""pos"":""noun"",""def"":""A short, sharp or high note or noise, as of a bird or insect.""},{""word"":""LUSTY"",""pos"":""adjective"",""def"":""Exhibiting lust (in the obsolete sense meaning \""vigor\""); strong, healthy, robust; vigorous; full of sap or vitality.""}]"
+11/2/2026,Hard,"[
+ [""F"", ""L"", ""U"", ""K"", ""E""],
+ [""I"", null, ""N"", null, ""A""],
+ [""F"", ""I"", ""F"", ""E"", ""S""],
+ [""T"", null, ""I"", null, ""E""],
+ [""H"", ""O"", ""T"", ""E"", ""L""]
+    ]","[
+      [false, true, false, true, true],
+      [true, null, false, null, false],
+      [false, false, false, false, true],
+      [true, null, false, null, true],
+      [false, false, true, false, true]
+    ]","[""FLUKE"",""FIFES"",""HOTEL"",""FIFTH"",""UNFIT"",""EASEL""]","[{""word"":""FLUKE"",""pos"":""noun"",""def"":""A lucky or improbable occurrence that could probably never be repeated.""},{""word"":""FIFES"",""pos"":""noun"",""def"":""plural of fife""},{""word"":""HOTEL"",""pos"":""noun"",""def"":""(now chiefly historical) A large town house or mansion; a grand private residence, especially in France.""},{""word"":""FIFTH"",""pos"":""adjective"",""def"":""The ordinal form of the number five.""},{""word"":""UNFIT"",""pos"":""adjective"",""def"":""Not fit; not having the correct requirements.""},{""word"":""EASEL"",""pos"":""noun"",""def"":""An upright frame, typically on three legs, for displaying or supporting something, such as an artist's canvas.""}]"
+11/3/2026,Easy,"[
+ [""G"", ""R"", ""A"", ""N"", ""T""],
+ [""R"", null, ""G"", null, ""A""],
+ [""U"", ""D"", ""O"", ""N"", ""S""],
+ [""F"", null, ""R"", null, ""T""],
+ [""F"", ""L"", ""A"", ""K"", ""Y""]
+    ]","[
+      [true, false, true, true, true],
+      [false, null, false, null, false],
+      [false, true, true, true, false],
+      [false, null, false, null, false],
+      [true, false, true, true, true]
+    ]","[""GRANT"",""UDONS"",""FLAKY"",""GRUFF"",""AGORA"",""TASTY""]","[{""word"":""GRANT"",""pos"":""verb"",""def"":""(ditransitive) To give (permission or wish).""},{""word"":""UDONS"",""pos"":""noun"",""def"":""plural of udon""},{""word"":""FLAKY"",""pos"":""adjective"",""def"":""Consisting of flakes or of small, loose masses; lying, or cleaving off, in flakes or layers; flakelike.""},{""word"":""GRUFF"",""pos"":""adjective"",""def"":""having a rough, surly, and harsh demeanor and nature.""},{""word"":""AGORA"",""pos"":""noun"",""def"":""A place for gathering.""},{""word"":""TASTY"",""pos"":""adjective"",""def"":""Having a pleasant or satisfying flavor.""}]"
+11/3/2026,Medium,"[
+ [""S"", ""T"", ""U"", ""N"", ""K""],
+ [""A"", null, ""L"", null, ""A""],
+ [""L"", ""E"", ""T"", ""U"", ""P""],
+ [""V"", null, ""R"", null, ""P""],
+ [""O"", ""M"", ""A"", ""S"", ""A""]
+    ]","[
+      [true, true, true, true, false],
+      [false, null, false, null, false],
+      [true, true, true, true, false],
+      [true, null, false, null, false],
+      [true, false, false, false, true]
+    ]","[""STUNK"",""LETUP"",""OMASA"",""SALVO"",""ULTRA"",""KAPPA""]","[{""word"":""STUNK"",""pos"":""verb"",""def"":""simple past and past participle of stink""},{""word"":""LETUP"",""pos"":""noun"",""def"":""A pause or period of slackening.""},{""word"":""OMASA"",""pos"":""noun"",""def"":""plural of omasum""},{""word"":""SALVO"",""pos"":""noun"",""def"":""An exception; a reservation; an excuse.""},{""word"":""ULTRA"",""pos"":""adjective"",""def"":""Extreme; far beyond the norm; fanatical; uncompromising.""},{""word"":""KAPPA"",""pos"":""noun"",""def"":""The tenth letter of the Greek alphabet.""}]"
+11/3/2026,Hard,"[
+ [""S"", ""P"", ""E"", ""C"", ""K""],
+ [""T"", null, ""X"", null, ""I""],
+ [""U"", ""N"", ""C"", ""U"", ""T""],
+ [""N"", null, ""E"", null, ""T""],
+ [""G"", ""U"", ""L"", ""L"", ""Y""]
+    ]","[
+      [true, true, true, true, true],
+      [false, null, false, null, false],
+      [false, false, false, false, false],
+      [false, null, false, null, false],
+      [true, true, false, true, true]
+    ]","[""SPECK"",""UNCUT"",""GULLY"",""STUNG"",""EXCEL"",""KITTY""]","[{""word"":""SPECK"",""pos"":""noun"",""def"":""A tiny spot or particle, especially of dirt.""},{""word"":""UNCUT"",""pos"":""adjective"",""def"":""Not cut.""},{""word"":""GULLY"",""pos"":""noun"",""def"":""A trench, ravine or narrow channel which was worn by water flow, especially on a hillside.""},{""word"":""STUNG"",""pos"":""verb"",""def"":""simple past and past participle of sting""},{""word"":""EXCEL"",""pos"":""verb"",""def"":""(transitive) To surpass someone or something; to be better or do better than someone or something.""},{""word"":""KITTY"",""pos"":""noun"",""def"":""A young cat; a kitten.""}]"
+11/4/2026,Easy,"[
+ [""A"", ""M"", ""U"", ""S"", ""E""],
+ [""D"", null, ""N"", null, ""L""],
+ [""A"", ""D"", ""I"", ""E"", ""U""],
+ [""P"", null, ""T"", null, ""D""],
+ [""T"", ""H"", ""E"", ""M"", ""E""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, true, null, false],
+      [false, true, true, true, true],
+      [false, null, true, null, false],
+      [true, true, false, false, true]
+    ]","[""AMUSE"",""ADIEU"",""THEME"",""ADAPT"",""UNITE"",""ELUDE""]","[{""word"":""AMUSE"",""pos"":""verb"",""def"":""(transitive) To entertain or occupy (someone or something) in a pleasant manner; to stir (someone) with pleasing emotions.""},{""word"":""ADIEU"",""pos"":""interjection"",""def"":""Said to wish a final farewell; goodbye.""},{""word"":""THEME"",""pos"":""noun"",""def"":""A subject, now especially of a talk or an artistic piece; a topic.""},{""word"":""ADAPT"",""pos"":""verb"",""def"":""(transitive) To make suitable; to make to correspond; to fit or suit.""},{""word"":""UNITE"",""pos"":""verb"",""def"":""(transitive) To bring together as one.""},{""word"":""ELUDE"",""pos"":""verb"",""def"":""(transitive) To evade or escape from (someone or something), especially by using cunning or skill.""}]"
+11/4/2026,Medium,"[
+ [""A"", ""C"", ""U"", ""T"", ""E""],
+ [""T"", null, ""L"", null, ""J""],
+ [""T"", ""A"", ""C"", ""H"", ""E""],
+ [""I"", null, ""E"", null, ""C""],
+ [""C"", ""A"", ""R"", ""A"", ""T""]
+    ]","[
+      [true, true, false, false, false],
+      [false, null, true, null, false],
+      [false, true, true, false, true],
+      [true, null, true, null, false],
+      [true, true, false, false, true]
+    ]","[""ACUTE"",""TACHE"",""CARAT"",""ATTIC"",""ULCER"",""EJECT""]","[{""word"":""ACUTE"",""pos"":""adjective"",""def"":""Brief, quick, short.""},{""word"":""TACHE"",""pos"":""noun"",""def"":""(informal) Moustache, mustache.""},{""word"":""CARAT"",""pos"":""noun"",""def"":""A metric unit of mass equal to exactly 200 mg, chiefly used for measuring precious stones and pearls.""},{""word"":""ATTIC"",""pos"":""noun"",""def"":""The space, often unfinished and with sloped walls, directly below the roof in the uppermost part of a house or other building, generally used for storage or habitation.""},{""word"":""ULCER"",""pos"":""noun"",""def"":""(pathology) An open sore of the skin, eyes or mucous membrane, often caused by an initial abrasion and generally maintained by an inflammation and/or an infection.""},{""word"":""EJECT"",""pos"":""verb"",""def"":""(transitive) To compel (a person or persons) to leave.""}]"
+11/4/2026,Hard,"[
+ [""H"", ""U"", ""T"", ""C"", ""H""],
+ [""O"", null, ""H"", null, ""A""],
+ [""V"", ""E"", ""I"", ""L"", ""S""],
+ [""E"", null, ""E"", null, ""T""],
+ [""R"", ""U"", ""F"", ""F"", ""E""]
+    ]","[
+      [false, true, true, true, false],
+      [false, null, true, null, false],
+      [true, false, true, false, true],
+      [false, null, false, null, true],
+      [false, false, true, false, false]
+    ]","[""HUTCH"",""VEILS"",""RUFFE"",""HOVER"",""THIEF"",""HASTE""]","[{""word"":""HUTCH"",""pos"":""noun"",""def"":""A box, chest, crate, case or cabinet.""},{""word"":""VEILS"",""pos"":""noun"",""def"":""plural of veil""},{""word"":""RUFFE"",""pos"":""noun"",""def"":""Gymnocephalus cernua, a small Eurasian freshwater fish.""},{""word"":""HOVER"",""pos"":""verb"",""def"":""To keep (something, such as an aircraft) in a stationary state in the air.""},{""word"":""THIEF"",""pos"":""noun"",""def"":""One who carries out a theft.""},{""word"":""HASTE"",""pos"":""noun"",""def"":""Speed; swiftness; dispatch.""}]"
+11/5/2026,Easy,"[
+ [""S"", ""C"", ""R"", ""U"", ""M""],
+ [""I"", null, ""E"", null, ""I""],
+ [""S"", ""A"", ""B"", ""I"", ""N""],
+ [""S"", null, ""E"", null, ""U""],
+ [""Y"", ""E"", ""L"", ""L"", ""S""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, false, null, false],
+      [true, false, true, false, true],
+      [true, null, true, null, false],
+      [true, false, true, true, true]
+    ]","[""SCRUM"",""SABIN"",""YELLS"",""SISSY"",""REBEL"",""MINUS""]","[{""word"":""SCRUM"",""pos"":""noun"",""def"":""A tightly packed and disorderly crowd of people.""},{""word"":""SABIN"",""pos"":""noun"",""def"":""(acoustics) A unit of measurement that measures a material's absorbance of sound. A material that is 1 square meter in size that can absorb 100% of sound has a value of one metric sabin.""},{""word"":""YELLS"",""pos"":""noun"",""def"":""plural of yell""},{""word"":""SISSY"",""pos"":""noun"",""def"":""(sometimes derogatory, colloquial) An effeminate boy or man.""},{""word"":""REBEL"",""pos"":""noun"",""def"":""A person who resists an established authority, often violently.""},{""word"":""MINUS"",""pos"":""preposition"",""def"":""(mathematics) Made less or reduced by (followed by an expression of number or quantity).""}]"
+11/5/2026,Medium,"[
+ [""G"", ""R"", ""U"", ""E"", ""L""],
+ [""R"", null, ""M"", null, ""A""],
+ [""I"", ""M"", ""B"", ""E"", ""D""],
+ [""M"", null, ""R"", null, ""E""],
+ [""E"", ""L"", ""A"", ""I"", ""N""]
+    ]","[
+      [true, false, true, true, true],
+      [false, null, true, null, false],
+      [false, false, true, true, false],
+      [false, null, true, null, false],
+      [true, false, true, true, true]
+    ]","[""GRUEL"",""IMBED"",""ELAIN"",""GRIME"",""UMBRA"",""LADEN""]","[{""word"":""GRUEL"",""pos"":""noun"",""def"":""A thin, watery porridge, formerly eaten primarily by the poor and the ill.""},{""word"":""IMBED"",""pos"":""verb"",""def"":""Alternative spelling of embed.""},{""word"":""ELAIN"",""pos"":""noun"",""def"":""eleoptene""},{""word"":""GRIME"",""pos"":""noun"",""def"":""Dirt, grease, soot, etc. that is ingrained and difficult to remove.""},{""word"":""UMBRA"",""pos"":""noun"",""def"":""The fully shaded inner region of a shadow cast by an opaque object.""},{""word"":""LADEN"",""pos"":""adjective"",""def"":""Weighed down with a load, burdened.""}]"
+11/5/2026,Hard,"[
+ [""L"", ""U"", ""R"", ""C"", ""H""],
+ [""U"", null, ""O"", null, ""U""],
+ [""C"", ""A"", ""B"", ""I"", ""N""],
+ [""I"", null, ""O"", null, ""K""],
+ [""D"", ""I"", ""T"", ""Z"", ""Y""]
+    ]","[
+      [false, true, false, true, true],
+      [true, null, false, null, true],
+      [false, true, true, false, false],
+      [false, null, false, null, false],
+      [true, false, false, true, true]
+    ]","[""LURCH"",""CABIN"",""DITZY"",""LUCID"",""ROBOT"",""HUNKY""]","[{""word"":""LURCH"",""pos"":""noun"",""def"":""A sudden or unsteady movement.""},{""word"":""CABIN"",""pos"":""noun"",""def"":""(US) A small dwelling characteristic of the frontier, especially when built from logs with simple tools and not constructed by professional builders, but by those who meant to live in it.""},{""word"":""DITZY"",""pos"":""adjective"",""def"":""(informal) Silly or scatterbrained, usually of a young woman.""},{""word"":""LUCID"",""pos"":""adjective"",""def"":""Clear; easily understood.""},{""word"":""ROBOT"",""pos"":""noun"",""def"":""(now historical) A system of serfdom used in Central Europe, under which a tenant's rent was paid in forced labour.""},{""word"":""HUNKY"",""pos"":""adjective"",""def"":""(informal) Exhibiting strong, masculine beauty.""}]"
+11/6/2026,Easy,"[
+ [""L"", ""L"", ""A"", ""M"", ""A""],
+ [""O"", null, ""P"", null, ""D""],
+ [""Y"", ""A"", ""H"", ""O"", ""O""],
+ [""A"", null, ""I"", null, ""R""],
+ [""L"", ""O"", ""D"", ""E"", ""N""]
+    ]","[
+      [true, true, false, true, true],
+      [false, null, true, null, false],
+      [true, false, true, false, false],
+      [true, null, false, null, true],
+      [true, false, false, true, true]
+    ]","[""LLAMA"",""YAHOO"",""LODEN"",""LOYAL"",""APHID"",""ADORN""]","[{""word"":""LLAMA"",""pos"":""noun"",""def"":""A South American mammal of the camel family, Lama glama, used as a domestic beast of burden and a source of wool and meat.""},{""word"":""YAHOO"",""pos"":""noun"",""def"":""(derogatory) A rough, coarse, loud or uncouth individual.""},{""word"":""LODEN"",""pos"":""noun"",""def"":""A thick waterproof cloth used for garments.""},{""word"":""LOYAL"",""pos"":""adjective"",""def"":""Having or demonstrating undivided and constant support for someone or something.""},{""word"":""APHID"",""pos"":""noun"",""def"":""A sap-sucking insect pest of the superfamily Aphidoidea; an aphidian.""},{""word"":""ADORN"",""pos"":""verb"",""def"":""To make more beautiful and attractive; to decorate.""}]"
+11/6/2026,Medium,"[
+ [""B"", ""E"", ""G"", ""E"", ""T""],
+ [""A"", null, ""R"", null, ""R""],
+ [""L"", ""E"", ""A"", ""S"", ""E""],
+ [""M"", null, ""I"", null, ""N""],
+ [""Y"", ""C"", ""L"", ""A"", ""D""]
+    ]","[
+      [true, false, false, true, true],
+      [true, null, true, null, false],
+      [false, false, true, true, true],
+      [true, null, false, null, true],
+      [true, false, false, false, true]
+    ]","[""BEGET"",""LEASE"",""YCLAD"",""BALMY"",""GRAIL"",""TREND""]","[{""word"":""BEGET"",""pos"":""verb"",""def"":""(chiefly literary) To produce or bring forth (a child); to be a parent of; to father or sire.""},{""word"":""LEASE"",""pos"":""noun"",""def"":""(formal, law) An interest in land granting exclusive use or occupation of real estate for a limited period; a leasehold.""},{""word"":""YCLAD"",""pos"":""verb"",""def"":""(obsolete) past participle of clothe""},{""word"":""BALMY"",""pos"":""adjective"",""def"":""Producing balm.""},{""word"":""GRAIL"",""pos"":""noun"",""def"":""The Holy Grail.""},{""word"":""TREND"",""pos"":""noun"",""def"":""An inclination in a particular direction.""}]"
+11/6/2026,Hard,"[
+ [""B"", ""I"", ""L"", ""L"", ""Y""],
+ [""I"", null, ""O"", null, ""O""],
+ [""C"", ""O"", ""R"", ""N"", ""U""],
+ [""E"", null, ""R"", null, ""T""],
+ [""P"", ""S"", ""Y"", ""C"", ""H""]
+    ]","[
+      [true, false, false, false, false],
+      [true, null, true, null, false],
+      [true, true, false, false, false],
+      [false, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""BILLY"",""CORNU"",""PSYCH"",""BICEP"",""LORRY"",""YOUTH""]","[{""word"":""BILLY"",""pos"":""noun"",""def"":""A fellow, companion, comrade, mate; partner, brother.""},{""word"":""CORNU"",""pos"":""noun"",""def"":""A horn, or anything shaped like or resembling a horn.""},{""word"":""PSYCH"",""pos"":""noun"",""def"":""(uncountable) Psychology or psychiatry.""},{""word"":""BICEP"",""pos"":""noun"",""def"":""(sometimes proscribed) A biceps.""},{""word"":""LORRY"",""pos"":""noun"",""def"":""(British, Ireland, South Asia, India, Africa) A large and heavy motor vehicle designed to carry goods or soldiers; a truck""},{""word"":""YOUTH"",""pos"":""noun"",""def"":""(uncountable) The quality or state of being young.""}]"
+11/7/2026,Easy,"[
+ [""P"", ""I"", ""G"", ""G"", ""Y""],
+ [""E"", null, ""R"", null, ""E""],
+ [""S"", ""H"", ""I"", ""V"", ""A""],
+ [""T"", null, ""L"", null, ""S""],
+ [""O"", ""W"", ""L"", ""E"", ""T""]
+    ]","[
+      [true, false, false, false, true],
+      [false, null, true, null, true],
+      [true, false, true, true, false],
+      [true, null, true, null, true],
+      [true, true, true, false, true]
+    ]","[""PIGGY"",""SHIVA"",""OWLET"",""PESTO"",""GRILL"",""YEAST""]","[{""word"":""PIGGY"",""pos"":""noun"",""def"":""(childish) A pig (the animal).""},{""word"":""SHIVA"",""pos"":""noun"",""def"":""(Judaism) A weeklong period of formal mourning for a close relative.""},{""word"":""OWLET"",""pos"":""noun"",""def"":""Diminutive of owl.""},{""word"":""PESTO"",""pos"":""noun"",""def"":""A sauce, especially for pasta, originating from the Genoa region in Italy, made from basil, garlic, pine nuts, olive oil and cheese (usually pecorino).""},{""word"":""GRILL"",""pos"":""noun"",""def"":""A grating; a grid of wire or a sheet of material with a pattern of holes or slots, usually used to protect something while allowing the passage of air and liquids. Typical uses: to allow air through a fan while preventing fingers or objects from passing; to allow people to talk to somebody, while preventing attack.""},{""word"":""YEAST"",""pos"":""noun"",""def"":""An often humid, yellowish froth produced by fermenting malt worts, and used to brew beer, leaven bread, and also used in certain medicines.""}]"
+11/7/2026,Medium,"[
+ [""T"", ""R"", ""I"", ""B"", ""E""],
+ [""H"", null, ""N"", null, ""R""],
+ [""O"", ""C"", ""C"", ""U"", ""R""],
+ [""S"", null, ""U"", null, ""O""],
+ [""E"", ""Y"", ""R"", ""I"", ""R""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, false, null, false],
+      [false, true, true, true, false],
+      [false, null, false, null, false],
+      [true, false, true, false, true]
+    ]","[""TRIBE"",""OCCUR"",""EYRIR"",""THOSE"",""INCUR"",""ERROR""]","[{""word"":""TRIBE"",""pos"":""noun"",""def"":""(history, anthropology) An ethnic group larger than a band or clan (and which may contain clans) but smaller than a nation (and which in turn may constitute a nation with other tribes). The tribe is often the basis of ethnic identity.""},{""word"":""OCCUR"",""pos"":""verb"",""def"":""(intransitive) To happen or take place.""},{""word"":""EYRIR"",""pos"":""noun"",""def"":""A subdivision of currency, equal to one hundredth of an Icelandic króna""},{""word"":""THOSE"",""pos"":""determiner"",""def"":""plural of that""},{""word"":""INCUR"",""pos"":""verb"",""def"":""(transitive) To bring upon oneself or expose oneself to, especially something inconvenient, harmful, or onerous; to become liable or subject to.""},{""word"":""ERROR"",""pos"":""noun"",""def"":""(uncountable) The state, quality, or condition of being wrong.""}]"
+11/7/2026,Hard,"[
+ [""M"", ""U"", ""M"", ""M"", ""Y""],
+ [""O"", null, ""A"", null, ""E""],
+ [""U"", ""S"", ""N"", ""E"", ""A""],
+ [""N"", null, ""G"", null, ""S""],
+ [""D"", ""R"", ""A"", ""F"", ""T""]
+    ]","[
+      [true, true, false, true, false],
+      [false, null, true, null, true],
+      [false, false, false, true, false],
+      [false, null, true, null, false],
+      [true, false, true, false, true]
+    ]","[""MUMMY"",""USNEA"",""DRAFT"",""MOUND"",""MANGA"",""YEAST""]","[{""word"":""MUMMY"",""pos"":""noun"",""def"":""(countable) An embalmed human or non-human animal corpse wrapped in linen bandages for burial, especially as practised by the ancient Egyptians and some Native American tribes.""},{""word"":""USNEA"",""pos"":""noun"",""def"":""Any lichen of the genus Usnea.""},{""word"":""DRAFT"",""pos"":""noun"",""def"":""A current of air, usually coming into a room or vehicle.""},{""word"":""MOUND"",""pos"":""noun"",""def"":""An artificial hill or elevation of earth; a raised bank; an embankment thrown up for defense""},{""word"":""MANGA"",""pos"":""noun"",""def"":""(countable, comics) A comic originating in Japan.""},{""word"":""YEAST"",""pos"":""noun"",""def"":""An often humid, yellowish froth produced by fermenting malt worts, and used to brew beer, leaven bread, and also used in certain medicines.""}]"
+11/8/2026,Easy,"[
+ [""F"", ""R"", ""E"", ""E"", ""R""],
+ [""E"", null, ""R"", null, ""O""],
+ [""R"", ""E"", ""A"", ""D"", ""D""],
+ [""A"", null, ""S"", null, ""E""],
+ [""L"", ""A"", ""E"", ""V"", ""O""]
+    ]","[
+      [true, true, true, false, true],
+      [false, null, false, null, true],
+      [false, true, true, false, false],
+      [true, null, true, null, true],
+      [true, true, false, false, true]
+    ]","[""FREER"",""READD"",""LAEVO"",""FERAL"",""ERASE"",""RODEO""]","[{""word"":""FREER"",""pos"":""noun"",""def"":""One who frees.""},{""word"":""READD"",""pos"":""verb"",""def"":""(transitive) To add again.""},{""word"":""LAEVO"",""pos"":""adjective"",""def"":""(chemistry) Alternative form of levo (“levorotatory”).""},{""word"":""FERAL"",""pos"":""adjective"",""def"":""Wild; untamed.""},{""word"":""ERASE"",""pos"":""verb"",""def"":""(transitive) To remove (markings or information).""},{""word"":""RODEO"",""pos"":""noun"",""def"":""A gathering of cattle to be branded.""}]"
+11/8/2026,Medium,"[
+ [""S"", ""W"", ""A"", ""T"", ""H""],
+ [""L"", null, ""R"", null, ""E""],
+ [""A"", ""R"", ""O"", ""M"", ""A""],
+ [""I"", null, ""S"", null, ""D""],
+ [""N"", ""E"", ""E"", ""D"", ""Y""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, true],
+      [false, true, true, false, false],
+      [true, null, true, null, false],
+      [false, true, false, true, true]
+    ]","[""SWATH"",""AROMA"",""NEEDY"",""SLAIN"",""AROSE"",""HEADY""]","[{""word"":""SWATH"",""pos"":""noun"",""def"":""The track cut out by a scythe in mowing.""},{""word"":""AROMA"",""pos"":""noun"",""def"":""A smell; especially a pleasant spicy or fragrant one.""},{""word"":""NEEDY"",""pos"":""adjective"",""def"":""In need; poor.""},{""word"":""SLAIN"",""pos"":""verb"",""def"":""past participle of slay""},{""word"":""AROSE"",""pos"":""verb"",""def"":""simple past of arise""},{""word"":""HEADY"",""pos"":""adjective"",""def"":""Intoxicating or stupefying.""}]"
+11/8/2026,Hard,"[
+ [""B"", ""U"", ""G"", ""L"", ""E""],
+ [""O"", null, ""A"", null, ""D""],
+ [""T"", ""E"", ""M"", ""P"", ""I""],
+ [""C"", null, ""E"", null, ""C""],
+ [""H"", ""O"", ""R"", ""S"", ""T""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, false, null, false],
+      [true, false, false, true, true],
+      [true, null, false, null, false],
+      [false, false, false, false, false]
+    ]","[""BUGLE"",""TEMPI"",""HORST"",""BOTCH"",""GAMER"",""EDICT""]","[{""word"":""BUGLE"",""pos"":""noun"",""def"":""A horn used by hunters.""},{""word"":""TEMPI"",""pos"":""noun"",""def"":""plural of tempo""},{""word"":""HORST"",""pos"":""noun"",""def"":""(geology) A block of the Earth's crust, bounded by faults, that has been raised relative to the surrounding area.""},{""word"":""BOTCH"",""pos"":""verb"",""def"":""To perform (a task) in an incompetent or unacceptable manner; to make a mess of something.""},{""word"":""GAMER"",""pos"":""noun"",""def"":""A person who plays any kind of game.""},{""word"":""EDICT"",""pos"":""noun"",""def"":""A proclamation of law or other authoritative command.""}]"
+11/9/2026,Easy,"[
+ [""L"", ""O"", ""G"", ""I"", ""C""],
+ [""A"", null, ""R"", null, ""H""],
+ [""S"", ""T"", ""O"", ""A"", ""I""],
+ [""S"", null, ""A"", null, ""M""],
+ [""O"", ""U"", ""N"", ""C"", ""E""]
+    ]","[
+      [true, true, true, false, true],
+      [true, null, false, null, false],
+      [false, true, true, true, true],
+      [true, null, false, null, false],
+      [true, false, false, true, true]
+    ]","[""LOGIC"",""STOAI"",""OUNCE"",""LASSO"",""GROAN"",""CHIME""]","[{""word"":""LOGIC"",""pos"":""adjective"",""def"":""logical""},{""word"":""STOAI"",""pos"":""noun"",""def"":""plural of stoa""},{""word"":""OUNCE"",""pos"":""noun"",""def"":""An avoirdupois ounce, weighing ¹⁄₁₆ of an avoirdupois pound, or 28.349523125 grams.""},{""word"":""LASSO"",""pos"":""noun"",""def"":""A long rope with a sliding loop on one end, generally used in ranching to catch cattle and horses.""},{""word"":""GROAN"",""pos"":""noun"",""def"":""A low, mournful sound uttered in pain or grief.""},{""word"":""CHIME"",""pos"":""noun"",""def"":""(music) A musical instrument producing a sound when struck, similar to a bell (e.g. a tubular metal bar) or actually a bell. Often used in the plural to refer to the set: the chimes.""}]"
+11/9/2026,Medium,"[
+ [""A"", ""B"", ""O"", ""U"", ""T""],
+ [""I"", null, ""L"", null, ""I""],
+ [""S"", ""L"", ""I"", ""N"", ""G""],
+ [""L"", null, ""V"", null, ""H""],
+ [""E"", ""V"", ""E"", ""R"", ""T""]
+    ]","[
+      [true, true, false, true, true],
+      [true, null, false, null, false],
+      [false, false, true, false, false],
+      [true, null, false, null, true],
+      [true, true, false, true, true]
+    ]","[""ABOUT"",""SLING"",""EVERT"",""AISLE"",""OLIVE"",""TIGHT""]","[{""word"":""ABOUT"",""pos"":""preposition"",""def"":""In a circle around; all round; on every side of; on the outside of; around.""},{""word"":""SLING"",""pos"":""verb"",""def"":""To throw with a circular or arcing motion.""},{""word"":""EVERT"",""pos"":""verb"",""def"":""(transitive, often biology, physiology) To turn inside out (like a pocket being emptied) or outwards.""},{""word"":""AISLE"",""pos"":""noun"",""def"":""A wing of a building, notably in a church separated from the nave proper by piers.""},{""word"":""OLIVE"",""pos"":""noun"",""def"":""A tree of species Olea europaea cultivated since ancient times in the Mediterranean for its fruit and the oil obtained from it.""},{""word"":""TIGHT"",""pos"":""adjective"",""def"":""Firmly held together; compact; not loose or open.""}]"
+11/9/2026,Hard,"[
+ [""C"", ""H"", ""O"", ""C"", ""K""],
+ [""H"", null, ""V"", null, ""N""],
+ [""U"", ""R"", ""E"", ""D"", ""O""],
+ [""R"", null, ""R"", null, ""L""],
+ [""N"", ""A"", ""T"", ""A"", ""L""]
+    ]","[
+      [false, false, false, false, true],
+      [true, null, true, null, true],
+      [false, true, false, false, true],
+      [false, null, false, null, false],
+      [true, true, false, false, true]
+    ]","[""CHOCK"",""UREDO"",""NATAL"",""CHURN"",""OVERT"",""KNOLL""]","[{""word"":""CHOCK"",""pos"":""noun"",""def"":""Any object used as a wedge or filler, especially when placed behind a wheel to prevent it from rolling.""},{""word"":""UREDO"",""pos"":""noun"",""def"":""(archaic, botany, countable) urediniospore""},{""word"":""NATAL"",""pos"":""adjective"",""def"":""Of or relating to birth.""},{""word"":""CHURN"",""pos"":""verb"",""def"":""(transitive) To agitate rapidly and repetitively, or to stir with a rowing or rocking motion; generally applies to liquids, notably cream.""},{""word"":""OVERT"",""pos"":""adjective"",""def"":""Open and not concealed or secret.""},{""word"":""KNOLL"",""pos"":""noun"",""def"":""A small mound or rounded hill.""}]"
+11/10/2026,Easy,"[
+ [""L"", ""O"", ""U"", ""S"", ""Y""],
+ [""E"", null, ""N"", null, ""E""],
+ [""A"", ""C"", ""T"", ""I"", ""N""],
+ [""C"", null, ""I"", null, ""T""],
+ [""H"", ""A"", ""L"", ""V"", ""E""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, false, null, false],
+      [false, true, true, true, true],
+      [false, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""LOUSY"",""ACTIN"",""HALVE"",""LEACH"",""UNTIL"",""YENTE""]","[{""word"":""LOUSY"",""pos"":""adjective"",""def"":""(colloquial) Unwanted and often unpleasant.""},{""word"":""ACTIN"",""pos"":""noun"",""def"":""(biochemistry, uncountable) A globular structural protein that polymerizes in a helical fashion to form an actin filament (or microfilament).""},{""word"":""HALVE"",""pos"":""verb"",""def"":""(transitive) To reduce to half the original amount.""},{""word"":""LEACH"",""pos"":""noun"",""def"":""A quantity of wood ashes, through which water passes, and thus imbibes the alkali.""},{""word"":""UNTIL"",""pos"":""preposition"",""def"":""Up to the time of (something happening); pending.""},{""word"":""YENTE"",""pos"":""noun"",""def"":""Alternative spelling of yenta.""}]"
+11/10/2026,Medium,"[
+ [""F"", ""I"", ""B"", ""R"", ""E""],
+ [""L"", null, ""R"", null, ""L""],
+ [""A"", ""L"", ""U"", ""L"", ""A""],
+ [""S"", null, ""N"", null, ""T""],
+ [""K"", ""Y"", ""T"", ""H"", ""E""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, true, null, false],
+      [true, true, true, false, false],
+      [false, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""FIBRE"",""ALULA"",""KYTHE"",""FLASK"",""BRUNT"",""ELATE""]","[{""word"":""FIBRE"",""pos"":""noun"",""def"":""(countable) A single piece of a given material, elongated and roughly round in cross-section, often twisted with other fibres to form thread.""},{""word"":""ALULA"",""pos"":""noun"",""def"":""(ornithology) A small projection of three or four feathers on the first digit of the wing on some birds.""},{""word"":""KYTHE"",""pos"":""verb"",""def"":""Alternative spelling of kithe.""},{""word"":""FLASK"",""pos"":""noun"",""def"":""A narrow-necked vessel of metal or glass, used for various purposes; as of sheet metal, to carry gunpowder in; or of wrought iron, to contain quicksilver; or of glass, to heat water in, etc.""},{""word"":""BRUNT"",""pos"":""noun"",""def"":""The full adverse effects; the chief consequences or negative results of a thing or event.""},{""word"":""ELATE"",""pos"":""verb"",""def"":""(transitive) To make joyful or proud.""}]"
+11/10/2026,Hard,"[
+ [""L"", ""E"", ""E"", ""C"", ""H""],
+ [""A"", null, ""X"", null, ""U""],
+ [""R"", ""E"", ""A"", ""L"", ""M""],
+ [""G"", null, ""L"", null, ""O""],
+ [""E"", ""N"", ""T"", ""E"", ""R""]
+    ]","[
+      [false, false, true, false, true],
+      [false, null, false, null, false],
+      [false, true, true, false, false],
+      [true, null, true, null, true],
+      [false, true, false, false, true]
+    ]","[""LEECH"",""REALM"",""ENTER"",""LARGE"",""EXALT"",""HUMOR""]","[{""word"":""LEECH"",""pos"":""noun"",""def"":""A typically aquatic blood-sucking annelid of the subclass Hirudinea, especially Hirudo medicinalis.""},{""word"":""REALM"",""pos"":""noun"",""def"":""(archaic or law and rhetoric) A territory or state, as ruled by an absolute authority, especially by a king; a kingdom.""},{""word"":""ENTER"",""pos"":""verb"",""def"":""(intransitive) To go or come into an enclosed or partially enclosed space.""},{""word"":""LARGE"",""pos"":""adjective"",""def"":""Of considerable or relatively great size or extent.""},{""word"":""EXALT"",""pos"":""verb"",""def"":""(transitive) To honor; to hold in high esteem; to praise or worship.""},{""word"":""HUMOR"",""pos"":""noun"",""def"":""US spelling of humour.""}]"
+11/11/2026,Easy,"[
+ [""L"", ""O"", ""W"", ""L"", ""Y""],
+ [""E"", null, ""A"", null, ""E""],
+ [""F"", ""E"", ""T"", ""O"", ""R""],
+ [""T"", null, ""E"", null, ""B""],
+ [""Y"", ""U"", ""R"", ""T"", ""A""]
+    ]","[
+      [true, false, true, false, true],
+      [true, null, false, null, true],
+      [true, false, true, true, false],
+      [true, null, false, null, true],
+      [true, false, false, false, true]
+    ]","[""LOWLY"",""FETOR"",""YURTA"",""LEFTY"",""WATER"",""YERBA""]","[{""word"":""LOWLY"",""pos"":""adjective"",""def"":""Not high; not elevated in place; low.""},{""word"":""FETOR"",""pos"":""noun"",""def"":""An unpleasant smell.""},{""word"":""YURTA"",""pos"":""noun"",""def"":""Synonym of yurt.""},{""word"":""LEFTY"",""pos"":""noun"",""def"":""(Canada, US, informal) One who is left-handed.""},{""word"":""WATER"",""pos"":""noun"",""def"":""(uncountable) An inorganic compound (of molecular formula H₂O) found at room temperature and pressure as a clear liquid; it is present naturally as rain, and found in rivers, lakes and seas; its solid form is ice and its gaseous form is steam.""},{""word"":""YERBA"",""pos"":""noun"",""def"":""Ilex paraguariensis, a species of holly native to southern South America; or the dried leaves and twigs of this plant, used to make the caffeine-rich beverage maté.""}]"
+11/11/2026,Medium,"[
+ [""B"", ""A"", ""L"", ""E"", ""R""],
+ [""L"", null, ""O"", null, ""O""],
+ [""U"", ""P"", ""B"", ""O"", ""W""],
+ [""F"", null, ""B"", null, ""D""],
+ [""F"", ""E"", ""Y"", ""L"", ""Y""]
+    ]","[
+      [true, true, true, false, true],
+      [false, null, true, null, true],
+      [false, true, true, true, false],
+      [false, null, false, null, false],
+      [true, false, false, false, true]
+    ]","[""BALER"",""UPBOW"",""FEYLY"",""BLUFF"",""LOBBY"",""ROWDY""]","[{""word"":""BALER"",""pos"":""noun"",""def"":""A machine for creating bales, e.g., of hay or cotton.""},{""word"":""UPBOW"",""pos"":""noun"",""def"":""(music) A note performed on a string instrument by drawing the bow upward or to the left across the instrument, moving the point of contact from the bow's tip toward the frog.""},{""word"":""FEYLY"",""pos"":""adverb"",""def"":""In a fey way.""},{""word"":""BLUFF"",""pos"":""noun"",""def"":""(countable or uncountable) An act of bluffing; a false expression of the strength of one’s position in order to intimidate or deceive; braggadocio.""},{""word"":""LOBBY"",""pos"":""noun"",""def"":""An entryway or reception area; vestibule; passageway; corridor.""},{""word"":""ROWDY"",""pos"":""adjective"",""def"":""Loud and disorderly; riotous; boisterous.""}]"
+11/11/2026,Hard,"[
+ [""R"", ""E"", ""F"", ""E"", ""R""],
+ [""E"", null, ""U"", null, ""U""],
+ [""B"", ""O"", ""N"", ""E"", ""R""],
+ [""U"", null, ""G"", null, ""A""],
+ [""S"", ""K"", ""I"", ""L"", ""L""]
+    ]","[
+      [false, true, true, false, false],
+      [false, null, true, null, false],
+      [true, true, false, false, false],
+      [true, null, true, null, false],
+      [true, false, false, true, true]
+    ]","[""REFER"",""BONER"",""SKILL"",""REBUS"",""FUNGI"",""RURAL""]","[{""word"":""REFER"",""pos"":""verb"",""def"":""(transitive) To direct the attention of (someone toward something)""},{""word"":""BONER"",""pos"":""noun"",""def"":""(vulgar, slang) An erect penis.""},{""word"":""SKILL"",""pos"":""noun"",""def"":""A capacity to do something well; a technique, an ability, usually acquired or learned, as opposed to abilities that are regarded as innate.""},{""word"":""REBUS"",""pos"":""noun"",""def"":""An arrangement of pictures, symbols, or words representing phrases or words, especially as a word puzzle.""},{""word"":""FUNGI"",""pos"":""noun"",""def"":""(pathology) Spongy, abnormal growth, as granulation tissue formed in a wound.""},{""word"":""RURAL"",""pos"":""adjective"",""def"":""Relating to the countryside or to agriculture.""}]"
+11/12/2026,Easy,"[
+ [""V"", ""I"", ""D"", ""E"", ""O""],
+ [""O"", null, ""R"", null, ""R""],
+ [""W"", ""O"", ""O"", ""E"", ""D""],
+ [""E"", null, ""S"", null, ""E""],
+ [""L"", ""A"", ""S"", ""E"", ""R""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, false, null, true],
+      [true, false, true, true, false],
+      [false, null, true, null, true],
+      [true, false, false, false, true]
+    ]","[""VIDEO"",""WOOED"",""LASER"",""VOWEL"",""DROSS"",""ORDER""]","[{""word"":""VIDEO"",""pos"":""noun"",""def"":""Television, a television show, or a movie.""},{""word"":""WOOED"",""pos"":""verb"",""def"":""simple past and past participle of woo""},{""word"":""LASER"",""pos"":""noun"",""def"":""A device that produces a monochromatic, coherent beam of light.""},{""word"":""VOWEL"",""pos"":""noun"",""def"":""(phonetics) A sound produced by the vocal cords with relatively little restriction of the oral cavity, forming the prominent sound of a syllable.""},{""word"":""DROSS"",""pos"":""noun"",""def"":""Waste or impure matter.""},{""word"":""ORDER"",""pos"":""noun"",""def"":""(countable) Arrangement, disposition, or sequence.""}]"
+11/12/2026,Medium,"[
+ [""R"", ""I"", ""D"", ""E"", ""R""],
+ [""E"", null, ""R"", null, ""A""],
+ [""B"", ""O"", ""O"", ""N"", ""S""],
+ [""A"", null, ""W"", null, ""P""],
+ [""R"", ""A"", ""N"", ""D"", ""Y""]
+    ]","[
+      [true, true, false, false, true],
+      [true, null, true, null, false],
+      [true, false, true, false, false],
+      [false, null, false, null, false],
+      [true, true, true, false, true]
+    ]","[""RIDER"",""BOONS"",""RANDY"",""REBAR"",""DROWN"",""RASPY""]","[{""word"":""RIDER"",""pos"":""noun"",""def"":""A mounted person.""},{""word"":""BOONS"",""pos"":""noun"",""def"":""plural of boon""},{""word"":""RANDY"",""pos"":""adjective"",""def"":""(British, informal) Sexually aroused; full of sexual lust.""},{""word"":""REBAR"",""pos"":""noun"",""def"":""(countable) A steel reinforcing bar in a reinforced concrete structure.""},{""word"":""DROWN"",""pos"":""verb"",""def"":""(intransitive) To die from suffocation while immersed in water or other fluid.""},{""word"":""RASPY"",""pos"":""adjective"",""def"":""(of sound, especially vocal quality) Rough, raw.""}]"
+11/12/2026,Hard,"[
+ [""W"", ""O"", ""R"", ""D"", ""Y""],
+ [""O"", null, ""I"", null, ""O""],
+ [""R"", ""O"", ""S"", ""E"", ""D""],
+ [""T"", null, ""E"", null, ""H""],
+ [""H"", ""A"", ""R"", ""P"", ""S""]
+    ]","[
+      [true, true, true, false, true],
+      [false, null, false, null, true],
+      [false, true, false, true, true],
+      [false, null, false, null, false],
+      [false, false, false, false, true]
+    ]","[""WORDY"",""ROSED"",""HARPS"",""WORTH"",""RISER"",""YODHS""]","[{""word"":""WORDY"",""pos"":""adjective"",""def"":""Using an excessive number of words.""},{""word"":""ROSED"",""pos"":""verb"",""def"":""simple past and past participle of rose""},{""word"":""HARPS"",""pos"":""noun"",""def"":""plural of harp""},{""word"":""WORTH"",""pos"":""adjective"",""def"":""Having a value of; proper to be exchanged for.""},{""word"":""RISER"",""pos"":""noun"",""def"":""Someone or something which rises.""},{""word"":""YODHS"",""pos"":""noun"",""def"":""plural of yodh""}]"
+11/13/2026,Easy,"[
+ [""P"", ""U"", ""P"", ""A"", ""L""],
+ [""U"", null, ""L"", null, ""E""],
+ [""R"", ""I"", ""A"", ""T"", ""A""],
+ [""E"", null, ""I"", null, ""F""],
+ [""R"", ""E"", ""T"", ""R"", ""Y""]
+    ]","[
+      [true, true, true, false, true],
+      [false, null, false, null, true],
+      [true, false, true, true, false],
+      [true, null, true, null, true],
+      [true, false, false, false, true]
+    ]","[""PUPAL"",""RIATA"",""RETRY"",""PURER"",""PLAIT"",""LEAFY""]","[{""word"":""PUPAL"",""pos"":""adjective"",""def"":""(entomology) Of or pertaining to the pupa stage of insect metamorphosis.""},{""word"":""RIATA"",""pos"":""noun"",""def"":""(US, regional) A lariat or lasso.""},{""word"":""RETRY"",""pos"":""verb"",""def"":""(ambitransitive) To try or attempt again.""},{""word"":""PURER"",""pos"":""adjective"",""def"":""comparative form of pure: more pure""},{""word"":""PLAIT"",""pos"":""noun"",""def"":""A flat fold; a doubling, as of cloth; a pleat.""},{""word"":""LEAFY"",""pos"":""adjective"",""def"":""Covered with leaves.""}]"
+11/13/2026,Medium,"[
+ [""T"", ""R"", ""I"", ""E"", ""D""],
+ [""R"", null, ""O"", null, ""U""],
+ [""U"", ""L"", ""N"", ""A"", ""S""],
+ [""N"", null, ""I"", null, ""K""],
+ [""K"", ""I"", ""C"", ""K"", ""Y""]
+    ]","[
+      [true, false, false, true, true],
+      [false, null, true, null, false],
+      [false, false, true, false, false],
+      [true, null, true, null, true],
+      [true, false, true, false, true]
+    ]","[""TRIED"",""ULNAS"",""KICKY"",""TRUNK"",""IONIC"",""DUSKY""]","[{""word"":""TRIED"",""pos"":""adjective"",""def"":""Tested, hence, proven to be firm or reliable.""},{""word"":""ULNAS"",""pos"":""noun"",""def"":""plural of ulna""},{""word"":""KICKY"",""pos"":""adjective"",""def"":""Lively, exciting, thrilling.""},{""word"":""TRUNK"",""pos"":""noun"",""def"":""(heading, biology) Part of a body.""},{""word"":""IONIC"",""pos"":""adjective"",""def"":""(chemistry) of, relating to, or containing ions""},{""word"":""DUSKY"",""pos"":""adjective"",""def"":""Dimly lit, as at dusk (evening).""}]"
+11/13/2026,Hard,"[
+ [""B"", ""R"", ""O"", ""I"", ""L""],
+ [""O"", null, ""P"", null, ""A""],
+ [""W"", ""R"", ""I"", ""N"", ""G""],
+ [""E"", null, ""U"", null, ""E""],
+ [""L"", ""A"", ""M"", ""E"", ""R""]
+    ]","[
+      [false, false, false, false, true],
+      [false, null, true, null, true],
+      [false, false, false, false, true],
+      [false, null, true, null, true],
+      [true, false, true, false, true]
+    ]","[""BROIL"",""WRING"",""LAMER"",""BOWEL"",""OPIUM"",""LAGER""]","[{""word"":""BROIL"",""pos"":""verb"",""def"":""(transitive, Canada, US, obsolete in the UK) To cook by direct, radiant heat.""},{""word"":""WRING"",""pos"":""verb"",""def"":""Often followed by out: to squeeze or twist (something moist) tightly so that liquid is forced out.""},{""word"":""LAMER"",""pos"":""adjective"",""def"":""comparative form of lame: more lame""},{""word"":""BOWEL"",""pos"":""noun"",""def"":""(chiefly medicine) A part or division of the intestines, usually the large intestine.""},{""word"":""OPIUM"",""pos"":""noun"",""def"":""(uncountable) A yellow-brown, addictive narcotic drug obtained from the dried juice of unripe pods of the opium poppy, Papaver somniferum, and containing alkaloids such as morphine, codeine, and papaverine.""},{""word"":""LAGER"",""pos"":""noun"",""def"":""A type of beer, brewed using a bottom-fermenting yeast.""}]"
+11/14/2026,Easy,"[
+ [""O"", ""V"", ""I"", ""N"", ""E""],
+ [""F"", null, ""C"", null, ""S""],
+ [""F"", ""L"", ""I"", ""N"", ""T""],
+ [""E"", null, ""N"", null, ""E""],
+ [""R"", ""I"", ""G"", ""O"", ""R""]
+    ]","[
+      [true, false, false, false, true],
+      [true, null, false, null, false],
+      [true, true, true, true, true],
+      [true, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""OVINE"",""FLINT"",""RIGOR"",""OFFER"",""ICING"",""ESTER""]","[{""word"":""OVINE"",""pos"":""adjective"",""def"":""(comparable) Of, being, pertaining to, or resembling a sheep; also, (not comparable) of an animal: from the genus Ovis.""},{""word"":""FLINT"",""pos"":""noun"",""def"":""(uncountable) A hard, fine-grained quartz that fractures conchoidally and generates sparks when struck against a material such as steel, because tiny chips of the steel are heated to incandescence and burn in air.""},{""word"":""RIGOR"",""pos"":""noun"",""def"":""US spelling of rigour.""},{""word"":""OFFER"",""pos"":""noun"",""def"":""A proposal that has been made.""},{""word"":""ICING"",""pos"":""noun"",""def"":""(cooking) A sweet, often creamy and thick glaze made primarily of sugar, often enriched with ingredients like butter, egg whites, or flavorings, typically used for baked goods.""},{""word"":""ESTER"",""pos"":""noun"",""def"":""(organic chemistry) A compound most often formed by the condensation of an alcohol and an acid, with elimination of water, which contains the functional group carbon-oxygen double bond (i.e., carbonyl) joined via carbon to another oxygen atom.""}]"
+11/14/2026,Medium,"[
+ [""C"", ""U"", ""R"", ""L"", ""Y""],
+ [""L"", null, ""E"", null, ""I""],
+ [""E"", ""N"", ""A"", ""T"", ""E""],
+ [""F"", null, ""R"", null, ""L""],
+ [""T"", ""I"", ""M"", ""I"", ""D""]
+    ]","[
+      [true, false, true, false, true],
+      [true, null, false, null, true],
+      [false, true, false, false, false],
+      [false, null, false, null, false],
+      [true, true, true, true, true]
+    ]","[""CURLY"",""ENATE"",""TIMID"",""CLEFT"",""REARM"",""YIELD""]","[{""word"":""CURLY"",""pos"":""adjective"",""def"":""Having curls.""},{""word"":""ENATE"",""pos"":""noun"",""def"":""A relative whose relation is traced only through female members of the family.""},{""word"":""TIMID"",""pos"":""adjective"",""def"":""Lacking in courage or confidence.""},{""word"":""CLEFT"",""pos"":""noun"",""def"":""An opening, fissure, or V-shaped indentation made by or as if by splitting.""},{""word"":""REARM"",""pos"":""verb"",""def"":""To replace or restore the weapons or arms of a previously defeated, or disarmed army, country, person or other body.""},{""word"":""YIELD"",""pos"":""verb"",""def"":""To give as a result or outcome; to produce or render.""}]"
+11/14/2026,Hard,"[
+ [""F"", ""L"", ""Y"", ""E"", ""R""],
+ [""I"", null, ""I"", null, ""E""],
+ [""N"", ""E"", ""E"", ""D"", ""S""],
+ [""C"", null, ""L"", null, ""E""],
+ [""H"", ""A"", ""D"", ""S"", ""T""]
+    ]","[
+      [false, true, false, true, true],
+      [false, null, true, null, true],
+      [false, true, false, true, true],
+      [false, null, false, null, true],
+      [false, false, false, true, false]
+    ]","[""FLYER"",""NEEDS"",""HADST"",""FINCH"",""YIELD"",""RESET""]","[{""word"":""FLYER"",""pos"":""noun"",""def"":""That which flies, as a bird or insect.""},{""word"":""NEEDS"",""pos"":""adverb"",""def"":""(archaic) Either directly or indirectly preceded or followed by an auxiliary verb, often must: of necessity or need; necessarily, indispensably.""},{""word"":""HADST"",""pos"":""verb"",""def"":""(archaic) second-person singular simple past indicative of have""},{""word"":""FINCH"",""pos"":""noun"",""def"":""Any Eurasian goldfinch (of species Carduelis carduelis, syn. Fringilla carduelis).""},{""word"":""YIELD"",""pos"":""verb"",""def"":""To give as a result or outcome; to produce or render.""},{""word"":""RESET"",""pos"":""verb"",""def"":""To set back to the initial state.""}]"
+11/15/2026,Easy,"[
+ [""T"", ""O"", ""D"", ""A"", ""Y""],
+ [""I"", null, ""R"", null, ""E""],
+ [""M"", ""Y"", ""O"", ""M"", ""A""],
+ [""E"", null, ""O"", null, ""R""],
+ [""R"", ""I"", ""P"", ""E"", ""N""]
+    ]","[
+      [true, true, false, false, true],
+      [true, null, false, null, true],
+      [false, true, true, false, true],
+      [true, null, false, null, true],
+      [true, false, false, true, true]
+    ]","[""TODAY"",""MYOMA"",""RIPEN"",""TIMER"",""DROOP"",""YEARN""]","[{""word"":""TODAY"",""pos"":""adverb"",""def"":""On the current day or date.""},{""word"":""MYOMA"",""pos"":""noun"",""def"":""(pathology) A tumor composed of muscle tissue, usually benign and commonly occurring in the uterus and the esophagus.""},{""word"":""RIPEN"",""pos"":""verb"",""def"":""(intransitive) to grow ripe; to become mature (said of grain, fruit, flowers etc.)""},{""word"":""TIMER"",""pos"":""noun"",""def"":""Agent noun of time: someone or something that times.""},{""word"":""DROOP"",""pos"":""verb"",""def"":""(intransitive) To hang downward; to sag.""},{""word"":""YEARN"",""pos"":""verb"",""def"":""(intransitive, also figuratively) To have a strong desire for something or to do something; to long for or to do something.""}]"
+11/15/2026,Medium,"[
+ [""T"", ""R"", ""U"", ""C"", ""E""],
+ [""I"", null, ""S"", null, ""V""],
+ [""T"", ""A"", ""U"", ""P"", ""E""],
+ [""A"", null, ""R"", null, ""R""],
+ [""N"", ""I"", ""P"", ""P"", ""Y""]
+    ]","[
+      [true, true, false, false, true],
+      [false, null, false, null, true],
+      [false, false, true, false, false],
+      [true, null, true, null, true],
+      [true, false, true, false, true]
+    ]","[""TRUCE"",""TAUPE"",""NIPPY"",""TITAN"",""USURP"",""EVERY""]","[{""word"":""TRUCE"",""pos"":""noun"",""def"":""A period of time in which no fighting takes place due to an agreement between the opposed parties.""},{""word"":""TAUPE"",""pos"":""noun"",""def"":""A dark brownish-grey colour, the colour of moleskin.""},{""word"":""NIPPY"",""pos"":""adjective"",""def"":""(UK, informal) Fast; speedy.""},{""word"":""TITAN"",""pos"":""noun"",""def"":""Something or someone of very large stature, greatness, or godliness.""},{""word"":""USURP"",""pos"":""verb"",""def"":""To seize and hold or use (powers, an office, a coat of arms, a right or copyright, etc) from another, without right (usually by illegitimate means).""},{""word"":""EVERY"",""pos"":""determiner"",""def"":""All of a countable group (considered individually), without exception.""}]"
+11/15/2026,Hard,"[
+ [""F"", ""O"", ""C"", ""U"", ""S""],
+ [""L"", null, ""H"", null, ""N""],
+ [""A"", ""R"", ""E"", ""C"", ""A""],
+ [""I"", null, ""A"", null, ""K""],
+ [""L"", ""O"", ""P"", ""P"", ""Y""]
+    ]","[
+      [false, false, false, true, false],
+      [true, null, false, null, false],
+      [false, true, true, true, false],
+      [false, null, true, null, false],
+      [true, false, true, true, false]
+    ]","[""FOCUS"",""ARECA"",""LOPPY"",""FLAIL"",""CHEAP"",""SNAKY""]","[{""word"":""FOCUS"",""pos"":""noun"",""def"":""(countable, optics) A point at which reflected or refracted rays of light converge.""},{""word"":""ARECA"",""pos"":""noun"",""def"":""Any member of the genus Areca of about fifty species of single-stemmed palms in the family Arecaceae, found in humid tropical forests.""},{""word"":""LOPPY"",""pos"":""adjective"",""def"":""Somewhat lop; inclined to lop; droopy; floppy""},{""word"":""FLAIL"",""pos"":""noun"",""def"":""A tool used for threshing, consisting of a long handle (handstock) with a shorter stick (swipple or swingle) attached with a short piece of chain, thong or similar material.""},{""word"":""CHEAP"",""pos"":""adjective"",""def"":""Low or reduced in price.""},{""word"":""SNAKY"",""pos"":""adjective"",""def"":""Resembling or relating to snakes; snakelike.""}]"

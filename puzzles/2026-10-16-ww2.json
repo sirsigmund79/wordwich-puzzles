@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-16",
+  "maxScore": 206,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "a",
+      "passScore": 8,
+      "perfectScore": 54,
+      "hintWord": "cobra"
+    },
+    {
+      "round": 2,
+      "startLetter": "j",
+      "endLetter": "y",
+      "passScore": 7,
+      "perfectScore": 58,
+      "hintWord": "jumpy"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "n",
+      "passScore": 14,
+      "perfectScore": 94,
+      "hintWord": "eaten"
+    }
+  ],
+  "_auto": true
+}

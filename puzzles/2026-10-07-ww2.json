@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "maxScore": 180,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "h",
+      "passScore": 6,
+      "perfectScore": 40,
+      "hintWord": "flash"
+    },
+    {
+      "round": 2,
+      "startLetter": "a",
+      "endLetter": "e",
+      "passScore": 10,
+      "perfectScore": 64,
+      "hintWord": "alone"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "y",
+      "passScore": 7,
+      "perfectScore": 76,
+      "hintWord": "aunty"
+    }
+  ],
+  "_auto": true
+}

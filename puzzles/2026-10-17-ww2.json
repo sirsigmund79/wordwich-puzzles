@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-17",
+  "maxScore": 200,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "m",
+      "passScore": 8,
+      "perfectScore": 62,
+      "hintWord": "realm"
+    },
+    {
+      "round": 2,
+      "startLetter": "o",
+      "endLetter": "n",
+      "passScore": 11,
+      "perfectScore": 66,
+      "hintWord": "onion"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "n",
+      "passScore": 6,
+      "perfectScore": 72,
+      "hintWord": "arson"
+    }
+  ],
+  "_auto": true
+}

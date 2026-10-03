@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "maxScore": 173,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "h",
+      "passScore": 8,
+      "perfectScore": 48,
+      "hintWord": "roach"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "y",
+      "passScore": 6,
+      "perfectScore": 53,
+      "hintWord": "scary"
+    },
+    {
+      "round": 3,
+      "startLetter": "h",
+      "endLetter": "c",
+      "passScore": 14,
+      "perfectScore": 72,
+      "hintWord": "havoc"
+    }
+  ],
+  "_auto": true
+}

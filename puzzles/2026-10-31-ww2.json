@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-31",
+  "maxScore": 141,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "n",
+      "endLetter": "e",
+      "passScore": 4,
+      "perfectScore": 40,
+      "hintWord": "noble"
+    },
+    {
+      "round": 2,
+      "startLetter": "s",
+      "endLetter": "i",
+      "passScore": 4,
+      "perfectScore": 42,
+      "hintWord": "sushi"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "l",
+      "passScore": 6,
+      "perfectScore": 59,
+      "hintWord": "angel"
+    }
+  ],
+  "_auto": true
+}

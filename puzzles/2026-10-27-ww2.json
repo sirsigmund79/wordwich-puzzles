@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "maxScore": 171,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "a",
+      "endLetter": "a",
+      "passScore": 5,
+      "perfectScore": 42,
+      "hintWord": "arena"
+    },
+    {
+      "round": 2,
+      "startLetter": "v",
+      "endLetter": "r",
+      "passScore": 10,
+      "perfectScore": 57,
+      "hintWord": "vicar"
+    },
+    {
+      "round": 3,
+      "startLetter": "v",
+      "endLetter": "n",
+      "passScore": 10,
+      "perfectScore": 72,
+      "hintWord": "vegan"
+    }
+  ],
+  "_auto": true
+}

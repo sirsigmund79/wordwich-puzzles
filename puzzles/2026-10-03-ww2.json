@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-03",
+  "maxScore": 153,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "l",
+      "passScore": 9,
+      "perfectScore": 47,
+      "hintWord": "metal"
+    },
+    {
+      "round": 2,
+      "startLetter": "h",
+      "endLetter": "k",
+      "passScore": 6,
+      "perfectScore": 50,
+      "hintWord": "hook"
+    },
+    {
+      "round": 3,
+      "startLetter": "n",
+      "endLetter": "s",
+      "passScore": 5,
+      "perfectScore": 56,
+      "hintWord": "news"
+    }
+  ],
+  "_auto": true
+}

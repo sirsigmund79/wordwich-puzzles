@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11",
+  "maxScore": 269,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "m",
+      "passScore": 10,
+      "perfectScore": 73,
+      "hintWord": "harm"
+    },
+    {
+      "round": 2,
+      "startLetter": "m",
+      "endLetter": "g",
+      "passScore": 13,
+      "perfectScore": 98,
+      "hintWord": "making"
+    },
+    {
+      "round": 3,
+      "startLetter": "d",
+      "endLetter": "d",
+      "passScore": 11,
+      "perfectScore": 98,
+      "hintWord": "dried"
+    }
+  ],
+  "_auto": true
+}
