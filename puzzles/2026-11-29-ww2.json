@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-29",
+  "maxScore": 204,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "b",
+      "endLetter": "y",
+      "passScore": 8,
+      "perfectScore": 51,
+      "hintWord": "buddy"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "h",
+      "passScore": 5,
+      "perfectScore": 60,
+      "hintWord": "tough"
+    },
+    {
+      "round": 3,
+      "startLetter": "k",
+      "endLetter": "e",
+      "passScore": 12,
+      "perfectScore": 93,
+      "hintWord": "knife"
+    }
+  ],
+  "_auto": true
+}

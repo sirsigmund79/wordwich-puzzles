@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-06",
+  "maxScore": 268,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "v",
+      "endLetter": "s",
+      "passScore": 14,
+      "perfectScore": 86,
+      "hintWord": "virus"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "c",
+      "passScore": 16,
+      "perfectScore": 88,
+      "hintWord": "civic"
+    },
+    {
+      "round": 3,
+      "startLetter": "s",
+      "endLetter": "c",
+      "passScore": 8,
+      "perfectScore": 94,
+      "hintWord": "sonic"
+    }
+  ],
+  "_auto": true
+}

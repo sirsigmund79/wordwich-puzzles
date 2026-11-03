@@ -1,0 +1,31 @@
+{
+  "date": "2026-12-02",
+  "maxScore": 190,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "h",
+      "endLetter": "r",
+      "passScore": 6,
+      "perfectScore": 44,
+      "hintWord": "honor"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "t",
+      "passScore": 13,
+      "perfectScore": 66,
+      "hintWord": "night"
+    },
+    {
+      "round": 3,
+      "startLetter": "u",
+      "endLetter": "g",
+      "passScore": 15,
+      "perfectScore": 80,
+      "hintWord": "using"
+    }
+  ],
+  "_auto": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-20",
+  "maxScore": 176,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "w",
+      "endLetter": "h",
+      "passScore": 5,
+      "perfectScore": 34,
+      "hintWord": "witch"
+    },
+    {
+      "round": 2,
+      "startLetter": "b",
+      "endLetter": "d",
+      "passScore": 5,
+      "perfectScore": 62,
+      "hintWord": "blind"
+    },
+    {
+      "round": 3,
+      "startLetter": "b",
+      "endLetter": "m",
+      "passScore": 10,
+      "perfectScore": 80,
+      "hintWord": "broom"
+    }
+  ],
+  "_auto": true
+}

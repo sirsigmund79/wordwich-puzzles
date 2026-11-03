@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-30",
+  "maxScore": 154,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "p",
+      "endLetter": "s",
+      "passScore": 3,
+      "perfectScore": 40,
+      "hintWord": "press"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "g",
+      "passScore": 9,
+      "perfectScore": 52,
+      "hintWord": "lying"
+    },
+    {
+      "round": 3,
+      "startLetter": "e",
+      "endLetter": "m",
+      "passScore": 11,
+      "perfectScore": 62,
+      "hintWord": "exam"
+    }
+  ],
+  "_auto": true
+}

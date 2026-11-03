@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-22",
+  "maxScore": 188,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "c",
+      "endLetter": "k",
+      "passScore": 7,
+      "perfectScore": 40,
+      "hintWord": "chick"
+    },
+    {
+      "round": 2,
+      "startLetter": "l",
+      "endLetter": "h",
+      "passScore": 7,
+      "perfectScore": 56,
+      "hintWord": "latch"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "d",
+      "passScore": 8,
+      "perfectScore": 92,
+      "hintWord": "chord"
+    }
+  ],
+  "_auto": true
+}

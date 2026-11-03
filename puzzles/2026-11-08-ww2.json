@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-08",
+  "maxScore": 262,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "m",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 68,
+      "hintWord": "moist"
+    },
+    {
+      "round": 2,
+      "startLetter": "n",
+      "endLetter": "d",
+      "passScore": 18,
+      "perfectScore": 96,
+      "hintWord": "need"
+    },
+    {
+      "round": 3,
+      "startLetter": "o",
+      "endLetter": "g",
+      "passScore": 16,
+      "perfectScore": 98,
+      "hintWord": "owning"
+    }
+  ],
+  "_auto": true
+}

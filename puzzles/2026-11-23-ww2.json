@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-23",
+  "maxScore": 141,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "r",
+      "endLetter": "k",
+      "passScore": 6,
+      "perfectScore": 44,
+      "hintWord": "rock"
+    },
+    {
+      "round": 2,
+      "startLetter": "c",
+      "endLetter": "l",
+      "passScore": 7,
+      "perfectScore": 46,
+      "hintWord": "crawl"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "r",
+      "passScore": 5,
+      "perfectScore": 51,
+      "hintWord": "color"
+    }
+  ],
+  "_auto": true
+}

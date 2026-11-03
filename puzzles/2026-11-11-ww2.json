@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-11",
+  "maxScore": 193,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "j",
+      "endLetter": "t",
+      "passScore": 6,
+      "perfectScore": 53,
+      "hintWord": "joint"
+    },
+    {
+      "round": 2,
+      "startLetter": "d",
+      "endLetter": "r",
+      "passScore": 11,
+      "perfectScore": 67,
+      "hintWord": "dryer"
+    },
+    {
+      "round": 3,
+      "startLetter": "a",
+      "endLetter": "h",
+      "passScore": 11,
+      "perfectScore": 73,
+      "hintWord": "arch"
+    }
+  ],
+  "_auto": true
+}

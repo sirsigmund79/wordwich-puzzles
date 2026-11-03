@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17",
+  "maxScore": 154,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "f",
+      "endLetter": "d",
+      "passScore": 7,
+      "perfectScore": 41,
+      "hintWord": "fried"
+    },
+    {
+      "round": 2,
+      "startLetter": "r",
+      "endLetter": "l",
+      "passScore": 7,
+      "perfectScore": 49,
+      "hintWord": "rebel"
+    },
+    {
+      "round": 3,
+      "startLetter": "c",
+      "endLetter": "m",
+      "passScore": 10,
+      "perfectScore": 64,
+      "hintWord": "claim"
+    }
+  ],
+  "_auto": true
+}

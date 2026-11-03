@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-10",
+  "maxScore": 149,
+  "rounds": [
+    {
+      "round": 1,
+      "startLetter": "w",
+      "endLetter": "d",
+      "passScore": 4,
+      "perfectScore": 38,
+      "hintWord": "would"
+    },
+    {
+      "round": 2,
+      "startLetter": "t",
+      "endLetter": "a",
+      "passScore": 7,
+      "perfectScore": 40,
+      "hintWord": "theta"
+    },
+    {
+      "round": 3,
+      "startLetter": "p",
+      "endLetter": "m",
+      "passScore": 6,
+      "perfectScore": 71,
+      "hintWord": "poem"
+    }
+  ],
+  "_auto": true
+}
