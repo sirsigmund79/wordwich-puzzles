@@ -57,36 +57,68 @@ Two data files feed the generator, both committed:
 
 ## Griddle
 
-Griddle puzzles are generated with `griddle/generate-griddles.js`. It builds 5x5
-word-intersection grids (Easy/Medium/Hard), validates the words against the Free
-Dictionary API, and writes a CSV to `griddle/output/` ready to paste into the
-puzzle sheet.
+Every Griddle puzzle lives in `griddle/puzzles.json`, keyed by date. The game
+reads that file (through the site's `/api/puzzles` function, which hides days
+later than tomorrow), so **pushing to `main` is publishing**: there is no
+Google Sheet any more, and no site build or deploy.
 
-### Generate the next 50 days
+`griddle/generate-griddles.js` builds 5x5 word-intersection grids (Easy, Medium,
+Hard), validates the words against the Free Dictionary API, and appends the new
+days to `puzzles.json` with the next griddle numbers and puzzle ids.
+
+### Generate the next 30 days
 
 ```bash
 cd griddle
-node generate-griddles.js --start 2026-07-29 --end 2026-09-16
+node generate-griddles.js --days 30
 ```
 
-(`--start` is the day after the last existing puzzle in `griddle/output/`;
-`--end` is 50 days after `--start`. Adjust both if your existing output
-changes.)
+`--days N` starts the day after the last day already in `puzzles.json`, so it is
+safe to re-run. Review the diff, commit, push.
+
+### Easy really is easy
+
+Each difficulty only draws words at or above a Zipf frequency floor
+(`minZipf` in `GRID_CONFIG`), using `griddle/word_zipf.txt` — the same
+wordfreq numbers Letter Loaf uses to call a word rare:
+
+| Difficulty | Every word at least | Roughly |
+|---|---|---|
+| Easy   | Zipf 3.5 | everyday words (TOTAL, DELAY, PLATE) |
+| Medium | Zipf 2.5 | known but less common |
+| Hard   | no floor | anything the dictionary accepts |
+
+Previously one obscure word (often a fallback forced by the crossing letters)
+could end up in any round: 84% of Easy grids had a word under Zipf 3. Difficulty
+also still comes from how many cells start filled in.
+
+`word_zipf.txt` is the 5-letter rows of `public/wordbank.txt` in
+wordwich-game. Re-copy it if that file is rebuilt.
 
 ### Other useful flags
 
 ```bash
-node generate-griddles.js                              # today, 3 puzzles
-node generate-griddles.js --date 2026-07-04             # a single specific date
-node generate-griddles.js --dry-run                     # print to console only, no file written
-node generate-griddles.js --count 5                     # generate 5 candidates per difficulty per date
-node generate-griddles.js --skip-validation             # skip dictionary API checks (faster, no definitions)
+node generate-griddles.js --date 2026-12-04             # a single date
+node generate-griddles.js --start 2026-12-01 --end 2026-12-31
+node generate-griddles.js --days 7 --dry-run            # print only, puzzles.json untouched
+node generate-griddles.js --date 2026-12-04 --replace   # regenerate a day that isn't live yet (keeps its ids)
+node generate-griddles.js --skip-validation             # skip dictionary API checks (no definitions)
 node generate-griddles.js --no-dedupe                   # skip recent-word exclusion
 ```
 
-By default the script excludes any word used in a puzzle within the last 40
-days (based on the CSV files already in `griddle/output/`), so just run it
-directly against that folder -- no extra setup needed.
+Words used in the 40 days before a date, or by another difficulty on the same
+date, are excluded.
 
-Output: `griddle/output/griddles-<start>-to-<end>.csv`. Open it, review the
-grids, and copy the rows you want into the Griddle puzzle sheet.
+### Editing a puzzle by hand
+
+Edit the day in `puzzles.json` and push. Each puzzle has `solutionGrid`,
+`staticCells` (`true` = starts filled in, `null` = hole), `words`,
+`definitions`, and optionally `par` and `extraLetters`. Never change an `id`
+once its day is live: players' saved progress is keyed on it.
+
+### History
+
+`puzzles.json` was imported from the old "Word Hash Puzzles" sheet with
+`griddle/import-sheet-csv.js` (a one-off; re-running it overwrites the file).
+The old CSV batches that used to be pasted into that sheet were removed; they
+are in git history.

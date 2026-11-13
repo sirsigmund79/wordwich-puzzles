@@ -1,122 +1,107 @@
 /**
- * generate-griddles.mjs
+ * generate-griddles.js
  *
- * Generates Griddle puzzle candidates and outputs them as a CSV file
- * ready to copy-paste into your Google Sheet.
+ * Generates Griddle puzzles and adds them straight to griddle/puzzles.json,
+ * the file the game reads. Push the result and the puzzles are live on their
+ * dates; there is no sheet to paste into any more.
  *
  * WHAT THIS SCRIPT DOES:
  *   For each date in the requested range it:
- *   1. Loads your two word files (common words + full dictionary) from the repo
- *   2. Generates three valid 5x5 grids (Easy, Medium, Hard) using the same
- *      word-intersection algorithm as your waffle-generator HTML tool
+ *   1. Builds a word pool per difficulty from the word lists, using each
+ *      word's Zipf frequency (word_zipf.txt, the same wordfreq numbers Letter
+ *      Loaf uses for rare words) to keep uncommon words out of easier rounds
+ *   2. Generates an Easy, a Medium and a Hard 5x5 grid from those pools
  *   3. Validates all 6 words in each grid against the Free Dictionary API —
  *      grids with any invalid/proper-noun words are retried automatically
- *   4. Applies difficulty-appropriate staticCells patterns using the same
- *      logic as your Apps Script
- *   5. Writes one CSV row per puzzle (3 rows per date), including the words
- *      and their definitions for post-game display
+ *   4. Applies difficulty-appropriate staticCells patterns
+ *   5. Adds the day to puzzles.json with the next griddleNumber and puzzle ids
+ *
+ * DIFFICULTY:
+ *   Difficulty comes from two things: how many cells start filled in, and how
+ *   common the words are. Every one of the six words in a grid must have a
+ *   Zipf frequency of at least `minZipf` for its difficulty (see GRID_CONFIG).
+ *   Zipf is log-frequency: ~7.7 is "the", ~5 is "water", ~4 is "chaos",
+ *   ~3 is "aorta", under ~2.5 most people won't know the word.
+ *   Before this, a single obscure word (often a dictionary fallback forced by
+ *   the crossing letters) could land in any round, Easy included.
  *
  * THE GRID STRUCTURE (always the same):
  *   Rows 0, 2, 4 are horizontal words (H1, H2, H3)
  *   Cols 0, 2, 4 are vertical words   (V1, V2, V3)
  *   The four "hole" positions [1,1] [1,3] [3,1] [3,3] are always null
- *   All other cells are letter-bearing grid cells
- *
- * OUTPUT CSV COLUMNS:
- *   puzzleDate  | difficulty | solutionGrid | staticCells | words | definitions
- *
- *   puzzleDate   — M/D/YYYY format (matches what your game reads from the sheet)
- *   difficulty   — Easy / Medium / Hard
- *   solutionGrid — JSON string, 5x5 array, nulls at hole positions
- *   staticCells  — JSON string, 5x5 array of true/false/null
- *   words        — JSON array of the 6 words: [h1, h2, h3, v1, v2, v3]
- *   definitions  — JSON array of {word, pos, def} objects, one per word,
- *                  same order as `words`. Use for post-game definition display.
  *
  * HOW TO RUN:
- *   node generate-griddles.mjs                              # today, 3 puzzles
- *   node generate-griddles.mjs --date 2026-07-04            # specific date
- *   node generate-griddles.mjs --start 2026-07-01 --end 2026-07-31
- *   node generate-griddles.mjs --dry-run                    # print to console only
- *   node generate-griddles.mjs --count 5                    # generate 5 candidates
- *                                                            # per difficulty per date
- *                                                            # so you can pick the best
- *   node generate-griddles.mjs --skip-validation            # skip dictionary API checks
- *                                                            # (faster, no definitions)
- *   node generate-griddles.mjs --no-dedupe                  # skip recent-word exclusion
+ *   node generate-griddles.js --days 30                    # the 30 days after the last one in puzzles.json
+ *   node generate-griddles.js --date 2026-12-04            # one date
+ *   node generate-griddles.js --start 2026-12-01 --end 2026-12-31
+ *   node generate-griddles.js --days 7 --dry-run           # print only, puzzles.json untouched
+ *   node generate-griddles.js --date 2026-12-04 --replace  # regenerate a day that isn't live yet
+ *   node generate-griddles.js --skip-validation            # skip dictionary API checks (no definitions)
+ *   node generate-griddles.js --no-dedupe                  # skip recent-word exclusion
+ *
+ *   Dates already in puzzles.json are skipped unless --replace is given, which
+ *   keeps that day's griddleNumber and ids. New dates must come after the last
+ *   day in the file so griddle numbers stay in order.
  *
  * WORD DEDUPLICATION:
- *   By default the script reads all existing CSV files in ./output/ and excludes
- *   any word that appeared in a puzzle within the last 40 days of the target date.
- *   This prevents players from seeing the same word twice within a 40-day window.
- *   Words generated during the current run are also tracked, so a word used on an
- *   earlier date in the same batch won't appear on a later date within 40 days.
- *   Use --no-dedupe to disable this (e.g. if your word list is very small).
- *
- * SETUP:
- *   Make sure your word files are accessible. The script reads them from your
- *   GitHub repo. Alternatively, place them in the same folder and pass local paths:
- *   node generate-griddles.mjs --common common_words.txt --dict wordle_words.txt
- *
- * OUTPUT:
- *   ./output/griddles-YYYY-MM-DD.csv  (one file per run)
- *   Open in Excel or Google Sheets, then copy rows into your puzzle sheet.
+ *   Any word used in the 40 days before a date (read from puzzles.json, and
+ *   from earlier dates in the same run) is excluded, as is any word already
+ *   used by another difficulty on the same date.
  */
 
 import fs   from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { LEVELS, loadPuzzleFile, savePuzzleFile, lastNumbers } from './puzzles-json.js';
 
 // ---------------------------------------------------------------------------
 // Configuration
 // ---------------------------------------------------------------------------
 
-const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
-const OUTPUT_DIR = path.join(SCRIPT_DIR, 'output');
+const SCRIPT_DIR   = path.dirname(fileURLToPath(import.meta.url));
+const PUZZLES_FILE = path.join(SCRIPT_DIR, 'puzzles.json');
 
-// Default word files — resolved relative to this script so no network call is needed.
-// Primary pool: Wordle answer words — common, recognizable, preferred for grid slots.
+// Primary pool: Wordle answer words — recognizable, preferred for grid slots.
 const COMMON_WORDS_DEFAULT = path.join(SCRIPT_DIR, 'wordle_words.txt');
 // Fallback pool: all 5-letter words from the Letterloaf dictionary (~8,939 words).
-// Obscure entries are filtered out naturally by the dictionary API validation step.
 const DICT_WORDS_DEFAULT   = path.join(SCRIPT_DIR, 'griddle_dict.txt');
+// WORD<TAB>ZIPF for every 5-letter word, copied from wordwich-game's
+// public/wordbank.txt (the Letter Loaf rarity data). A word missing from it
+// counts as Zipf 0, i.e. as rare as it gets.
+const ZIPF_DEFAULT         = path.join(SCRIPT_DIR, 'word_zipf.txt');
 
 // Free Dictionary API base URL used to validate words and fetch definitions.
 // Was api.dictionaryapi.dev — switched 2026-09-27 after that host started
 // hanging/timing out (Cloudflare 522) on every lookup, word or not.
 const FREE_DICT_API = 'https://freedictionaryapi.com/api/v1/entries/en';
 
-// How many generation attempts before giving up on a date/difficulty combo.
-// The HTML tool uses 5000; we use the same.
+// How many generation attempts before giving up on one seed.
 const MAX_ATTEMPTS = 5000;
 
 // How many times to try a new generated grid when words fail dictionary
 // validation. Each retry uses a different seed so it produces different words.
 const MAX_VALIDATION_RETRIES = 50;
 
-// Words used in puzzles within this many days of the target date are excluded
-// from generation to avoid players seeing the same word twice in a short window.
+// Words used in puzzles within this many days of the target date are excluded.
 const RECENT_WORD_WINDOW_DAYS = 40;
 
-// How many candidate grids to generate per difficulty level per date.
-// Default 1 gives you one grid per difficulty. Use --count 3 to get
-// multiple options to choose from in the spreadsheet.
-let CANDIDATES_PER_DIFFICULTY = 1;
-
-// Difficulty settings — mirrors your Apps Script GRID_CONFIG exactly
+// Per difficulty:
+//   minLocked/maxLocked/helperWeight — how many cells start filled in, and how
+//     strongly those lean to the corners and centre (easiest anchors)
+//   minZipf — every word in the grid must be at least this common
+//
+// The Easy floor (3.5) leaves ~1,800 dictionary words, plenty to fill grids
+// even with 40 days of words excluded. Hard has no floor, as before.
 const GRID_CONFIG = {
-  Easy:   { minLocked: 11, maxLocked: 14, helperWeight: 0.8 },
-  Medium: { minLocked:  11, maxLocked: 12, helperWeight: 0.4 },
-  Hard:   { minLocked:  9, maxLocked: 10, helperWeight: 0.1 },
+  Easy:   { minLocked: 11, maxLocked: 14, helperWeight: 0.8, minZipf: 3.5 },
+  Medium: { minLocked: 11, maxLocked: 12, helperWeight: 0.4, minZipf: 2.5 },
+  Hard:   { minLocked:  9, maxLocked: 10, helperWeight: 0.1, minZipf: 0   },
 };
 
 // The four "hole" positions — always the same in every Griddle puzzle.
-// These cells are always null in both solutionGrid and staticCells.
 const HOLES = [[1,1],[1,3],[3,1],[3,3]];
 
-// "Helper" corners — the Apps Script biases toward locking these on Easy
-// puzzles because they're the corners and center, easiest for players to
-// use as anchors. Same as your helperCoords in the Apps Script.
+// "Helper" corners and centre, biased toward on Easy puzzles.
 const HELPER_COORDS = [[0,0],[0,4],[4,0],[4,4],[2,2]];
 
 // ---------------------------------------------------------------------------
@@ -128,21 +113,16 @@ function todayStr() {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
 
-function dateRange(startStr, endStr) {
-  const dates = [];
-  const cur = new Date(startStr + 'T00:00:00');
-  const end = new Date(endStr   + 'T00:00:00');
-  while (cur <= end) {
-    dates.push(cur.toISOString().split('T')[0]);
-    cur.setDate(cur.getDate() + 1);
-  }
-  return dates;
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
 }
 
-// Convert YYYY-MM-DD to M/D/YYYY (the format your game reads from the sheet)
-function toSheetDate(dateStr) {
-  const [y, m, d] = dateStr.split('-').map(Number);
-  return `${m}/${d}/${y}`;
+function dateRange(startStr, endStr) {
+  const dates = [];
+  for (let cur = startStr; cur <= endStr; cur = addDays(cur, 1)) dates.push(cur);
+  return dates;
 }
 
 // Seeded random for reproducible output — same puzzle every time for same date
@@ -154,13 +134,10 @@ function seededRand(seed) {
   };
 }
 
-function dateSeed(dateStr, difficulty, candidateIndex) {
-  // Different seed per date + difficulty + candidate so each combination
-  // produces a unique grid. Difficulty offset prevents Easy/Medium/Hard from
-  // all generating the same words.
+function dateSeed(dateStr, difficulty, retry) {
   const base = parseInt(dateStr.replace(/-/g, ''), 10);
   const diffOffset = { Easy: 0, Medium: 777777, Hard: 1555555 }[difficulty] ?? 0;
-  return base + diffOffset + candidateIndex * 99991;
+  return base + diffOffset + retry * 99991;
 }
 
 function sleep(ms) {
@@ -171,134 +148,37 @@ function sleep(ms) {
 // Recently-used word deduplication
 // ---------------------------------------------------------------------------
 
-// dateWordMap: Map<YYYY-MM-DD, Set<UPPERCASE_WORD>>
-// Built at startup from historical CSV files and updated as each new puzzle
-// is generated, so within-run date ordering is also respected.
+// Map<YYYY-MM-DD, Set<UPPERCASE_WORD>>, from puzzles.json plus this run.
 const dateWordMap = new Map();
 
-function sheetDateToIso(sheetDate) {
-  // "M/D/YYYY" → "YYYY-MM-DD"
-  const [m, d, y] = sheetDate.split('/').map(Number);
-  if (!y || !m || !d) throw new Error(`Unparseable date: ${sheetDate}`);
-  return `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+function registerWords(dateStr, words) {
+  if (!dateWordMap.has(dateStr)) dateWordMap.set(dateStr, new Set());
+  const set = dateWordMap.get(dateStr);
+  for (const w of words) set.add(w.toUpperCase());
 }
 
-function extractWordsFromGrid(grid) {
-  // Reconstructs [h1, h2, h3, v1, v2, v3] from a parsed solutionGrid.
-  if (!Array.isArray(grid) || grid.length < 5) return [];
-  const get = (r, c) => grid[r]?.[c] ?? '';
-  const words = [
-    [0,1,2,3,4].map(c => get(0, c)).join(''), // h1
-    [0,1,2,3,4].map(c => get(2, c)).join(''), // h2
-    [0,1,2,3,4].map(c => get(4, c)).join(''), // h3
-    [0,1,2,3,4].map(r => get(r, 0)).join(''), // v1
-    [0,1,2,3,4].map(r => get(r, 2)).join(''), // v2
-    [0,1,2,3,4].map(r => get(r, 4)).join(''), // v3
-  ];
-  return words.filter(w => w.length === 5 && /^[A-Z]+$/.test(w));
-}
-
-function parseCSV(text) {
-  // RFC 4180-compliant parser that handles quoted fields containing commas,
-  // newlines, and doubled-quote escaping ("") — the exact format this script
-  // produces for solutionGrid/staticCells.
-  const rows = [];
-  let row = [], field = '', inQ = false;
-
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    if (inQ) {
-      if (ch === '"') {
-        if (text[i + 1] === '"') { field += '"'; i++; } // "" → "
-        else                      { inQ = false; }        // closing quote
-      } else {
-        field += ch;
-      }
-    } else {
-      if      (ch === '"')  { inQ = true; }
-      else if (ch === ',')  { row.push(field); field = ''; }
-      else if (ch === '\r') { /* skip CR */ }
-      else if (ch === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
-      else                  { field += ch; }
-    }
-  }
-  if (field || row.length > 0) { row.push(field); rows.push(row); }
-  return rows;
-}
-
-function loadHistoricalWords(outputDir) {
-  // Reads all CSV files in outputDir and populates dateWordMap.
-  // Supports both old (4-column) and new (6-column) file formats.
-  if (!fs.existsSync(outputDir)) return 0;
-
-  const csvFiles = fs.readdirSync(outputDir)
-    .filter(f => f.endsWith('.csv'))
-    .map(f => path.join(outputDir, f));
-
-  let totalDates = 0;
-
-  for (const csvFile of csvFiles) {
-    try {
-      const text  = fs.readFileSync(csvFile, 'utf8');
-      const rows  = parseCSV(text);
-      if (rows.length < 2) continue;
-
-      const header   = rows[0];
-      const dateCol  = header.indexOf('puzzleDate');
-      const wordsCol = header.indexOf('words');       // present in new format
-      const gridCol  = header.indexOf('solutionGrid');
-
-      if (dateCol === -1 || gridCol === -1) continue;
-
-      for (const row of rows.slice(1)) {
-        const rawDate = row[dateCol]?.trim();
-        if (!rawDate) continue;
-
-        let dateStr;
-        try { dateStr = sheetDateToIso(rawDate); } catch { continue; }
-
-        // Prefer the `words` column; fall back to parsing solutionGrid
-        let words = null;
-        if (wordsCol !== -1 && row[wordsCol]) {
-          try { words = JSON.parse(row[wordsCol]); } catch { /* fall through */ }
-        }
-        if (!words && row[gridCol]) {
-          try { words = extractWordsFromGrid(JSON.parse(row[gridCol])); } catch { continue; }
-        }
-        if (!Array.isArray(words) || words.length === 0) continue;
-
-        if (!dateWordMap.has(dateStr)) { dateWordMap.set(dateStr, new Set()); totalDates++; }
-        const set = dateWordMap.get(dateStr);
-        for (const w of words) if (w && typeof w === 'string') set.add(w.toUpperCase());
-      }
-    } catch (err) {
-      console.warn(`  Warning: could not read ${path.basename(csvFile)}: ${err.message}`);
-    }
-  }
-
-  return totalDates;
-}
-
+// Words used on the target date itself or in the windowDays before it.
 function getRecentlyUsedWords(targetDateStr, windowDays) {
-  // Returns a Set of all words used in the [targetDate - windowDays, targetDate - 1] range.
-  const used   = new Set();
-  const target = new Date(targetDateStr + 'T00:00:00');
-  for (let i = 1; i <= windowDays; i++) {
-    const d = new Date(target);
-    d.setDate(d.getDate() - i);
-    const dStr  = d.toISOString().split('T')[0];
-    const words = dateWordMap.get(dStr);
+  const used = new Set();
+  for (let i = 0; i <= windowDays; i++) {
+    const words = dateWordMap.get(addDays(targetDateStr, -i));
     if (words) for (const w of words) used.add(w);
   }
   return used;
 }
 
-function registerGeneratedWords(dateStr, words) {
-  // Records a newly generated puzzle's words in dateWordMap so later dates in
-  // the same run can exclude them.
-  if (!dateWordMap.has(dateStr)) dateWordMap.set(dateStr, new Set());
-  const set = dateWordMap.get(dateStr);
-  for (const w of words) set.add(w.toUpperCase());
+// ---------------------------------------------------------------------------
+// Zipf frequencies
+// ---------------------------------------------------------------------------
+
+function loadZipf(file) {
+  if (!fs.existsSync(file)) throw new Error(`File not found: ${file}`);
+  const zipf = new Map();
+  for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
+    const [word, value] = line.trim().split('\t');
+    if (word) zipf.set(word.toUpperCase(), Number(value) || 0);
+  }
+  return zipf;
 }
 
 // ---------------------------------------------------------------------------
@@ -616,78 +496,6 @@ function generateStaticCells(difficulty, rand) {
   return grid;
 }
 
-// ---------------------------------------------------------------------------
-// CSV formatting
-// ---------------------------------------------------------------------------
-
-function escapeCSV(value) {
-  // Wraps a value in quotes and escapes internal quotes for CSV safety.
-  // Necessary because solutionGrid and staticCells contain commas.
-  const str = String(value);
-  if (str.includes('"') || str.includes(',') || str.includes('\n')) {
-    return `"${str.replace(/"/g, '""')}"`;
-  }
-  return str;
-}
-
-function gridToJsonStr(grid) {
-  // Serializes a 5x5 grid to a visually stacked JSON string matching the
-  // format your Google Sheet expects — one row per line, indented with spaces.
-  // Letters are double-quoted strings, booleans and nulls are unquoted.
-  //
-  // solutionGrid output:
-  //   [
-  //    ["F", "I", "N", "A", "L"],
-  //    ["E", null, "E", null, "O"],
-  //    ...
-  //   ]
-  //
-  // staticCells output:
-  //   [
-  //         [false, true, false, false, true],
-  //         [true, null, false, null, false],
-  //    ...
-  //   ]
-  //
-  // The staticCells format uses 6-space indent per row to match your Apps Script
-  // formattedString output exactly.
-
-  // Detect whether this is a solutionGrid (contains strings/null)
-  // or a staticCells grid (contains booleans/null)
-  const isStaticCells = grid.flat().some(v => typeof v === 'boolean');
-
-  const indent = isStaticCells ? '      ' : ' ';
-
-  const rows = grid.map(row => {
-    const cells = row.map(cell => {
-      if (cell === null)          return 'null';
-      if (typeof cell === 'boolean') return cell ? 'true' : 'false';
-      return `"${cell}"`;
-    });
-    return `${indent}[${cells.join(', ')}]`;
-  });
-
-  return `[\n${rows.join(',\n')}\n    ]`;
-}
-
-function buildCSVRow(dateStr, difficulty, solutionGrid, staticCells, words, definitions) {
-  const sheetDate = toSheetDate(dateStr);
-  const solJson   = gridToJsonStr(solutionGrid);
-  const statJson  = gridToJsonStr(staticCells);
-  // words: simple JSON array ["H1","H2","H3","V1","V2","V3"]
-  const wordsJson = JSON.stringify(words);
-  // definitions: JSON array of {word, pos, def} objects for post-game display
-  const defsJson  = JSON.stringify(definitions);
-
-  return [
-    escapeCSV(sheetDate),
-    escapeCSV(difficulty),
-    escapeCSV(solJson),
-    escapeCSV(statJson),
-    escapeCSV(wordsJson),
-    escapeCSV(defsJson),
-  ].join(',');
-}
 
 // ---------------------------------------------------------------------------
 // CLI argument parsing
@@ -697,10 +505,12 @@ function parseArgs() {
   const args = process.argv.slice(2);
   const opts = {
     dates:          null,
+    days:           null,
     dryRun:         false,
-    count:          1,
+    replace:        false,
     commonFile:     null,
     dictFile:       null,
+    zipfFile:       null,
     skipValidation: false,
     noDedupe:       false,
   };
@@ -709,29 +519,30 @@ function parseArgs() {
   let endDate   = null;
 
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--date' && args[i+1]) {
-      opts.dates = [args[++i]];
-    } else if (args[i] === '--start' && args[i+1]) {
-      startDate = args[++i];
-    } else if (args[i] === '--end' && args[i+1]) {
-      endDate = args[++i];
-    } else if (args[i] === '--dry-run') {
-      opts.dryRun = true;
-    } else if (args[i] === '--count' && args[i+1]) {
-      opts.count = parseInt(args[++i]) || 1;
-    } else if (args[i] === '--common' && args[i+1]) {
-      opts.commonFile = args[++i];
-    } else if (args[i] === '--dict' && args[i+1]) {
-      opts.dictFile = args[++i];
-    } else if (args[i] === '--skip-validation') {
-      opts.skipValidation = true;
-    } else if (args[i] === '--no-dedupe') {
-      opts.noDedupe = true;
+    const a = args[i];
+    if      (a === '--date'  && args[i+1]) opts.dates = [args[++i]];
+    else if (a === '--start' && args[i+1]) startDate = args[++i];
+    else if (a === '--end'   && args[i+1]) endDate = args[++i];
+    else if (a === '--days'  && args[i+1]) opts.days = parseInt(args[++i], 10) || null;
+    else if (a === '--dry-run')            opts.dryRun = true;
+    else if (a === '--replace')            opts.replace = true;
+    else if (a === '--common' && args[i+1]) opts.commonFile = args[++i];
+    else if (a === '--dict'   && args[i+1]) opts.dictFile = args[++i];
+    else if (a === '--zipf'   && args[i+1]) opts.zipfFile = args[++i];
+    else if (a === '--skip-validation')    opts.skipValidation = true;
+    else if (a === '--no-dedupe')          opts.noDedupe = true;
+    else if (a === '--count') {
+      console.error('--count is gone: puzzles now go straight into puzzles.json, one per difficulty.');
+      console.error('Use --dry-run to look first, or --replace to regenerate a day.');
+      process.exit(1);
+    } else {
+      console.error(`Unknown argument: ${a}`);
+      process.exit(1);
     }
   }
 
   if (startDate && !opts.dates) {
-    opts.dates = dateRange(startDate, endDate ?? todayStr());
+    opts.dates = dateRange(startDate, endDate ?? startDate);
   }
 
   return opts;
@@ -741,197 +552,170 @@ function parseArgs() {
 // Main
 // ---------------------------------------------------------------------------
 
+async function generatePuzzle(dateStr, difficulty, pools, opts) {
+  for (let retry = 0; retry < MAX_VALIDATION_RETRIES; retry++) {
+    const rand = seededRand(dateSeed(dateStr, difficulty, retry));
+
+    const words = generateWaffle(pools.common, pools.dict, rand);
+    if (!words) continue;
+
+    let definitions = [];
+    if (!opts.skipValidation) {
+      process.stdout.write(`    ${difficulty} (try ${retry + 1}): checking [${words.join(', ')}]... `);
+      const validation = await validateAndFetchDefinitions(words);
+      if (!validation.valid) {
+        console.log(`REJECTED — invalid: ${validation.invalidWords.join(', ')}`);
+        continue;
+      }
+      console.log('OK');
+      definitions = validation.definitions;
+    }
+
+    return {
+      words,
+      solutionGrid: buildGrid(words),
+      staticCells:  generateStaticCells(difficulty, rand),
+      definitions,
+    };
+  }
+  return null;
+}
+
 async function main() {
   console.log('=== Griddle Puzzle Generator ===\n');
 
   const opts = parseArgs();
-  CANDIDATES_PER_DIFFICULTY = opts.count;
+  const data = loadPuzzleFile(PUZZLES_FILE);
+  const existingDates = Object.keys(data.days).sort();
+  const lastExisting  = existingDates.at(-1);
 
-  const datesToProcess = opts.dates ?? [todayStr()];
-  console.log(`Dates: ${datesToProcess.length}  |  Candidates per difficulty: ${CANDIDATES_PER_DIFFICULTY}`);
-  if (opts.skipValidation) console.log('Dictionary validation: SKIPPED (--skip-validation)');
-  else                     console.log(`Dictionary validation: ON (up to ${MAX_VALIDATION_RETRIES} retries per candidate)`);
-  if (opts.noDedupe) console.log('Word deduplication:   SKIPPED (--no-dedupe)');
-  else               console.log(`Word deduplication:   ON (${RECENT_WORD_WINDOW_DAYS}-day window)`);
-  if (opts.dryRun) console.log('DRY RUN: no files will be written.\n');
+  let datesToProcess = opts.dates;
+  if (!datesToProcess) {
+    const start = lastExisting ? addDays(lastExisting, 1) : todayStr();
+    datesToProcess = dateRange(start, addDays(start, (opts.days ?? 1) - 1));
+  }
 
-  const commonUrl = opts.commonFile ?? COMMON_WORDS_DEFAULT;
-  const dictUrl   = opts.dictFile   ?? DICT_WORDS_DEFAULT;
+  // Existing days are left alone unless --replace; new days have to follow the
+  // last one so griddle numbers keep counting up with the calendar.
+  datesToProcess = datesToProcess.filter(d => {
+    if (data.days[d] && !opts.replace) { console.log(`Skipping ${d}: already in puzzles.json (use --replace to regenerate)`); return false; }
+    return true;
+  });
+  const misplaced = datesToProcess.filter(d => !data.days[d] && lastExisting && d < lastExisting);
+  if (misplaced.length) {
+    console.error(`\nCan't add ${misplaced.join(', ')}: puzzles.json already runs to ${lastExisting}, and griddle numbers follow the calendar.`);
+    process.exit(1);
+  }
+  const live = datesToProcess.filter(d => data.days[d] && d <= addDays(todayStr(), 1));
+  if (live.length) console.warn(`\nWarning: replacing ${live.join(', ')}, which may already be live. Players' saved progress for those days will reset.`);
+
+  if (datesToProcess.length === 0) { console.log('\nNothing to generate.'); return; }
+
+  console.log(`Dates: ${datesToProcess[0]} to ${datesToProcess.at(-1)} (${datesToProcess.length})`);
+  console.log(opts.skipValidation ? 'Dictionary validation: SKIPPED' : `Dictionary validation: ON (up to ${MAX_VALIDATION_RETRIES} grids per puzzle)`);
+  console.log(opts.noDedupe ? 'Word deduplication:   SKIPPED' : `Word deduplication:   ON (${RECENT_WORD_WINDOW_DAYS}-day window + same day)`);
+  console.log(`Word commonness:      ${LEVELS.map(l => `${l} Zipf >= ${GRID_CONFIG[l].minZipf}`).join(', ')}`);
+  if (opts.dryRun) console.log('DRY RUN: puzzles.json will not be changed.');
 
   console.log('\nLoading word files...');
-  let commonWords, dictWords;
+  let commonWords, dictWords, zipf;
   try {
-    commonWords = await loadWordFile(commonUrl);
-    console.log(`  Common words: ${commonWords.length.toLocaleString()}`);
+    commonWords = await loadWordFile(opts.commonFile ?? COMMON_WORDS_DEFAULT);
+    dictWords   = await loadWordFile(opts.dictFile   ?? DICT_WORDS_DEFAULT);
+    zipf        = loadZipf(opts.zipfFile ?? ZIPF_DEFAULT);
   } catch (err) {
-    console.error(`  Could not load common words: ${err.message}`);
-    console.error('  Add your word files to the repo under griddle/ or pass --common path/to/file.txt');
+    console.error(`  Could not load word files: ${err.message}`);
     process.exit(1);
   }
-  try {
-    dictWords = await loadWordFile(dictUrl);
-    console.log(`  Dictionary:   ${dictWords.length.toLocaleString()}`);
-  } catch (err) {
-    console.error(`  Could not load dictionary words: ${err.message}`);
-    process.exit(1);
-  }
+  const zipfOf = w => zipf.get(w) ?? 0;
+  console.log(`  Common words: ${commonWords.length.toLocaleString()}`);
+  console.log(`  Dictionary:   ${dictWords.length.toLocaleString()}`);
+  console.log(`  Zipf entries: ${zipf.size.toLocaleString()}`);
 
-  // Load word history from existing output CSVs so we can exclude recently used words.
+  // Each difficulty draws only from words at or above its Zipf floor, in both
+  // the preferred pool and the fallback, so the crossing letters can't force an
+  // obscure word into an easier round.
+  const basePools = Object.fromEntries(LEVELS.map(level => {
+    const min = GRID_CONFIG[level].minZipf;
+    const pool = {
+      common: commonWords.filter(w => zipfOf(w) >= min),
+      dict:   dictWords.filter(w => zipfOf(w) >= min),
+    };
+    console.log(`  ${level.padEnd(6)} pool: ${pool.common.length} common + ${pool.dict.length} dictionary words`);
+    return [level, pool];
+  }));
+
   if (!opts.noDedupe) {
-    const historicalDates = loadHistoricalWords(OUTPUT_DIR);
-    console.log(`\nWord history: ${historicalDates} date(s) loaded from ${OUTPUT_DIR}`);
+    for (const [date, day] of Object.entries(data.days)) {
+      if (opts.replace && datesToProcess.includes(date)) continue; // its old words are going away
+      for (const p of day.puzzles) registerWords(date, p.words ?? []);
+    }
+    console.log(`\nWord history: ${dateWordMap.size} day(s) loaded from puzzles.json`);
   }
 
-  const difficulties = ['Easy', 'Medium', 'Hard'];
-  // Header includes new words and definitions columns
-  const csvRows = ['puzzleDate,difficulty,solutionGrid,staticCells,words,definitions'];
+  let { id: nextId, griddleNumber: nextNumber } = lastNumbers(data);
   let generated = 0, failed = 0;
+  const newDays = {};
 
   for (const dateStr of datesToProcess) {
-    process.stdout.write(`\n  ${dateStr}:\n`);
+    console.log(`\n  ${dateStr}:`);
+    const previous = data.days[dateStr];
+    const puzzles = [];
 
-    // Build word pools for this date, excluding words used in the recent window.
-    let activeCommon = commonWords;
-    let activeDict   = dictWords;
-    if (!opts.noDedupe) {
-      const recentlyUsed = getRecentlyUsedWords(dateStr, RECENT_WORD_WINDOW_DAYS);
-      if (recentlyUsed.size > 0) {
-        activeCommon = commonWords.filter(w => !recentlyUsed.has(w));
-        activeDict   = dictWords.filter(w => !recentlyUsed.has(w));
-        console.log(`    Excluding ${recentlyUsed.size} words used in the last ${RECENT_WORD_WINDOW_DAYS} days (${activeCommon.length}/${commonWords.length} common words remain)`);
-      }
-    }
-
-    const dateResults = [];
-
-    for (const difficulty of difficulties) {
-      const diffResults = [];
-
-      for (let ci = 0; ci < CANDIDATES_PER_DIFFICULTY; ci++) {
-        let found = null;
-        let validationRetries = 0;
-
-        for (let retry = 0; retry < MAX_VALIDATION_RETRIES && !found; retry++) {
-          // Each retry gets its own unique seed so it produces different words.
-          // Multiplying by MAX_VALIDATION_RETRIES keeps candidate seeds well-separated.
-          const seed = dateSeed(dateStr, difficulty, ci * MAX_VALIDATION_RETRIES + retry);
-          const rand = seededRand(seed);
-
-          const words = generateWaffle(activeCommon, activeDict, rand);
-          if (!words) continue; // grid generation failed, try next seed
-
-          if (opts.skipValidation) {
-            // No API validation — accept the grid as-is with empty definitions
-            const solutionGrid = buildGrid(words);
-            const staticCells  = generateStaticCells(difficulty, rand);
-            found = { difficulty, success: true, words, solutionGrid, staticCells, definitions: [] };
-            break;
-          }
-
-          // Validate all 6 words against the Free Dictionary API
-          process.stdout.write(`    ${difficulty} (try ${retry + 1}): checking [${words.join(', ')}]... `);
-          const validation = await validateAndFetchDefinitions(words);
-
-          if (!validation.valid) {
-            console.log(`REJECTED — invalid: ${validation.invalidWords.join(', ')}`);
-            validationRetries++;
-            continue;
-          }
-
-          console.log('OK');
-          const solutionGrid = buildGrid(words);
-          const staticCells  = generateStaticCells(difficulty, rand);
-          found = {
-            difficulty,
-            success:     true,
-            words,
-            solutionGrid,
-            staticCells,
-            definitions: validation.definitions,
-          };
-        }
-
-        if (found) {
-          if (validationRetries > 0) {
-            console.log(`    ${difficulty}: accepted after ${validationRetries} rejected grid(s)`);
-          }
-          if (!opts.noDedupe) registerGeneratedWords(dateStr, found.words);
-          diffResults.push(found);
-          generated++;
-        } else {
-          console.log(`    ${difficulty}: FAILED — could not find valid grid after ${MAX_VALIDATION_RETRIES} attempts`);
-          diffResults.push({ difficulty, success: false });
-          failed++;
-        }
+    for (const [i, difficulty] of LEVELS.entries()) {
+      let pools = basePools[difficulty];
+      if (!opts.noDedupe) {
+        const used = getRecentlyUsedWords(dateStr, RECENT_WORD_WINDOW_DAYS);
+        pools = { common: pools.common.filter(w => !used.has(w)), dict: pools.dict.filter(w => !used.has(w)) };
       }
 
-      dateResults.push({ difficulty, results: diffResults });
-    }
-
-    // Add CSV rows for this date
-    for (const { difficulty, results } of dateResults) {
-      for (const result of results) {
-        if (!result.success) continue;
-
-        // If multiple candidates, append candidate number to distinguish them
-        const diffLabel = CANDIDATES_PER_DIFFICULTY > 1
-          ? `${difficulty}-${results.indexOf(result) + 1}`
-          : difficulty;
-
-        csvRows.push(buildCSVRow(
-          dateStr,
-          diffLabel,
-          result.solutionGrid,
-          result.staticCells,
-          result.words,
-          result.definitions,
-        ));
+      const found = await generatePuzzle(dateStr, difficulty, pools, opts);
+      if (!found) {
+        console.log(`    ${difficulty}: FAILED — no valid grid after ${MAX_VALIDATION_RETRIES} attempts (pool: ${pools.common.length} + ${pools.dict.length})`);
+        failed++;
+        continue;
       }
+
+      const zipfs = found.words.map(zipfOf);
+      console.log(`    ${difficulty}: ${found.words.join(' ')}  (rarest Zipf ${Math.min(...zipfs).toFixed(1)})`);
+      if (!opts.noDedupe) registerWords(dateStr, found.words);
+      generated++;
+
+      puzzles.push({
+        id: previous?.puzzles[i]?.id ?? ++nextId,
+        difficulty,
+        solutionGrid: found.solutionGrid,
+        staticCells:  found.staticCells,
+        words:        found.words,
+        definitions:  found.definitions,
+      });
     }
+
+    if (puzzles.length !== LEVELS.length) {
+      // Stopping here rather than skipping keeps the calendar free of holes,
+      // which later runs couldn't fill (griddle numbers follow the dates).
+      console.log(`    Stopping at ${dateStr}: not all three difficulties could be generated.`);
+      break;
+    }
+    newDays[dateStr] = { griddleNumber: previous?.griddleNumber ?? ++nextNumber, puzzles };
   }
 
   console.log(`\nDone. Generated: ${generated}, Failed: ${failed}.`);
-
-  if (generated === 0) {
-    console.log('\nNo puzzles generated. Check that your word files loaded correctly.');
-    return;
-  }
-
-  // Write CSV output
-  const csvContent = csvRows.join('\n');
+  const added = Object.keys(newDays);
+  if (added.length === 0) return;
 
   if (opts.dryRun) {
-    console.log('\n--- CSV Preview (first 5 data rows) ---');
-    csvRows.slice(0, 6).forEach(r => console.log(r.substring(0, 120) + '...'));
+    console.log(`Dry run: would write ${added.length} day(s) to puzzles.json.`);
     return;
   }
 
-  if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-
-  // One output file per run, named with the date range
-  const firstDate = datesToProcess[0];
-  const lastDate  = datesToProcess[datesToProcess.length - 1];
-  const filename  = firstDate === lastDate
-    ? `griddles-${firstDate}.csv`
-    : `griddles-${firstDate}-to-${lastDate}.csv`;
-
-  const outPath = path.join(OUTPUT_DIR, filename);
-  fs.writeFileSync(outPath, csvContent);
-  console.log(`\nSaved: ${outPath}`);
-
-  console.log('\nNext steps:');
-  console.log('  1. Open the CSV file');
-  console.log('  2. Review the generated grids (you can visualise solutionGrid using');
-  console.log('     your existing Google Sheet helper columns)');
-  console.log('  3. The `words` column lists all 6 words: [h1, h2, h3, v1, v2, v3]');
-  console.log('  4. The `definitions` column contains [{word, pos, def}] for each word');
-  console.log('     — use this to display definitions after the game ends');
-  console.log('  5. Copy the rows you want into your Griddle puzzle sheet');
-  console.log('  6. Run your Apps Script to verify/adjust staticCells as needed');
-  console.log('\nNote: the staticCells are algorithmically generated but you can always');
-  console.log('override them in the sheet using your visual helper columns.');
-  console.log('\nNote: definitions are fetched from freedictionaryapi.com. If a word has a');
-  console.log("missing or incomplete entry there, you may want to fill it in manually.");
+  Object.assign(data.days, newDays);
+  savePuzzleFile(PUZZLES_FILE, data);
+  console.log(`\nSaved ${added.length} day(s) to ${PUZZLES_FILE}`);
+  console.log('Review the diff, then commit and push — the site picks it up within a few minutes.');
+  if (!opts.skipValidation) {
+    console.log('Definitions come from freedictionaryapi.com; fix any thin ones directly in puzzles.json.');
+  }
 }
 
 main().catch(err => {
