@@ -106,8 +106,9 @@ node generate-griddles.js --skip-validation             # skip dictionary API ch
 node generate-griddles.js --no-dedupe                   # skip recent-word exclusion
 ```
 
-Words used in the 40 days before a date, or by another difficulty on the same
-date, are excluded.
+Words used within 40 days of a date, or by another difficulty on the same
+date, are excluded. So is anything in `griddle/blocked_words.txt` (crude or
+grim words); add to it freely.
 
 ### Editing a puzzle by hand
 

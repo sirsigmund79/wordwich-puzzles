@@ -44,9 +44,9 @@
  *   day in the file so griddle numbers stay in order.
  *
  * WORD DEDUPLICATION:
- *   Any word used in the 40 days before a date (read from puzzles.json, and
- *   from earlier dates in the same run) is excluded, as is any word already
- *   used by another difficulty on the same date.
+ *   Any word used within 40 days of a date (read from puzzles.json, and from
+ *   earlier dates in the same run) is excluded, as is any word already used by
+ *   another difficulty on the same date, and anything in blocked_words.txt.
  */
 
 import fs   from 'fs';
@@ -69,6 +69,8 @@ const DICT_WORDS_DEFAULT   = path.join(SCRIPT_DIR, 'griddle_dict.txt');
 // public/wordbank.txt (the Letter Loaf rarity data). A word missing from it
 // counts as Zipf 0, i.e. as rare as it gets.
 const ZIPF_DEFAULT         = path.join(SCRIPT_DIR, 'word_zipf.txt');
+// Words never to use, whatever their frequency (crude, bodily, slurs...).
+const BLOCKED_DEFAULT      = path.join(SCRIPT_DIR, 'blocked_words.txt');
 
 // Free Dictionary API base URL used to validate words and fetch definitions.
 // Was api.dictionaryapi.dev — switched 2026-09-27 after that host started
@@ -157,11 +159,12 @@ function registerWords(dateStr, words) {
   for (const w of words) set.add(w.toUpperCase());
 }
 
-// Words used on the target date itself or in the windowDays before it.
+// Words used on the target date itself or within windowDays either side of
+// it. Looking forward only matters with --replace, where later days exist.
 function getRecentlyUsedWords(targetDateStr, windowDays) {
   const used = new Set();
-  for (let i = 0; i <= windowDays; i++) {
-    const words = dateWordMap.get(addDays(targetDateStr, -i));
+  for (let i = -windowDays; i <= windowDays; i++) {
+    const words = dateWordMap.get(addDays(targetDateStr, i));
     if (words) for (const w of words) used.add(w);
   }
   return used;
@@ -623,6 +626,13 @@ async function main() {
     commonWords = await loadWordFile(opts.commonFile ?? COMMON_WORDS_DEFAULT);
     dictWords   = await loadWordFile(opts.dictFile   ?? DICT_WORDS_DEFAULT);
     zipf        = loadZipf(opts.zipfFile ?? ZIPF_DEFAULT);
+    if (fs.existsSync(BLOCKED_DEFAULT)) {
+      const blocked = new Set(fs.readFileSync(BLOCKED_DEFAULT, 'utf8').split('\n')
+        .map(l => l.replace(/#.*/, '').trim().toUpperCase()).filter(Boolean));
+      commonWords = commonWords.filter(w => !blocked.has(w));
+      dictWords   = dictWords.filter(w => !blocked.has(w));
+      console.log(`  Blocked:      ${blocked.size} words (blocked_words.txt)`);
+    }
   } catch (err) {
     console.error(`  Could not load word files: ${err.message}`);
     process.exit(1);
