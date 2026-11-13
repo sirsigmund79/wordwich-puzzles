@@ -7,24 +7,21 @@
       "startLetter": "g",
       "endLetter": "m",
       "passScore": 3,
-      "perfectScore": 30,
-      "hintWord": "groom"
+      "perfectScore": 30
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "y",
       "passScore": 9,
-      "perfectScore": 69,
-      "hintWord": "daily"
+      "perfectScore": 69
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "e",
       "passScore": 12,
-      "perfectScore": 90,
-      "hintWord": "ounce"
+      "perfectScore": 90
     }
   ],
   "_auto": true

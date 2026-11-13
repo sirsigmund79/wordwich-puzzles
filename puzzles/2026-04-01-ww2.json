@@ -7,24 +7,21 @@
       "startLetter": "w",
       "endLetter": "y",
       "passScore": 6,
-      "perfectScore": 51,
-      "hintWord": "wavy"
+      "perfectScore": 51
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "p",
       "passScore": 5,
-      "perfectScore": 35,
-      "hintWord": "tulip"
+      "perfectScore": 35
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 55,
-      "hintWord": "exam"
+      "perfectScore": 55
     }
 
   ]

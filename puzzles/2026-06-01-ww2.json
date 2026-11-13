@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "n",
       "passScore": 9,
-      "perfectScore": 63,
-      "hintWord": "mean"
+      "perfectScore": 63
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "r",
       "passScore": 5,
-      "perfectScore": 74,
-      "hintWord": "tour"
+      "perfectScore": 74
     },
     {
       "round": 3,
       "startLetter": "t",
       "endLetter": "o",
       "passScore": 3,
-      "perfectScore": 23,
-      "hintWord": "techno"
+      "perfectScore": 23
     }
 
   ]

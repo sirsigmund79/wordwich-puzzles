@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "right"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "n",
       "passScore": 2,
-      "perfectScore": 41,
-      "hintWord": "token"
+      "perfectScore": 41
     },
     {
       "round": 3,
       "startLetter": "i",
       "endLetter": "c",
       "passScore": 7,
-      "perfectScore": 56,
-      "hintWord": "ionic"
+      "perfectScore": 56
     }
   ],
   "_auto": true

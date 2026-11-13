@@ -7,24 +7,21 @@
       "startLetter": "k",
       "endLetter": "y",
       "passScore": 8,
-      "perfectScore": 42,
-      "hintWord": "kitty"
+      "perfectScore": 42
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "e",
       "passScore": 4,
-      "perfectScore": 49,
-      "hintWord": "life"
+      "perfectScore": 49
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "s",
       "passScore": 9,
-      "perfectScore": 55,
-      "hintWord": "elves"
+      "perfectScore": 55
     }
   ],
   "_auto": true

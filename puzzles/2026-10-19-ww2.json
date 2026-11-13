@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "n",
       "passScore": 8,
-      "perfectScore": 61,
-      "hintWord": "union"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 62,
-      "hintWord": "iced"
+      "perfectScore": 62
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "c",
       "passScore": 5,
-      "perfectScore": 62,
-      "hintWord": "attic"
+      "perfectScore": 62
     }
   ],
   "_auto": true

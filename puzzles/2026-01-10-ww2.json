@@ -7,16 +7,14 @@
       "startLetter": "s",
       "endLetter": "n",
       "passScore": 12,
-      "perfectScore": 69,
-      "hintWord": "stern"
+      "perfectScore": 69
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 63,
-      "hintWord": "head"
+      "perfectScore": 63
     },
     
     {
@@ -24,8 +22,7 @@
       "startLetter": "c",
       "endLetter": "l",
       "passScore": 9,
-      "perfectScore": 43,
-      "hintWord": "camel"
+      "perfectScore": 43
     }
   ]
 }

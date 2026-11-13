@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "k",
       "passScore": 5,
-      "perfectScore": 37,
-      "hintWord": "chuck"
+      "perfectScore": 37
     },
     {
       "round": 2,
       "startLetter": "j",
       "endLetter": "d",
       "passScore": 10,
-      "perfectScore": 77,
-      "hintWord": "joined"
+      "perfectScore": 77
     },
     {
       "round": 3,
       "startLetter": "l",
       "endLetter": "g",
       "passScore": 15,
-      "perfectScore": 80,
-      "hintWord": "lying"
+      "perfectScore": 80
     }
   ],
   "_auto": true

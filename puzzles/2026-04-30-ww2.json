@@ -7,24 +7,21 @@
       "startLetter": "d",
       "endLetter": "d",
       "passScore": 9,
-      "perfectScore": 82,
-      "hintWord": "deed"
+      "perfectScore": 82
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 66,
-      "hintWord": "unit"
+      "perfectScore": 66
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "o",
       "passScore": 3,
-      "perfectScore": 27,
-      "hintWord": "aero"
+      "perfectScore": 27
     }
 
   ]

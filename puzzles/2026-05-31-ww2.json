@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "a",
       "passScore": 9,
-      "perfectScore": 22,
-      "hintWord": "comma"
+      "perfectScore": 22
     },
     {
       "round": 2,
       "startLetter": "r",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 58,
-      "hintWord": "real"
+      "perfectScore": 58
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "s",
       "passScore": 3,
-      "perfectScore": 55,
-      "hintWord": "ones"
+      "perfectScore": 55
     }
 
   ]

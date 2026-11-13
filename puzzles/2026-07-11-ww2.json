@@ -7,24 +7,21 @@
       "startLetter": "t",
       "endLetter": "g",
       "passScore": 4,
-      "perfectScore": 61,
-      "hintWord": "thing"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "t",
       "passScore": 6,
-      "perfectScore": 64,
-      "hintWord": "input"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "r",
       "passScore": 9,
-      "perfectScore": 56,
-      "hintWord": "enter"
+      "perfectScore": 56
     }
   ],
   "_auto": true

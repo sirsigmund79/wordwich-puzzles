@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "t",
       "passScore": 4,
-      "perfectScore": 50,
-      "hintWord": "paint"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "v",
       "endLetter": "d",
       "passScore": 7,
-      "perfectScore": 49,
-      "hintWord": "valid"
+      "perfectScore": 49
     },
     {
       "round": 3,
       "startLetter": "j",
       "endLetter": "g",
       "passScore": 8,
-      "perfectScore": 43,
-      "hintWord": "jagg"
+      "perfectScore": 43
     }
   ],
   "_auto": true

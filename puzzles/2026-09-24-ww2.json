@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "h",
       "passScore": 5,
-      "perfectScore": 34,
-      "hintWord": "bench"
+      "perfectScore": 34
     },
     {
       "round": 2,
       "startLetter": "p",
       "endLetter": "d",
       "passScore": 14,
-      "perfectScore": 74,
-      "hintWord": "pound"
+      "perfectScore": 74
     },
     {
       "round": 3,
       "startLetter": "g",
       "endLetter": "g",
       "passScore": 8,
-      "perfectScore": 90,
-      "hintWord": "going"
+      "perfectScore": 90
     }
   ],
   "_auto": true

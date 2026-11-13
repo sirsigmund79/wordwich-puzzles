@@ -7,24 +7,21 @@
       "startLetter": "g",
       "endLetter": "n",
       "passScore": 6,
-      "perfectScore": 43,
-      "hintWord": "glean"
+      "perfectScore": 43
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "g",
       "passScore": 5,
-      "perfectScore": 77,
-      "hintWord": "icing"
+      "perfectScore": 77
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "k",
       "passScore": 1,
-      "perfectScore": 49,
-      "hintWord": "brook"
+      "perfectScore": 49
     }
 
   ]

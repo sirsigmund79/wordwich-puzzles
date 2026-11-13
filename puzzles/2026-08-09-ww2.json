@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "g",
       "passScore": 4,
-      "perfectScore": 58,
-      "hintWord": "cling"
+      "perfectScore": 58
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "y",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "money"
+      "perfectScore": 50
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "n",
       "passScore": 11,
-      "perfectScore": 64,
-      "hintWord": "vein"
+      "perfectScore": 64
     }
   ],
   "_auto": true

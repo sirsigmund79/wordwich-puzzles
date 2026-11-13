@@ -7,16 +7,14 @@
       "startLetter": "a",
       "endLetter": "t",
       "passScore": 11,
-      "perfectScore": 50,
-      "hintWord": "abbot"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 49,
-      "hintWord": "nerd"
+      "perfectScore": 49
     },
     
     {
@@ -24,8 +22,7 @@
       "startLetter": "l",
       "endLetter": "s",
       "passScore": 10,
-      "perfectScore": 57,
-      "hintWord": "loss"
+      "perfectScore": 57
     }
   ]
 }

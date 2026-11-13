@@ -7,24 +7,21 @@
       "startLetter": "k",
       "endLetter": "r",
       "passScore": 15,
-      "perfectScore": 79,
-      "hintWord": "kebar"
+      "perfectScore": 79
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "a",
       "passScore": 4,
-      "perfectScore": 61,
-      "hintWord": "fauna"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "a",
       "passScore": 4,
-      "perfectScore": 73,
-      "hintWord": "riata"
+      "perfectScore": 73
     }
   ],
   "_auto": true

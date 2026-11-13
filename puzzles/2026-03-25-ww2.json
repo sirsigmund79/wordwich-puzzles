@@ -7,24 +7,21 @@
       "startLetter": "v",
       "endLetter": "s",
       "passScore": 6,
-      "perfectScore": 59,
-      "hintWord": "veins"
+      "perfectScore": 59
     },
     {
       "round": 2,
       "startLetter": "o",
       "endLetter": "m",
       "passScore": 5,
-      "perfectScore": 43,
-      "hintWord": "opium"
+      "perfectScore": 43
     },
     {
       "round": 3,
       "startLetter": "f",
       "endLetter": "r",
       "passScore": 8,
-      "perfectScore": 64,
-      "hintWord": "flair"
+      "perfectScore": 64
     }
 
   ]

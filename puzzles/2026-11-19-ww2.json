@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "k",
       "passScore": 7,
-      "perfectScore": 44,
-      "hintWord": "freak"
+      "perfectScore": 44
     },
     {
       "round": 2,
       "startLetter": "j",
       "endLetter": "d",
       "passScore": 10,
-      "perfectScore": 72,
-      "hintWord": "joined"
+      "perfectScore": 72
     },
     {
       "round": 3,
       "startLetter": "m",
       "endLetter": "c",
       "passScore": 14,
-      "perfectScore": 77,
-      "hintWord": "music"
+      "perfectScore": 77
     }
   ],
   "_auto": true

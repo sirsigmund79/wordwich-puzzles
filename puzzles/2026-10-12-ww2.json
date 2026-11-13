@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "a",
       "passScore": 5,
-      "perfectScore": 47,
-      "hintWord": "baba"
+      "perfectScore": 47
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "d",
       "passScore": 7,
-      "perfectScore": 62,
-      "hintWord": "used"
+      "perfectScore": 62
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "g",
       "passScore": 10,
-      "perfectScore": 62,
-      "hintWord": "eating"
+      "perfectScore": 62
     }
   ],
   "_auto": true

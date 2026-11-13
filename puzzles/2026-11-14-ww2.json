@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "r",
       "passScore": 10,
-      "perfectScore": 52,
-      "hintWord": "power"
+      "perfectScore": 52
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 64,
-      "hintWord": "upset"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "p",
       "endLetter": "n",
       "passScore": 8,
-      "perfectScore": 72,
-      "hintWord": "plain"
+      "perfectScore": 72
     }
   ],
   "_auto": true

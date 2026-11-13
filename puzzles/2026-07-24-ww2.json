@@ -7,24 +7,21 @@
       "startLetter": "a",
       "endLetter": "e",
       "passScore": 7,
-      "perfectScore": 44,
-      "hintWord": "abuse"
+      "perfectScore": 44
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "d",
       "passScore": 6,
-      "perfectScore": 55,
-      "hintWord": "moved"
+      "perfectScore": 55
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "m",
       "passScore": 5,
-      "perfectScore": 43,
-      "hintWord": "storm"
+      "perfectScore": 43
     }
   ],
   "_auto": true

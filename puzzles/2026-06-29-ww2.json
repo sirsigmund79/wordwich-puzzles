@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "e",
       "passScore": 4,
-      "perfectScore": 54,
-      "hintWord": "rouge"
+      "perfectScore": 54
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "e",
       "passScore": 7,
-      "perfectScore": 43,
-      "hintWord": "horse"
+      "perfectScore": 43
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "a",
       "passScore": 4,
-      "perfectScore": 42,
-      "hintWord": "extra"
+      "perfectScore": 42
     }
   ],
   "_auto": true

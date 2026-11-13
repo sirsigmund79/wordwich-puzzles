@@ -7,24 +7,21 @@
       "startLetter": "h",
       "endLetter": "r",
       "passScore": 6,
-      "perfectScore": 44,
-      "hintWord": "honor"
+      "perfectScore": 44
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "t",
       "passScore": 13,
-      "perfectScore": 66,
-      "hintWord": "night"
+      "perfectScore": 66
     },
     {
       "round": 3,
       "startLetter": "u",
       "endLetter": "g",
       "passScore": 15,
-      "perfectScore": 80,
-      "hintWord": "using"
+      "perfectScore": 80
     }
   ],
   "_auto": true

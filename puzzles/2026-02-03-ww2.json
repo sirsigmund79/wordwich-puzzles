@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "n",
       "passScore": 9,
-      "perfectScore": 51,
-      "hintWord": "ration"
+      "perfectScore": 51
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "t",
       "passScore": 8,
-      "perfectScore": 37,
-      "hintWord": "unfit"
+      "perfectScore": 37
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "o",
       "passScore": 3,
-      "perfectScore": 28,
-      "hintWord": "bamboo"
+      "perfectScore": 28
     }
   ]
 }

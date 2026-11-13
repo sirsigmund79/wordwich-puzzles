@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "s",
       "passScore": 9,
-      "perfectScore": 53,
-      "hintWord": "faces"
+      "perfectScore": 53
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "t",
       "passScore": 3,
-      "perfectScore": 61,
-      "hintWord": "habit"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "c",
       "passScore": 8,
-      "perfectScore": 55,
-      "hintWord": "attic"
+      "perfectScore": 55
     }
 
   ]

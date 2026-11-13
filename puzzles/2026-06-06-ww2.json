@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "k",
       "passScore": 9,
-      "perfectScore": 49,
-      "hintWord": "cask"
+      "perfectScore": 49
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "y",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "many"
+      "perfectScore": 50
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "a",
       "passScore": 3,
-      "perfectScore": 37,
-      "hintWord": "abba"
+      "perfectScore": 37
     }
 
   ]

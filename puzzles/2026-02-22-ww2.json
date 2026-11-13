@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "r",
       "passScore": 9,
-      "perfectScore": 61,
-      "hintWord": "super"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "k",
       "endLetter": "e",
       "passScore": 3,
-      "perfectScore": 34,
-      "hintWord": "kale"
+      "perfectScore": 34
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 48,
-      "hintWord": "oval"
+      "perfectScore": 48
     }
 
   ]

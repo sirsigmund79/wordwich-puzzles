@@ -7,24 +7,21 @@
       "startLetter": "j",
       "endLetter": "r",
       "passScore": 8,
-      "perfectScore": 62,
-      "hintWord": "jiber"
+      "perfectScore": 62
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "a",
       "passScore": 6,
-      "perfectScore": 60,
-      "hintWord": "frena"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "a",
       "passScore": 5,
-      "perfectScore": 68,
-      "hintWord": "regma"
+      "perfectScore": 68
     }
   ],
   "_auto": true

@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "y",
       "passScore": 5,
-      "perfectScore": 56,
-      "hintWord": "candy"
+      "perfectScore": 56
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "c",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "tonic"
+      "perfectScore": 50
     },
     {
       "round": 3,
       "startLetter": "f",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 40,
-      "hintWord": "flood"
+      "perfectScore": 40
     }
 
   ]

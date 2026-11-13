@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "s",
       "passScore": 9,
-      "perfectScore": 45,
-      "hintWord": "cats"
+      "perfectScore": 45
     },
     {
       "round": 2,
       "startLetter": "p",
       "endLetter": "e",
       "passScore": 3,
-      "perfectScore": 60,
-      "hintWord": "pave"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 42,
-      "hintWord": "stem"
+      "perfectScore": 42
     }
 
   ]

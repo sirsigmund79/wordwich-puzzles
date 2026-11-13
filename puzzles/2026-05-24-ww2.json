@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "e",
       "passScore": 9,
-      "perfectScore": 66,
-      "hintWord": "cave"
+      "perfectScore": 66
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "n",
       "passScore": 5,
-      "perfectScore": 70,
-      "hintWord": "nation"
+      "perfectScore": 70
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "o",
       "passScore": 3,
-      "perfectScore": 25,
-      "hintWord": "stereo"
+      "perfectScore": 25
     }
 
   ]

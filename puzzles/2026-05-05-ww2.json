@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "c",
       "passScore": 9,
-      "perfectScore": 41,
-      "hintWord": "basic"
+      "perfectScore": 41
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "m",
       "passScore": 5,
-      "perfectScore": 35,
-      "hintWord": "locum"
+      "perfectScore": 35
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "d",
       "passScore": 3,
-      "perfectScore": 61,
-      "hintWord": "valid"
+      "perfectScore": 61
     }
 
   ]

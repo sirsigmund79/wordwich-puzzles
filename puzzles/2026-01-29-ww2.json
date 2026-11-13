@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "y",
       "passScore": 8,
-      "perfectScore": 51,
-      "hintWord": "scary"
+      "perfectScore": 51
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "e",
       "passScore": 15,
-      "perfectScore": 83,
-      "hintWord": "face"
+      "perfectScore": 83
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 22,
-      "hintWord": "octet"
+      "perfectScore": 22
     }
   ]
 }

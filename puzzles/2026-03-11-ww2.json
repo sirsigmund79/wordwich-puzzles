@@ -7,24 +7,21 @@
       "startLetter": "d",
       "endLetter": "k",
       "passScore": 5,
-      "perfectScore": 39,
-      "hintWord": "drink"
+      "perfectScore": 39
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "h",
       "passScore": 5,
-      "perfectScore": 40,
-      "hintWord": "graph"
+      "perfectScore": 40
     },
     {
       "round": 3,
       "startLetter": "m",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 55,
-      "hintWord": "meal"
+      "perfectScore": 55
     }
 
   ]

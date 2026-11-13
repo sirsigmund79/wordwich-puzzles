@@ -7,16 +7,14 @@
       "startLetter": "c",
       "endLetter": "n",
       "passScore": 10,
-      "perfectScore": 53,
-      "hintWord": "cabin"
+      "perfectScore": 53
     },
     {
       "round": 2,
       "startLetter": "a",
       "endLetter": "c",
       "passScore": 6,
-      "perfectScore": 41,
-      "hintWord": "acerbic"
+      "perfectScore": 41
     },
     
     {
@@ -24,8 +22,7 @@
       "startLetter": "o",
       "endLetter": "s",
       "passScore": 9,
-      "perfectScore": 55,
-      "hintWord": "oasis"
+      "perfectScore": 55
     }
   ]
 }

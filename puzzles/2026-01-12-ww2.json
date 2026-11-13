@@ -7,16 +7,14 @@
       "startLetter": "b",
       "endLetter": "t",
       "passScore": 10,
-      "perfectScore": 60,
-      "hintWord": "beast"
+      "perfectScore": 60
     },
     {
       "round": 2,
       "startLetter": "q",
       "endLetter": "y",
       "passScore": 6,
-      "perfectScore": 29,
-      "hintWord": "query"
+      "perfectScore": 29
     },
     
     {
@@ -24,8 +22,7 @@
       "startLetter": "l",
       "endLetter": "e",
       "passScore": 9,
-      "perfectScore": 48,
-      "hintWord": "leave"
+      "perfectScore": 48
     }
   ]
 }

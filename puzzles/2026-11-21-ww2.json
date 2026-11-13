@@ -7,24 +7,21 @@
       "startLetter": "v",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 46,
-      "hintWord": "vital"
+      "perfectScore": 46
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "d",
       "passScore": 12,
-      "perfectScore": 60,
-      "hintWord": "grind"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "t",
       "passScore": 12,
-      "perfectScore": 61,
-      "hintWord": "exist"
+      "perfectScore": 61
     }
   ],
   "_auto": true

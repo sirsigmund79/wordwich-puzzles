@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "y",
       "passScore": 9,
-      "perfectScore": 73,
-      "hintWord": "bully"
+      "perfectScore": 73
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "m",
       "passScore": 5,
-      "perfectScore": 52,
-      "hintWord": "idiom"
+      "perfectScore": 52
     },
     {
       "round": 3,
       "startLetter": "g",
       "endLetter": "d",
       "passScore": 3,
-      "perfectScore": 65,
-      "hintWord": "grand"
+      "perfectScore": 65
     }
 
   ]

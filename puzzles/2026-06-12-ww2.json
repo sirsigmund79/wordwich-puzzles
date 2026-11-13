@@ -7,24 +7,21 @@
       "startLetter": "n",
       "endLetter": "e",
       "passScore": 4,
-      "perfectScore": 68,
-      "hintWord": "noise"
+      "perfectScore": 68
     },
     {
       "round": 2,
       "startLetter": "w",
       "endLetter": "r",
       "passScore": 3,
-      "perfectScore": 50,
-      "hintWord": "water"
+      "perfectScore": 50
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 46,
-      "hintWord": "opium"
+      "perfectScore": 46
     }
   ],
   "_auto": true

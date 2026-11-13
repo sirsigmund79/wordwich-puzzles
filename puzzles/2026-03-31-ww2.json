@@ -7,24 +7,21 @@
       "startLetter": "g",
       "endLetter": "s",
       "passScore": 6,
-      "perfectScore": 59,
-      "hintWord": "guess"
+      "perfectScore": 59
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "y",
       "passScore": 5,
-      "perfectScore": 40,
-      "hintWord": "guess"
+      "perfectScore": 40
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "n",
       "passScore": 8,
-      "perfectScore": 49,
-      "hintWord": "vegan"
+      "perfectScore": 49
     }
 
   ]

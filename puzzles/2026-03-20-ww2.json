@@ -7,24 +7,21 @@
       "startLetter": "d",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 61,
-      "hintWord": "draft"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "e",
       "endLetter": "s",
       "passScore": 5,
-      "perfectScore": 55,
-      "hintWord": "eludes"
+      "perfectScore": 55
     },
     {
       "round": 3,
       "startLetter": "u",
       "endLetter": "k",
       "passScore": 8,
-      "perfectScore": 40,
-      "hintWord": "unstuck"
+      "perfectScore": 40
     }
 
   ]

@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "c",
       "passScore": 12,
-      "perfectScore": 70,
-      "hintWord": "stoic"
+      "perfectScore": 70
     },
     {
       "round": 2,
       "startLetter": "w",
       "endLetter": "e",
       "passScore": 3,
-      "perfectScore": 58,
-      "hintWord": "white"
+      "perfectScore": 58
     },
     {
       "round": 3,
       "startLetter": "t",
       "endLetter": "c",
       "passScore": 12,
-      "perfectScore": 82,
-      "hintWord": "topic"
+      "perfectScore": 82
     }
   ],
   "_auto": true

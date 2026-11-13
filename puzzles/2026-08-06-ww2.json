@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "h",
       "passScore": 17,
-      "perfectScore": 85,
-      "hintWord": "punch"
+      "perfectScore": 85
     },
     {
       "round": 2,
       "startLetter": "k",
       "endLetter": "g",
       "passScore": 13,
-      "perfectScore": 75,
-      "hintWord": "king"
+      "perfectScore": 75
     },
     {
       "round": 3,
       "startLetter": "t",
       "endLetter": "k",
       "passScore": 7,
-      "perfectScore": 59,
-      "hintWord": "thick"
+      "perfectScore": 59
     }
   ],
   "_auto": true

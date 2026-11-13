@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "c",
       "passScore": 7,
-      "perfectScore": 49,
-      "hintWord": "cleric"
+      "perfectScore": 49
     },
     {
       "round": 2,
       "startLetter": "r",
       "endLetter": "g",
       "passScore": 5,
-      "perfectScore": 57,
-      "hintWord": "ring"
+      "perfectScore": 57
     },
     {
       "round": 3,
       "startLetter": "l",
       "endLetter": "t",
       "passScore": 8,
-      "perfectScore": 42,
-      "hintWord": "list"
+      "perfectScore": 42
     }
 
   ]

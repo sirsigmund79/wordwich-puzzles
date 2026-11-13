@@ -7,24 +7,21 @@
       "startLetter": "o",
       "endLetter": "c",
       "passScore": 6,
-      "perfectScore": 26,
-      "hintWord": "oleic"
+      "perfectScore": 26
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "c",
       "passScore": 5,
-      "perfectScore": 53,
-      "hintWord": "garlic"
+      "perfectScore": 53
     },
     {
       "round": 3,
       "startLetter": "m",
       "endLetter": "a",
       "passScore": 8,
-      "perfectScore": 47,
-      "hintWord": "mafia"
+      "perfectScore": 47
     }
 
   ]

@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 65,
-      "hintWord": "camel"
+      "perfectScore": 65
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 44,
-      "hintWord": "idol"
+      "perfectScore": 44
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "d",
       "passScore": 1,
-      "perfectScore": 52,
-      "hintWord": "ended"
+      "perfectScore": 52
     }
 
   ]

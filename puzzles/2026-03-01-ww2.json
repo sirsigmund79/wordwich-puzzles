@@ -7,24 +7,21 @@
       "startLetter": "d",
       "endLetter": "s",
       "passScore": 6,
-      "perfectScore": 61,
-      "hintWord": "deeds"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "w",
       "endLetter": "n",
       "passScore": 5,
-      "perfectScore": 29,
-      "hintWord": "wagon"
+      "perfectScore": 29
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "p",
       "passScore": 8,
-      "perfectScore": 49,
-      "hintWord": "slop"
+      "perfectScore": 49
     }
 
   ]

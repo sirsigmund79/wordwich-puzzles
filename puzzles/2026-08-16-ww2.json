@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 78,
-      "hintWord": "realm"
+      "perfectScore": 78
     },
     {
       "round": 2,
       "startLetter": "c",
       "endLetter": "p",
       "passScore": 11,
-      "perfectScore": 56,
-      "hintWord": "crisp"
+      "perfectScore": 56
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "m",
       "passScore": 6,
-      "perfectScore": 53,
-      "hintWord": "oleum"
+      "perfectScore": 53
     }
   ],
   "_auto": true

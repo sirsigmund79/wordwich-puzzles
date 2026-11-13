@@ -7,16 +7,14 @@
       "startLetter": "c",
       "endLetter": "t",
       "passScore": 11,
-      "perfectScore": 60,
-      "hintWord": "cadet"
+      "perfectScore": 60
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "p",
       "passScore": 5,
-      "perfectScore": 39,
-      "hintWord": "mixup"
+      "perfectScore": 39
     },
     
     {
@@ -24,8 +22,7 @@
       "startLetter": "d",
       "endLetter": "n",
       "passScore": 7,
-      "perfectScore": 79,
-      "hintWord": "demon"
+      "perfectScore": 79
     }
   ]
 }

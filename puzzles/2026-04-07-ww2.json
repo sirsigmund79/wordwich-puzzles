@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "g",
       "passScore": 6,
-      "perfectScore": 66,
-      "hintWord": "using"
+      "perfectScore": 66
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "w",
       "passScore": 5,
-      "perfectScore": 25,
-      "hintWord": "blow"
+      "perfectScore": 25
     },
     {
       "round": 3,
       "startLetter": "p",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 46,
-      "hintWord": "prism"
+      "perfectScore": 46
     }
 
   ]

@@ -7,24 +7,21 @@
       "startLetter": "d",
       "endLetter": "d",
       "passScore": 9,
-      "perfectScore": 53,
-      "hintWord": "druid"
+      "perfectScore": 53
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "n",
       "passScore": 3,
-      "perfectScore": 42,
-      "hintWord": "glean"
+      "perfectScore": 42
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "a",
       "passScore": 8,
-      "perfectScore": 39,
-      "hintWord": "aqua"
+      "perfectScore": 39
     }
 
   ]

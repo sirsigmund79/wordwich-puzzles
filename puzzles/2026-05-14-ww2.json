@@ -7,24 +7,21 @@
       "startLetter": "e",
       "endLetter": "g",
       "passScore": 9,
-      "perfectScore": 82,
-      "hintWord": "ending"
+      "perfectScore": 82
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "r",
       "passScore": 5,
-      "perfectScore": 71,
-      "hintWord": "dollar"
+      "perfectScore": 71
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "i",
       "passScore": 3,
-      "perfectScore": 18,
-      "hintWord": "negroni"
+      "perfectScore": 18
     }
 
   ]

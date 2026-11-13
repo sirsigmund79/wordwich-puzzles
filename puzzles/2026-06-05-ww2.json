@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "n",
       "passScore": 9,
-      "perfectScore": 70,
-      "hintWord": "been"
+      "perfectScore": 70
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "c",
       "passScore": 5,
-      "perfectScore": 44,
-      "hintWord": "iliac"
+      "perfectScore": 44
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "k",
       "passScore": 3,
-      "perfectScore": 25,
-      "hintWord": "aback"
+      "perfectScore": 25
     }
 
   ]

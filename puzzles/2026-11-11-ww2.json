@@ -7,24 +7,21 @@
       "startLetter": "j",
       "endLetter": "t",
       "passScore": 6,
-      "perfectScore": 53,
-      "hintWord": "joint"
+      "perfectScore": 53
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "r",
       "passScore": 11,
-      "perfectScore": 67,
-      "hintWord": "dryer"
+      "perfectScore": 67
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "h",
       "passScore": 11,
-      "perfectScore": 73,
-      "hintWord": "arch"
+      "perfectScore": 73
     }
   ],
   "_auto": true

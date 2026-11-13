@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "d",
       "passScore": 9,
-      "perfectScore": 48,
-      "hintWord": "used"
+      "perfectScore": 48
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "e",
       "passScore": 9,
-      "perfectScore": 61,
-      "hintWord": "mouse"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "t",
       "passScore": 4,
-      "perfectScore": 56,
-      "hintWord": "about"
+      "perfectScore": 56
     }
   ],
   "_auto": true

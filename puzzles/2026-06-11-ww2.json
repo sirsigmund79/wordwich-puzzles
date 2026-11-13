@@ -7,24 +7,21 @@
       "startLetter": "e",
       "endLetter": "n",
       "passScore": 7,
-      "perfectScore": 79,
-      "hintWord": "earn"
+      "perfectScore": 79
     },
     {
       "round": 2,
       "startLetter": "c",
       "endLetter": "m",
       "passScore": 5,
-      "perfectScore": 82,
-      "hintWord": "charm"
+      "perfectScore": 82
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "o",
       "passScore": 10,
-      "perfectScore": 38,
-      "hintWord": "cameo"
+      "perfectScore": 38
     }
   ],
   "_auto": true

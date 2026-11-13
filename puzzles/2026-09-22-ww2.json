@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "o",
       "passScore": 6,
-      "perfectScore": 35,
-      "hintWord": "bingo"
+      "perfectScore": 35
     },
     {
       "round": 2,
       "startLetter": "w",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 38,
-      "hintWord": "wrist"
+      "perfectScore": 38
     },
     {
       "round": 3,
       "startLetter": "t",
       "endLetter": "m",
       "passScore": 9,
-      "perfectScore": 60,
-      "hintWord": "them"
+      "perfectScore": 60
     }
   ],
   "_auto": true

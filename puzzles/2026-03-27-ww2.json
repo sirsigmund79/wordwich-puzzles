@@ -7,24 +7,21 @@
       "startLetter": "l",
       "endLetter": "a",
       "passScore": 6,
-      "perfectScore": 50,
-      "hintWord": "lava"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "j",
       "endLetter": "d",
       "passScore": 5,
-      "perfectScore": 43,
-      "hintWord": "jawed"
+      "perfectScore": 43
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "e",
       "passScore": 8,
-      "perfectScore": 68,
-      "hintWord": "rogue"
+      "perfectScore": 68
     }
 
   ]

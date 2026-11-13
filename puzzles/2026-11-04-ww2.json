@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "m",
       "passScore": 6,
-      "perfectScore": 35,
-      "hintWord": "swarm"
+      "perfectScore": 35
     },
     {
       "round": 2,
       "startLetter": "v",
       "endLetter": "a",
       "passScore": 6,
-      "perfectScore": 52,
-      "hintWord": "vodka"
+      "perfectScore": 52
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "g",
       "passScore": 12,
-      "perfectScore": 80,
-      "hintWord": "among"
+      "perfectScore": 80
     }
   ],
   "_auto": true

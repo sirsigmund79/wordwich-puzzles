@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 54,
-      "hintWord": "rival"
+      "perfectScore": 54
     },
     {
       "round": 2,
       "startLetter": "v",
       "endLetter": "r",
       "passScore": 3,
-      "perfectScore": 53,
-      "hintWord": "vapor"
+      "perfectScore": 53
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "a",
       "passScore": 10,
-      "perfectScore": 58,
-      "hintWord": "boyla"
+      "perfectScore": 58
     }
   ],
   "_auto": true

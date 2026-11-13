@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "k",
       "passScore": 6,
-      "perfectScore": 44,
-      "hintWord": "rock"
+      "perfectScore": 44
     },
     {
       "round": 2,
       "startLetter": "c",
       "endLetter": "l",
       "passScore": 7,
-      "perfectScore": 46,
-      "hintWord": "crawl"
+      "perfectScore": 46
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "r",
       "passScore": 5,
-      "perfectScore": 51,
-      "hintWord": "color"
+      "perfectScore": 51
     }
   ],
   "_auto": true

@@ -47,13 +47,8 @@ exceed it. So `32 / 57 / 90` in a single day is the intended shape, not a bug �
 the 32 is a genuinely barren pair. Tune all of this in `DAY_PROFILE` at the top
 of the script.
 
-Two data files feed the generator, both committed:
-
-- `puzzles/word_frequency.txt` — the game's own words ordered most-common-first;
-  line number is the familiarity rank. Drives ceilings.
-- `puzzles/hint_words.txt` — curated everyday words, used to keep `hintWord`
-  recognizable. Frequency alone is not enough: subtitle data ranks HONG and
-  PERRY above CHARM.
+`puzzles/word_frequency.txt` feeds the generator: the game's own words ordered
+most-common-first, where line number is the familiarity rank. Drives ceilings.
 
 ## Griddle
 

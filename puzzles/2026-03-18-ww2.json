@@ -7,24 +7,21 @@
       "startLetter": "i",
       "endLetter": "d",
       "passScore": 5,
-      "perfectScore": 65,
-      "hintWord": "idled"
+      "perfectScore": 65
     },
     {
       "round": 2,
       "startLetter": "z",
       "endLetter": "s",
       "passScore": 5,
-      "perfectScore": 38,
-      "hintWord": "zebras"
+      "perfectScore": 38
     },
     {
       "round": 3,
       "startLetter": "l",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 45,
-      "hintWord": "lull"
+      "perfectScore": 45
     }
 
   ]

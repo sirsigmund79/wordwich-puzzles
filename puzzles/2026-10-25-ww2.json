@@ -7,24 +7,21 @@
       "startLetter": "l",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 68,
-      "hintWord": "legal"
+      "perfectScore": 68
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "d",
       "passScore": 7,
-      "perfectScore": 83,
-      "hintWord": "triad"
+      "perfectScore": 83
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "g",
       "passScore": 13,
-      "perfectScore": 98,
-      "hintWord": "cling"
+      "perfectScore": 98
     }
   ],
   "_auto": true

@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "g",
       "passScore": 9,
-      "perfectScore": 54,
-      "hintWord": "making"
+      "perfectScore": 54
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "m",
       "passScore": 3,
-      "perfectScore": 55,
-      "hintWord": "thrum"
+      "perfectScore": 55
     },
     {
       "round": 3,
       "startLetter": "p",
       "endLetter": "c",
       "passScore": 8,
-      "perfectScore": 43,
-      "hintWord": "panic"
+      "perfectScore": 43
     }
 
   ]

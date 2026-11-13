@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "r",
       "passScore": 9,
-      "perfectScore": 66,
-      "hintWord": "under"
+      "perfectScore": 66
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "c",
       "passScore": 5,
-      "perfectScore": 63,
-      "hintWord": "domestic"
+      "perfectScore": 63
     },
     {
       "round": 3,
       "startLetter": "l",
       "endLetter": "a",
       "passScore": 3,
-      "perfectScore": 38,
-      "hintWord": "lava"
+      "perfectScore": 38
     }
 
   ]

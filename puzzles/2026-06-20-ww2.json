@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "g",
       "passScore": 11,
-      "perfectScore": 55,
-      "hintWord": "fling"
+      "perfectScore": 55
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "r",
       "passScore": 9,
-      "perfectScore": 48,
-      "hintWord": "floor"
+      "perfectScore": 48
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "c",
       "passScore": 6,
-      "perfectScore": 65,
-      "hintWord": "civic"
+      "perfectScore": 65
     }
   ],
   "_auto": true

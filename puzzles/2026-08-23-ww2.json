@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "o",
       "passScore": 6,
-      "perfectScore": 71,
-      "hintWord": "cameo"
+      "perfectScore": 71
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "l",
       "passScore": 9,
-      "perfectScore": 61,
-      "hintWord": "local"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "h",
       "passScore": 11,
-      "perfectScore": 60,
-      "hintWord": "rough"
+      "perfectScore": 60
     }
   ],
   "_auto": true

@@ -7,24 +7,21 @@
       "startLetter": "i",
       "endLetter": "t",
       "passScore": 9,
-      "perfectScore": 73,
-      "hintWord": "inept"
+      "perfectScore": 73
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 43,
-      "hintWord": "halal"
+      "perfectScore": 43
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "h",
       "passScore": 3,
-      "perfectScore": 41,
-      "hintWord": "notch"
+      "perfectScore": 41
     }
   ]
 }

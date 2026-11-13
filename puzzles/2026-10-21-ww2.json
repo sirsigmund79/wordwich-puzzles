@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "k",
       "passScore": 5,
-      "perfectScore": 35,
-      "hintWord": "prank"
+      "perfectScore": 35
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "t",
       "passScore": 6,
-      "perfectScore": 51,
-      "hintWord": "blunt"
+      "perfectScore": 51
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "d",
       "passScore": 14,
-      "perfectScore": 80,
-      "hintWord": "eyed"
+      "perfectScore": 80
     }
   ],
   "_auto": true

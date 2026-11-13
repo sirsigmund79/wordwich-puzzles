@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "s",
       "passScore": 12,
-      "perfectScore": 64,
-      "hintWord": "chess"
+      "perfectScore": 64
     },
     {
       "round": 2,
       "startLetter": "v",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 78,
-      "hintWord": "valet"
+      "perfectScore": 78
     },
     {
       "round": 3,
       "startLetter": "t",
       "endLetter": "g",
       "passScore": 9,
-      "perfectScore": 94,
-      "hintWord": "tying"
+      "perfectScore": 94
     }
   ],
   "_auto": true

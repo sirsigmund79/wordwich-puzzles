@@ -7,24 +7,21 @@
       "startLetter": "g",
       "endLetter": "d",
       "passScore": 11,
-      "perfectScore": 55,
-      "hintWord": "guild"
+      "perfectScore": 55
     },
     {
       "round": 2,
       "startLetter": "c",
       "endLetter": "c",
       "passScore": 9,
-      "perfectScore": 60,
-      "hintWord": "comic"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "d",
       "endLetter": "a",
       "passScore": 4,
-      "perfectScore": 50,
-      "hintWord": "drama"
+      "perfectScore": 50
     }
   ],
   "_auto": true

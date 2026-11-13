@@ -7,24 +7,21 @@
       "startLetter": "n",
       "endLetter": "t",
       "passScore": 10,
-      "perfectScore": 68,
-      "hintWord": "night"
+      "perfectScore": 68
     },
     {
       "round": 2,
       "startLetter": "o",
       "endLetter": "r",
       "passScore": 6,
-      "perfectScore": 67,
-      "hintWord": "offer"
+      "perfectScore": 67
     },
     {
       "round": 3,
       "startLetter": "k",
       "endLetter": "e",
       "passScore": 12,
-      "perfectScore": 75,
-      "hintWord": "knife"
+      "perfectScore": 75
     }
   ],
   "_auto": true

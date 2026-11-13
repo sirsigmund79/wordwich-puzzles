@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "l",
       "passScore": 9,
-      "perfectScore": 52,
-      "hintWord": "flail"
+      "perfectScore": 52
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "t",
       "passScore": 3,
-      "perfectScore": 46,
-      "hintWord": "faint"
+      "perfectScore": 46
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "a",
       "passScore": 8,
-      "perfectScore": 31,
-      "hintWord": "beta"
+      "perfectScore": 31
     }
 
   ]

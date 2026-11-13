@@ -7,24 +7,21 @@
       "startLetter": "d",
       "endLetter": "e",
       "passScore": 8,
-      "perfectScore": 65,
-      "hintWord": "dense"
+      "perfectScore": 65
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "t",
       "passScore": 12,
-      "perfectScore": 64,
-      "hintWord": "first"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "e",
       "passScore": 9,
-      "perfectScore": 55,
-      "hintWord": "voice"
+      "perfectScore": 55
     }
   ],
   "_auto": true

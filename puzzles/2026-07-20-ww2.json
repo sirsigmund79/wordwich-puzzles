@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "c",
       "passScore": 9,
-      "perfectScore": 47,
-      "hintWord": "panic"
+      "perfectScore": 47
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "n",
       "passScore": 4,
-      "perfectScore": 52,
-      "hintWord": "linen"
+      "perfectScore": 52
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "c",
       "passScore": 7,
-      "perfectScore": 49,
-      "hintWord": "basic"
+      "perfectScore": 49
     }
   ],
   "_auto": true

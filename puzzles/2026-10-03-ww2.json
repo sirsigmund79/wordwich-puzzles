@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "l",
       "passScore": 9,
-      "perfectScore": 47,
-      "hintWord": "metal"
+      "perfectScore": 47
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "k",
       "passScore": 6,
-      "perfectScore": 50,
-      "hintWord": "hook"
+      "perfectScore": 50
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "s",
       "passScore": 5,
-      "perfectScore": 56,
-      "hintWord": "news"
+      "perfectScore": 56
     }
   ],
   "_auto": true

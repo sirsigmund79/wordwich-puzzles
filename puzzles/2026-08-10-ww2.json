@@ -7,24 +7,21 @@
       "startLetter": "k",
       "endLetter": "s",
       "passScore": 5,
-      "perfectScore": 58,
-      "hintWord": "kooks"
+      "perfectScore": 58
     },
     {
       "round": 2,
       "startLetter": "a",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 52,
-      "hintWord": "album"
+      "perfectScore": 52
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "h",
       "passScore": 4,
-      "perfectScore": 48,
-      "hintWord": "coach"
+      "perfectScore": 48
     }
   ],
   "_auto": true

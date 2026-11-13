@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "o",
       "passScore": 13,
-      "perfectScore": 67,
-      "hintWord": "scudo"
+      "perfectScore": 67
     },
     {
       "round": 2,
       "startLetter": "p",
       "endLetter": "o",
       "passScore": 6,
-      "perfectScore": 64,
-      "hintWord": "photo"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "i",
       "passScore": 4,
-      "perfectScore": 53,
-      "hintWord": "serai"
+      "perfectScore": 53
     }
   ],
   "_auto": true

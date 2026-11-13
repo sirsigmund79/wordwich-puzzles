@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 55,
-      "hintWord": "blood"
+      "perfectScore": 55
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "e",
       "passScore": 6,
-      "perfectScore": 55,
-      "hintWord": "issue"
+      "perfectScore": 55
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 62,
-      "hintWord": "skill"
+      "perfectScore": 62
     }
   ],
   "_auto": true

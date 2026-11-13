@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "y",
       "passScore": 7,
-      "perfectScore": 51,
-      "hintWord": "unity"
+      "perfectScore": 51
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 46,
-      "hintWord": "usual"
+      "perfectScore": 46
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "g",
       "passScore": 4,
-      "perfectScore": 55,
-      "hintWord": "vying"
+      "perfectScore": 55
     }
   ],
   "_auto": true

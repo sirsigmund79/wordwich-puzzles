@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "d",
       "passScore": 6,
-      "perfectScore": 78,
-      "hintWord": "creed"
+      "perfectScore": 78
     },
     {
       "round": 2,
       "startLetter": "k",
       "endLetter": "n",
       "passScore": 5,
-      "perfectScore": 27,
-      "hintWord": "kiln"
+      "perfectScore": 27
     },
     {
       "round": 3,
       "startLetter": "l",
       "endLetter": "c",
       "passScore": 8,
-      "perfectScore": 47,
-      "hintWord": "lilac"
+      "perfectScore": 47
     }
 
   ]

@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "t",
       "passScore": 6,
-      "perfectScore": 68,
-      "hintWord": "moist"
+      "perfectScore": 68
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "d",
       "passScore": 18,
-      "perfectScore": 96,
-      "hintWord": "need"
+      "perfectScore": 96
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "g",
       "passScore": 16,
-      "perfectScore": 98,
-      "hintWord": "owning"
+      "perfectScore": 98
     }
   ],
   "_auto": true

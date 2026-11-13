@@ -7,16 +7,14 @@
       "startLetter": "t",
       "endLetter": "l",
       "passScore": 12,
-      "perfectScore": 60,
-      "hintWord": "trial"
+      "perfectScore": 60
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 43,
-      "hintWord": "gleam"
+      "perfectScore": 43
     },
     
     {
@@ -24,8 +22,7 @@
       "startLetter": "a",
       "endLetter": "e",
       "passScore": 13,
-      "perfectScore": 61,
-      "hintWord": "abate"
+      "perfectScore": 61
     }
   ]
 }

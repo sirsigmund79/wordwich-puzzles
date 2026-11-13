@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "a",
       "passScore": 7,
-      "perfectScore": 55,
-      "hintWord": "media"
+      "perfectScore": 55
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "h",
       "passScore": 10,
-      "perfectScore": 56,
-      "hintWord": "leash"
+      "perfectScore": 56
     },
     {
       "round": 3,
       "startLetter": "i",
       "endLetter": "r",
       "passScore": 14,
-      "perfectScore": 98,
-      "hintWord": "inner"
+      "perfectScore": 98
     }
   ],
   "_auto": true

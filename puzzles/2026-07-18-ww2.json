@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "e",
       "passScore": 4,
-      "perfectScore": 68,
-      "hintWord": "brave"
+      "perfectScore": 68
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "g",
       "passScore": 6,
-      "perfectScore": 58,
-      "hintWord": "incog"
+      "perfectScore": 58
     },
     {
       "round": 3,
       "startLetter": "h",
       "endLetter": "g",
       "passScore": 3,
-      "perfectScore": 55,
-      "hintWord": "hang"
+      "perfectScore": 55
     }
   ],
   "_auto": true

@@ -7,24 +7,21 @@
       "startLetter": "l",
       "endLetter": "r",
       "passScore": 4,
-      "perfectScore": 43,
-      "hintWord": "later"
+      "perfectScore": 43
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 52,
-      "hintWord": "guest"
+      "perfectScore": 52
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "n",
       "passScore": 12,
-      "perfectScore": 80,
-      "hintWord": "noon"
+      "perfectScore": 80
     }
   ],
   "_auto": true

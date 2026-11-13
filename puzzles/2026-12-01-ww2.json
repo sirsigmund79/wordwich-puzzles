@@ -7,24 +7,21 @@
       "startLetter": "g",
       "endLetter": "g",
       "passScore": 14,
-      "perfectScore": 72,
-      "hintWord": "going"
+      "perfectScore": 72
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 72,
-      "hintWord": "input"
+      "perfectScore": 72
     },
     {
       "round": 3,
       "startLetter": "i",
       "endLetter": "s",
       "passScore": 7,
-      "perfectScore": 72,
-      "hintWord": "iris"
+      "perfectScore": 72
     }
   ],
   "_auto": true

@@ -7,24 +7,21 @@
       "startLetter": "r",
       "endLetter": "k",
       "passScore": 4,
-      "perfectScore": 50,
-      "hintWord": "rock"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "o",
       "endLetter": "t",
       "passScore": 11,
-      "perfectScore": 69,
-      "hintWord": "ought"
+      "perfectScore": 69
     },
     {
       "round": 3,
       "startLetter": "i",
       "endLetter": "t",
       "passScore": 8,
-      "perfectScore": 72,
-      "hintWord": "idiot"
+      "perfectScore": 72
     }
   ],
   "_auto": true

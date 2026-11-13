@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "t",
       "passScore": 9,
-      "perfectScore": 59,
-      "hintWord": "smart"
+      "perfectScore": 59
     },
     {
       "round": 2,
       "startLetter": "c",
       "endLetter": "n",
       "passScore": 10,
-      "perfectScore": 59,
-      "hintWord": "crown"
+      "perfectScore": 59
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "e",
       "passScore": 10,
-      "perfectScore": 57,
-      "hintWord": "nurse"
+      "perfectScore": 57
     }
   ],
   "_auto": true

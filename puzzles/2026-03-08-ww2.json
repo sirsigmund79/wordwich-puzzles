@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "d",
       "passScore": 7,
-      "perfectScore": 61,
-      "hintWord": "paged"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "s",
       "endLetter": "e",
       "passScore": 5,
-      "perfectScore": 59,
-      "hintWord": "stage"
+      "perfectScore": 59
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 39,
-      "hintWord": "balm"
+      "perfectScore": 39
     }
 
   ]

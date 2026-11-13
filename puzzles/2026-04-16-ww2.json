@@ -7,24 +7,21 @@
       "startLetter": "a",
       "endLetter": "t",
       "passScore": 9,
-      "perfectScore": 59,
-      "hintWord": "audit"
+      "perfectScore": 59
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "y",
       "passScore": 5,
-      "perfectScore": 61,
-      "hintWord": "tacky"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "p",
       "endLetter": "h",
       "passScore": 8,
-      "perfectScore": 43,
-      "hintWord": "patch"
+      "perfectScore": 43
     }
 
   ]

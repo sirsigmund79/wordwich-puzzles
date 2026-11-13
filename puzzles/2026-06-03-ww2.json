@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "h",
       "passScore": 9,
-      "perfectScore": 72,
-      "hintWord": "crush"
+      "perfectScore": 72
     },
     {
       "round": 2,
       "startLetter": "s",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 61,
-      "hintWord": "salt"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "p",
       "passScore": 3,
-      "perfectScore": 28,
-      "hintWord": "rasp"
+      "perfectScore": 28
     }
 
   ]

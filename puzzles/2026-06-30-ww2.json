@@ -7,24 +7,21 @@
       "startLetter": "h",
       "endLetter": "y",
       "passScore": 6,
-      "perfectScore": 56,
-      "hintWord": "honey"
+      "perfectScore": 56
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "t",
       "passScore": 10,
-      "perfectScore": 67,
-      "hintWord": "upset"
+      "perfectScore": 67
     },
     {
       "round": 3,
       "startLetter": "m",
       "endLetter": "h",
       "passScore": 7,
-      "perfectScore": 49,
-      "hintWord": "mouth"
+      "perfectScore": 49
     }
   ],
   "_auto": true

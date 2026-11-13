@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "r",
       "passScore": 7,
-      "perfectScore": 71,
-      "hintWord": "poker"
+      "perfectScore": 71
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "n",
       "passScore": 4,
-      "perfectScore": 64,
-      "hintWord": "token"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 49,
-      "hintWord": "email"
+      "perfectScore": 49
     }
   ],
   "_auto": true

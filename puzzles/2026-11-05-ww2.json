@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "l",
       "passScore": 4,
-      "perfectScore": 42,
-      "hintWord": "still"
+      "perfectScore": 42
     },
     {
       "round": 2,
       "startLetter": "s",
       "endLetter": "n",
       "passScore": 10,
-      "perfectScore": 60,
-      "hintWord": "seven"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "w",
       "endLetter": "r",
       "passScore": 13,
-      "perfectScore": 79,
-      "hintWord": "wiser"
+      "perfectScore": 79
     }
   ],
   "_auto": true

@@ -9,7 +9,7 @@
  *   1. Loads the dictionary and all existing puzzles from the repo
  *   2. Skips dates that already have a hand-crafted or auto-generated puzzle
  *   3. Selects three letter pairs based on difficulty targets for that day of week
- *   4. Scores the pairs, picks hint words, sets pass/perfect scores
+ *   4. Scores the pairs, sets pass/perfect scores
  *   5. Writes a JSON file ready to commit to the repo
  *
  * MEASURING DIFFICULTY — THE REACHABLE CEILING:
@@ -49,7 +49,6 @@
  *   - At least one round reaches the day's ANCHOR_MIN; none exceeds ANCHOR_MAX
  *   - Day total is at least the day's MIN_TOTAL (no cap — totals vary by design)
  *   - passScore is 8%-20% of perfectScore (random within that range)
- *   - hintWord is a word players will recognise (see "Hint vocabulary" below)
  *   - No pair used more than once in the past 60 days
  *   - No identical 3-pair sequence (regardless of order) in the past 90 days
  *   - At most one easy-ending pair (R/Y/S/D) per day
@@ -80,7 +79,6 @@ const SCRIPT_DIR  = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR  = SCRIPT_DIR;
 const DICT_PATH   = path.join(SCRIPT_DIR, '..', 'letterloaf_dict.txt');
 const FREQ_PATH   = path.join(SCRIPT_DIR, 'word_frequency.txt');
-const HINT_PATH   = path.join(SCRIPT_DIR, 'hint_words.txt');
 
 // GitHub repo details — used only as a fallback if the local dictionary is gone
 const GITHUB_REPO  = 'sirsigmund79/wordwich-puzzles';
@@ -263,27 +261,6 @@ function loadFrequencyRanks() {
 }
 
 // ---------------------------------------------------------------------------
-// Hint vocabulary
-// Frequency rank measures how often a word is SAID, which is not the same as
-// how well it is known: subtitle data ranks HONG and PERRY above CHARM, because
-// characters say them out loud. Both are real dictionary words, and both make
-// useless hints. hint_words.txt (the 2,315 Wordle answers, a list curated for
-// exactly this — everyday five-letter words) is the recognizability filter.
-// ---------------------------------------------------------------------------
-
-function loadHintWords() {
-  if (!fs.existsSync(HINT_PATH)) {
-    console.log(`  Warning: ${path.basename(HINT_PATH)} missing — hints fall back to frequency alone.`);
-    return new Set();
-  }
-  const set = new Set(
-    fs.readFileSync(HINT_PATH, 'utf8').split('\n').map(w => w.trim().toUpperCase()).filter(Boolean)
-  );
-  console.log(`  Hint vocabulary: ${set.size.toLocaleString()} words.`);
-  return set;
-}
-
-// ---------------------------------------------------------------------------
 // Pair analysis
 // Computes all matching words and scores for a given start/end letter pair.
 // This mirrors your Apps Script generatePuzzleStats logic.
@@ -291,7 +268,7 @@ function loadHintWords() {
 
 function analyzePair(startLetter, endLetter, dictionary, lex) {
   // Returns null if pair fails minimum constraints.
-  const { ranks, hintWords } = lex;
+  const { ranks } = lex;
   const start = startLetter.toUpperCase();
   const end   = endLetter.toUpperCase();
 
@@ -321,16 +298,6 @@ function analyzePair(startLetter, endLetter, dictionary, lex) {
     byLength[len] = (byLength[len] || 0) + 1;
   }
 
-  // Best hint material: matches in the curated hint vocabulary that are also
-  // common, most familiar first. Both halves are needed — curated-only lets
-  // REBUS through for R-S when RULES was available, and common-only lets HONG
-  // through for H-G. Often empty (plural and -ING pairs are absent from the
-  // curated list by design, and rare words fail the rank cut); pickHintWord
-  // then falls back to plain familiarity.
-  const hintable = matching
-    .filter(w => hintWords.has(w) && (ranks.get(w) ?? Infinity) <= HINT_MAX_RANK)
-    .sort((a, b) => ranks.get(a) - ranks.get(b));
-
   return {
     pair: `${start}-${end}`,
     start,
@@ -340,9 +307,8 @@ function analyzePair(startLetter, endLetter, dictionary, lex) {
     fullScore,
     ceiling,
     byLength,
-    words: matching,   // kept for hint word selection later
+    words: matching,
     known,             // familiar matches, most common first
-    hintable,          // curated-vocabulary matches, most common first
   };
 }
 
@@ -542,57 +508,6 @@ function pickThree(pool, existingTrios, rand, profile) {
 }
 
 // ---------------------------------------------------------------------------
-// Hint word selection
-// ---------------------------------------------------------------------------
-
-// Hints come from the same familiarity ranking that drives difficulty, so a
-// hint is always a word players actually know — no hand-maintained list.
-// 5 letters is the sweet spot: long enough to demonstrate the pattern, short
-// enough not to give away the round's best scoring word.
-
-const HINT_POOL_SIZE = 6;      // choose among this many of the most familiar options
-const HINT_MAX_RANK  = 12000;  // a curated word this far down the list is not "everyday"
-
-// The frequency list is built from film subtitles, so its common words include
-// things we will not print on the board as the day's worked example. This bars
-// them from being HINTS only — they stay perfectly playable if a player finds
-// them. Ordinary-but-blunt vocabulary (DEAD, DAMN, GUNS) is deliberately absent:
-// over-blocking costs good hints for no gain.
-const HINT_BLOCKLIST = new Set([
-  'ANUS','ARSE','ARSES','BITCH','BITCHY','BOOBS','BOOBY','BUTT','BUTTS',
-  'COCK','COCKS','CRAP','CRAPPY','CUNT','CUNTS','DICK','DICKS','DYKE',
-  'FAGIN','FAGS','FAGGOT','FART','FARTS','FUCK','FUCKED','FUCKER','FUCKS',
-  'HOOKER','HORNY','JIZZ','NAZI','NAZIS','NIGGER','NUDE','NUDES','NUDIE',
-  'PENIS','PIMP','PISS','PISSED','POOP','PORN','PORNO','PRICK','PUKE',
-  'PUSS','PUSSY','QUEERS','RAPE','RAPED','RAPES','RAPING','RAPIST',
-  'SEMEN','SEXY','SHIT','SHITS','SHITTY','SLUT','SLUTS','SPERM',
-  'TITS','TITTY','TURD','TURDS','TWAT','UNDIES','VAGINA','WANKER',
-  'WHORE','WHORES',
-]);
-
-function pickHintWord(pairData, rand) {
-  const allowed = w => !HINT_BLOCKLIST.has(w);
-
-  // Preferred: a curated everyday word, chosen from the most familiar few so
-  // hints still vary between uses of a pair.
-  const curated = pairData.hintable.filter(allowed);
-  if (curated.length) {
-    const pool = curated.slice(0, Math.min(HINT_POOL_SIZE, curated.length));
-    return pool[Math.floor(rand() * pool.length)];
-  }
-
-  // Fallback for pairs the curated list does not reach (K-S, N-G, V-Y...).
-  // Here recognizability beats variety, so take the single most familiar short
-  // match rather than sampling: KIDS over KILNS, VERY over VICHY.
-  const known = pairData.known.filter(allowed);  // already most familiar first
-  for (const len of [4, 6, 5]) {
-    const hit = known.find(w => w.length === len);
-    if (hit) return hit;
-  }
-  return known[0] ?? null;
-}
-
-// ---------------------------------------------------------------------------
 // Perfect score and pass score calculation
 // ---------------------------------------------------------------------------
 
@@ -612,7 +527,6 @@ function assemblePuzzle(dateStr, selectedPairs, pairIndex, rand) {
   const rounds = selectedPairs.map((pairData, i) => {
     const perfectScore = perfectScoreFor(pairData, profile);
     const passScore    = computePassScore(perfectScore, rand);
-    const hintWord     = pickHintWord(pairData, rand);
 
     return {
       round: i + 1,
@@ -620,7 +534,6 @@ function assemblePuzzle(dateStr, selectedPairs, pairIndex, rand) {
       endLetter:   pairData.end.toLowerCase(),
       passScore,
       perfectScore,
-      hintWord: hintWord ? hintWord.toLowerCase() : null,
     };
   });
 
@@ -710,7 +623,7 @@ async function main() {
 
   // Load dictionary and build pair index (expensive but runs only once)
   const dictionary = await loadDictionary();
-  const lexicon    = { ranks: loadFrequencyRanks(), hintWords: loadHintWords() };
+  const lexicon    = { ranks: loadFrequencyRanks() };
   const pairIndex  = buildPairIndex(dictionary, lexicon);
 
   // Load all existing puzzles from the repo for constraint checking

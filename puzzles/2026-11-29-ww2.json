@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "y",
       "passScore": 8,
-      "perfectScore": 51,
-      "hintWord": "buddy"
+      "perfectScore": 51
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "h",
       "passScore": 5,
-      "perfectScore": 60,
-      "hintWord": "tough"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "k",
       "endLetter": "e",
       "passScore": 12,
-      "perfectScore": 93,
-      "hintWord": "knife"
+      "perfectScore": 93
     }
   ],
   "_auto": true

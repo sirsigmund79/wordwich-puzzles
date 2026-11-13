@@ -7,24 +7,21 @@
       "startLetter": "t",
       "endLetter": "e",
       "passScore": 9,
-      "perfectScore": 70,
-      "hintWord": "trope"
+      "perfectScore": 70
     },
     {
       "round": 2,
       "startLetter": "a",
       "endLetter": "n",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "axon"
+      "perfectScore": 50
     },
     {
       "round": 3,
       "startLetter": "f",
       "endLetter": "c",
       "passScore": 8,
-      "perfectScore": 40,
-      "hintWord": "frolic"
+      "perfectScore": 40
     }
 
   ]

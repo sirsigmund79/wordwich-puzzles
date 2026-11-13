@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 65,
-      "hintWord": "metal"
+      "perfectScore": 65
     },
     {
       "round": 2,
       "startLetter": "s",
       "endLetter": "h",
       "passScore": 7,
-      "perfectScore": 74,
-      "hintWord": "sixth"
+      "perfectScore": 74
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "h",
       "passScore": 12,
-      "perfectScore": 82,
-      "hintWord": "batch"
+      "perfectScore": 82
     }
   ],
   "_auto": true

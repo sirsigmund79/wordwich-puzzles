@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 67,
-      "hintWord": "fatal"
+      "perfectScore": 67
     },
     {
       "round": 2,
       "startLetter": "k",
       "endLetter": "e",
       "passScore": 10,
-      "perfectScore": 93,
-      "hintWord": "knife"
+      "perfectScore": 93
     },
     {
       "round": 3,
       "startLetter": "i",
       "endLetter": "s",
       "passScore": 17,
-      "perfectScore": 98,
-      "hintWord": "iris"
+      "perfectScore": 98
     }
   ],
   "_auto": true

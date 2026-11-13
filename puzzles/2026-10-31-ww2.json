@@ -7,24 +7,21 @@
       "startLetter": "n",
       "endLetter": "e",
       "passScore": 4,
-      "perfectScore": 40,
-      "hintWord": "noble"
+      "perfectScore": 40
     },
     {
       "round": 2,
       "startLetter": "s",
       "endLetter": "i",
       "passScore": 4,
-      "perfectScore": 42,
-      "hintWord": "sushi"
+      "perfectScore": 42
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "l",
       "passScore": 6,
-      "perfectScore": 59,
-      "hintWord": "angel"
+      "perfectScore": 59
     }
   ],
   "_auto": true

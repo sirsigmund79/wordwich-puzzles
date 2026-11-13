@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "r",
       "passScore": 7,
-      "perfectScore": 53,
-      "hintWord": "minor"
+      "perfectScore": 53
     },
     {
       "round": 2,
       "startLetter": "e",
       "endLetter": "n",
       "passScore": 9,
-      "perfectScore": 68,
-      "hintWord": "even"
+      "perfectScore": 68
     },
     {
       "round": 3,
       "startLetter": "a",
       "endLetter": "a",
       "passScore": 6,
-      "perfectScore": 54,
-      "hintWord": "arena"
+      "perfectScore": 54
     }
   ],
   "_auto": true

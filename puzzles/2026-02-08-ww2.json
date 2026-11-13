@@ -7,24 +7,21 @@
       "startLetter": "a",
       "endLetter": "n",
       "passScore": 9,
-      "perfectScore": 53,
-      "hintWord": "acorn"
+      "perfectScore": 53
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "e",
       "passScore": 8,
-      "perfectScore": 46,
-      "hintWord": "halve"
+      "perfectScore": 46
     },
     {
       "round": 3,
       "startLetter": "p",
       "endLetter": "a",
       "passScore": 3,
-      "perfectScore": 33,
-      "hintWord": "papa"
+      "perfectScore": 33
     }
   ]
 }

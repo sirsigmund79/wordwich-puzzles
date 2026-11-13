@@ -7,24 +7,21 @@
       "startLetter": "m",
       "endLetter": "k",
       "passScore": 4,
-      "perfectScore": 37,
-      "hintWord": "mark"
+      "perfectScore": 37
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "a",
       "passScore": 9,
-      "perfectScore": 74,
-      "hintWord": "haha"
+      "perfectScore": 74
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "r",
       "passScore": 8,
-      "perfectScore": 88,
-      "hintWord": "nicer"
+      "perfectScore": 88
     }
   ],
   "_auto": true

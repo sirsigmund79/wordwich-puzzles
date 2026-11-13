@@ -7,24 +7,21 @@
       "startLetter": "e",
       "endLetter": "c",
       "passScore": 14,
-      "perfectScore": 73,
-      "hintWord": "epic"
+      "perfectScore": 73
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 75,
-      "hintWord": "bowl"
+      "perfectScore": 75
     },
     {
       "round": 3,
       "startLetter": "g",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 67,
-      "hintWord": "girl"
+      "perfectScore": 67
     }
   ],
   "_auto": true

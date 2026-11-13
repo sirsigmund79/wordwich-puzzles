@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "r",
       "passScore": 6,
-      "perfectScore": 66,
-      "hintWord": "utter"
+      "perfectScore": 66
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "h",
       "passScore": 5,
-      "perfectScore": 47,
-      "hintWord": "death"
+      "perfectScore": 47
     },
     {
       "round": 3,
       "startLetter": "j",
       "endLetter": "y",
       "passScore": 8,
-      "perfectScore": 42,
-      "hintWord": "janky"
+      "perfectScore": 42
     }
 
   ]

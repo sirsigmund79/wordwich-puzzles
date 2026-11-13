@@ -7,24 +7,21 @@
       "startLetter": "t",
       "endLetter": "d",
       "passScore": 6,
-      "perfectScore": 67,
-      "hintWord": "tried"
+      "perfectScore": 67
     },
     {
       "round": 2,
       "startLetter": "a",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 55,
-      "hintWord": "afoul"
+      "perfectScore": 55
     },
     {
       "round": 3,
       "startLetter": "d",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 53,
-      "hintWord": "dream"
+      "perfectScore": 53
     }
 
   ]

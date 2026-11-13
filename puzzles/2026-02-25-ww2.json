@@ -7,24 +7,21 @@
       "startLetter": "w",
       "endLetter": "t",
       "passScore": 9,
-      "perfectScore": 44,
-      "hintWord": "waist"
+      "perfectScore": 44
     },
     {
       "round": 2,
       "startLetter": "p",
       "endLetter": "y",
       "passScore": 3,
-      "perfectScore": 63,
-      "hintWord": "paddy"
+      "perfectScore": 63
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 71,
-      "hintWord": "eased"
+      "perfectScore": 71
     }
 
   ]

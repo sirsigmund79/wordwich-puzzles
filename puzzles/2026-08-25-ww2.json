@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "c",
       "passScore": 6,
-      "perfectScore": 59,
-      "hintWord": "serac"
+      "perfectScore": 59
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "l",
       "passScore": 10,
-      "perfectScore": 64,
-      "hintWord": "until"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "g",
       "passScore": 7,
-      "perfectScore": 57,
-      "hintWord": "vying"
+      "perfectScore": 57
     }
   ],
   "_auto": true

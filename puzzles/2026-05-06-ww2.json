@@ -7,24 +7,21 @@
       "startLetter": "t",
       "endLetter": "l",
       "passScore": 9,
-      "perfectScore": 58,
-      "hintWord": "troll"
+      "perfectScore": 58
     },
     {
       "round": 2,
       "startLetter": "f",
       "endLetter": "m",
       "passScore": 5,
-      "perfectScore": 37,
-      "hintWord": "firm"
+      "perfectScore": 37
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "p",
       "passScore": 3,
-      "perfectScore": 40,
-      "hintWord": "stamp"
+      "perfectScore": 40
     }
 
   ]

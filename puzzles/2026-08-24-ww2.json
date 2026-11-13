@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "e",
       "passScore": 3,
-      "perfectScore": 46,
-      "hintWord": "flute"
+      "perfectScore": 46
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 53,
-      "hintWord": "naked"
+      "perfectScore": 53
     },
     {
       "round": 3,
       "startLetter": "g",
       "endLetter": "n",
       "passScore": 6,
-      "perfectScore": 42,
-      "hintWord": "groan"
+      "perfectScore": 42
     }
   ],
   "_auto": true

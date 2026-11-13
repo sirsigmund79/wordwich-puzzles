@@ -7,24 +7,21 @@
       "startLetter": "l",
       "endLetter": "g",
       "passScore": 6,
-      "perfectScore": 61,
-      "hintWord": "lung"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "l",
       "passScore": 7,
-      "perfectScore": 64,
-      "hintWord": "devil"
+      "perfectScore": 64
     },
     {
       "round": 3,
       "startLetter": "v",
       "endLetter": "t",
       "passScore": 4,
-      "perfectScore": 60,
-      "hintWord": "visit"
+      "perfectScore": 60
     }
   ],
   "_auto": true

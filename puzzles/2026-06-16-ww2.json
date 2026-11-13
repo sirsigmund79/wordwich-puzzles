@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "n",
       "passScore": 13,
-      "perfectScore": 67,
-      "hintWord": "cabin"
+      "perfectScore": 67
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 68,
-      "hintWord": "boost"
+      "perfectScore": 68
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "p",
       "passScore": 5,
-      "perfectScore": 61,
-      "hintWord": "crisp"
+      "perfectScore": 61
     }
   ],
   "_auto": true

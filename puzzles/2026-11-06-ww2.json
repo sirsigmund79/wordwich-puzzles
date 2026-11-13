@@ -7,24 +7,21 @@
       "startLetter": "v",
       "endLetter": "s",
       "passScore": 14,
-      "perfectScore": 86,
-      "hintWord": "virus"
+      "perfectScore": 86
     },
     {
       "round": 2,
       "startLetter": "c",
       "endLetter": "c",
       "passScore": 16,
-      "perfectScore": 88,
-      "hintWord": "civic"
+      "perfectScore": 88
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "c",
       "passScore": 8,
-      "perfectScore": 94,
-      "hintWord": "sonic"
+      "perfectScore": 94
     }
   ],
   "_auto": true

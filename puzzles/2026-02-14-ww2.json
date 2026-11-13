@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "e",
       "passScore": 9,
-      "perfectScore": 57,
-      "hintWord": "badge"
+      "perfectScore": 57
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "y",
       "passScore": 8,
-      "perfectScore": 49,
-      "hintWord": "madly"
+      "perfectScore": 49
     },
     {
       "round": 3,
       "startLetter": "n",
       "endLetter": "e",
       "passScore": 3,
-      "perfectScore": 61,
-      "hintWord": "naive"
+      "perfectScore": 61
     }
   ]
 }

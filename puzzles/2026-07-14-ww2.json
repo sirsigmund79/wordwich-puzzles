@@ -7,24 +7,21 @@
       "startLetter": "b",
       "endLetter": "g",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "being"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "g",
       "passScore": 8,
-      "perfectScore": 58,
-      "hintWord": "gang"
+      "perfectScore": 58
     },
     {
       "round": 3,
       "startLetter": "o",
       "endLetter": "t",
       "passScore": 8,
-      "perfectScore": 54,
-      "hintWord": "ought"
+      "perfectScore": 54
     }
   ],
   "_auto": true

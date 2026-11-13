@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "k",
       "passScore": 6,
-      "perfectScore": 44,
-      "hintWord": "crack"
+      "perfectScore": 44
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "t",
       "passScore": 5,
-      "perfectScore": 35,
-      "hintWord": "neat"
+      "perfectScore": 35
     },
     {
       "round": 3,
       "startLetter": "f",
       "endLetter": "l",
       "passScore": 8,
-      "perfectScore": 46,
-      "hintWord": "fail"
+      "perfectScore": 46
     }
 
   ]

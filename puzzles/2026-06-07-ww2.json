@@ -7,24 +7,21 @@
       "startLetter": "t",
       "endLetter": "d",
       "passScore": 9,
-      "perfectScore": 67,
-      "hintWord": "toad"
+      "perfectScore": 67
     },
     {
       "round": 2,
       "startLetter": "s",
       "endLetter": "s",
       "passScore": 7,
-      "perfectScore": 68,
-      "hintWord": "stress"
+      "perfectScore": 68
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "c",
       "passScore": 3,
-      "perfectScore": 33,
-      "hintWord": "relic"
+      "perfectScore": 33
     }
 
   ]

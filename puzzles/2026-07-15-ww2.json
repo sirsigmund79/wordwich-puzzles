@@ -7,24 +7,21 @@
       "startLetter": "t",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 68,
-      "hintWord": "trail"
+      "perfectScore": 68
     },
     {
       "round": 2,
       "startLetter": "n",
       "endLetter": "c",
       "passScore": 6,
-      "perfectScore": 61,
-      "hintWord": "naric"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "f",
       "endLetter": "l",
       "passScore": 11,
-      "perfectScore": 74,
-      "hintWord": "final"
+      "perfectScore": 74
     }
   ],
   "_auto": true

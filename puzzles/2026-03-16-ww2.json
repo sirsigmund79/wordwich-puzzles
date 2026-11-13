@@ -7,24 +7,21 @@
       "startLetter": "e",
       "endLetter": "c",
       "passScore": 5,
-      "perfectScore": 50,
-      "hintWord": "ethic"
+      "perfectScore": 50
     },
     {
       "round": 2,
       "startLetter": "m",
       "endLetter": "d",
       "passScore": 5,
-      "perfectScore": 66,
-      "hintWord": "mated"
+      "perfectScore": 66
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "a",
       "passScore": 8,
-      "perfectScore": 38,
-      "hintWord": "cabana"
+      "perfectScore": 38
     }
 
   ]

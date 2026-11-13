@@ -7,24 +7,21 @@
       "startLetter": "e",
       "endLetter": "d",
       "passScore": 6,
-      "perfectScore": 56,
-      "hintWord": "edged"
+      "perfectScore": 56
     },
     {
       "round": 2,
       "startLetter": "i",
       "endLetter": "n",
       "passScore": 10,
-      "perfectScore": 57,
-      "hintWord": "iron"
+      "perfectScore": 57
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "n",
       "passScore": 12,
-      "perfectScore": 64,
-      "hintWord": "brain"
+      "perfectScore": 64
     }
   ],
   "_auto": true

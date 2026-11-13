@@ -7,24 +7,21 @@
       "startLetter": "w",
       "endLetter": "s",
       "passScore": 9,
-      "perfectScore": 61,
-      "hintWord": "ways"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "e",
       "endLetter": "a",
       "passScore": 9,
-      "perfectScore": 93,
-      "hintWord": "extra"
+      "perfectScore": 93
     },
     {
       "round": 3,
       "startLetter": "e",
       "endLetter": "l",
       "passScore": 9,
-      "perfectScore": 98,
-      "hintWord": "email"
+      "perfectScore": 98
     }
   ],
   "_auto": true

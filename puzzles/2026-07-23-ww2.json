@@ -7,24 +7,21 @@
       "startLetter": "l",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 63,
-      "hintWord": "loud"
+      "perfectScore": 63
     },
     {
       "round": 2,
       "startLetter": "t",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 61,
-      "hintWord": "trust"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "t",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 59,
-      "hintWord": "team"
+      "perfectScore": 59
     }
   ],
   "_auto": true

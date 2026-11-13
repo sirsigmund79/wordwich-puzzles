@@ -7,24 +7,21 @@
       "startLetter": "u",
       "endLetter": "y",
       "passScore": 5,
-      "perfectScore": 61,
-      "hintWord": "ugly"
+      "perfectScore": 61
     },
     {
       "round": 2,
       "startLetter": "g",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 52,
-      "hintWord": "gall"
+      "perfectScore": 52
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "m",
       "passScore": 8,
-      "perfectScore": 60,
-      "hintWord": "calm"
+      "perfectScore": 60
     }
 
   ]

@@ -7,24 +7,21 @@
       "startLetter": "c",
       "endLetter": "k",
       "passScore": 7,
-      "perfectScore": 40,
-      "hintWord": "chick"
+      "perfectScore": 40
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "h",
       "passScore": 7,
-      "perfectScore": 56,
-      "hintWord": "latch"
+      "perfectScore": 56
     },
     {
       "round": 3,
       "startLetter": "c",
       "endLetter": "d",
       "passScore": 8,
-      "perfectScore": 92,
-      "hintWord": "chord"
+      "perfectScore": 92
     }
   ],
   "_auto": true

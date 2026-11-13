@@ -7,24 +7,21 @@
       "startLetter": "l",
       "endLetter": "y",
       "passScore": 7,
-      "perfectScore": 66,
-      "hintWord": "lucky"
+      "perfectScore": 66
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "l",
       "passScore": 5,
-      "perfectScore": 61,
-      "hintWord": "bell"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "w",
       "endLetter": "n",
       "passScore": 15,
-      "perfectScore": 77,
-      "hintWord": "wagon"
+      "perfectScore": 77
     }
   ],
   "_auto": true

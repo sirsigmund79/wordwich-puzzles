@@ -7,24 +7,21 @@
       "startLetter": "f",
       "endLetter": "d",
       "passScore": 9,
-      "perfectScore": 64,
-      "hintWord": "fraud"
+      "perfectScore": 64
     },
     {
       "round": 2,
       "startLetter": "h",
       "endLetter": "m",
       "passScore": 10,
-      "perfectScore": 53,
-      "hintWord": "harm"
+      "perfectScore": 53
     },
     {
       "round": 3,
       "startLetter": "b",
       "endLetter": "k",
       "passScore": 4,
-      "perfectScore": 58,
-      "hintWord": "brick"
+      "perfectScore": 58
     }
   ],
   "_auto": true

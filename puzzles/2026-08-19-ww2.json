@@ -7,24 +7,21 @@
       "startLetter": "p",
       "endLetter": "l",
       "passScore": 11,
-      "perfectScore": 56,
-      "hintWord": "pupil"
+      "perfectScore": 56
     },
     {
       "round": 2,
       "startLetter": "b",
       "endLetter": "t",
       "passScore": 7,
-      "perfectScore": 60,
-      "hintWord": "blast"
+      "perfectScore": 60
     },
     {
       "round": 3,
       "startLetter": "w",
       "endLetter": "r",
       "passScore": 10,
-      "perfectScore": 73,
-      "hintWord": "water"
+      "perfectScore": 73
     }
   ],
   "_auto": true

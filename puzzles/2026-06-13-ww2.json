@@ -7,24 +7,21 @@
       "startLetter": "s",
       "endLetter": "n",
       "passScore": 8,
-      "perfectScore": 54,
-      "hintWord": "seven"
+      "perfectScore": 54
     },
     {
       "round": 2,
       "startLetter": "d",
       "endLetter": "n",
       "passScore": 8,
-      "perfectScore": 61,
-      "hintWord": "drain"
+      "perfectScore": 61
     },
     {
       "round": 3,
       "startLetter": "r",
       "endLetter": "t",
       "passScore": 8,
-      "perfectScore": 48,
-      "hintWord": "right"
+      "perfectScore": 48
     }
   ],
   "_auto": true

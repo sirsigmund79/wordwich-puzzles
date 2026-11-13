@@ -7,24 +7,21 @@
       "startLetter": "e",
       "endLetter": "a",
       "passScore": 9,
-      "perfectScore": 40,
-      "hintWord": "enema"
+      "perfectScore": 40
     },
     {
       "round": 2,
       "startLetter": "l",
       "endLetter": "r",
       "passScore": 5,
-      "perfectScore": 78,
-      "hintWord": "labor"
+      "perfectScore": 78
     },
     {
       "round": 3,
       "startLetter": "s",
       "endLetter": "z",
       "passScore": 1,
-      "perfectScore": 8,
-      "hintWord": "spazz"
+      "perfectScore": 8
     }
 
   ]

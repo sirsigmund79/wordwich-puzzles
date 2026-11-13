@@ -7,24 +7,21 @@
       "startLetter": "a",
       "endLetter": "s",
       "passScore": 6,
-      "perfectScore": 60,
-      "hintWord": "abyss"
+      "perfectScore": 60
     },
     {
       "round": 2,
       "startLetter": "u",
       "endLetter": "e",
       "passScore": 10,
-      "perfectScore": 70,
-      "hintWord": "uncle"
+      "perfectScore": 70
     },
     {
       "round": 3,
       "startLetter": "p",
       "endLetter": "l",
       "passScore": 10,
-      "perfectScore": 72,
-      "hintWord": "pearl"
+      "perfectScore": 72
     }
   ],
   "_auto": true
